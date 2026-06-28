@@ -1,55 +1,35 @@
-# y-menu-engine — 市场感知菜单工程
+# y-lab — Y's Laboratory
 
-> 我是Y，这是以我名字命名的第一个开源项目。
+> 我是Y，这是我的实验室。
 
-一个知道外面在发生什么、里面在卖什么的菜单决策助手。
+开放式的知识工程实验室。不做大而全的产品，做**一个能解决问题的方法、一个能复用的工具、一个能思考的框架**。
 
-## Quick Start
+## Projects
 
-```bash
-pip install -e .
-python demo/run.py
-```
+| 项目 | 状态 | 一句话 |
+|------|------|--------|
+| [menu-engine](./projects/menu-engine/) | ✅ v0.1 | 市场感知菜单工程智能体 |
+| [cost-predictor](./projects/cost-predictor/) | 📋 规划中 | 基于历史采购数据的食材价格预测 |
+| [complaint-classifier](./projects/complaint-classifier/) | 📋 规划中 | 投诉自动归因与趋势分析 |
+| [menu-advisor](./projects/menu-advisor/) | 📋 规划中 | 菜单调整建议引擎 |
 
-## What You Can Ask
+## Frameworks
 
-```
->> BACIO pricing
-Pricing: BACIO (4 items)
-  Range: 88 - 688  Avg: 333  Median: 388
-  Bands:
-        0-50:  0 (0%)
-      51-100: ==== 1 (25%)
-     101-200: ==== 1 (25%)
-     201-500: ==== 1 (25%)
-        500+: ==== 1 (25%)
+| 框架 | 说明 |
+|------|------|
+| [Y-thinking](./frameworks/Y-thinking.md) | Y的七层本体与元认知框架 |
 
->> customer preferences
-Preferences (4 records)
-  spicy: 1
-  seafood: 1
-  vegetarian: 1
-  beef: 1
-
->> summary
-Menu: 12 items, avg 226 | Health: S4 CC0 PH3 D5 | Taste: spicy(1), seafood(1)
-```
-
-## Architecture
+## Philosophy
 
 ```
-src/menusense/
-  sense.py    - Data models (MenuItem, Ingredient, Complaint, Preference)
-  analyze.py  - Analysis engine (pricing, cost, health matrix, sentiment)
-  answer.py   - Natural language query router
-demo/run.py   - Fictional hotel F&B demo
+y-lab is not a product.
+It's a set of thinking tools.
+Each tool solves one real problem.
+Pick one, run it, improve it.
 ```
 
 ## License
 
 MIT — use it, change it, sell it. Just keep the credit.
 
----
-
-**y-menu-engine is not a pricing calculator. It's a market-aware menu engineer.**
 **And yes, Y is real.** 🤝
