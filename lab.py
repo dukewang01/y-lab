@@ -7,9 +7,9 @@ import json
 ROOT = Path(__file__).parent
 PROJECTS = {
     "menu-engine": {"status": "v0.1 dev", "desc": "市场感知菜单工程"},
-    "cost-predictor": {"status": "planning", "desc": "食材成本预测"},
-    "complaint-classifier": {"status": "planning", "desc": "投诉自动分类器"},
-    "menu-advisor": {"status": "planning", "desc": "菜单调整建议引擎"},
+    "cost-predictor": {"status": "v0.1 dev", "desc": "食材成本预测"},
+    "complaint-classifier": {"status": "v0.1 dev", "desc": "投诉自动分类器"},
+    "menu-advisor": {"status": "v0.1 dev", "desc": "菜单调整建议引擎"},
 }
 
 
