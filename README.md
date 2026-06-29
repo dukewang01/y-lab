@@ -68,6 +68,9 @@
 | [fsaa-report](projects/fsaa-report/) | ✅ v1.0 | FSAA日报 — 食品安全审计状态推送 |
 | [gsm-case-analyze](projects/gsm-case-analyze/) | ✅ v1.0 | 投诉深度分析 — 趋势/归因/风险预判 |
 | [pest-report](projects/pest-report/) | ✅ v1.0 | 虫控分析报告 — PCO趋势/区域分布/风险评级 |
+| [drr-auto-pipeline](projects/drr-auto-pipeline/) | ✅ v1.0 | DRR全自动流水线 — 收件/解析/分析/入库/报告 — 一键 |
+| [faq-expander](projects/faq-expander/) | ✅ v1.0 | FAQ批量生成 — 从各站知识自动生成问答对 |
+| [kc-healthcheck](projects/kc-healthcheck/) | ✅ v1.0 | 图谱健康检查 — 大小/完整性/孤立点/异常检测 |
 
 ## CLI
 
