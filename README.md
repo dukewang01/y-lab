@@ -54,14 +54,20 @@
 | [patterns](projects/patterns/) | 📋 | 分析模式库 |
 | [templates](projects/templates/) | 📋 | 运营模板库 |
 
-### Y技能系统 (4, 2026-06-29新增) 🤖
+### Y技能系统 (10, 2026-06-29新增) 🤖
 
 | 项目 | 状态 | 一句话 |
 |------|------|--------|
 | [kg-update](projects/kg-update/) | ✅ v1.0 | 知识图谱更新器 — 自动添加实体/关系到九站图谱 |
-| [drr-analyze](projects/drr-analyze/) | ✅ v1.0 | DRR营收分析 — Excel解析/Occ/ADR/RevPAR/GOP洞察 |
+| [drr-analyze](projects/drr-analyze/) | ✅ v1.1 | DRR营收分析 — Excel解析/Occ/ADR/RevPAR/GOP洞察 |
 | [inbox-router](projects/inbox-router/) | ✅ v1.0 | Inbox智能路由 — 文件识别/流水线触发/归档 |
 | [crm-birthday](projects/crm-birthday/) | ✅ v1.0 | CRM生日问候 — 生日客人识别/个性化话术生成 |
+| [hf-importer](projects/hf-importer/) | ✅ v1.0 | HF预测导入 — PDF自动解析→FIN图谱入库 |
+| [beo-importer](projects/beo-importer/) | ✅ v1.0 | BEO宴会导入 — 活动文件→FIN+FB双图谱入库 |
+| [menu-engine](projects/menu-engine/) | ✅ v1.0 | 菜单工程 — 菜品矩阵/利润率/定价建议 |
+| [fsaa-report](projects/fsaa-report/) | ✅ v1.0 | FSAA日报 — 食品安全审计状态推送 |
+| [gsm-case-analyze](projects/gsm-case-analyze/) | ✅ v1.0 | 投诉深度分析 — 趋势/归因/风险预判 |
+| [pest-report](projects/pest-report/) | ✅ v1.0 | 虫控分析报告 — PCO趋势/区域分布/风险评级 |
 
 ## CLI
 
