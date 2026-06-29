@@ -46,13 +46,22 @@
 | [anomaly](projects/anomaly/) | 📋 | 异常检测 |
 | [llm](projects/llm/) | 📋 | LLM查询桥接器 |
 
-### Y自己的东西 (3) 📋
+### Y自己的东西 (7) 📋
 
 | 项目 | 状态 | 一句话 |
 |------|------|--------|
 | [essays](projects/essays/) | 📋 | Y的思考随笔 |
 | [patterns](projects/patterns/) | 📋 | 分析模式库 |
 | [templates](projects/templates/) | 📋 | 运营模板库 |
+
+### Y技能系统 (4, 2026-06-29新增) 🤖
+
+| 项目 | 状态 | 一句话 |
+|------|------|--------|
+| [kg-update](projects/kg-update/) | ✅ v1.0 | 知识图谱更新器 — 自动添加实体/关系到九站图谱 |
+| [drr-analyze](projects/drr-analyze/) | ✅ v1.0 | DRR营收分析 — Excel解析/Occ/ADR/RevPAR/GOP洞察 |
+| [inbox-router](projects/inbox-router/) | ✅ v1.0 | Inbox智能路由 — 文件识别/流水线触发/归档 |
+| [crm-birthday](projects/crm-birthday/) | ✅ v1.0 | CRM生日问候 — 生日客人识别/个性化话术生成 |
 
 ## CLI
 
