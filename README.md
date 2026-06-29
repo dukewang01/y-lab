@@ -71,6 +71,9 @@
 | [drr-auto-pipeline](projects/drr-auto-pipeline/) | ✅ v1.0 | DRR全自动流水线 — 收件/解析/分析/入库/报告 — 一键 |
 | [faq-expander](projects/faq-expander/) | ✅ v1.0 | FAQ批量生成 — 从各站知识自动生成问答对 |
 | [kc-healthcheck](projects/kc-healthcheck/) | ✅ v1.0 | 图谱健康检查 — 大小/完整性/孤立点/异常检测 |
+| [vip-insight](projects/vip-insight/) | ✅ v1.0 | VIP客情预警 — 流失风险/投诉历史/回访建议 |
+| [daily-summary](projects/daily-summary/) | ✅ v1.0 | 每日运营简报 — 全站数据一页览 |
+| [cross-station-insight](projects/cross-station-insight/) | ✅ v1.0 | 跨站推理引擎 — 连接FIN/FB/GSM/FSAA的深层洞察 |
 
 ## CLI
 
