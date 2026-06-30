@@ -1,6 +1,6 @@
 import sys, json, os, shutil
 sys.stdout.reconfigure(encoding='utf-8')
-D = r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center'
+D = r'C:\Users\Y\.openclaw\workspace\knowledge_center'
 fp = os.path.join(D, 'fb_graph.json')
 fb = json.load(open(fp, encoding='utf-8'))
 fbe = fb.get('entities', [])
@@ -64,9 +64,9 @@ json.dump(fb, open(fp, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
 
 print()
 print('=== 写入完成! ===')
-print('新增BELONGS_TO: %d条' % total_new)
+print('新增BELONGS_TO: %d�? % total_new)
 for k, cnt in sorted(count_by_outlet.items(), key=lambda x: -x[1]):
-    name = {'OPEN':'OPEN','YUXI':'御玺','BACIO':'BACIO','YUAN':'大堂吧','BQT':'宴会','IRD':'送餐','BEER':'啤酒荟','COMPETITOR':'竞对'}.get(k, k)
-    print('  %s → %s: %d' % (name, OUTLET_MAP[k], cnt))
-print('未匹配品类: %d个 (大部分可ROUTING)' % len(set(missed)))
+    name = {'OPEN':'OPEN','YUXI':'御玺','BACIO':'BACIO','YUAN':'大堂�?,'BQT':'宴会','IRD':'送餐','BEER':'啤酒�?,'COMPETITOR':'竞对'}.get(k, k)
+    print('  %s �?%s: %d' % (name, OUTLET_MAP[k], cnt))
+print('未匹配品�? %d�?(大部分可ROUTING)' % len(set(missed)))
 print('当前: %d节点 / %d关系 / 密度%.2f' % (len(fbe), len(fbr), len(fbr)/len(fbe)))

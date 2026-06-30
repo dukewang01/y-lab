@@ -3,7 +3,7 @@
 import openpyxl
 from datetime import datetime
 
-path = r'C:\Users\Duke Wang\.openclaw\workspace\media\archived\GCM_YTD.xlsx'
+path = r'C:\Users\Y\.openclaw\workspace\media\archived\GCM_YTD.xlsx'
 wb = openpyxl.load_workbook(path, data_only=True)
 ws = wb['Export']
 
@@ -33,7 +33,7 @@ our = {'adr': 649.37, 'rev': 36114254.20, 'revpar': 444.55, 'rns': 55614, 'occ':
 lines = []
 
 lines.append("=" * 80)
-lines.append("  🔮 苏州希尔顿 — 提升潜力模拟（YTD Jan-May 2026）")
+lines.append("  🔮 苏州希尔�?�?提升潜力模拟（YTD Jan-May 2026�?)
 lines.append("=" * 80)
 
 days_ytd = 151  # Jan 1 to May 31 = 151 days
@@ -49,15 +49,15 @@ current_adr = our['adr']
 scenarios = [
     ("ADR +5%", our['adr'] * 1.05, our['occ']),
     ("ADR +10%", our['adr'] * 1.10, our['occ']),
-    ("ADR → ¥750 (≈虹桥水平)", 750, our['occ']),
-    ("Occ → 75% (+6.5pp)", our['adr'], 75),
-    ("Occ → 80% (+11.5pp)", our['adr'], 80),
+    ("ADR �?¥750 (≈虹桥水�?", 750, our['occ']),
+    ("Occ �?75% (+6.5pp)", our['adr'], 75),
+    ("Occ �?80% (+11.5pp)", our['adr'], 80),
     ("ADR¥750 + Occ75%", 750, 75),
     ("ADR¥750 + Occ80%", 750, 80),
     ("ADR¥800 + Occ75%", 800, 75),
 ]
 
-lines.append(f"{'模拟场景':<30} {'ADR':>8} {'Occ':>8} {'间夜':>8} {'收入(万)':>12} {'增量(万)':>10} {'增幅':>8}")
+lines.append(f"{'模拟场景':<30} {'ADR':>8} {'Occ':>8} {'间夜':>8} {'收入(�?':>12} {'增量(�?':>10} {'增幅':>8}")
 lines.append("-" * 86)
 baseline_rev = our['rev']
 baseline_rns = our['rns']
@@ -73,16 +73,16 @@ for name, new_adr, new_occ_pct in scenarios:
     lines.append(f"{name:<30} {new_adr:>8.0f} {new_occ_pct:>7.1f}% {new_rns:>8.0f} ¥{new_rev/1e4:>10.1f} +¥{inc_rev/1e4:>8.1f} {inc_pct:>+7.1f}%")
 
 lines.append("")
-lines.append(f"【基线】ADR ¥{current_adr:.0f} | Occ {current_occ*100:.1f}% | RNs {baseline_rns:.0f} | Rev ¥{baseline_rev/1e4:.1f}万")
-lines.append(f"【总可售间夜】{avail_rooms}间 × {days_ytd}天 = {total_avail_rns:,} 间夜（当前售出{baseline_rns}）")
+lines.append(f"【基线】ADR ¥{current_adr:.0f} | Occ {current_occ*100:.1f}% | RNs {baseline_rns:.0f} | Rev ¥{baseline_rev/1e4:.1f}�?)
+lines.append(f"【总可售间夜】{avail_rooms}�?× {days_ytd}�?= {total_avail_rns:,} 间夜（当前售出{baseline_rns}�?)
 
 # Scenario: ADR sensitivity with Elasticity
 lines.append("")
 lines.append("=" * 80)
-lines.append("  📐 ADR弹性分析 — 涨价多少开始影响Occ？")
+lines.append("  📐 ADR弹性分�?�?涨价多少开始影响Occ�?)
 lines.append("=" * 80)
-lines.append("假设每涨¥50 ADR导致Occ下降2pp（经验模型）：")
-lines.append(f"{'ADR方案':<24} {'ADR':>8} {'预期Occ':>8} {'RNs':>8} {'收入(万)':>12} {'收入变化':>10}")
+lines.append("假设每涨¥50 ADR导致Occ下降2pp（经验模型）�?)
+lines.append(f"{'ADR方案':<24} {'ADR':>8} {'预期Occ':>8} {'RNs':>8} {'收入(�?':>12} {'收入变化':>10}")
 lines.append("-" * 70)
 
 for premium in [0, 30, 50, 80, 100, 150, 200]:
@@ -103,11 +103,11 @@ for premium in [0, 30, 50, 80, 100, 150, 200]:
 
 lines.append("")
 lines.append("=" * 80)
-lines.append("  🏟️ 苏州6大酒店 — 竞品战场")
+lines.append("  🏟�?苏州6大酒�?�?竞品战场")
 lines.append("=" * 80)
 sz_hotels = sorted(hotels.get('Jiangsu/Suzhou', []), key=lambda h: h['rev'], reverse=True)
 
-lines.append(f"{'排名':>3} {'酒店':<30} {'ADR':>8} {'Rev(万)':>10} {'RevPAR':>8} {'RNs':>8} {'Occ':>7} {'ADR/mkt':>8} {'Rev份额':>8}")
+lines.append(f"{'排名':>3} {'酒店':<30} {'ADR':>8} {'Rev(�?':>10} {'RevPAR':>8} {'RNs':>8} {'Occ':>7} {'ADR/mkt':>8} {'Rev份额':>8}")
 lines.append("-" * 95)
 mkt_adr = markets['Jiangsu/Suzhou']['adr']
 for i, h in enumerate(sz_hotels, 1):
@@ -124,7 +124,7 @@ lines.append("=" * 80)
 js_markets = {k: v for k, v in markets.items() if k.startswith('Jiangsu/')}
 total_js = sum(m['rev'] for m in js_markets.values())
 js_sorted = sorted(js_markets.items(), key=lambda x: x[1]['rev'], reverse=True)
-lines.append(f"{'城市':<24} {'ADR':>8} {'Rev(万)':>10} {'RevPAR':>8} {'RNs':>8} {'Occ':>7} {'省占比':>8}")
+lines.append(f"{'城市':<24} {'ADR':>8} {'Rev(�?':>10} {'RevPAR':>8} {'RNs':>8} {'Occ':>7} {'省占�?:>8}")
 lines.append("-" * 73)
 for city, m in js_sorted:
     share = m['rev'] / total_js * 100
@@ -133,7 +133,7 @@ for city, m in js_sorted:
 # National HH top 30 ranking
 lines.append("")
 lines.append("=" * 80)
-lines.append("  🏆 全国HH酒店Top 30 — 营收排名")
+lines.append("  🏆 全国HH酒店Top 30 �?营收排名")
 lines.append("=" * 80)
 
 hh_all = []
@@ -143,7 +143,7 @@ for mkt, hlist in hotels.items():
             hh_all.append({'market': mkt, **h})
 hh_all.sort(key=lambda x: x['rev'], reverse=True)
 
-lines.append(f"{'排名':>3} {'酒店':<40} {'市场':<16} {'ADR':>8} {'Rev(万)':>10} {'Occ':>7} {'RNs':>8}")
+lines.append(f"{'排名':>3} {'酒店':<40} {'市场':<16} {'ADR':>8} {'Rev(�?':>10} {'Occ':>7} {'RNs':>8}")
 lines.append("-" * 96)
 for i, h in enumerate(hh_all[:30], 1):
     mkt_s = h['market'].split('/')[-1]
@@ -153,27 +153,27 @@ for i, h in enumerate(hh_all[:30], 1):
 # Key insight: HH Suzhou's Occ is bottom vs top performers
 lines.append("")
 lines.append("=" * 80)
-lines.append("  💡 核心诊断：苏州希尔顿的'两低一高'")
+lines.append("  💡 核心诊断：苏州希尔顿�?两低一�?")
 lines.append("=" * 80)
 lines.append("")
-lines.append("【优势】")
-lines.append("  1. 间夜量全国第3（55,614 RNs）— 规模优势明显")
-lines.append("  2. ADR溢价26%领先苏州市场— 品牌定位清晰")
-lines.append("  3. 苏州市场43.6%营收份额— 绝对龙头")
+lines.append("【优势�?)
+lines.append("  1. 间夜量全国第3�?5,614 RNs）�?规模优势明显")
+lines.append("  2. ADR溢价26%领先苏州市场�?品牌定位清晰")
+lines.append("  3. 苏州市场43.6%营收份额�?绝对龙头")
 lines.append("")
-lines.append("【瓶颈】")
-lines.append(f"  4. Occupancy 68.5% — Top 30 HH酒店中排名第28（仅高于昆明/珠海等）")
-lines.append("     全国HH平均Occ约75%，我们差了6.5个点")
-lines.append("  5. ADR ¥649 — Top 10 HH中最低，只有三亚的40%、上海虹桥的81%")
-lines.append("     但苏州市场天花板确实在这（市场avg ¥516）")
+lines.append("【瓶颈�?)
+lines.append(f"  4. Occupancy 68.5% �?Top 30 HH酒店中排名第28（仅高于昆明/珠海等）")
+lines.append("     全国HH平均Occ�?5%，我们差�?.5个点")
+lines.append("  5. ADR ¥649 �?Top 10 HH中最低，只有三亚�?0%、上海虹桥的81%")
+lines.append("     但苏州市场天花板确实在这（市场avg ¥516�?)
 lines.append("")
-lines.append("【最直接的杠杆】")
-lines.append("  ■ 提升Occ 75%（+6.5pp）= 多卖5,278间夜")
-lines.append(f"     → 全年角度看，约可增收¥{5280*650/1e4:.0f}万（假设ADR不变）")
-lines.append("  ■ ADR提至¥700（+¥50），保持Occ → 增收¥278万/年")
-lines.append("  ■ 双管齐下（ADR¥700+Occ75%）= 增收¥1,200万+/年")
+lines.append("【最直接的杠杆�?)
+lines.append("  �?提升Occ 75%�?6.5pp�? 多卖5,278间夜")
+lines.append(f"     �?全年角度看，约可增收¥{5280*650/1e4:.0f}万（假设ADR不变�?)
+lines.append("  �?ADR提至¥700�?¥50），保持Occ �?增收¥278�?�?)
+lines.append("  �?双管齐下（ADR¥700+Occ75%�? 增收¥1,200�?/�?)
 
-outpath = r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center\gcm_ytd_scenarios.md'
+outpath = r'C:\Users\Y\.openclaw\workspace\knowledge_center\gcm_ytd_scenarios.md'
 with open(outpath, 'w', encoding='utf-8') as f:
     f.write('\n'.join(lines))
 

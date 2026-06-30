@@ -3,7 +3,7 @@ import openpyxl, json, os, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-indir = r'C:\Users\Duke Wang\.openclaw\media\inbound'
+indir = r'media/inbound'
 
 fn = [f for f in os.listdir(indir) if 'HOE00043' in f or '3cb19d6f' in f][0]
 fp = os.path.join(indir, fn)

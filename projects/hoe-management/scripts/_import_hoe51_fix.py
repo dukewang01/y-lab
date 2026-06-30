@@ -4,7 +4,7 @@ from collections import Counter
 sys.stdout.reconfigure(encoding='utf-8')
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-indir = r'C:\Users\Duke Wang\.openclaw\media\inbound'
+indir = r'media/inbound'
 fn = [f for f in os.listdir(indir) if 'HOE00051' in f or '594cadef' in f][0]
 fp = os.path.join(indir, fn)
 wb = openpyxl.load_workbook(fp, data_only=True)
@@ -16,7 +16,7 @@ fb = json.load(open(fb_fp, 'r', encoding='utf-8'))
 before = len(fb.get('entities',[]))
 for prefix in ['HOE_VENDOR_WESTKITCHEN_', 'HOE_CONTRACT_WESTKITCHEN_', 'HOE_ITEM_WESTKITCHEN_']:
     fb['entities'] = [e for e in fb['entities'] if not e.get('id','').startswith(prefix)]
-print(f'清理旧数据: {before-len(fb[\"entities\"])}条')
+print(f'清理旧数�? {before-len(fb[\"entities\"])}�?)
 
 es = fb['entities']
 existing_ids = set(e.get('id','') for e in es)
@@ -44,17 +44,17 @@ brands = Counter()
 for item in items:
     if item['brand']: brands[item['brand']] += item['qty']
 
-print(f'\n西厨厨具(修正): {len(items)}项, {total_qty}件')
+print(f'\n西厨厨具(修正): {len(items)}�? {total_qty}�?)
 for b, q in brands.most_common(10):
-    print(f'  {b:15s}: {q}件')
+    print(f'  {b:15s}: {q}�?)
 
 # 入库
 hoes = [
-    {"id": "HOE_VENDOR_WESTKITCHEN_001", "type": "hoe_vendor", "label": "西厨厨具供应商(Eurochef等)",
-     "category": "设备器具", "status": "合作中", "import_date": "2026-05-14"},
+    {"id": "HOE_VENDOR_WESTKITCHEN_001", "type": "hoe_vendor", "label": "西厨厨具供应�?Eurochef�?",
+     "category": "设备器具", "status": "合作�?, "import_date": "2026-05-14"},
     {"id": "HOE_CONTRACT_WESTKITCHEN_001", "type": "hoe_contract", "label": "HOE00051 西厨厨具合同清单",
      "vendor_id": "HOE_VENDOR_WESTKITCHEN_001", "contract_type": "供应合同",
-     "category": "设备器具", "status": "合作中", "items_count": len(items),
+     "category": "设备器具", "status": "合作�?, "items_count": len(items),
      "total_qty": total_qty, "file": "HOE00051西厨厨具合同清单.xlsx", "import_date": "2026-05-14"},
 ]
 for h in hoes:
@@ -73,5 +73,5 @@ for i, item in enumerate(items):
 
 fb['entities'] = es
 json.dump(fb, open(fb_fp, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-print(f'\nFB-HOE总实体: {len(es)}')
+print(f'\nFB-HOE总实�? {len(es)}')
 print(f'+ 2 + {len(items)} = {2+len(items)}')

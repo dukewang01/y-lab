@@ -53,7 +53,7 @@ Run the generated script. Confirm success.
 ```python
 import json, os, shutil, datetime
 
-workspace = r'C:\Users\Duke Wang\.openclaw\workspace'
+workspace = r'C:\Users\Y\.openclaw\workspace'
 kc = os.path.join(workspace, 'knowledge_center')
 file_path = os.path.join(kc, '{filename}')
 
@@ -107,19 +107,19 @@ print(f'Total: {len(entities)} entities, {len(relations)} relations')
 2. **ALWAYS** check for duplicate entity IDs before adding
 3. **ALWAYS** check for duplicate relations before adding
 4. Print a clear summary of what changed
-5. If the file can't be parsed, abort — don't overwrite
+5. If the file can't be parsed, abort �?don't overwrite
 
 ## Common Entity Templates
 
 ```python
 # FIN station entity
-{'id': 'DAILY_2026_06_15', 'name': '6月15日营收日报', 'type': 'daily_report', 'properties': {...}}
+{'id': 'DAILY_2026_06_15', 'name': '6�?5日营收日�?, 'type': 'daily_report', 'properties': {...}}
 
 # FB station entity
-{'id': 'MENU_ITEM_001', 'name': '红烧牛肉面', 'year': 2026, 'month': 6, 'period': 'dinner', 'properties': {'price': 68, 'cost': 22}}
+{'id': 'MENU_ITEM_001', 'name': '红烧牛肉�?, 'year': 2026, 'month': 6, 'period': 'dinner', 'properties': {'price': 68, 'cost': 22}}
 
 # FAQ station entity
-{'id': 'FAQ_001', 'label': '如何办理入住？', 'answer': '客人可在大堂前台办理入住...', 'tags': ['front', 'checkin'], 'category': 'faq'}
+{'id': 'FAQ_001', 'label': '如何办理入住�?, 'answer': '客人可在大堂前台办理入住...', 'tags': ['front', 'checkin'], 'category': 'faq'}
 
 # GSM station entity
 {'id': 'CASE_001', 'name': '客人投诉空调噪音', 'description': '深夜23:00...', 'properties': {...}}

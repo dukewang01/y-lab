@@ -8,7 +8,7 @@ import urllib.request
 OWNER = "dukewang01"
 REPO = "y-lab"
 TOKEN = os.environ.get("GH_TOKEN", "")
-ROOT = Path(r"C:\Users\Duke Wang\.openclaw\workspace\projects\y-lab")
+ROOT = Path(r"C:\Users\Y\.openclaw\workspace\projects\y-lab")
 API = f"https://api.github.com/repos/{OWNER}/{REPO}"
 
 if not TOKEN:

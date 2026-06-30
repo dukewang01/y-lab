@@ -3,7 +3,7 @@ import openpyxl, json, os, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-indir = r'C:\Users\Duke Wang\.openclaw\media\inbound'
+indir = r'media/inbound'
 fn = [f for f in os.listdir(indir) if 'HOE00033' in f or '1a36370d' in f][0]
 fp = os.path.join(indir, fn)
 wb = openpyxl.load_workbook(fp, data_only=True)
@@ -36,11 +36,11 @@ for item in items:
     brands[b]['count'] += 1
     brands[b]['qty'] += item['qty']
 
-print(f'日韩餐具: {len(items)}项, {total_qty}件, 总价¥52,200')
+print(f'日韩餐具: {len(items)}�? {total_qty}�? 总价¥52,200')
 print(f'\n品牌:')
 for b, d in sorted(brands.items(), key=lambda x: -x[1]['qty']):
     maker = items[[i['brand'] for i in items].index(b)]['maker'] if b in [i['brand'] for i in items] else ''
-    print(f'  {b:6s}: {d["count"]}种 {d["qty"]}件')
+    print(f'  {b:6s}: {d["count"]}�?{d["qty"]}�?)
 
 # 入库
 fb_fp = os.path.join(BASE, "fb_graph.json")
@@ -58,13 +58,13 @@ existing_ids = set(e.get('id','') for e in es)
 
 hoes = [
     {"id": "HOE_VENDOR_JAPANESE_001", "type": "hoe_vendor", "label": "日韩式餐具供应商",
-     "category": "设备器具", "status": "合作中", "contract_total": "¥52,200",
+     "category": "设备器具", "status": "合作�?, "contract_total": "¥52,200",
      "import_date": "2026-05-14"},
-    {"id": "HOE_CONTRACT_JAPANESE_001", "type": "hoe_contract", "label": "HOE00033 日韩式餐具合同",
+    {"id": "HOE_CONTRACT_JAPANESE_001", "type": "hoe_contract", "label": "HOE00033 日韩式餐具合�?,
      "vendor_id": "HOE_VENDOR_JAPANESE_001", "contract_type": "供应合同",
-     "category": "设备器具", "status": "合作中", "items_count": len(items),
+     "category": "设备器具", "status": "合作�?, "items_count": len(items),
      "total_qty": total_qty, "total_amount": 52200,
-     "file": "HOE00033日韩式餐具合同清单.xlsx", "import_date": "2026-05-14"},
+     "file": "HOE00033日韩式餐具合同清�?xlsx", "import_date": "2026-05-14"},
 ]
 for h in hoes:
     es.append(h); existing_ids.add(h['id'])
@@ -82,5 +82,5 @@ for i, item in enumerate(items):
 
 fb['entities'] = es
 json.dump(fb, open(fb_fp, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-print(f'\nFB-HOE总实体: {len(es)}')
+print(f'\nFB-HOE总实�? {len(es)}')
 print(f'+ 2 + {len(items)} = {2+len(items)}')

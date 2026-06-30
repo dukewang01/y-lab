@@ -3,7 +3,7 @@ import openpyxl, json, os, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-indir = r'C:\Users\Duke Wang\.openclaw\media\inbound'
+indir = r'media/inbound'
 fn = [f for f in os.listdir(indir) if 'HOE00033' in f or '1a36370d' in f][0]
 fp = os.path.join(indir, fn)
 wb = openpyxl.load_workbook(fp, data_only=True)

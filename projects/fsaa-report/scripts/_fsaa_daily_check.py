@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""FSAA 每日状态检查脚本"""
+"""FSAA 每日状态检查脚�?""
 import json, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-with open(r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center\fsaa_graph.json', 'r', encoding='utf-8') as f:
+with open(r'C:\Users\Y\.openclaw\workspace\knowledge_center\fsaa_graph.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 entities = data.get('entities', [])
@@ -34,7 +34,7 @@ for e in nc:
     print(f"  - {e.get('name','')}")
 
 al = [e for e in entities if '过敏' in str(e.get('name','')) or 'allerg' in str(e.get('name','')).lower()]
-print(f"\n过敏原相关 ({len(al)}):")
+print(f"\n过敏原相�?({len(al)}):")
 for e in al:
     print(f"  - {e.get('name','')}")
 

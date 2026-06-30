@@ -4,7 +4,7 @@ import json, shutil, openpyxl
 
 FIN_GRAPH = r'knowledge_center\fin_graph.json'
 BACKUP = r'knowledge_center\fin_graph_pre_0525_drr.json'
-XLSX_PATH = r'C:\Users\Duke Wang\.openclaw\media\inbound\Daily_Revenue_Report_2026.05.25---8c022a37-9e04-42dc-afdc-afa064a8de41.xlsx'
+XLSX_PATH = r'media/inbound\Daily_Revenue_Report_2026.05.25---8c022a37-9e04-42dc-afdc-afa064a8de41.xlsx'
 
 shutil.copy2(FIN_GRAPH, BACKUP)
 print(f"Backup: {BACKUP}")

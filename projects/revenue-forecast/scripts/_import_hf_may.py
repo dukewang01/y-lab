@@ -1,11 +1,11 @@
-"""Import 5月 HF v7 (History & Forecast) data into FIN graph (entities/relationships format)"""
+"""Import 5�?HF v7 (History & Forecast) data into FIN graph (entities/relationships format)"""
 import json, shutil, sys
 sys.stdout.reconfigure(encoding='utf-8')
 from pathlib import Path
 
-FIN_GRAPH = Path(r"C:\Users\Duke Wang\.openclaw\workspace\knowledge_center\fin_graph.json")
-BACKUP = Path(r"C:\Users\Duke Wang\.openclaw\workspace\knowledge_center\backup_20260510_hf_may_v7.json")
-FIN_README = Path(r"C:\Users\Duke Wang\.openclaw\workspace\knowledge_center\_FIN_README.md")
+FIN_GRAPH = Path(r"C:\Users\Y\.openclaw\workspace\knowledge_center\fin_graph.json")
+BACKUP = Path(r"C:\Users\Y\.openclaw\workspace\knowledge_center\backup_20260510_hf_may_v7.json")
+FIN_README = Path(r"C:\Users\Y\.openclaw\workspace\knowledge_center\_FIN_README.md")
 
 # ── Data from PDF extracted 2026-05-10 ──
 # Fields: day, dow, total_occ, arr, comp, hu, ded_indiv, nd_indiv, ded_grp, nd_grp,
@@ -59,7 +59,7 @@ meta["updated"] = "2026-05-10"
 
 # Backup
 shutil.copy(FIN_GRAPH, BACKUP)
-print(f"✅ Backup saved to {BACKUP}")
+print(f"�?Backup saved to {BACKUP}")
 
 # ── Report ID ──
 REPORT_ID = "report_5_7_HF"
@@ -105,7 +105,7 @@ if not exists:
         "hotel_name": None,
         "period": "2026-05"
     })
-    print(f"✅ Created {REPORT_ID} (v7 HF report)")
+    print(f"�?Created {REPORT_ID} (v7 HF report)")
 else:
     print(f"ℹ️  {REPORT_ID} already exists, updating")
     for e in entities:
@@ -186,7 +186,7 @@ FIN_YEAR = "FIN_YEAR_2026"
 if not exists_entity(FIN_YEAR):
     entities.append({
         "id": FIN_YEAR,
-        "name": "2026年财务年度",
+        "name": "2026年财务年�?,
         "type": "fin_year",
         "date": "2026",
         "properties": {"year": 2026}
@@ -218,7 +218,7 @@ if exists_entity(OLD_REPORT):
             "source": REPORT_ID,
             "target": OLD_REPORT
         })
-        print(f"✅ Linked to previous report: {OLD_REPORT}")
+        print(f"�?Linked to previous report: {OLD_REPORT}")
 
 # ── Save ──
 with open(FIN_GRAPH, "w", encoding="utf-8") as f:

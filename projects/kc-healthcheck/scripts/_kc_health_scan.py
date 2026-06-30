@@ -1,10 +1,10 @@
 import json, os
 
-BASE = 'C:\\Users\\Duke Wang\\.openclaw\\workspace\\knowledge_center'
+BASE = 'C:\\Users\\Y\\.openclaw\\workspace\\knowledge_center'
 
 graphs = ['mep_graph','fsaa_graph','risk_graph','qa_graph','fin_graph','fb_graph','lib_graph','gsm_graph','faq_graph']
 
-print('=== 图谱健康度 ===')
+print('=== 图谱健康�?===')
 issues = []
 for g in graphs:
     fp = os.path.join(BASE, g+'.json')
@@ -15,8 +15,7 @@ for g in graphs:
     rels_count = len(rels)
     sz = os.path.getsize(fp)/1024
     
-    # 检查关系键名
-    if rels:
+    # 检查关系键�?    if rels:
         sample = rels[0]
         has_source = 'source' in sample
         has_from = 'from' in sample
@@ -35,11 +34,11 @@ for g in graphs:
     print(f'  {g:<12s}: {ents:>5}实体  {rels_count:>6}关系  {sz:>7.0f}KB  schema:{key_info}')
 
 print()
-print('=== CRM 站 ===')
+print('=== CRM �?===')
 crm_dir = os.path.join(BASE, 'fb_crm')
 if os.path.exists(crm_dir):
     crm_files = os.listdir(crm_dir)
-    print(f'  {len(crm_files)} 个文件')
+    print(f'  {len(crm_files)} 个文�?)
     for fname in sorted(crm_files):
         fp = os.path.join(crm_dir, fname)
         if os.path.isfile(fp):
@@ -50,7 +49,7 @@ if os.path.exists(crm_dir):
                     with open(fp,'r',encoding='utf-8') as f:
                         d = json.load(f)
                     if isinstance(d, list):
-                        detail = f'{len(d):,} 条记录'
+                        detail = f'{len(d):,} 条记�?
                     elif isinstance(d, dict):
                         detail = f'{len(d):,} 个键'
                     else:
@@ -73,9 +72,8 @@ for root, dirs, files in os.walk(sf):
 print(f'  source_files 总计: {total_sf/1024:.0f}KB ({total_sf/1024/1024:.1f}MB)')
 
 print()
-print('=== 发现的问题 ===')
-# 空类型
-for g in graphs:
+print('=== 发现的问�?===')
+# 空类�?for g in graphs:
     fp = os.path.join(BASE, g+'.json')
     with open(fp,'r',encoding='utf-8-sig') as f:
         d = json.load(f)

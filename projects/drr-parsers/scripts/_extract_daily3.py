@@ -1,6 +1,6 @@
 import json, openpyxl
 
-xlsx = 'C:\\Users\\Duke Wang\\.openclaw\\knowledge_center\\media\\Daily_Revenue_Report_2026.05.06.xlsx'
+xlsx = 'C:\\Users\\Y\\.openclaw\\knowledge_center\\media\\Daily_Revenue_Report_2026.05.06.xlsx'
 wb = openpyxl.load_workbook(xlsx, data_only=True)
 
 ws = wb['Actual']
@@ -31,8 +31,7 @@ data['guest_count'] = parse_row(ws, 'GUEST COUNT')
 
 # 找F&B餐厅数据
 data['banquet_rev'] = parse_row(ws, 'BANQUET AND CONFERENCE')
-data['open_rev'] = parse_row(ws, 'OPEN')  # 注意可能匹配到其他
-data['yuxi_rev'] = parse_row(ws, 'YUXI')
+data['open_rev'] = parse_row(ws, 'OPEN')  # 注意可能匹配到其�?data['yuxi_rev'] = parse_row(ws, 'YUXI')
 data['bacio_rev'] = parse_row(ws, 'BACIO')
 data['beer_rev'] = parse_row(ws, 'BEER SOCIETY')
 data['yuan_rev'] = parse_row(ws, 'YUAN')
@@ -45,7 +44,7 @@ data['banquet_covers'] = parse_row(ws, 'BANQUET AND CONFERENCE')
 data['yuxi_covers'] = parse_row(ws, 'YUXI')
 data['total_covers'] = parse_row(ws, 'TOTAL FOOD COVERS')
 
-print('=== 5月6日营收数据 ===')
+print('=== 5�?日营收数�?===')
 print()
 print('--- 客房 ---')
 for k in ['rooms_sold','occupancy_pct','revpar','adr','total_rooms_rev','service_charge','room_revenue','guest_count']:
@@ -53,7 +52,7 @@ for k in ['rooms_sold','occupancy_pct','revpar','adr','total_rooms_rev','service
     if v:
         print(f'  {k}: 今日={v[0]}, 预算={v[1]}, 上年={v[2]}')
     else:
-        print(f'  {k}: 未找到')
+        print(f'  {k}: 未找�?)
 
 print()
 print('--- F&B (今日实际) ---')
@@ -62,16 +61,15 @@ for k in ['banquet_rev','open_rev','yuxi_rev','bacio_rev','beer_rev','yuan_rev',
     if v:
         print(f'  {k}: {v[0]}')
     else:
-        print(f'  {k}: 未找到')
+        print(f'  {k}: 未找�?)
 
 print()
-print('--- 封面数 ---')
+print('--- 封面�?---')
 data['total_covers'] = parse_row(ws, 'TOTAL FOOD COVERS')
 if data['total_covers']:
     print(f'  total_covers: 今日={data["total_covers"][0]}')
 
-# 也看F&B表
-ws2 = wb['F&B']
+# 也看F&B�?ws2 = wb['F&B']
 print()
 print('=== F&B汇总表摘录 ===')
 for r in range(1, min(ws2.max_row+1, 50)):

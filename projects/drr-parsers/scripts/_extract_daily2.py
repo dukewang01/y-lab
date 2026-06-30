@@ -1,11 +1,11 @@
 import json, openpyxl
 
-xlsx = 'C:\\Users\\Duke Wang\\.openclaw\\knowledge_center\\media\\Daily_Revenue_Report_2026.05.06.xlsx'
+xlsx = 'C:\\Users\\Y\\.openclaw\\knowledge_center\\media\\Daily_Revenue_Report_2026.05.06.xlsx'
 wb = openpyxl.load_workbook(xlsx, data_only=True)
 
 ws = wb['Actual']
 
-print('=== 扫描 Actual 表 前30行 ===')
+print('=== 扫描 Actual �?�?0�?===')
 for r in range(1, min(ws.max_row+1, 35)):
     vals = []
     for c in range(1, min(ws.max_column+1, 8)):

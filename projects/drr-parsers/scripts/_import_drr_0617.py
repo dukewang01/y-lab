@@ -1,7 +1,7 @@
 """2026-06-18: Import DRR 2026.06.17 data into FIN station"""
 import json, os
 
-fp = r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center\fin_graph.json'
+fp = r'C:\Users\Y\.openclaw\workspace\knowledge_center\fin_graph.json'
 g = json.load(open(fp, 'r', encoding='utf-8'))
 
 DRR_DATE = "2026-06-17"
@@ -32,7 +32,7 @@ room_data = {
 # ===== F&B Data (from DRR Actual sheet) =====
 # Covers and avg_check from rows 34-50
 banquet_covers = 34
-banquet_revenue = 34 * 517.54  # avg_check * covers â‰ˆ 17596
+banquet_revenue = 34 * 517.54  # avg_check * covers â‰?17596
 
 fb_outlets = {
     "OPEN": {"covers": 410, "avg_check": 60.61},

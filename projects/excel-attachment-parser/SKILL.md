@@ -5,7 +5,7 @@ Detects file type by name pattern, extracts data, saves to correct knowledge_cen
 
 ## File Landing
 
-Files from Feishu â†’ `C:\Users\Duke Wang\media\inbound\{original_filename}---{uuid}.xlsx`
+Files from Feishu â†?`C:\Users\Y\media\inbound\{original_filename}---{uuid}.xlsx`
 
 ## Step 1: Find New Files
 ```powershell
@@ -61,9 +61,9 @@ def explore_excel(filepath):
 ```python
 import shutil, os, json, datetime
 
-INBOUND = r'C:\Users\Duke Wang\media\inbound'
-ARCHIVED = r'C:\Users\Duke Wang\.openclaw\workspace\media\archived'
-KC = r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center'
+INBOUND = r'C:\Users\Y\media\inbound'
+ARCHIVED = r'C:\Users\Y\.openclaw\workspace\media\archived'
+KC = r'C:\Users\Y\.openclaw\workspace\knowledge_center'
 LOG_FILE = os.path.join(KC, '_inbox_log.json')
 
 def archive_file(filepath, station):

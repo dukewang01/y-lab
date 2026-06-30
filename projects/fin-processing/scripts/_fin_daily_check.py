@@ -1,10 +1,9 @@
 import json, re
 
-with open('C:\\Users\\Duke Wang\\.openclaw\\workspace\\knowledge_center\\fin_graph.json', 'r', encoding='utf-8-sig') as f:
+with open('C:\\Users\\Y\\.openclaw\\workspace\\knowledge_center\\fin_graph.json', 'r', encoding='utf-8-sig') as f:
     d = json.load(f)
 
-# 找所有日报节点
-dates = set()
+# 找所有日报节�?dates = set()
 for e in d['entities']:
     if e.get('type') == 'daily_revenue':
         name = e.get('name','')
@@ -15,7 +14,7 @@ for e in d['entities']:
             dates.add(f'{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}')
 
 dates = sorted(dates)
-print(f'现有日报节点: {len(dates)} 个')
+print(f'现有日报节点: {len(dates)} �?)
 print('全部日报列表:')
 for d in dates:
     print(f'  {d}')
@@ -34,6 +33,6 @@ for t in target:
 
 print()
 if missing:
-    print(f'缺失 {len(missing)} 天: {", ".join(missing)}')
+    print(f'缺失 {len(missing)} �? {", ".join(missing)}')
 else:
     print('全部齐全!')

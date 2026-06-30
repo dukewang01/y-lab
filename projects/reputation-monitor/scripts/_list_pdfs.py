@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import os, datetime, sys
 sys.stdout.reconfigure(encoding='utf-8')
-indir = r'C:\Users\Duke Wang\.openclaw\media\inbound'
+indir = r'media/inbound'
 import sys
 pdfs = [(f, os.path.getmtime(os.path.join(indir,f))) for f in os.listdir(indir) if f.endswith('.pdf')]
 pdfs.sort(key=lambda x: -x[1])

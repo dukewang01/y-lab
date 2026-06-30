@@ -5,7 +5,7 @@
 import json, openpyxl
 
 FP = r'knowledge_center\fin_graph.json'
-XLSX = r'C:\Users\Duke Wang\.openclaw\media\inbound\Daily_Revenue_Report_2026.06.10---3f8a6402-062e-4834-a133-f93c98f2e59d.xlsx'
+XLSX = r'media/inbound\Daily_Revenue_Report_2026.06.10---3f8a6402-062e-4834-a133-f93c98f2e59d.xlsx'
 
 with open(FP, 'r', encoding='utf-8') as f:
     g = json.load(f)
@@ -200,8 +200,8 @@ print(f"Room Rev: {data['total_rooms_revenue']:,.0f} (MTD: {data['room_rev_mtd']
 print(f"F&B Rev: {data['fb_total']:,.0f} (MTD: {data['fb_total_mtd']:,.0f})")
 print(f"Total Rev: {data['total_revenue']:,.0f} (MTD: {data['total_rev_mtd']:,.0f})")
 
-print(f"\n=== 6月MTD（至6/10）===")
-print(f"已售房: {data['room_sold_mtd']:.0f} / 预算 {data['room_sold_mtd_budget']:.0f} / 去年 {data['room_sold_mtd_ly']:.0f}")
+print(f"\n=== 6月MTD（至6/10�?==")
+print(f"已售�? {data['room_sold_mtd']:.0f} / 预算 {data['room_sold_mtd_budget']:.0f} / 去年 {data['room_sold_mtd_ly']:.0f}")
 print(f"Rev MTD: {data['room_rev_mtd']:,.0f} / Bud {data['room_rev_mtd_budget']:,.0f} / LY {data['room_rev_mtd_ly']:,.0f}")
 print(f"F&B MTD: {data['fb_total_mtd']:,.0f} / LY {data['fb_total_mtd_ly']:,.0f}")
 
@@ -214,5 +214,5 @@ for k, odata in sorted(outlets.items()):
     if r and r > 0:
         print(f"  {k}: Rev {r:,.0f} ({c} covers)")
 
-print(f"\nFIN站版本: v9.1")
-print(f"当前FIN站: 实体{len(g['entities'])} / 关系{len(g.get('relations', []))}")
+print(f"\nFIN站版�? v9.1")
+print(f"当前FIN�? 实体{len(g['entities'])} / 关系{len(g.get('relations', []))}")

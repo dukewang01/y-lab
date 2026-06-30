@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""连接FB产品 ↔ CRM偏好标签"""
+"""连接FB产品 �?CRM偏好标签"""
 import sys, json, os
 sys.stdout.reconfigure(encoding='utf-8')
 
-D = r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center'
-CRM = r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center\fb_crm'
+D = r'C:\Users\Y\.openclaw\workspace\knowledge_center'
+CRM = r'C:\Users\Y\.openclaw\workspace\knowledge_center\fb_crm'
 fp = os.path.join(D, 'fb_graph.json')
 
 fb = json.load(open(fp, encoding='utf-8'))
@@ -18,17 +18,17 @@ from collections import Counter
 e_map = {n['id']: n for n in fbe}
 
 # ====== 1. 建立CRM偏好标签映射 ======
-# 偏好value → FB站crm_tag节点类型的ID映射
+# 偏好value �?FB站crm_tag节点类型的ID映射
 PREF_TO_FB_TAG = {
     '海鲜':          'CRM_PREF_SEAFOOD',
     '素食健康':      'CRM_PREF_VEGAN',
-    '甜品类':        'CRM_PREF_DESSERT',
+    '甜品�?:        'CRM_PREF_DESSERT',
     '甜品':          'CRM_PREF_DESSERT',
     '牛排肉食':      'CRM_PREF_MEAT',
     '牛排/肉食':     'CRM_PREF_MEAT',
     '酒饮':          'CRM_PREF_DRINK',
     '辣味':          'CRM_PREF_SPICY',
-    '辣':            'CRM_PREF_SPICY',
+    '�?:            'CRM_PREF_SPICY',
     '清淡':          'CRM_PREF_LIGHT',
 }
 
@@ -62,9 +62,9 @@ for nid in need_create:
 if new_nodes:
     fbe.extend(new_nodes)
     e_map = {n['id']: n for n in fbe}
-    print('新增crm_tag节点: %d个' % len(new_nodes))
+    print('新增crm_tag节点: %d�? % len(new_nodes))
 
-# ====== 2. 构建产品→CRM标签链 ======
+# ====== 2. 构建产品→CRM标签�?======
 # 品类→CRM标签映射
 CAT_TO_TAG = {
     'menu_steak':       'CRM_PREF_MEAT',
@@ -89,17 +89,16 @@ CAT_TO_TAG = {
     '手工点心':          'CRM_PREF_LIGHT',
     '轻食':              'CRM_PREF_LIGHT',
     '素食':              'CRM_PREF_VEGAN',
-    '辣':                'CRM_PREF_SPICY',
+    '�?:                'CRM_PREF_SPICY',
 }
 
-# 关键词匹配（额外补充）
-KEYWORD_TO_TAG = {
-    '牛排': 'CRM_PREF_MEAT', '牛肉': 'CRM_PREF_MEAT', '肉': 'CRM_PREF_MEAT',
-    '海鲜': 'CRM_PREF_SEAFOOD', '虾': 'CRM_PREF_SEAFOOD', '鱼': 'CRM_PREF_SEAFOOD',
+# 关键词匹配（额外补充�?KEYWORD_TO_TAG = {
+    '牛排': 'CRM_PREF_MEAT', '牛肉': 'CRM_PREF_MEAT', '�?: 'CRM_PREF_MEAT',
+    '海鲜': 'CRM_PREF_SEAFOOD', '�?: 'CRM_PREF_SEAFOOD', '�?: 'CRM_PREF_SEAFOOD',
     '素食': 'CRM_PREF_VEGAN', '蔬菜': 'CRM_PREF_VEGAN', '沙拉': 'CRM_PREF_VEGAN',
-    '甜': 'CRM_PREF_DESSERT', '蛋糕': 'CRM_PREF_DESSERT', '冰淇淋': 'CRM_PREF_DESSERT',
-    '酒': 'CRM_PREF_DRINK', '茅台': 'CRM_PREF_DRINK', '红酒': 'CRM_PREF_DRINK',
-    '辣': 'CRM_PREF_SPICY', '麻辣': 'CRM_PREF_SPICY', '香辣': 'CRM_PREF_SPICY',
+    '�?: 'CRM_PREF_DESSERT', '蛋糕': 'CRM_PREF_DESSERT', '冰淇�?: 'CRM_PREF_DESSERT',
+    '�?: 'CRM_PREF_DRINK', '茅台': 'CRM_PREF_DRINK', '红酒': 'CRM_PREF_DRINK',
+    '�?: 'CRM_PREF_SPICY', '麻辣': 'CRM_PREF_SPICY', '香辣': 'CRM_PREF_SPICY',
     '清淡': 'CRM_PREF_LIGHT', '清蒸': 'CRM_PREF_LIGHT', '白灼': 'CRM_PREF_LIGHT',
 }
 
@@ -122,8 +121,7 @@ for p in products:
     if tag_id:
         tags.add(tag_id)
     
-    # 关键词匹配
-    for kw, tid in KEYWORD_TO_TAG.items():
+    # 关键词匹�?    for kw, tid in KEYWORD_TO_TAG.items():
         if kw in name:
             tags.add(tid)
     
@@ -139,10 +137,10 @@ for p in products:
 
 total_new = len(new_rels)
 print()
-print('新增RECOMMENDED_FOR关系: %d条' % total_new)
+print('新增RECOMMENDED_FOR关系: %d�? % total_new)
 for tid, cnt in tagged_count.most_common():
     nm = e_map.get(tid, {}).get('name', tid)
-    print('  %-16s → %d个产品' % (nm[:16], cnt))
+    print('  %-16s �?%d个产�? % (nm[:16], cnt))
 
 print()
 print('当前: %d节点 / %d关系 / 密度%.2f' % (len(fbe), len(fbr) + total_new, (len(fbr)+total_new)/len(fbe)))
@@ -157,4 +155,4 @@ fbr.extend(new_rels)
 fb['entities'] = fbe
 fb['relationships'] = fbr
 json.dump(fb, open(fp, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-print('写入完成! 密度: 0.08 → %.2f' % ((len(fbr))/len(fbe)))
+print('写入完成! 密度: 0.08 �?%.2f' % ((len(fbr))/len(fbe)))

@@ -4,7 +4,7 @@ import json, shutil, pdfplumber, re
 
 FIN_GRAPH = r'knowledge_center\fin_graph.json'
 BACKUP = r'knowledge_center\fin_graph_pre_hist_forecast_0525.json'
-PDF_PATH = r'C:\Users\Duke Wang\.openclaw\media\inbound\History_and_Forecast_5.25---c74c53cf-e12c-4239-85c9-53e52c50b33a.pdf'
+PDF_PATH = r'media/inbound\History_and_Forecast_5.25---c74c53cf-e12c-4239-85c9-53e52c50b33a.pdf'
 
 shutil.copy2(FIN_GRAPH, BACKUP)
 print(f"Backup: {BACKUP}")
@@ -19,7 +19,7 @@ with pdfplumber.open(PDF_PATH) as pdf:
 
 lines = text.split('\n')
 
-# Find the data section â€” look for dates 01.05.26 to 31.05.26
+# Find the data section â€?look for dates 01.05.26 to 31.05.26
 # Format: Date | Total Occ | Arr Rooms | Comp | HU | ... | Rate
 # The data starts after a line containing the column headers
 

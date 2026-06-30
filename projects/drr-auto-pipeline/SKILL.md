@@ -6,7 +6,7 @@ The holy grail of DRR processing. When a DRR file arrives, run the full pipeline
 ## Prerequisites
 
 - `openpyxl` installed in Python
-- DRR file from Feishu → lands at `C:\Users\Duke Wang\media\inbound\`
+- DRR file from Feishu �?lands at `C:\Users\Y\media\inbound\`
 
 ## Pipeline Steps
 
@@ -41,7 +41,7 @@ drr = {
 
 ### Step 3: Save JSON
 ```python
-kc_fin = r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center\fin'
+kc_fin = r'C:\Users\Y\.openclaw\workspace\knowledge_center\fin'
 os.makedirs(kc_fin, exist_ok=True)
 with open(os.path.join(kc_fin, f'DRR_{YYYY_MM_DD}.json'), 'w', encoding='utf-8') as f:
     json.dump(drr, f, ensure_ascii=False, indent=2)
@@ -56,11 +56,8 @@ Remove-Item $sourcePath -Force
 ### Step 5: Generate Analysis (to Feishu)
 ```
 📊 **{date} 日报**
-🏨 {sold}间 / Occ {occ:.1%} / ADR ¥{adr:,.0f} / RevPAR ¥{revpar:,.0f}
-   客房收入 ¥{rev:,.0f}（预算¥{bud:,.0f}）
-🍽️ F&B: ¥{fb}（预算¥{fb_bud}）
-📈 MTD: 客房¥{mtd_rev:,.0f}（差{mtd_gap:,.0f}）
-⚠️ 全月预测: ¥{fcst:,.0f} / 预算¥{bud:,.0f}
+🏨 {sold}�?/ Occ {occ:.1%} / ADR ¥{adr:,.0f} / RevPAR ¥{revpar:,.0f}
+   客房收入 ¥{rev:,.0f}（预算¥{bud:,.0f}�?🍽�?F&B: ¥{fb}（预算¥{fb_bud}�?📈 MTD: 客房¥{mtd_rev:,.0f}（差{mtd_gap:,.0f}�?⚠️ 全月预测: ¥{fcst:,.0f} / 预算¥{bud:,.0f}
 ```
 
 ### Step 6: (Optional) Update FIN Graph

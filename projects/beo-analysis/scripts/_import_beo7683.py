@@ -14,8 +14,8 @@ ents = g['entities']
 rels = g.get('relations', [])
 
 # Archive PDF
-src = r'C:\Users\Duke Wang\.openclaw\media\inbound\2026.5.29_å_äº_æµ_ç_æ_å_è_ä¼_è_BEO_7683_Changelog1---b393f69d-ab3f-414f-8abd-a9354e827e5e.pdf'
-dst = r'C:\Users\Duke Wang\.openclaw\media\archived\BEO7683_南京海维医药会议_Changelog1.pdf'
+src = r'media/inbound\2026.5.29_å_äº_æµ_ç_æ_å_è_ä¼_è_BEO_7683_Changelog1---b393f69d-ab3f-414f-8abd-a9354e827e5e.pdf'
+dst = r'media\archived\BEO7683_南京海维医药会议_Changelog1.pdf'
 shutil.copy2(src, dst)
 print(f"Archived: {dst}")
 
@@ -32,7 +32,7 @@ beo = {
         'booking_name': '南京海维医药会议',
         'catering_manager': 'Luisa Liu',
         'service_manager': 'Luisa Liu',
-        'change_log': 'Change 1: 下午茶歇40人→20人，菜单不变。其他不变。',
+        'change_log': 'Change 1: 下午茶歇40人→20人，菜单不变。其他不变�?,
         'change_date': '2026-05-26',
         'created_by': 'Luisa Liu',
         'source': 'BEO Changelog PDF',
@@ -58,9 +58,9 @@ if not any(r.get('id') == rel_id for r in rels):
 # Create function rooms/sessions
 sessions = [
     ('Meeting', 'Function Room 3+4', '08:00-18:00', 'Classroom布置'),
-    ('Break AM', 'Function Room Foyer', '10:00-10:30', '咖啡站'),
-    ('Lunch Buffet', 'BACIO意大利餐厅', '12:00-13:30', '自助午餐'),
-    ('Break PM', 'Function Room Foyer', '15:00-15:30', '咖啡站·20人（原40人）'),
+    ('Break AM', 'Function Room Foyer', '10:00-10:30', '咖啡�?),
+    ('Lunch Buffet', 'BACIO意大利餐�?, '12:00-13:30', '自助午餐'),
+    ('Break PM', 'Function Room Foyer', '15:00-15:30', '咖啡站�?0人（�?0人）'),
 ]
 
 for i, (sname, room, time, note) in enumerate(sessions):

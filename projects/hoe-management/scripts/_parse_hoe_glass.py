@@ -2,7 +2,7 @@
 import openpyxl, os, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-indir = r'C:\Users\Duke Wang\.openclaw\media\inbound'
+indir = r'media/inbound'
 for fn in os.listdir(indir):
     if 'HOE00041' in fn or 'e1b0624c' in fn:
         fp = os.path.join(indir, fn)

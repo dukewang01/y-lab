@@ -2,7 +2,7 @@
 """Deep dive: Compare Suzhou market vs peers, and our HH Suzhou vs peer HH hotels."""
 import json, openpyxl
 
-path = r'C:\Users\Duke Wang\.openclaw\workspace\media\archived\GCM_YTD.xlsx'
+path = r'C:\Users\Y\.openclaw\workspace\media\archived\GCM_YTD.xlsx'
 wb = openpyxl.load_workbook(path, data_only=True)
 ws = wb['Export']
 
@@ -27,14 +27,14 @@ for r in range(2, ws.max_row + 1):
             'revpar': float(c5), 'rns': int(c6), 'occ': float(c7)*100
         })
 
-# 1. Peer cities — similar scale to Suzhou
+# 1. Peer cities �?similar scale to Suzhou
 print("=" * 80)
-print("  【苏州 vs 可比城市】")
+print("  【苏�?vs 可比城市�?)
 print("=" * 80)
 peers = ['Jiangsu/Suzhou', 'Jiangsu/Nanjing', 'Zhejiang/Hangzhou', 
          'Fujian/Xiamen', 'Sichuan/Chengdu', 'Chongqing', 'Tianjin',
          'Hubei/Wuhan', 'Shaanxi/Xi\'an', 'Hunan/Changsha']
-print(f"{'城市':<22} {'ADR':>8} {'Rev(万)':>10} {'RevPAR':>8} {'RNs':>8} {'Occ':>7} {'ADR溢价':>8}")
+print(f"{'城市':<22} {'ADR':>8} {'Rev(�?':>10} {'RevPAR':>8} {'RNs':>8} {'Occ':>7} {'ADR溢价':>8}")
 print("-" * 72)
 sz_adr = markets['Jiangsu/Suzhou']['adr']
 for city in peers:
@@ -47,7 +47,7 @@ for city in peers:
 # 2. Our hotel vs peer HH hotels in similar cities
 print()
 print("=" * 80)
-print("  【苏州希尔顿 vs 全国可比HH酒店】")
+print("  【苏州希尔顿 vs 全国可比HH酒店�?)
 print("=" * 80)
 # Collect all HH hotels
 hh_hotels = []
@@ -65,7 +65,7 @@ for h in hh_hotels:
         our = h
         break
 
-print(f"{'排名':>3} {'酒店':<40} {'所在市场':<18} {'ADR':>8} {'Rev(万)':>10} {'RevPAR':>8} {'RNs':>7} {'Occ':>7}")
+print(f"{'排名':>3} {'酒店':<40} {'所在市�?:<18} {'ADR':>8} {'Rev(�?':>10} {'RevPAR':>8} {'RNs':>7} {'Occ':>7}")
 print("-" * 100)
 for i, h in enumerate(hh_hotels[:20], 1):
     flag = " <<<" if h == our else ""
@@ -75,9 +75,9 @@ for i, h in enumerate(hh_hotels[:20], 1):
 # Save to report
 lines = []
 lines.append("=" * 80)
-lines.append("  【苏州 vs 可比城市】")
+lines.append("  【苏�?vs 可比城市�?)
 lines.append("=" * 80)
-lines.append(f"{'城市':<22} {'ADR':>8} {'Rev(万)':>10} {'RevPAR':>8} {'RNs':>8} {'Occ':>7} {'ADR溢价':>8}")
+lines.append(f"{'城市':<22} {'ADR':>8} {'Rev(�?':>10} {'RevPAR':>8} {'RNs':>8} {'Occ':>7} {'ADR溢价':>8}")
 lines.append("-" * 72)
 for city in peers:
     if city in markets:
@@ -88,16 +88,16 @@ for city in peers:
 
 lines.append("")
 lines.append("=" * 80)
-lines.append("  【苏州希尔顿 vs 全国可比HH酒店 Top20】")
+lines.append("  【苏州希尔顿 vs 全国可比HH酒店 Top20�?)
 lines.append("=" * 80)
-lines.append(f"{'排名':>3} {'酒店':<40} {'所在市场':<18} {'ADR':>8} {'Rev(万)':>10} {'RevPAR':>8} {'RNs':>7} {'Occ':>7}")
+lines.append(f"{'排名':>3} {'酒店':<40} {'所在市�?:<18} {'ADR':>8} {'Rev(�?':>10} {'RevPAR':>8} {'RNs':>7} {'Occ':>7}")
 lines.append("-" * 100)
 for i, h in enumerate(hh_hotels[:20], 1):
     flag = " <<<" if h == our else ""
     mkt_short = h['market'].split('/')[-1] if '/' in h['market'] else h['market']
     lines.append(f"{i:>3} {h['name']:<40} {mkt_short:<18} {h['adr']:>8.0f} {h['rev']/1e4:>10.1f} {h['revpar']:>8.0f} {h['rns']:>7d} {h['occ']:>6.1f}%{flag}")
 
-outpath = r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center\gcm_ytd_analysis2.md'
+outpath = r'C:\Users\Y\.openclaw\workspace\knowledge_center\gcm_ytd_analysis2.md'
 with open(outpath, 'w', encoding='utf-8') as f:
     f.write('\n'.join(lines))
 print(f"\nReport saved: {outpath}")

@@ -1,7 +1,7 @@
 import json
 from collections import Counter
 
-g = json.load(open(r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center\fin_graph.json', 'r', encoding='utf-8'))
+g = json.load(open(r'C:\Users\Y\.openclaw\workspace\knowledge_center\fin_graph.json', 'r', encoding='utf-8'))
 print('FIN graph after import:')
 print('  Entities:', len(g['entities']))
 print('  Relationships:', len(g['relationships']))
@@ -27,6 +27,6 @@ for s in bq_days:
         p['prospect'], p['tentative'], p['total_expected_pax']))
 
 # Verify backup
-bup = json.load(open(r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center\fin_graph_pre_bq_20260614.json', 'r', encoding='utf-8'))
+bup = json.load(open(r'C:\Users\Y\.openclaw\workspace\knowledge_center\fin_graph_pre_bq_20260614.json', 'r', encoding='utf-8'))
 print('\nBackup verified: %d entities, %d rels' % (len(bup['entities']), len(bup['relationships'])))
 print('Difference: +%d entities, +%d rels' % (len(g['entities'])-len(bup['entities']), len(g['relationships'])-len(bup['relationships'])))

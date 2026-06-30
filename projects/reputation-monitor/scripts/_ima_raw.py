@@ -2,8 +2,8 @@
 import requests, json, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-cid = open(r'C:\Users\Duke Wang\.config\ima\client_id').read().strip()
-key = open(r'C:\Users\Duke Wang\.config\ima\api_key').read().strip()
+cid = open(r'C:\Users\Y\.config\ima\client_id').read().strip()
+key = open(r'C:\Users\Y\.config\ima\api_key').read().strip()
 h = {'ima-openapi-clientid': cid, 'ima-openapi-apikey': key, 'Content-Type': 'application/json'}
 base = 'https://ima.qq.com/openapi/wiki/v1'
 

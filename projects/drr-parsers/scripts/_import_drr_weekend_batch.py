@@ -83,9 +83,9 @@ def parse_drr_xlsx(path, date_str):
 
 # Files
 files = {
-    '2026-05-22': r'C:\Users\Duke Wang\.openclaw\media\inbound\Daily_Revenue_Report_2026.05.22---c1942bf4-38d2-416c-91e7-a6f74df61692.xlsx',
-    '2026-05-23': r'C:\Users\Duke Wang\.openclaw\media\inbound\Daily_Revenue_Report_2026.05.23---0ca44fc7-f465-4421-aff4-19d6f6aa52cd.xlsx',
-    '2026-05-24': r'C:\Users\Duke Wang\.openclaw\media\inbound\Daily_Revenue_Report_2026.05.24---2a42d27f-afab-414f-b4a2-22ab7f5b111e.xlsx',
+    '2026-05-22': r'media/inbound\Daily_Revenue_Report_2026.05.22---c1942bf4-38d2-416c-91e7-a6f74df61692.xlsx',
+    '2026-05-23': r'media/inbound\Daily_Revenue_Report_2026.05.23---0ca44fc7-f465-4421-aff4-19d6f6aa52cd.xlsx',
+    '2026-05-24': r'media/inbound\Daily_Revenue_Report_2026.05.24---2a42d27f-afab-414f-b4a2-22ab7f5b111e.xlsx',
 }
 
 all_data = {}
@@ -129,19 +129,19 @@ print(f"\nSaved: {len(entities)} entities")
 
 # Print weekend summary
 print("\n" + "=" * 60)
-print("  2026年5月 周末复盘: 5.22(周五) - 5.24(周日)")
+print("  2026�?�?周末复盘: 5.22(周五) - 5.24(周日)")
 print("=" * 60)
 
 headers = ['指标', 'Fri 5/22', 'Sat 5/23', 'Sun 5/24', '周末合计']
 rows_data = [
-    ('已售房',      'room_sold',              '{:.0f}'),
-    ('出租率',      'occ_pct',                '{:.1f}%'),
+    ('已售�?,      'room_sold',              '{:.0f}'),
+    ('出租�?,      'occ_pct',                '{:.1f}%'),
     ('ADR',        'arr',                    '{:.0f}'),
     ('RevPAR',     'revpar',                 '{:.1f}'),
     ('客房收入',    'room_revenue_total',     '{:,.0f}'),
     ('餐饮收入',    'fb_today',               '{:,.0f}'),
     ('其他收入',    'other_income',           '{:,.0f}'),
-    ('服务费',      'service_charge',         '{:,.0f}'),
+    ('服务�?,      'service_charge',         '{:,.0f}'),
 ]
 print(f'  {"指标":<10} {"周五":>10} {"周六":>10} {"周日":>10} {"合计趋势":>10}')
 print(f'  {"-"*50}')
@@ -154,7 +154,7 @@ for name, key, fmt in rows_data:
     # Sum for revenue fields
     if 'revenue' in key or 'income' in key or 'charge' in key:
         total = sum(v for v in vals if v is not None)
-        trend = '↑' if vals[0] and vals[2] and total > vals[0]*2 else ('↓' if vals[0] and vals[2] and total < vals[0]*1.5 else '→')
+        trend = '�? if vals[0] and vals[2] and total > vals[0]*2 else ('�? if vals[0] and vals[2] and total < vals[0]*1.5 else '�?)
         strs.append(f'{total:,.0f} {trend}')
     elif 'sold' in key:
         total = sum(v for v in vals if v is not None)
@@ -163,12 +163,12 @@ for name, key, fmt in rows_data:
         strs.append('')
     print(f'  {name:<10} {strs[0]:>10} {strs[1]:>10} {strs[2]:>10} {strs[3] if len(strs)>3 else "":>10}')
 
-print("\nMTD综合(至5月24日):")
+print("\nMTD综合(�?�?4�?:")
 d24 = all_data['2026-05-24']
-print(f"  出租率: {d24.get('occ_pct_mtd')}%  (预算: {d24.get('occ_pct_mtd_budget')}%)")
+print(f"  出租�? {d24.get('occ_pct_mtd')}%  (预算: {d24.get('occ_pct_mtd_budget')}%)")
 print(f"  ADR: {d24.get('arr_mtd'):,.0f}  (预算: {d24.get('arr_mtd_budget'):,.0f})")
 print(f"  RevPAR: {d24.get('revpar_mtd'):,.0f}  (预算: {d24.get('revpar_mtd_budget'):,.0f})")
-print(f"  已售房累计: {d24.get('room_sold_mtd'):.0f}  (预算: {d24.get('room_sold_mtd_budget'):,.0f})")
+print(f"  已售房累�? {d24.get('room_sold_mtd'):.0f}  (预算: {d24.get('room_sold_mtd_budget'):,.0f})")
 print(f"  客房收入: {d24.get('room_revenue_mtd'):,.0f}  (预算: {d24.get('room_revenue_mtd_budget'):,.0f})")
 print(f"  餐饮收入: {d24.get('fb_mtd'):,.0f}  (预算: {d24.get('fb_mtd_budget'):,.0f})")
 

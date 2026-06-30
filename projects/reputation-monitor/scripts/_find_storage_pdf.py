@@ -2,7 +2,7 @@
 """Find and extract the storage chip PDF."""
 import os
 
-inc = r'C:\Users\Duke Wang\.openclaw\media\inbound'
+inc = r'media/inbound'
 for f in os.listdir(inc):
     sz = os.path.getsize(os.path.join(inc, f))
     # Print raw bytes to avoid encoding issues
@@ -16,7 +16,7 @@ for f in sorted(os.listdir(inc), key=lambda x: -os.path.getsize(os.path.join(inc
     if '.pdf' in f and sz < 14000000 and sz > 1000000:
         print(f'Likely storage chip PDF: {sz} bytes')
         src = os.path.join(inc, f)
-        dst = r'C:\Users\Duke Wang\.openclaw\workspace\media\incoming\storage_chip_2026.pdf'
+        dst = r'C:\Users\Y\.openclaw\workspace\media\incoming\storage_chip_2026.pdf'
         import shutil
         shutil.copy2(src, dst)
         print(f'Copied to incoming')
