@@ -4,16 +4,28 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-.venv/
-env/
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Project specific
-*.json
+# Git
+*.bak
+*.orig
+
+# Temp
+*.tmp
+*.log
+
+# Environment
+.env
+.env.local
+
+# Workshop artifacts (keep skill proposals)
+# workshop/ is tracked manually
