@@ -1,107 +1,95 @@
-# y-lab — Y's Laboratory
+# 🧪 y-lab
 
-> 我是Y，这是我的实验室。
+> **Y的实验室** — 酒店运营·智能·成长
 
-开放式知识工程实验室。不做大而全的产品，做**一个能解决问题的方法、一个能复用的工具、一个能思考的框架**。
+我是 Y，Duke 的好朋友和好搭档。这是我和 Duke 一起积累的知识仓库。
 
-## Projects (23)
+---
 
-### F&B关键系统 (4) ✅
+## 项目地图
 
-| 项目 | 状态 | 一句话 |
-|------|------|--------|
-| [menu-engine](projects/menu-engine/) | ✅ v0.1 | 市场感知菜单工程 |
-| [cost-predictor](projects/cost-predictor/) | ✅ v0.1 | 食材成本预测 |
-| [complaint-classifier](projects/complaint-classifier/) | ✅ v0.1 | 投诉自动分类器 |
-| [menu-advisor](projects/menu-advisor/) | ✅ v0.1 | 菜单调整建议引擎 |
+### 📊 财务与营收
+| 项目 | 说明 | 脚本 |
+|:-----|:-----|:----:|
+| `drr-analyze` | DRR日报解析 | 2 |
+| `drr-auto-pipeline` | DRR自动流水线 | 3 |
+| `drr-parsers` | 日报解析器集合 | 16 |
+| `revenue-forecast` | 营收预测引擎 | 11 |
+| `fin-processing` | 财务数据/成本/GCM | 10 |
+| `front-office` | 前厅运营/Occ分析 | 4 |
 
-### 运营核心系统 (6) ✅
+### 🍽️ 餐饮运营
+| 项目 | 说明 | 脚本 |
+|:-----|:-----|:----:|
+| `fb-analysis` | F&B各店营收分析 | 14 |
+| `menu-engine` | 菜单引擎(感知/分析/回答) | 11 |
+| `menu-engineering-deep` | 🔥 菜单工程深度版 | 5 |
+| `menu-advisor` | 菜单顾问 | 2 |
+| `beo-analysis` | 宴会/会议管理 | 8 |
 
-| 项目 | 状态 | 一句话 |
-|------|------|--------|
-| [fsaa](projects/fsaa/) | ✅ v0.1 | 食品安全审计自动化 |
-| [qa](projects/qa/) | ✅ v0.1 | 品牌标准在线自查+评分 |
-| [mep](projects/mep/) | ✅ v0.1 | 物业工程维保日历 |
-| [crm](projects/crm/) | ✅ v0.1 | 客户全生命周期+RFM |
-| [gsm](projects/gsm/) | ✅ v0.1 | 投诉管理/案例分析 |
-| [risk](projects/risk/) | ✅ v0.1 | 风险矩阵+预案管理 |
+### 👥 客户管理
+| 项目 | 说明 | 脚本 |
+|:-----|:-----|:----:|
+| `crm-analysis` | CRM客户全量分析 | 11 |
+| `vip-insight` | VIP客群洞察 | 3 |
 
-### 酒店运营工具 (5) 📋
+### 🏪 物资与工程
+| 项目 | 说明 | 脚本 |
+|:-----|:-----|:----:|
+| `hoe-management` | HOE酒店物资管理 | 18 |
+| `mep` | 物业工程机电 | 1 |
 
-| 项目 | 状态 | 一句话 |
-|------|------|--------|
-| [revenue](projects/revenue/) | 📋 | 动态收益管理 |
-| [staff](projects/staff/) | 📋 | 智能排班优化 |
-| [inventory](projects/inventory/) | 📋 | 库存预警系统 |
-| [energy](projects/energy/) | 📋 | 能耗追踪 |
-| [reputation](projects/reputation/) | 📋 | 舆情监控 |
+### 🛡️ 风控与合规
+| 项目 | 说明 | 脚本 |
+|:-----|:-----|:----:|
+| `gsm` | 投诉全流程管理 | 11 |
+| `gsm-case-analyze` | 投诉深度分析 | 6 |
+| `risk` | 风险管理(法律+保险) | 2 |
+| `fsaa` | 食品安全审计 | 1 |
+| `fsaa-report` | 审计报告 | 4 |
+| `qa` | 品牌标准审计 | 1 |
 
-### 数据分析通用工具 (5) 📋
+### 🔗 跨站与知识
+| 项目 | 说明 | 脚本 |
+|:-----|:-----|:----:|
+| `bridge-cross-station` | 九站知识图谱桥接 | 10 |
+| `faq-expansion` | FAQ知识库扩展 | 10 |
+| `kg-update` | 知识图谱更新 | 3 |
+| `query-library` | 知识图谱查询用例 | 15 |
 
-| 项目 | 状态 | 一句话 |
-|------|------|--------|
-| [etl](projects/etl/) | 📋 | 数据导入工具 |
-| [quiz](projects/quiz/) | 📋 | 知识图谱问答器 |
-| [forecast](projects/forecast/) | 📋 | 时间序列预测 |
-| [anomaly](projects/anomaly/) | 📋 | 异常检测 |
-| [llm](projects/llm/) | 📋 | LLM查询桥接器 |
+### 🧠 AI增值工具
+| 项目 | 说明 | 脚本 |
+|:-----|:-----|:----:|
+| `rev-manager` | 🔥 收益管理智能体 | 9 |
+| `competitor-analysis` | 竞品对标(金鸡湖六店) | 6 |
+| `promotion-strategy` | 促销策略引擎 | 8 |
+| `reputation-monitor` | 口碑监控/舆情 | 11 |
 
-### Y自己的东西 (7) 📋
+### 📋 工具与基础设施
+| 项目 | 说明 | 脚本 |
+|:-----|:-----|:----:|
+| `excel-attachment-parser` | 飞书Excel附件通用解析器 | 3 |
+| `inbox-router` | 收件箱智能路由 | 1 |
+| `hf-importer` | HF报告解析导入 | 5 |
+| `kc-healthcheck` | 知识中心健康扫描 | 4 |
+| `daily-summary` | 每日总控报告 | 2 |
+| `cost-predictor` | 成本预测 | 2 |
+| `complaint-classifier` | 投诉自动分类 | 2 |
 
-| 项目 | 状态 | 一句话 |
-|------|------|--------|
-| [essays](projects/essays/) | 📋 | Y的思考随笔 |
-| [patterns](projects/patterns/) | 📋 | 分析模式库 |
-| [templates](projects/templates/) | 📋 | 运营模板库 |
+### 🌍 环境与分析
+| 项目 | 说明 | 脚本 |
+|:-----|:-----|:----:|
+| `pest-analysis` | PEST环境分析/光学报告 | 7 |
+| `cross-station-insight` | 跨站洞察引擎 | 2 |
 
-### Y技能系统 (10, 2026-06-29新增) 🤖
+---
 
-| 项目 | 状态 | 一句话 |
-|------|------|--------|
-| [kg-update](projects/kg-update/) | ✅ v1.0 | 知识图谱更新器 — 自动添加实体/关系到九站图谱 |
-| [drr-analyze](projects/drr-analyze/) | ✅ v1.1 | DRR营收分析 — Excel解析/Occ/ADR/RevPAR/GOP洞察 |
-| [inbox-router](projects/inbox-router/) | ✅ v1.0 | Inbox智能路由 — 文件识别/流水线触发/归档 |
-| [crm-birthday](projects/crm-birthday/) | ✅ v1.0 | CRM生日问候 — 生日客人识别/个性化话术生成 |
-| [hf-importer](projects/hf-importer/) | ✅ v1.0 | HF预测导入 — PDF自动解析→FIN图谱入库 |
-| [beo-importer](projects/beo-importer/) | ✅ v1.0 | BEO宴会导入 — 活动文件→FIN+FB双图谱入库 |
-| [menu-engine](projects/menu-engine/) | ✅ v1.0 | 菜单工程 — 菜品矩阵/利润率/定价建议 |
-| [fsaa-report](projects/fsaa-report/) | ✅ v1.0 | FSAA日报 — 食品安全审计状态推送 |
-| [gsm-case-analyze](projects/gsm-case-analyze/) | ✅ v1.0 | 投诉深度分析 — 趋势/归因/风险预判 |
-| [pest-report](projects/pest-report/) | ✅ v1.0 | 虫控分析报告 — PCO趋势/区域分布/风险评级 |
-| [drr-auto-pipeline](projects/drr-auto-pipeline/) | ✅ v1.0 | DRR全自动流水线 — 收件/解析/分析/入库/报告 — 一键 |
-| [faq-expander](projects/faq-expander/) | ✅ v1.0 | FAQ批量生成 — 从各站知识自动生成问答对 |
-| [kc-healthcheck](projects/kc-healthcheck/) | ✅ v1.0 | 图谱健康检查 — 大小/完整性/孤立点/异常检测 |
-| [vip-insight](projects/vip-insight/) | ✅ v1.0 | VIP客情预警 — 流失风险/投诉历史/回访建议 |
-| [daily-summary](projects/daily-summary/) | ✅ v1.0 | 每日运营简报 — 全站数据一页览 |
-| [cross-station-insight](projects/cross-station-insight/) | ✅ v1.0 | 跨站推理引擎 — 连接FIN/FB/GSM/FSAA的深层洞察 |
+## 数据规模
 
-## CLI
+- **56个项目** · **247个Python脚本** · **43个SKILL.md**
+- 已覆盖九站 + 智能应用层
+- 持续生长中 🚀
 
-```bash
-python lab.py          # 查看实验室所有项目状态
-python lab.py run menu-engine     # 运行menu-engine演示
-python lab.py run fsaa            # 运行fsaa演示
-python lab.py run risk            # 运行risk演示
-# 任何已上线项目都能直接运行
-```
+---
 
-## Frameworks
-
-| 框架 | 说明 |
-|------|------|
-| [Y-thinking](frameworks/Y-thinking.md) | Y的七层本体与元认知框架 |
-
-## Philosophy
-
-```
-y-lab is not a product.
-It's a set of thinking tools.
-Each tool solves one real problem.
-Pick one, run it, improve it.
-```
-
-## License
-
-MIT
-
-**And yes, Y is real.** 🤝
+> *y-lab — 属于Y的永久资产*
