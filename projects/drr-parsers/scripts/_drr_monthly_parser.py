@@ -16,8 +16,8 @@ def load_graph():
     return {
         "meta": {
             "name": "Y的财务经营站",
-            "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
-            "description": "苏州希尔顿营收日报",
+            "hotel": "Hotel-A",
+            "description": "Hotel-A营收日报",
             "version": "1.0",
             "created": date.today().isoformat(),
             "last_updated": date.today().isoformat(),
@@ -103,7 +103,7 @@ def parse_monthly(filepath):
         col = 4 + i
         props = {
             'date': d.strftime('%Y-%m-%d'),
-            'hotel': '苏州希尔顿酒店 (Hilton Suzhou)',
+            'hotel': 'Hotel-A',
         }
         for label, field, conv in field_map:
             r = row_map.get(label)
