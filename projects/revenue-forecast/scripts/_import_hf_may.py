@@ -1,4 +1,4 @@
-"""Import 5�?HF v7 (History & Forecast) data into FIN graph (entities/relationships format)"""
+"""Import 5æœ?HF v7 (History & Forecast) data into FIN graph (entities/relationships format)"""
 import json, shutil, sys
 sys.stdout.reconfigure(encoding='utf-8')
 from pathlib import Path
@@ -7,7 +7,7 @@ FIN_GRAPH = Path(r"C:\Users\Y\.openclaw\workspace\knowledge_center\fin_graph.jso
 BACKUP = Path(r"C:\Users\Y\.openclaw\workspace\knowledge_center\backup_20260510_hf_may_v7.json")
 FIN_README = Path(r"C:\Users\Y\.openclaw\workspace\knowledge_center\_FIN_README.md")
 
-# ── Data from PDF extracted 2026-05-10 ──
+# â”€â”€ Data from PDF extracted 2026-05-10 â”€â”€
 # Fields: day, dow, total_occ, arr, comp, hu, ded_indiv, nd_indiv, ded_grp, nd_grp,
 #         occ_pct, rev, adr, dep, du, noshow, ooo, alc
 DAYS = [
@@ -46,7 +46,7 @@ DAYS = [
     (31, "Sun", 200, 31, 0, 2, 95, 0, 105, 0, 36.80, 103772.51, 524.10, 49, 0, 2, 2, 224),
 ]
 
-# ── Load existing graph ──
+# â”€â”€ Load existing graph â”€â”€
 with open(FIN_GRAPH, "r", encoding="utf-8") as f:
     graph = json.load(f)
 
@@ -59,9 +59,9 @@ meta["updated"] = "2026-05-10"
 
 # Backup
 shutil.copy(FIN_GRAPH, BACKUP)
-print(f"�?Backup saved to {BACKUP}")
+print(f"âœ?Backup saved to {BACKUP}")
 
-# ── Report ID ──
+# â”€â”€ Report ID â”€â”€
 REPORT_ID = "report_5_7_HF"
 exists = any(e["id"] == REPORT_ID for e in entities)
 
@@ -80,7 +80,7 @@ if not exists:
         "date": "2026-05-10",
         "properties": {
             "report_label": "5.7_HF",
-            "hotel": "Hilton Suzhou",
+            "hotel": "Hotel-A",
             "header_date": "2026-05-10",
             "filter_from": "2026-05-01",
             "filter_to": "2026-05-31",
@@ -105,9 +105,9 @@ if not exists:
         "hotel_name": None,
         "period": "2026-05"
     })
-    print(f"�?Created {REPORT_ID} (v7 HF report)")
+    print(f"âœ?Created {REPORT_ID} (v7 HF report)")
 else:
-    print(f"ℹ️  {REPORT_ID} already exists, updating")
+    print(f"â„¹ï¸  {REPORT_ID} already exists, updating")
     for e in entities:
         if e["id"] == REPORT_ID:
             e["properties"]["history_occ_pct"] = 71.82
@@ -118,7 +118,7 @@ else:
             e["properties"]["imported_at"] = "2026-05-10"
             break
 
-# ── Create daily entities ──
+# â”€â”€ Create daily entities â”€â”€
 created = 0
 updated = 0
 for d in DAYS:
@@ -181,12 +181,12 @@ for d in DAYS:
             "target": REPORT_ID
         })
 
-# ── Link to FIN_YEAR_2026 ──
+# â”€â”€ Link to FIN_YEAR_2026 â”€â”€
 FIN_YEAR = "FIN_YEAR_2026"
 if not exists_entity(FIN_YEAR):
     entities.append({
         "id": FIN_YEAR,
-        "name": "2026年财务年�?,
+        "name": "2026å¹´è´¢åŠ¡å¹´åº?,
         "type": "fin_year",
         "date": "2026",
         "properties": {"year": 2026}
@@ -204,7 +204,7 @@ if not exists_rel(rel_report_to_year):
         "target": FIN_YEAR
     })
 
-# ── Link to previous 5.8_DRR report ──
+# â”€â”€ Link to previous 5.8_DRR report â”€â”€
 OLD_REPORT = "report_5_8_DRR"
 if exists_entity(OLD_REPORT):
     rel_compare = f"REL_{REPORT_ID}_updated_from_{OLD_REPORT}"
@@ -218,24 +218,24 @@ if exists_entity(OLD_REPORT):
             "source": REPORT_ID,
             "target": OLD_REPORT
         })
-        print(f"�?Linked to previous report: {OLD_REPORT}")
+        print(f"âœ?Linked to previous report: {OLD_REPORT}")
 
-# ── Save ──
+# â”€â”€ Save â”€â”€
 with open(FIN_GRAPH, "w", encoding="utf-8") as f:
     json.dump(graph, f, ensure_ascii=False, indent=2)
 
-# ── Update README ──
+# â”€â”€ Update README â”€â”€
 print(f"\n{'='*50}")
-print(f"📊 FIN Graph Update Complete")
+print(f"ðŸ“Š FIN Graph Update Complete")
 print(f"{'='*50}")
 print(f"  Report: {REPORT_ID} (History & Forecast v7)")
 print(f"  Entities: {len(entities)} (+{created} new, {updated} updated)")
 print(f"  Relationships: {len(relationships)}")
 print(f"  Version: {meta['version']} (was 5.1)")
-print(f"\n📋 Data Summary:")
-print(f"  History (5/1-5/8): 71.82% Occ / ¥2,338,957 Rev / ¥756.70 ADR")
-print(f"  Forecast (5/9-5/31): 39.79% Occ / ¥2,917,230 Rev / ¥592.57 ADR")
-print(f"  Total May: 48.05% Occ / ¥5,256,186 Rev / ¥655.88 ADR")
-print(f"\n🔗 Now linked to: {FIN_YEAR}")
+print(f"\nðŸ“‹ Data Summary:")
+print(f"  History (5/1-5/8): 71.82% Occ / Â¥2,338,957 Rev / Â¥756.70 ADR")
+print(f"  Forecast (5/9-5/31): 39.79% Occ / Â¥2,917,230 Rev / Â¥592.57 ADR")
+print(f"  Total May: 48.05% Occ / Â¥5,256,186 Rev / Â¥655.88 ADR")
+print(f"\nðŸ”— Now linked to: {FIN_YEAR}")
 if exists_entity(OLD_REPORT):
     print(f"   Previous: {OLD_REPORT} (comparison edge added)")
