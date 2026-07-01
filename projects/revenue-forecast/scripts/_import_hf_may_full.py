@@ -104,7 +104,7 @@ else:
     new_edges = []
     
     # 找到酒店节点
-    hotel_node = [n for n in nodes if "Suzhou" in n.get("id","") or "hilton" in n.get("label","").lower() or "希尔顿" in str(n.get("label",""))]
+    hotel_node = [n for n in nodes if "City-X" in n.get("id","") or "hilton" in n.get("label","").lower() or "希尔顿" in str(n.get("label",""))]
     hotel_id = hotel_node[0]["id"] if hotel_node else "hotel_hilton_suzhou"
     
     # 找到May月节点
@@ -136,7 +136,7 @@ else:
             "source": nid,
             "target": hotel_id,
             "type": "belongs_to_hotel",
-            "label": f"{d[:10]} belongs to Hilton Suzhou"
+            "label": f"{d[:10]} belongs to Hotel-A"
         })
         
         # 如果有月节点就链接
