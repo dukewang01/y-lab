@@ -18,7 +18,7 @@ with open(FP, 'r', encoding='utf-8') as f:
 entities = g['entities']
 
 # ---- Step 2: Data from H&F 6.10 PDF (extracted 2026-06-11) ----
-# Generated: 2026-06-10 19:55 | Hotel: Hilton Suzhou | Source: Oracle Reports
+# Generated: 2026-06-10 19:55 | Hotel: Hotel-A | Source: Oracle Reports
 
 HISTORY_DAYS = [
     # date, dow, arr, occ, comp, hu, deduct_indiv, nondeduct_indiv, deduct_group, nondeduct_group, occ_pct, rev, adr, dep, du, ns, ooo, chl
