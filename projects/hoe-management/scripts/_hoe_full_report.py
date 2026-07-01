@@ -17,7 +17,7 @@ fa_items = [e for e in es if e.get('type') == 'fixed_asset_item']
 fa_depts = [e for e in es if e.get('type') == 'fixed_asset_dept']
 
 print('=' * 70)
-print('  🏨 苏州希尔顿酒店 — 餐饮HOE全资产报告')
+print('  🏨 Hotel-A — 餐饮HOE全资产报告')
 print('  2026-05-14 15:56')
 print('=' * 70)
 
