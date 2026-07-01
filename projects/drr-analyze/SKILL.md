@@ -109,3 +109,36 @@ report = {
 4. **YTD trend** â€?Cumulative gaps vs annual targets
 5. **F&B outlier** â€?Any outlet significantly under/over budget
 6. **Anomaly** â€?Health club >Â¥30k (annual fee entry), laundry spike, BEER=0
+
+
+---
+
+## Variant: Meal-Period DRR (Monthly Horizontal Layout)
+
+Some DRR files use a horizontal monthly layout instead of the vertical Actual sheet.
+Each month is a separate sheet with daily columns across.
+
+### Sheet Layout
+- Each sheet = one month (named e.g. 202601, 202602, ...)
+- Row 3: daily dates (col E onwards)
+- After daily columns: Total | (blank) | Owner Budget | Budget Per Day | MTD Budget | VS Budget | Last Year | VS LY | ...
+
+### Column Map (verified)
+| Index | Content | Note |
+|:-----:|:--------|:-----|
+| 3 | Row Label | e.g. ROOM SOLD |
+| 4 | Day 1 | First day of month |
+| 4+N-1 | Day N | Last day |
+| 4+N | Monthly Total | |
+| 4+N+2 | Owner Budget | Monthly target |
+
+N = days in month.
+
+### Key Rows
+Room: 5(SOLD), 25(OCC%), 26(REVPAR), 27(ARR), 56(ROOMS REV)
+F&B: 92(COVERS), 124(AVG CHECK), 161(FOOD REV), 173(BEV REV), 180(FB REV), 192(TOTAL REV)
+
+### Meal Period Revenue Rows
+132 Breakfast(11101), 133 Lunch(11101), 134 Dinner(11101), 135 Brunch(11101)
+137 Lunch(11102), 138 Dinner(11102), 139 Brunch(11102), 142 Dinner(11104)
+127 Breakfast(11161), 129 Lunch(11161), 130 Dinner(11161), 128 Coffee Break
