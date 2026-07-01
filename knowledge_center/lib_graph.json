@@ -1,6 +1,6 @@
 {
   "meta": {
-    "name": "希尔顿酒店图书馆",
+    "name": "[HOTEL_NAME]图书馆",
     "abbr": "Lib",
     "version": "v3.6",
     "created": "2026-04-30",
@@ -459,7 +459,7 @@
       "category": "自我提升/思维",
       "status": "已读",
       "rating": 4.0,
-      "notes": "暗示→惯常行为→奖赏→信念。理解员工操作习惯的形成和改变，设计更好的SOP落地方式。",
+      "notes": "暗示→惯常行为→奖赏→信念。[相关员工]操作习惯的形成和改变，设计更好的SOP落地方式。",
       "subtitle": "",
       "reason": "SOP落地的行为学基础",
       "tags": [
@@ -2263,7 +2263,7 @@
     },
     {
       "id": "LIB_0132",
-      "title": "《调动员工积极性的七个关键》",
+      "title": "《[相关员工]积极性的七个关键》",
       "author_names": "稻盛和夫",
       "category": "管理/领导力",
       "status": "想读",
@@ -2276,7 +2276,7 @@
       "source_file": "workspace/笔记_世界管理学圣经18册.md",
       "label": "LIB_0132",
       "type": "book",
-      "name": "《调动员工积极性的七个关键》"
+      "name": "《[相关员工]积极性的七个关键》"
     },
     {
       "id": "LIB_0133",
@@ -2638,7 +2638,7 @@
         "行动",
         "思维方式"
       ],
-      "notes": "日本麦肯锡人士佃秀昭著，151页。核心：从麦肯锡员工到喜剧演员的转型经历。主题：速断·速决·速动。为好奇心、勇气、行动的思维方式。三个专题+结语。PDF源文件可用。",
+      "notes": "日本麦肯锡人士佃秀昭著，151页。核心：[相关员工]到喜剧演员的转型经历。主题：速断·速决·速动。为好奇心、勇气、行动的思维方式。三个专题+结语。PDF源文件可用。",
       "source_file": "media/inbound/麦肯锡决断力.pdf",
       "label": "LIB_0151",
       "type": "book",
@@ -2681,7 +2681,7 @@
         "MECE",
         "逻辑树"
       ],
-      "notes": "名和高司著，342页/220千字，浙江人民出版社2020年5月。三部分15章。第一部分8章：咨询基本方法(问题解决/设定课题/构建假设/影响力/建构力/MECE+逻辑树/分析/战略故事)。第二部分：大前研一瞬移大脑/IQ+EQ+JQ/系统性思考/非线性思考。第三部分：超咨询(想成为咨询顾问/想超越咨询/想解决社会课题)。PDF源文件可用。",
+      "notes": "名和高司著，342页/220千字，浙江人民出版社2020年5月。三部分15章。第一部分8章：咨询基本方法(问题解决/设定课题/构建假设/影响力/建构力/MECE+逻辑树/分析/战略故事)。第二部分：大前研一瞬移大脑/IQ+EQ+JQ/系统性思考/非线性思考。第三部分：超咨询(想[相关顾问]/想超越咨询/想解决社会课题)。PDF源文件可用。",
       "source_file": "media/inbound/麦肯锡波士顿解决问题方法和创造价值技巧.pdf",
       "label": "LIB_0153",
       "type": "book",
@@ -2891,7 +2891,7 @@
         "习惯",
         "赤羽雄二"
       ],
-      "notes": "赤羽雄二著，182页，北京时代华文书局2017年。4章40个习惯：明确传达工作流程→积极策动员工→让员工成长→提升自我。PDF源文件可用。",
+      "notes": "赤羽雄二著，182页，北京时代华文书局2017年。4章40个习惯：明确传达工作流程→[相关员工]→让员工成长→提升自我。PDF源文件可用。",
       "source_file": "media/inbound/麦肯锡商务技巧_赤羽雄二.pdf",
       "label": "LIB_0163",
       "type": "book",
@@ -3243,20 +3243,20 @@
     {
       "id": "DOC_HILTON_BS_CHINA_2026",
       "type": "reference_doc",
-      "name": "Hilton Hotels Brand Standards China 2026",
-      "name_cn": "希尔顿酒店集团品牌标准-中国 2026年版",
+      "name": "[HOTEL_BRAND] Hotels Brand Standards China 2026",
+      "name_cn": "[HOTEL_NAME]集团品牌标准-中国 2026年版",
       "properties": {
         "effective_date": "2026-01-05",
         "total_pages": 729,
         "file": "media/inbound/Hilton_BS_China_2026.pdf",
         "file_size_bytes": 25904308,
         "alt_version": "Hilton_BS_China_2026_v2.pdf (7.3MB, same content)",
-        "brand": "希尔顿 (Hilton)",
+        "brand": "希尔顿 ([HOTEL_BRAND])",
         "region": "中国",
         "language": "中英双语",
         "source": "希尔顿集团官方品牌标准文档",
         "import_date": "2026-06-07",
-        "description": "希尔顿酒店集团品牌标准2026年版中国区全本，涵盖100-2500全Section标准"
+        "description": "[HOTEL_NAME]集团品牌标准2026年版中国区全本，涵盖100-2500全Section标准"
       }
     },
     {
@@ -3280,10 +3280,10 @@
     {
       "id": "HILTON_SEC_100",
       "type": "reference_extract",
-      "name": "Hilton SEC_100: THE BRAND EXPERIENCE",
+      "name": "[HOTEL_BRAND] SEC_100: THE BRAND EXPERIENCE",
       "name_cn": "希尔顿 SEC_100: 品牌体验",
       "properties": {
-        "brand": "Hilton",
+        "brand": "[HOTEL_BRAND]",
         "section": "SEC_100",
         "effective_date": "2026-01-05",
         "doc_ref": "DOC_HILTON_BS_CHINA_2026"
@@ -3292,10 +3292,10 @@
     {
       "id": "HILTON_SEC_200",
       "type": "reference_extract",
-      "name": "Hilton SEC_200: GUEST SERVICES",
+      "name": "[HOTEL_BRAND] SEC_200: GUEST SERVICES",
       "name_cn": "希尔顿 SEC_200: 宾客服务",
       "properties": {
-        "brand": "Hilton",
+        "brand": "[HOTEL_BRAND]",
         "section": "SEC_200",
         "effective_date": "2026-01-05",
         "doc_ref": "DOC_HILTON_BS_CHINA_2026"
@@ -3304,10 +3304,10 @@
     {
       "id": "HILTON_SEC_300",
       "type": "reference_extract",
-      "name": "Hilton SEC_300: GUEST ROOM AND BATHROOM",
+      "name": "[HOTEL_BRAND] SEC_300: GUEST ROOM AND BATHROOM",
       "name_cn": "希尔顿 SEC_300: 客房和浴室",
       "properties": {
-        "brand": "Hilton",
+        "brand": "[HOTEL_BRAND]",
         "section": "SEC_300",
         "effective_date": "2026-01-05",
         "doc_ref": "DOC_HILTON_BS_CHINA_2026"
@@ -3316,10 +3316,10 @@
     {
       "id": "HILTON_SEC_400",
       "type": "reference_extract",
-      "name": "Hilton SEC_400: FOOD AND BEVERAGE",
+      "name": "[HOTEL_BRAND] SEC_400: FOOD AND BEVERAGE",
       "name_cn": "希尔顿 SEC_400: 食品和饮料",
       "properties": {
-        "brand": "Hilton",
+        "brand": "[HOTEL_BRAND]",
         "section": "SEC_400",
         "effective_date": "2026-01-05",
         "doc_ref": "DOC_HILTON_BS_CHINA_2026"
@@ -3328,10 +3328,10 @@
     {
       "id": "HILTON_SEC_500",
       "type": "reference_extract",
-      "name": "Hilton SEC_500: WELLNESS, RECREATION AND ENTERTAINMENT",
+      "name": "[HOTEL_BRAND] SEC_500: WELLNESS, RECREATION AND ENTERTAINMENT",
       "name_cn": "希尔顿 SEC_500: 健康、娱乐和休闲",
       "properties": {
-        "brand": "Hilton",
+        "brand": "[HOTEL_BRAND]",
         "section": "SEC_500",
         "effective_date": "2026-01-05",
         "doc_ref": "DOC_HILTON_BS_CHINA_2026"
@@ -3340,10 +3340,10 @@
     {
       "id": "HILTON_SEC_600",
       "type": "reference_extract",
-      "name": "Hilton SEC_600: MEETINGS AND EVENTS",
+      "name": "[HOTEL_BRAND] SEC_600: MEETINGS AND EVENTS",
       "name_cn": "希尔顿 SEC_600: 会议和活动",
       "properties": {
-        "brand": "Hilton",
+        "brand": "[HOTEL_BRAND]",
         "section": "SEC_600",
         "effective_date": "2026-01-05",
         "doc_ref": "DOC_HILTON_BS_CHINA_2026"
@@ -3352,10 +3352,10 @@
     {
       "id": "HILTON_SEC_700",
       "type": "reference_extract",
-      "name": "Hilton SEC_700: BUILDING OPERATIONS AND INFRASTRUCTURE",
+      "name": "[HOTEL_BRAND] SEC_700: BUILDING OPERATIONS AND INFRASTRUCTURE",
       "name_cn": "希尔顿 SEC_700: 建筑运营和基础设施",
       "properties": {
-        "brand": "Hilton",
+        "brand": "[HOTEL_BRAND]",
         "section": "SEC_700",
         "effective_date": "2026-01-05",
         "doc_ref": "DOC_HILTON_BS_CHINA_2026"
@@ -3364,10 +3364,10 @@
     {
       "id": "HILTON_SEC_800",
       "type": "reference_extract",
-      "name": "Hilton SEC_800: IDENTITY, SALES AND DISTRIBUTION",
+      "name": "[HOTEL_BRAND] SEC_800: IDENTITY, SALES AND DISTRIBUTION",
       "name_cn": "希尔顿 SEC_800: 身份、销售和分销",
       "properties": {
-        "brand": "Hilton",
+        "brand": "[HOTEL_BRAND]",
         "section": "SEC_800",
         "effective_date": "2026-01-05",
         "doc_ref": "DOC_HILTON_BS_CHINA_2026"
@@ -3376,10 +3376,10 @@
     {
       "id": "HILTON_SEC_900",
       "type": "reference_extract",
-      "name": "Hilton SEC_900: ACCESSIBILITY, SAFETY AND SECURITY",
+      "name": "[HOTEL_BRAND] SEC_900: ACCESSIBILITY, SAFETY AND SECURITY",
       "name_cn": "希尔顿 SEC_900: 可及性、安全性和安保",
       "properties": {
-        "brand": "Hilton",
+        "brand": "[HOTEL_BRAND]",
         "section": "SEC_900",
         "effective_date": "2026-01-05",
         "doc_ref": "DOC_HILTON_BS_CHINA_2026"
@@ -3388,10 +3388,10 @@
     {
       "id": "HILTON_SEC_1200",
       "type": "reference_extract",
-      "name": "Hilton SEC_1200: ALL-INCLUSIVE FOOD AND BEVERAGE",
+      "name": "[HOTEL_BRAND] SEC_1200: ALL-INCLUSIVE FOOD AND BEVERAGE",
       "name_cn": "希尔顿 SEC_1200: 全包式餐饮服务",
       "properties": {
-        "brand": "Hilton",
+        "brand": "[HOTEL_BRAND]",
         "section": "SEC_1200",
         "effective_date": "2026-01-05",
         "doc_ref": "DOC_HILTON_BS_CHINA_2026"
@@ -3400,10 +3400,10 @@
     {
       "id": "HILTON_SEC_2500",
       "type": "reference_extract",
-      "name": "Hilton SEC_2500: DESIGN, CONSTRUCTION & RENOVATION",
+      "name": "[HOTEL_BRAND] SEC_2500: DESIGN, CONSTRUCTION & RENOVATION",
       "name_cn": "希尔顿 SEC_2500: 设计、施工和翻新",
       "properties": {
-        "brand": "Hilton",
+        "brand": "[HOTEL_BRAND]",
         "section": "SEC_2500",
         "effective_date": "2026-01-05",
         "doc_ref": "DOC_HILTON_BS_CHINA_2026"
@@ -3547,7 +3547,7 @@
       "name": "品牌标准源文件参考-2026.06",
       "name_cn": "品牌标准源文件参考-2026.06",
       "properties": {
-        "description": "Hilton BS(2026)和DoubleTree BS(2025)源文件已入库LIB站，可作为QA站品牌标准核对参考",
+        "description": "[HOTEL_BRAND] BS(2026)和DoubleTree BS(2025)源文件已入库LIB站，可作为QA站品牌标准核对参考",
         "qa_station_ref": "knowledge_center/qa_graph.json",
         "note": "QA站现有标准为已提取版本，LIB站源文件为官方全本。需要对齐时以LIB站源文件为基准"
       }
@@ -3555,14 +3555,14 @@
     {
       "id": "DOC_HILTON_BS_CHANGES_2026",
       "type": "reference_doc",
-      "name": "Summary of Changes - Hilton Hotels 2026",
+      "name": "Summary of Changes - [HOTEL_BRAND] Hotels 2026",
       "name_cn": "希尔顿品牌标准变更摘要2026版",
       "properties": {
         "effective_date": "2026-01-05",
         "total_entries": 148,
         "file": "media/inbound/Summary_of_Changes_Hilton_2026.xlsx",
         "file_size_bytes": 60888,
-        "brand": "希尔顿 (Hilton)",
+        "brand": "希尔顿 ([HOTEL_BRAND])",
         "region": "中国 / 全球",
         "language": "英文",
         "source": "希尔顿集团官方品牌标准变更摘要",
@@ -3573,14 +3573,14 @@
     {
       "id": "DOC_HILTON_QA_CHECKLIST_2026",
       "type": "reference_doc",
-      "name": "Hilton QA Documentation Checklist 2026",
+      "name": "[HOTEL_BRAND] QA Documentation Checklist 2026",
       "name_cn": "希尔顿QA检查清单2026版",
       "properties": {
         "revision_date": "2026-02-01",
         "total_pages": 6,
         "file": "media/inbound/Hilton_QA_Checklist.pdf",
         "file_size_bytes": 448978,
-        "brand": "希尔顿 (Hilton)",
+        "brand": "希尔顿 ([HOTEL_BRAND])",
         "region": "全球",
         "language": "英文",
         "source": "希尔顿集团官方QA审计检查清单",
@@ -3732,7 +3732,7 @@
       "category": "绿色能源/碳中和",
       "status": "已读",
       "rating": 4.5,
-      "notes": "十四五成绩：碳排放降46%/单位产值能耗降17%/售出产品能效提升38.9%/240款产品碳足迹评估/CDP连续三年A级/国内首家SBTi双重审验。十五五目标：PUE1.15以下/绿电20%+/赋能减排5000万吨。数绿融合方法论+SMART双碳治理模型+FAMU碳税核算模型+碳硅一体数字员工(Co-Claw)。",
+      "notes": "十四五成绩：碳排放降46%/单位产值能耗降17%/售出产品能效提升38.9%/240款产品碳足迹评估/CDP连续三年A级/国内首家SBTi双重审验。十五五目标：PUE1.15以下/绿电20%+/赋能减排5000万吨。数绿融合方法论+SMART双碳治理模型+FAMU碳税核算模型+碳硅[相关员工](Co-Claw)。",
       "tags": [
         "中兴",
         "绿色",
@@ -3894,7 +3894,7 @@
       "properties": {
         "适用范围": "年货/粽子/月饼/中秋礼盒等时令品",
         "创建日期": "2026-06-13",
-        "数据来源": "苏州希尔顿酒店2026年粽子销售",
+        "数据来源": "苏州[HOTEL_NAME]2026年粽子销售",
         "成本": "69.17元/盒（不含税）",
         "市场标价": "258元/盒",
         "员工底价": "120元/盒",

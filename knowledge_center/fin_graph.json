@@ -20,7 +20,7 @@
       "year": 2026,
       "month_label": "2026-01",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 1,
         "year": 2026,
         "budget_occupied_rooms": 11565,
@@ -64,7 +64,7 @@
       "year": 2026,
       "month_label": "2026-02",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 2,
         "year": 2026,
         "budget_occupied_rooms": 8566,
@@ -108,7 +108,7 @@
       "year": 2026,
       "month_label": "2026-03",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 3,
         "year": 2026,
         "budget_occupied_rooms": 11763,
@@ -152,7 +152,7 @@
       "year": 2026,
       "month_label": "2026-04",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 4,
         "year": 2026,
         "budget_occupied_rooms": 12657,
@@ -197,7 +197,7 @@
       "year": 2026,
       "month_label": "2026-05",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 5,
         "year": 2026,
         "budget_occupied_rooms": 14450,
@@ -242,7 +242,7 @@
       "year": 2026,
       "month_label": "2026-06",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 6,
         "year": 2026,
         "budget_occupied_rooms": 12530,
@@ -287,7 +287,7 @@
       "year": 2026,
       "month_label": "2026-07",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 7,
         "year": 2026,
         "budget_occupied_rooms": 13885,
@@ -332,7 +332,7 @@
       "year": 2026,
       "month_label": "2026-08",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 8,
         "year": 2026,
         "budget_occupied_rooms": 14540,
@@ -377,7 +377,7 @@
       "year": 2026,
       "month_label": "2026-09",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 9,
         "year": 2026,
         "budget_occupied_rooms": 12150,
@@ -422,7 +422,7 @@
       "year": 2026,
       "month_label": "2026-10",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 10,
         "year": 2026,
         "budget_occupied_rooms": 13898,
@@ -467,7 +467,7 @@
       "year": 2026,
       "month_label": "2026-11",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 11,
         "year": 2026,
         "budget_occupied_rooms": 14280,
@@ -512,7 +512,7 @@
       "year": 2026,
       "month_label": "2026-12",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 12,
         "year": 2026,
         "budget_occupied_rooms": 11840,
@@ -555,7 +555,7 @@
       "name": "2026年度预算",
       "year": 2026,
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "year": 2026,
         "budget_occupied_rooms": 152124,
         "budget_available_rooms": 196370,
@@ -595,7 +595,7 @@
       "year": 2026,
       "month_label": "2026-02",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "type": "FB_COST",
         "month": 2,
         "year": 2026,
@@ -831,7 +831,7 @@
       "year": 2026,
       "month_label": "2026-01",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "type": "FB_COST",
         "month": 1,
         "year": 2026,
@@ -978,7 +978,7 @@
       "year": 2026,
       "month_label": "2026-03",
       "properties": {
-        "hotel": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "total_food_revenue_gross": 2075799.17,
         "total_food_revenue_net": 2075799.17,
         "total_food_cost_gross": 751939.44,
@@ -1285,7 +1285,7 @@
         "op_margin_pct": 27.2,
         "budget_rev_var_pct": 0,
         "budget_op_var_pct": 0,
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "occ_pct": 70.53,
         "adr": 617.51,
         "revpar": 435.53,
@@ -1314,7 +1314,7 @@
       "year": 2026,
       "month": 1,
       "properties": {
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "month": 1,
         "year": 2026,
         "period": "MTD",
@@ -1366,7 +1366,7 @@
       "year": 2026,
       "month": 2,
       "properties": {
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "month": 2,
         "year": 2026,
         "period": "MTD",
@@ -1418,7 +1418,7 @@
       "year": 2026,
       "month": 0,
       "properties": {
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "period": "YTD_2M",
         "year": 2026,
         "source": "Owner Meeting 2026.01-02",
@@ -1469,7 +1469,7 @@
       "year": 2026,
       "month": 3,
       "properties": {
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "month": 3,
         "year": 2026,
         "period": "MTD",
@@ -1521,7 +1521,7 @@
       "year": 2026,
       "month": 0,
       "properties": {
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "period": "YTD_Q1",
         "year": 2026,
         "source": "Owner Meeting 2026.03",
@@ -1573,7 +1573,7 @@
       "month": 1,
       "period": "2026-01",
       "properties": {
-        "hotel_name": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel_name": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 1,
         "year": 2026,
         "period": "2026-01",
@@ -1655,7 +1655,7 @@
       "month": 2,
       "period": "2026-02",
       "properties": {
-        "hotel_name": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel_name": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "month": 2,
         "year": 2026,
         "period": "2026-02",
@@ -1737,7 +1737,7 @@
       "month": 0,
       "period": "2026-01-02",
       "properties": {
-        "hotel_name": "苏州希尔顿酒店 (Hilton Suzhou)",
+        "hotel_name": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
         "year": 2026,
         "period": "YTD_01-02",
         "source": "业主会议报告(2026.01_02)",
@@ -2103,8 +2103,8 @@
     },
     {
       "id": "HLT_FAMILY_DINNER_5MAY",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "家庭自助晚餐(2大1小)",
       "price": 566,
       "category": "自助餐",
@@ -2124,8 +2124,8 @@
     },
     {
       "id": "HLT_SICHUAN_BUFFET_5MAY",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "川香美食+湖鲜季主题自助晚餐",
       "price": 288,
       "category": "自助餐",
@@ -2144,8 +2144,8 @@
     },
     {
       "id": "HLT_YUXI_LUNCH_2P",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "御玺双人午市套餐",
       "price": 268,
       "category": "中餐套餐",
@@ -2164,8 +2164,8 @@
     },
     {
       "id": "HLT_YUXI_DUCK_2P",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "御玺双人烤鸭套餐",
       "price": 388,
       "category": "中餐套餐",
@@ -2184,8 +2184,8 @@
     },
     {
       "id": "HLT_YUXI_CHEF_4P",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "主厨精选四人套餐",
       "price": 688,
       "category": "中餐套餐",
@@ -2204,8 +2204,8 @@
     },
     {
       "id": "HLT_YUXI_CHEF_6P",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "主厨精选六人套餐",
       "price": 1088,
       "category": "中餐套餐",
@@ -2224,8 +2224,8 @@
     },
     {
       "id": "HLT_YUXI_SIGN_10P",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "御玺招牌十人套餐",
       "price": 2588,
       "category": "中餐套餐",
@@ -2244,8 +2244,8 @@
     },
     {
       "id": "HLT_YUXI_LUX_10P",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "御玺豪华十人套餐",
       "price": 3588,
       "category": "中餐套餐",
@@ -2264,8 +2264,8 @@
     },
     {
       "id": "HLT_BACIO_2P",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "BACIO双人套餐",
       "price": 388,
       "category": "意式套餐",
@@ -2282,8 +2282,8 @@
     },
     {
       "id": "HLT_BACIO_STEAK_2P",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "BACIO主厨臻选双人牛排套餐",
       "price": 798,
       "category": "意式套餐",
@@ -2300,8 +2300,8 @@
     },
     {
       "id": "HLT_BACIO_FAMILY",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "BACIO家庭套餐",
       "price": 588,
       "category": "意式套餐",
@@ -2318,8 +2318,8 @@
     },
     {
       "id": "HLT_BACIO_TOMAHAWK",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "战斧牛排3-4人套餐",
       "price": 1688,
       "category": "意式套餐",
@@ -2336,8 +2336,8 @@
     },
     {
       "id": "HLT_SPRING_TEA",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "花间茶食春季双人下午茶",
       "price": 198,
       "category": "下午茶",
@@ -2356,8 +2356,8 @@
     },
     {
       "id": "HLT_DRAGONBOAT_GIFT",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "苏希江南粽子礼盒",
       "price": 258,
       "category": "礼盒",
@@ -2375,8 +2375,8 @@
     },
     {
       "id": "HLT_WEDDING_BASIC",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "婚宴臻选 - 基础套餐",
       "price": 4288,
       "category": "婚宴",
@@ -2394,8 +2394,8 @@
     },
     {
       "id": "HLT_WEDDING_FULL",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "婚宴臻选 - 进阶套餐(5088-9288档)",
       "price": 5088,
       "category": "婚宴",
@@ -2414,8 +2414,8 @@
     },
     {
       "id": "HLT_PICNIC_BOX",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "苏希江南-踏春露营野餐盒",
       "price": 168,
       "category": "外带套餐",
@@ -2433,8 +2433,8 @@
     },
     {
       "id": "HLT_SICHUAN_FOOD_FEST",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "SHU适江南·四川美食月(御玺中餐)",
       "price": 68,
       "category": "美食节",
@@ -2452,8 +2452,8 @@
     },
     {
       "id": "HLT_SICHUAN_MERCH_BAG",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "苏苏希希环游记-成都站帆布袋",
       "price": 28,
       "category": "文创",
@@ -2470,8 +2470,8 @@
     },
     {
       "id": "HLT_SICHUAN_MERCH_BEAR",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "苏苏希希环游记-成都站定制小熊",
       "price": 68,
       "category": "文创",
@@ -2488,8 +2488,8 @@
     },
     {
       "id": "HLT_SICHUAN_BUFFET_APR",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "四川美食月-川香湖鲜主题自助晚餐(4月)",
       "price": 288,
       "category": "自助餐",
@@ -2507,8 +2507,8 @@
     },
     {
       "id": "HLT_SWIM_ANNUAL",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "恒温泳池年卡",
       "price": 0,
       "category": "健身",
@@ -2524,8 +2524,8 @@
     },
     {
       "id": "HLT_SWIM_SEASON",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "恒温泳池季卡",
       "price": 0,
       "category": "健身",
@@ -2540,8 +2540,8 @@
     },
     {
       "id": "HLT_SWIM_SINGLE",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "单次游泳券",
       "price": 0,
       "category": "健身",
@@ -2556,8 +2556,8 @@
     },
     {
       "id": "HLT_YOGA_CLASS",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "瑜伽课",
       "price": 0,
       "category": "健身",
@@ -2572,8 +2572,8 @@
     },
     {
       "id": "HLT_BEDDING_CLEAN",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "床品四件套专业清洗",
       "price": 0,
       "category": "生活服务",
@@ -2587,8 +2587,8 @@
     },
     {
       "id": "HLT_VALENTINE_BACIO",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "情人节BACIO双人套餐",
       "price": 1314,
       "category": "意式套餐",
@@ -2606,8 +2606,8 @@
     },
     {
       "id": "HLT_VALENTINE_BUFFET",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "情人节主题自助晚餐",
       "price": 308,
       "category": "自助餐",
@@ -2624,8 +2624,8 @@
     },
     {
       "id": "HLT_NYEV_EVE_BUFFET",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "除夕自助晚餐(单人)",
       "price": 365,
       "category": "自助餐",
@@ -2642,8 +2642,8 @@
     },
     {
       "id": "HLT_NYEV_EVE_FAMILY",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "除夕家庭自助晚餐",
       "price": 888,
       "category": "自助餐",
@@ -2660,8 +2660,8 @@
     },
     {
       "id": "HLT_BACIO_SINGLE",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "BACIO单人套餐",
       "price": 198,
       "category": "意式套餐",
@@ -2677,8 +2677,8 @@
     },
     {
       "id": "HLT_WEEKDAY_LUNCH_68",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "工作日轻食午餐(主食)",
       "price": 68,
       "category": "轻食",
@@ -2695,8 +2695,8 @@
     },
     {
       "id": "HLT_WEEKDAY_LUNCH_SALAD",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "工作日轻食沙拉吧(加购)",
       "price": 18,
       "category": "轻食",
@@ -2713,8 +2713,8 @@
     },
     {
       "id": "HLT_YUXI_SINGLE",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "御玺位上精致单人套餐",
       "price": 199,
       "category": "中餐套餐",
@@ -2732,8 +2732,8 @@
     },
     {
       "id": "HLT_YUXI_DUCK_4P",
-      "hotel": "苏州希尔顿酒店",
-      "hotel_short": "Hilton",
+      "hotel": "苏州[HOTEL_NAME]",
+      "hotel_short": "[HOTEL_BRAND]",
       "product": "御玺4-6人烤鸭套餐",
       "price": 1088,
       "category": "中餐套餐",
@@ -3243,9 +3243,9 @@
     },
     {
       "id": "HLT_HOTEL_HILTON",
-      "name": "苏州希尔顿酒店 (Hilton Suzhou)",
+      "name": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
       "type": "promotion_product",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "label": "希尔顿"
     },
     {
@@ -3255,7 +3255,7 @@
       "properties": {
         "description": "希尔顿荣誉客会会员等级分为：普通会员、银会籍（精英）、金会籍（精英）、钻石会籍（精英）。银会籍、金会籍和钻石会籍都是精英会籍。",
         "category": "membership_tiers",
-        "tags": "hilton,honors,silver,gold,diamond",
+        "tags": "[hotel_brand],honors,silver,gold,diamond",
         "source": "Hilton_Honors_Training_PPT"
       }
     },
@@ -3266,7 +3266,7 @@
       "properties": {
         "description": "金会籍会员和钻石会籍会员每年入住房晚达到一定数量方可获得该会籍：金会籍需要40晚，钻石会籍需要60晚。",
         "category": "membership_requirements",
-        "tags": "hilton,honors,nights,gold,diamond",
+        "tags": "[hotel_brand],honors,nights,gold,diamond",
         "source": "Hilton_Honors_Training_PPT"
       }
     },
@@ -3277,7 +3277,7 @@
       "properties": {
         "description": "精英会籍积分奖励倍率：银会籍1.2倍，金会籍1.8倍，钻石会籍2倍积分奖励。所有符合条件的客房费用均可获得积分。",
         "category": "points_multiplier",
-        "tags": "hilton,honors,points,silver,gold,diamond,bonus",
+        "tags": "[hotel_brand],honors,points,silver,gold,diamond,bonus",
         "source": "Hilton_Honors_Training_PPT"
       }
     },
@@ -3288,7 +3288,7 @@
       "properties": {
         "description": "会员积分可用于兑换免费房晚、贵宾体验、精美商品以及租车服务。积分可凭任意符合条件的账单消费或客房费用赚取。",
         "category": "points_usage",
-        "tags": "hilton,honors,points,redemption",
+        "tags": "[hotel_brand],honors,points,redemption",
         "source": "Hilton_Honors_Training_PPT"
       }
     },
@@ -3299,7 +3299,7 @@
       "properties": {
         "description": "希尔顿承诺No Blackout Dates（无不可兑换日期），会员可使用积分在任何有可用客房的情况下兑换免费房晚。积分越多，免费房晚越多。",
         "category": "redemption_policy",
-        "tags": "hilton,honors,free_night,blackout",
+        "tags": "[hotel_brand],honors,free_night,blackout",
         "source": "Hilton_Honors_Training_PPT"
       }
     },
@@ -3310,7 +3310,7 @@
       "properties": {
         "description": "荣誉客会会员消费更高，比非会员宾客多出三倍。会员再次入住的概率比非会员宾客高出九倍。92%的会员通过成本最低的分销渠道进行预订。",
         "category": "member_value",
-        "tags": "hilton,honors,spend,loyalty",
+        "tags": "[hotel_brand],honors,spend,loyalty",
         "source": "Hilton_Honors_Training_PPT"
       }
     },
@@ -3321,7 +3321,7 @@
       "properties": {
         "description": "注册加入希尔顿荣誉客会无需支付任何费用（注册免费），费时数秒即可完成。注册即享缤纷礼遇。",
         "category": "membership_cost",
-        "tags": "hilton,honors,free,registration",
+        "tags": "[hotel_brand],honors,free,registration",
         "source": "Hilton_Honors_Training_PPT"
       }
     },
@@ -3330,9 +3330,9 @@
       "type": "FINANCIAL",
       "name": "HH折扣价保证",
       "properties": {
-        "description": "希尔顿荣誉客会会员通过直订渠道（酒店现场、呼叫中心、Hilton.com、HH App）预订可享专属折扣优惠和折扣价保证。",
+        "description": "希尔顿荣誉客会会员通过直订渠道（酒店现场、呼叫中心、[HOTEL_BRAND].com、HH App）预订可享专属折扣优惠和折扣价保证。",
         "category": "discount_benefits",
-        "tags": "hilton,honors,discount,direct",
+        "tags": "[hotel_brand],honors,discount,direct",
         "source": "Hilton_Honors_Training_PPT"
       }
     },
@@ -3341,9 +3341,9 @@
       "type": "FINANCIAL",
       "name": "HH酒店数量及覆盖",
       "properties": {
-        "description": "希尔顿荣誉客会会员可在入住全球逾7,000家希尔顿酒店时免费乐享各种专属礼遇。",
+        "description": "希尔顿荣誉客会会员可在入住全球逾7,000家[HOTEL_NAME]时免费乐享各种专属礼遇。",
         "category": "coverage",
-        "tags": "hilton,honors,hotels,global",
+        "tags": "[hotel_brand],honors,hotels,global",
         "source": "Hilton_Honors_Training_PPT"
       }
     },
@@ -3354,7 +3354,7 @@
       "properties": {
         "description": "团队成员可通过Go Hilton计划享受各种特权，包括自动晋升至银会籍、高折扣亲友价等。",
         "category": "employee_benefits",
-        "tags": "hilton,honors,go_hilton,team_member",
+        "tags": "[hotel_brand],honors,go_hilton,team_member",
         "source": "Hilton_Honors_Training_PPT"
       }
     },
@@ -3373,7 +3373,7 @@
       "category": "financial_value",
       "description": "希尔顿荣誉客会积分估值：每100分≈0.4-0.6美元，实际价值取决于兑换方式。最佳兑换方式为Standard Room Reward住宿。",
       "valuation": "0.4-0.6美分/分",
-      "source": "Hilton Honors培训PPT 2026",
+      "source": "[HOTEL_BRAND] Honors培训PPT 2026",
       "type": "fin_kpi"
     },
     {
@@ -3438,7 +3438,7 @@
       "category": "tag",
       "label": "HH财务专题标签",
       "type": "fin_tag",
-      "description": "希尔顿荣誉客会(Hilton Honors)财务专题标签，集合所有HH积分估值/兑换/成本/LTV相关知识点"
+      "description": "希尔顿荣誉客会([HOTEL_BRAND] Honors)财务专题标签，集合所有HH积分估值/兑换/成本/LTV相关知识点"
     },
     {
       "id": "DATE_2026_04_09",
@@ -4224,7 +4224,7 @@
       "id": "OUTLET_BAZAAR",
       "name": "美食市集 Bazaar",
       "type": "outlet",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "description": "B1美食市集",
         "location": "B1 传媒广场市集",
@@ -4238,7 +4238,7 @@
       "id": "BAZAAR_2021_08_10",
       "name": "美食市集 2021-08-10",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-08-10",
         "guests": 3445,
@@ -4251,7 +4251,7 @@
       "id": "BAZAAR_2021_08_17",
       "name": "美食市集 2021-08-17",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-08-17",
         "guests": 5486,
@@ -4264,7 +4264,7 @@
       "id": "BAZAAR_2021_08_24",
       "name": "美食市集 2021-08-24",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-08-24",
         "guests": 6478,
@@ -4277,7 +4277,7 @@
       "id": "BAZAAR_2021_08_31",
       "name": "美食市集 2021-08-31",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-08-31",
         "guests": 6066,
@@ -4290,7 +4290,7 @@
       "id": "BAZAAR_2021_09_14",
       "name": "美食市集 2021-09-14",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-09-14",
         "guests": 5392,
@@ -4303,7 +4303,7 @@
       "id": "BAZAAR_2021_10_12",
       "name": "美食市集 2021-10-12",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-10-12",
         "guests": 4784,
@@ -4316,7 +4316,7 @@
       "id": "BAZAAR_2021_10_19",
       "name": "美食市集 2021-10-19",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-10-19",
         "guests": 5000,
@@ -4329,7 +4329,7 @@
       "id": "BAZAAR_2021_10_26",
       "name": "美食市集 2021-10-26",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-10-26",
         "guests": 4848,
@@ -4342,7 +4342,7 @@
       "id": "BAZAAR_2021_11_02",
       "name": "美食市集 2021-11-02",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-11-02",
         "guests": 4544,
@@ -4355,7 +4355,7 @@
       "id": "BAZAAR_2021_11_09",
       "name": "美食市集 2021-11-09",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-11-09",
         "guests": 5180,
@@ -4368,7 +4368,7 @@
       "id": "BAZAAR_2021_11_16",
       "name": "美食市集 2021-11-16",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-11-16",
         "guests": 5030,
@@ -4381,7 +4381,7 @@
       "id": "BAZAAR_2021_11_23",
       "name": "美食市集 2021-11-23",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-11-23",
         "guests": 5795,
@@ -4394,7 +4394,7 @@
       "id": "BAZAAR_2021_11_30",
       "name": "美食市集 2021-11-30",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-11-30",
         "guests": 5580,
@@ -4407,7 +4407,7 @@
       "id": "BAZAAR_2021_12_07",
       "name": "美食市集 2021-12-07",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-12-07",
         "guests": 4724,
@@ -4420,7 +4420,7 @@
       "id": "BAZAAR_2021_12_14",
       "name": "美食市集 2021-12-14",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-12-14",
         "guests": 6180,
@@ -4433,7 +4433,7 @@
       "id": "BAZAAR_2021_12_21",
       "name": "美食市集 2021-12-21",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-12-21",
         "guests": 6416,
@@ -4446,7 +4446,7 @@
       "id": "BAZAAR_2021_12_28",
       "name": "美食市集 2021-12-28",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2021-12-28",
         "guests": 5484,
@@ -4459,7 +4459,7 @@
       "id": "BAZAAR_2022_01_04",
       "name": "美食市集 2022-01-04",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2022-01-04",
         "guests": 5096,
@@ -4472,7 +4472,7 @@
       "id": "BAZAAR_2022_07_05",
       "name": "美食市集 2022-07-05",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2022-07-05",
         "guests": 5215,
@@ -4485,7 +4485,7 @@
       "id": "BAZAAR_MONTH_2021_08",
       "name": "美食市集 2021-08",
       "type": "bazaar_monthly",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "month": "2021-08",
         "sessions": 4,
@@ -4499,7 +4499,7 @@
       "id": "BAZAAR_MONTH_2021_09",
       "name": "美食市集 2021-09",
       "type": "bazaar_monthly",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "month": "2021-09",
         "sessions": 1,
@@ -4513,7 +4513,7 @@
       "id": "BAZAAR_MONTH_2021_10",
       "name": "美食市集 2021-10",
       "type": "bazaar_monthly",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "month": "2021-10",
         "sessions": 3,
@@ -4527,7 +4527,7 @@
       "id": "BAZAAR_MONTH_2021_11",
       "name": "美食市集 2021-11",
       "type": "bazaar_monthly",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "month": "2021-11",
         "sessions": 5,
@@ -4541,7 +4541,7 @@
       "id": "BAZAAR_MONTH_2021_12",
       "name": "美食市集 2021-12",
       "type": "bazaar_monthly",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "month": "2021-12",
         "sessions": 4,
@@ -4555,7 +4555,7 @@
       "id": "BAZAAR_MONTH_2022_01",
       "name": "美食市集 2022-01",
       "type": "bazaar_monthly",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "month": "2022-01",
         "sessions": 1,
@@ -4569,7 +4569,7 @@
       "id": "BAZAAR_MONTH_2022_07",
       "name": "美食市集 2022-07",
       "type": "bazaar_monthly",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "month": "2022-07",
         "sessions": 1,
@@ -4583,7 +4583,7 @@
       "id": "BAZAAR_2023_04_04",
       "name": "美食市集 2023-04-04",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2023-04-04",
         "items": 22,
@@ -4603,7 +4603,7 @@
       "id": "BAZAAR_2022_11_15",
       "name": "美食市集 2022-11-15",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2022-11-15",
         "items": 26,
@@ -4616,7 +4616,7 @@
       "id": "BAZAAR_2022_11_22",
       "name": "美食市集 2022-11-22",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2022-11-22",
         "items": 30,
@@ -4629,7 +4629,7 @@
       "id": "BAZAAR_2022_11_29",
       "name": "美食市集 2022-11-29",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2022-11-29",
         "items": 32,
@@ -4642,7 +4642,7 @@
       "id": "BAZAAR_2022_12_06",
       "name": "美食市集 2022-12-06",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2022-12-06",
         "items": 39,
@@ -4655,7 +4655,7 @@
       "id": "BAZAAR_2022_12_13",
       "name": "美食市集 2022-12-13",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2022-12-13",
         "items": 40,
@@ -4668,7 +4668,7 @@
       "id": "BAZAAR_2023_03_28",
       "name": "美食市集 2023-03-28",
       "type": "bazaar_daily",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "date": "2023-03-28",
         "items": 31,
@@ -4683,7 +4683,7 @@
       "id": "BAZAAR_ITEM_生椰拿铁吐司",
       "name": "生椰拿铁吐司",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -4693,7 +4693,7 @@
       "id": "BAZAAR_ITEM_西米芋圆芒果露",
       "name": "西米芋圆芒果露",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -4703,7 +4703,7 @@
       "id": "BAZAAR_ITEM_手工寿司卷",
       "name": "手工寿司卷",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -4713,7 +4713,7 @@
       "id": "BAZAAR_ITEM_椰香水果河粉",
       "name": "椰香水果河粉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -4723,7 +4723,7 @@
       "id": "BAZAAR_ITEM_柠檬鸡爪",
       "name": "柠檬鸡爪",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -4733,7 +4733,7 @@
       "id": "BAZAAR_ITEM_桂花圣女果",
       "name": "桂花圣女果",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 25,
         "category": "未分类"
@@ -4743,7 +4743,7 @@
       "id": "BAZAAR_ITEM_法式杏仁吐司4片_份",
       "name": "法式杏仁吐司4片/份",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 25,
         "category": "未分类"
@@ -4753,7 +4753,7 @@
       "id": "BAZAAR_ITEM_时令冷面",
       "name": "时令冷面",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -4763,7 +4763,7 @@
       "id": "BAZAAR_ITEM_香糟基围虾",
       "name": "香糟基围虾",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 48,
         "category": "未分类"
@@ -4773,7 +4773,7 @@
       "id": "BAZAAR_ITEM_蒜香面包6个_份",
       "name": "蒜香面包6个/份",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 20,
         "category": "未分类"
@@ -4783,7 +4783,7 @@
       "id": "BAZAAR_ITEM_榴莲拿破仑",
       "name": "榴莲拿破仑",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -4793,7 +4793,7 @@
       "id": "BAZAAR_ITEM_芝心地瓜面包",
       "name": "芝心地瓜面包",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 20,
         "category": "未分类"
@@ -4803,7 +4803,7 @@
       "id": "BAZAAR_ITEM_芒果鳗鱼寿司卷6个_份",
       "name": "芒果鳗鱼寿司卷6个/份",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 35,
         "category": "未分类"
@@ -4813,7 +4813,7 @@
       "id": "BAZAAR_ITEM_鸡胸藜麦蔬菜意面沙拉",
       "name": "鸡胸藜麦蔬菜意面沙拉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -4823,7 +4823,7 @@
       "id": "BAZAAR_ITEM_豆豉小黄鱼",
       "name": "豆豉小黄鱼",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -4833,7 +4833,7 @@
       "id": "BAZAAR_ITEM_盐焗鸽蛋",
       "name": "盐焗鸽蛋",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 20,
         "category": "未分类"
@@ -4843,7 +4843,7 @@
       "id": "BAZAAR_ITEM_虎皮麻薯卷2个_份",
       "name": "虎皮麻薯卷2个/份",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 22,
         "category": "未分类"
@@ -4853,7 +4853,7 @@
       "id": "BAZAAR_ITEM_微信支付宝现金51人_2087元_广电卡预估5人_250_元",
       "name": "微信&支付宝&现金51人（2087元）广电卡预估5人（250）元",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 0,
         "category": "未分类"
@@ -4863,7 +4863,7 @@
       "id": "BAZAAR_ITEM_单项产品售出率",
       "name": "单项产品售出率",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 0,
         "category": "未分类"
@@ -4873,7 +4873,7 @@
       "id": "BAZAAR_ITEM_提拉米苏巴斯克",
       "name": "提拉米苏巴斯克",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -4883,7 +4883,7 @@
       "id": "BAZAAR_ITEM_椰米布丁",
       "name": "椰米布丁",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -4893,7 +4893,7 @@
       "id": "BAZAAR_ITEM_日式炸猪排三明治",
       "name": "日式炸猪排三明治",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 35,
         "category": "未分类"
@@ -4903,7 +4903,7 @@
       "id": "BAZAAR_ITEM_吞拿鱼芝士寿司卷",
       "name": "吞拿鱼芝士寿司卷",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 35,
         "category": "未分类"
@@ -4913,7 +4913,7 @@
       "id": "BAZAAR_ITEM_100全麦面包",
       "name": "100%全麦面包",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 20,
         "category": "未分类"
@@ -4923,7 +4923,7 @@
       "id": "BAZAAR_ITEM_手撕千层吐司",
       "name": "手撕千层吐司",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 35,
         "category": "未分类"
@@ -4933,7 +4933,7 @@
       "id": "BAZAAR_ITEM_冰山熔岩",
       "name": "冰山熔岩",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -4943,7 +4943,7 @@
       "id": "BAZAAR_ITEM_琵琶鸭",
       "name": "琵琶鸭",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 68,
         "category": "未分类"
@@ -4953,7 +4953,7 @@
       "id": "BAZAAR_ITEM_蒜香小香包",
       "name": "蒜香小香包",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 20,
         "category": "未分类"
@@ -4963,7 +4963,7 @@
       "id": "BAZAAR_ITEM_冰乳酪司康",
       "name": "冰乳酪司康",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -4973,7 +4973,7 @@
       "id": "BAZAAR_ITEM_黑麦吐司",
       "name": "黑麦吐司",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 20,
         "category": "未分类"
@@ -4983,7 +4983,7 @@
       "id": "BAZAAR_ITEM_双味玛芬",
       "name": "双味玛芬",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -4993,7 +4993,7 @@
       "id": "BAZAAR_ITEM_杨枝甘露",
       "name": "杨枝甘露",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5003,7 +5003,7 @@
       "id": "BAZAAR_ITEM_椰香冰冰粉",
       "name": "椰香冰冰粉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5013,7 +5013,7 @@
       "id": "BAZAAR_ITEM_焦糖咸奶油",
       "name": "焦糖咸奶油",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5023,7 +5023,7 @@
       "id": "BAZAAR_ITEM_烟熏三文鱼沙拉",
       "name": "烟熏三文鱼沙拉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5033,7 +5033,7 @@
       "id": "BAZAAR_ITEM_金枪鱼卡真虾三明治",
       "name": "金枪鱼卡真虾三明治",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5043,7 +5043,7 @@
       "id": "BAZAAR_ITEM_芒果鳗鱼寿司卷",
       "name": "芒果鳗鱼寿司卷",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5053,7 +5053,7 @@
       "id": "BAZAAR_ITEM_蟹柳滑蛋三明治",
       "name": "蟹柳滑蛋三明治",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5063,7 +5063,7 @@
       "id": "BAZAAR_ITEM_泰式牛肉轻食沙拉",
       "name": "泰式牛肉轻食沙拉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5073,7 +5073,7 @@
       "id": "BAZAAR_ITEM_盐焗鸡爪",
       "name": "盐焗鸡爪",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5083,7 +5083,7 @@
       "id": "BAZAAR_ITEM_沙姜猪手",
       "name": "沙姜猪手",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 48,
         "category": "未分类"
@@ -5093,7 +5093,7 @@
       "id": "BAZAAR_ITEM_糟双拼鸡爪毛豆",
       "name": "糟双拼鸡爪毛豆",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5103,7 +5103,7 @@
       "id": "BAZAAR_ITEM_藜麦肉松吐司",
       "name": "藜麦肉松吐司",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 32,
         "category": "未分类"
@@ -5113,7 +5113,7 @@
       "id": "BAZAAR_ITEM_法式杏仁吐司",
       "name": "法式杏仁吐司",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5123,7 +5123,7 @@
       "id": "BAZAAR_ITEM_生椰拿铁盒子蛋糕_新品_",
       "name": "生椰拿铁盒子蛋糕（新品）",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5133,7 +5133,7 @@
       "id": "BAZAAR_ITEM_桂花雪梨银耳冻",
       "name": "桂花雪梨银耳冻",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 20,
         "category": "未分类"
@@ -5143,7 +5143,7 @@
       "id": "BAZAAR_ITEM_糟双鲜",
       "name": "糟双鲜",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5153,7 +5153,7 @@
       "id": "BAZAAR_ITEM_蜜汁叉烧",
       "name": "蜜汁叉烧",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 48,
         "category": "未分类"
@@ -5163,7 +5163,7 @@
       "id": "BAZAAR_ITEM_牛肉酱",
       "name": "牛肉酱",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 48,
         "category": "未分类"
@@ -5173,7 +5173,7 @@
       "id": "BAZAAR_ITEM_绿豆汤",
       "name": "绿豆汤",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 18,
         "category": "未分类"
@@ -5183,7 +5183,7 @@
       "id": "BAZAAR_ITEM_全麦吐司",
       "name": "全麦吐司",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 25,
         "category": "未分类"
@@ -5193,7 +5193,7 @@
       "id": "BAZAAR_ITEM_可可香蕉面包",
       "name": "可可香蕉面包",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5203,7 +5203,7 @@
       "id": "BAZAAR_ITEM_椰汁西米露",
       "name": "椰汁西米露",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 22,
         "category": "未分类"
@@ -5213,7 +5213,7 @@
       "id": "BAZAAR_ITEM_芒果盒子",
       "name": "芒果盒子",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 32,
         "category": "未分类"
@@ -5223,7 +5223,7 @@
       "id": "BAZAAR_ITEM_榴莲梦龙卷",
       "name": "榴莲梦龙卷",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -5233,7 +5233,7 @@
       "id": "BAZAAR_ITEM_粉色梦龙卷",
       "name": "粉色梦龙卷",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 25,
         "category": "未分类"
@@ -5243,7 +5243,7 @@
       "id": "BAZAAR_ITEM_抹茶梦龙卷",
       "name": "抹茶梦龙卷",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 25,
         "category": "未分类"
@@ -5253,7 +5253,7 @@
       "id": "BAZAAR_ITEM_巧克力梦龙卷",
       "name": "巧克力梦龙卷",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 25,
         "category": "未分类"
@@ -5263,7 +5263,7 @@
       "id": "BAZAAR_ITEM_粽子",
       "name": "粽子",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 188,
         "category": "未分类"
@@ -5273,7 +5273,7 @@
       "id": "BAZAAR_ITEM_冬阴功_半成品_",
       "name": "冬阴功（半成品）",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5283,7 +5283,7 @@
       "id": "BAZAAR_ITEM_火腿芝士三明治",
       "name": "火腿芝士三明治",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 18,
         "category": "未分类"
@@ -5293,7 +5293,7 @@
       "id": "BAZAAR_ITEM_手工加州卷寿司",
       "name": "手工加州卷寿司",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 18,
         "category": "未分类"
@@ -5303,7 +5303,7 @@
       "id": "BAZAAR_ITEM_牛油果鳗鱼卷寿司",
       "name": "牛油果鳗鱼卷寿司",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -5313,7 +5313,7 @@
       "id": "BAZAAR_ITEM_鸡胸意面蔬菜沙拉",
       "name": "鸡胸意面蔬菜沙拉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5323,7 +5323,7 @@
       "id": "BAZAAR_ITEM_糟鹅",
       "name": "糟鹅",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 48,
         "category": "未分类"
@@ -5333,7 +5333,7 @@
       "id": "BAZAAR_ITEM_冰镇小龙虾",
       "name": "冰镇小龙虾",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 78,
         "category": "未分类"
@@ -5343,7 +5343,7 @@
       "id": "BAZAAR_ITEM_柠檬鸡脚",
       "name": "柠檬鸡脚",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5353,7 +5353,7 @@
       "id": "BAZAAR_ITEM_禅城传统鸡仔饼",
       "name": "禅城传统鸡仔饼",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5363,7 +5363,7 @@
       "id": "BAZAAR_ITEM_盐焗鸡",
       "name": "盐焗鸡",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5373,7 +5373,7 @@
       "id": "BAZAAR_ITEM_广式烧鸭",
       "name": "广式烧鸭",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5383,7 +5383,7 @@
       "id": "BAZAAR_ITEM_牛排沙拉",
       "name": "牛排沙拉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 32,
         "category": "未分类"
@@ -5393,7 +5393,7 @@
       "id": "BAZAAR_ITEM_缤纷豆皮组合寿司",
       "name": "缤纷豆皮组合寿司",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5403,7 +5403,7 @@
       "id": "BAZAAR_ITEM_烤鸡排沙拉",
       "name": "烤鸡排沙拉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5413,7 +5413,7 @@
       "id": "BAZAAR_ITEM_斑斓椰香牛角包",
       "name": "斑斓椰香牛角包",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 12,
         "category": "未分类"
@@ -5423,7 +5423,7 @@
       "id": "BAZAAR_ITEM_蛋挞",
       "name": "蛋挞",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 10,
         "category": "未分类"
@@ -5433,7 +5433,7 @@
       "id": "BAZAAR_ITEM_芋泥芝芝咸蛋黄吐司",
       "name": "芋泥芝芝咸蛋黄吐司",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -5443,7 +5443,7 @@
       "id": "BAZAAR_ITEM_椰香芋泥波波",
       "name": "椰香芋泥波波",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 22,
         "category": "未分类"
@@ -5453,7 +5453,7 @@
       "id": "BAZAAR_ITEM_黑椒牛肉三明治",
       "name": "黑椒牛肉三明治",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5463,7 +5463,7 @@
       "id": "BAZAAR_ITEM_桂花牛轧糖",
       "name": "桂花牛轧糖",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -5473,7 +5473,7 @@
       "id": "BAZAAR_ITEM_蓝纹巴斯克",
       "name": "蓝纹巴斯克",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -5483,7 +5483,7 @@
       "id": "BAZAAR_ITEM_杏仁瓦片",
       "name": "杏仁瓦片",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 25,
         "category": "未分类"
@@ -5493,7 +5493,7 @@
       "id": "BAZAAR_ITEM_川香卤鸭头_3个装_",
       "name": "川香卤鸭头（3个装）",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 20,
         "category": "未分类"
@@ -5503,7 +5503,7 @@
       "id": "BAZAAR_ITEM_川香卤三件_鸭脖鸡蛋豆腐_",
       "name": "川香卤三件（鸭脖、鸡蛋、豆腐）",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 18,
         "category": "未分类"
@@ -5513,7 +5513,7 @@
       "id": "BAZAAR_ITEM_醉蟹",
       "name": "醉蟹",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 68,
         "category": "未分类"
@@ -5523,7 +5523,7 @@
       "id": "BAZAAR_ITEM_桂花山楂果",
       "name": "桂花山楂果",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5533,7 +5533,7 @@
       "id": "BAZAAR_ITEM_烧鸭",
       "name": "烧鸭",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 58,
         "category": "未分类"
@@ -5543,7 +5543,7 @@
       "id": "BAZAAR_ITEM_腌笃鲜米粉",
       "name": "腌笃鲜米粉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 35,
         "category": "未分类"
@@ -5553,7 +5553,7 @@
       "id": "BAZAAR_ITEM_藤椒猪手",
       "name": "藤椒猪手",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5563,7 +5563,7 @@
       "id": "BAZAAR_ITEM_叉烧",
       "name": "叉烧",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5573,7 +5573,7 @@
       "id": "BAZAAR_ITEM_烟熏三文鱼鸡蛋三明治",
       "name": "烟熏三文鱼鸡蛋三明治",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5583,7 +5583,7 @@
       "id": "BAZAAR_ITEM_微信支付宝55人_2052元_广电卡23人_901元_",
       "name": "微信&支付宝55人（2052元）广电卡23人（901元）",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 0,
         "category": "未分类"
@@ -5593,7 +5593,7 @@
       "id": "BAZAAR_ITEM_泰式龙虾片",
       "name": "泰式龙虾片",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 18,
         "category": "未分类"
@@ -5603,7 +5603,7 @@
       "id": "BAZAAR_ITEM_冬阴功海鲜汤米粉",
       "name": "冬阴功海鲜汤米粉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 35,
         "category": "未分类"
@@ -5613,7 +5613,7 @@
       "id": "BAZAAR_ITEM_墨西哥火腿沙拉卷",
       "name": "墨西哥火腿沙拉卷",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5623,7 +5623,7 @@
       "id": "BAZAAR_ITEM_油煎菜肉大馄饨",
       "name": "油煎菜肉大馄饨",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 18,
         "category": "未分类"
@@ -5633,7 +5633,7 @@
       "id": "BAZAAR_ITEM_咖喱皇鱼蛋",
       "name": "咖喱皇鱼蛋",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 15,
         "category": "未分类"
@@ -5643,7 +5643,7 @@
       "id": "BAZAAR_ITEM_寿司组合",
       "name": "寿司组合",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5653,7 +5653,7 @@
       "id": "BAZAAR_ITEM_圣诞火腿鸡蛋三明治",
       "name": "圣诞火腿鸡蛋三明治",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5663,7 +5663,7 @@
       "id": "BAZAAR_ITEM_碱水面包牛肉三明治",
       "name": "碱水面包牛肉三明治",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5673,7 +5673,7 @@
       "id": "BAZAAR_ITEM_素食主义沙拉",
       "name": "素食主义沙拉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 32,
         "category": "未分类"
@@ -5683,7 +5683,7 @@
       "id": "BAZAAR_ITEM_桂花糖藕",
       "name": "桂花糖藕",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 18,
         "category": "未分类"
@@ -5693,7 +5693,7 @@
       "id": "BAZAAR_ITEM_蒜香小面包",
       "name": "蒜香小面包",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 20,
         "category": "未分类"
@@ -5703,7 +5703,7 @@
       "id": "BAZAAR_ITEM_红豆碱水棒",
       "name": "红豆碱水棒",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 16,
         "category": "未分类"
@@ -5713,7 +5713,7 @@
       "id": "BAZAAR_ITEM_芋圆红糖鲜奶麻薯",
       "name": "芋圆红糖鲜奶麻薯",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 22,
         "category": "未分类"
@@ -5723,7 +5723,7 @@
       "id": "BAZAAR_ITEM_双味小贝",
       "name": "双味小贝",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -5733,7 +5733,7 @@
       "id": "BAZAAR_ITEM_芒果班戟",
       "name": "芒果班戟",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 36,
         "category": "未分类"
@@ -5743,7 +5743,7 @@
       "id": "BAZAAR_ITEM_泰式西米糕",
       "name": "泰式西米糕",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 15,
         "category": "未分类"
@@ -5753,7 +5753,7 @@
       "id": "BAZAAR_ITEM_绿豆糕",
       "name": "绿豆糕",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 24,
         "category": "未分类"
@@ -5763,7 +5763,7 @@
       "id": "BAZAAR_ITEM_雪球山楂果",
       "name": "雪球山楂果",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5773,7 +5773,7 @@
       "id": "BAZAAR_ITEM_麻辣小海鲜",
       "name": "麻辣小海鲜",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5783,7 +5783,7 @@
       "id": "BAZAAR_ITEM_豉油鸡爪",
       "name": "豉油鸡爪",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5793,7 +5793,7 @@
       "id": "BAZAAR_ITEM_芋泥咸蛋黄吐司",
       "name": "芋泥咸蛋黄吐司",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 32,
         "category": "未分类"
@@ -5803,7 +5803,7 @@
       "id": "BAZAAR_ITEM_巴斯克",
       "name": "巴斯克",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -5813,7 +5813,7 @@
       "id": "BAZAAR_ITEM_椰蓉南瓜糕",
       "name": "椰蓉南瓜糕",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -5823,7 +5823,7 @@
       "id": "BAZAAR_ITEM_桂花玛格丽特",
       "name": "桂花玛格丽特",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -5833,7 +5833,7 @@
       "id": "BAZAAR_ITEM_苹果丹麦酥",
       "name": "苹果丹麦酥",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 27,
         "category": "未分类"
@@ -5843,7 +5843,7 @@
       "id": "BAZAAR_ITEM_囗水鸡",
       "name": "囗水鸡",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5853,7 +5853,7 @@
       "id": "BAZAAR_ITEM_卤水大鸡爪",
       "name": "卤水大鸡爪",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -5863,7 +5863,7 @@
       "id": "BAZAAR_ITEM_提拉米苏",
       "name": "提拉米苏",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 35,
         "category": "未分类"
@@ -5873,7 +5873,7 @@
       "id": "BAZAAR_ITEM_榴莲泡芙",
       "name": "榴莲泡芙",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -5883,7 +5883,7 @@
       "id": "BAZAAR_ITEM_芝士烤地瓜",
       "name": "芝士烤地瓜",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 15,
         "category": "未分类"
@@ -5893,7 +5893,7 @@
       "id": "BAZAAR_ITEM_冰糖桂花银耳烤雪梨",
       "name": "冰糖桂花银耳烤雪梨",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 15,
         "category": "未分类"
@@ -5903,7 +5903,7 @@
       "id": "BAZAAR_ITEM_缤纷组合寿司",
       "name": "缤纷组合寿司",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5913,7 +5913,7 @@
       "id": "BAZAAR_ITEM_芝士爆浆鸡排",
       "name": "芝士爆浆鸡排",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 15,
         "category": "未分类"
@@ -5923,7 +5923,7 @@
       "id": "BAZAAR_ITEM_黄金小酥肉",
       "name": "黄金小酥肉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 15,
         "category": "未分类"
@@ -5933,7 +5933,7 @@
       "id": "BAZAAR_ITEM_圣诞玛芬纸杯蛋糕",
       "name": "圣诞玛芬纸杯蛋糕",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 48,
         "category": "未分类"
@@ -5943,7 +5943,7 @@
       "id": "BAZAAR_ITEM_巧克力乳酪包",
       "name": "巧克力乳酪包",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 22,
         "category": "未分类"
@@ -5953,7 +5953,7 @@
       "id": "BAZAAR_ITEM_碱水面包图林根三明治",
       "name": "碱水面包图林根三明治",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5963,7 +5963,7 @@
       "id": "BAZAAR_ITEM_苹果酥",
       "name": "苹果酥",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 27,
         "category": "未分类"
@@ -5973,7 +5973,7 @@
       "id": "BAZAAR_ITEM_巧克力玛芬",
       "name": "巧克力玛芬",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -5983,7 +5983,7 @@
       "id": "BAZAAR_ITEM_蟹肉鸡蛋芝士三明治",
       "name": "蟹肉鸡蛋芝士三明治",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -5993,7 +5993,7 @@
       "id": "BAZAAR_ITEM_红糖酒酿小圆子",
       "name": "红糖酒酿小圆子",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 24,
         "category": "未分类"
@@ -6003,7 +6003,7 @@
       "id": "BAZAAR_ITEM_厚蛋火腿蔬菜卷",
       "name": "厚蛋火腿蔬菜卷",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -6013,7 +6013,7 @@
       "id": "BAZAAR_ITEM_巧克力圣诞老人2615",
       "name": "巧克力圣诞老人26*15",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 185,
         "category": "未分类"
@@ -6023,7 +6023,7 @@
       "id": "BAZAAR_ITEM_巧克力圣诞铃铛",
       "name": "巧克力圣诞铃铛",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 115,
         "category": "未分类"
@@ -6033,7 +6033,7 @@
       "id": "BAZAAR_ITEM_巧克力圣诞老人222",
       "name": "巧克力圣诞老人22.2",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 410,
         "category": "未分类"
@@ -6043,7 +6043,7 @@
       "id": "BAZAAR_ITEM_巧克力圣诞鹿127",
       "name": "巧克力圣诞鹿12.7",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 110,
         "category": "未分类"
@@ -6053,7 +6053,7 @@
       "id": "BAZAAR_ITEM_巧克力圣诞雪人",
       "name": "巧克力圣诞雪人",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 60,
         "category": "未分类"
@@ -6063,7 +6063,7 @@
       "id": "BAZAAR_ITEM_巧克力圣诞树",
       "name": "巧克力圣诞树",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 90,
         "category": "未分类"
@@ -6073,7 +6073,7 @@
       "id": "BAZAAR_ITEM_榴莲班戟",
       "name": "榴莲班戟",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 36,
         "category": "未分类"
@@ -6083,7 +6083,7 @@
       "id": "BAZAAR_ITEM_桂花红豆红糖牛奶麻薯",
       "name": "桂花红豆红糖牛奶麻薯",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -6093,7 +6093,7 @@
       "id": "BAZAAR_ITEM_蔓越莓奶酥",
       "name": "蔓越莓奶酥",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -6103,7 +6103,7 @@
       "id": "BAZAAR_ITEM_圣诞糖霜饼干",
       "name": "圣诞糖霜饼干",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 20,
         "category": "未分类"
@@ -6113,7 +6113,7 @@
       "id": "BAZAAR_ITEM_圣诞姜饼屋",
       "name": "圣诞姜饼屋",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 98,
         "category": "未分类"
@@ -6123,7 +6123,7 @@
       "id": "BAZAAR_ITEM_夜排档炸猪排",
       "name": "夜排档炸猪排",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 15,
         "category": "未分类"
@@ -6133,7 +6133,7 @@
       "id": "BAZAAR_ITEM_培根厚蛋烧",
       "name": "培根厚蛋烧",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -6143,7 +6143,7 @@
       "id": "BAZAAR_ITEM_口水鸡",
       "name": "口水鸡",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -6153,7 +6153,7 @@
       "id": "BAZAAR_ITEM_碱水包图灵根三明治",
       "name": "碱水包图灵根三明治",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -6163,7 +6163,7 @@
       "id": "BAZAAR_ITEM_烟熏三文鱼三明治",
       "name": "烟熏三文鱼三明治",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -6173,7 +6173,7 @@
       "id": "BAZAAR_ITEM_咖啡蛋糕卷",
       "name": "咖啡蛋糕卷",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -6183,7 +6183,7 @@
       "id": "BAZAAR_ITEM_原味玛德琳",
       "name": "原味玛德琳",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -6193,7 +6193,7 @@
       "id": "BAZAAR_ITEM_红丝绒芝士饼干",
       "name": "红丝绒芝士饼干",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 36,
         "category": "未分类"
@@ -6203,7 +6203,7 @@
       "id": "BAZAAR_ITEM_抹茶爆浆蛋糕",
       "name": "抹茶爆浆蛋糕",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -6213,7 +6213,7 @@
       "id": "BAZAAR_ITEM_菠萝蒟蒻西米露",
       "name": "菠萝蒟蒻西米露",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 26,
         "category": "未分类"
@@ -6223,7 +6223,7 @@
       "id": "BAZAAR_ITEM_青团_马兰头_",
       "name": "青团（马兰头）",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 26,
         "category": "未分类"
@@ -6233,7 +6233,7 @@
       "id": "BAZAAR_ITEM_老婆饼",
       "name": "老婆饼",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 16,
         "category": "未分类"
@@ -6243,7 +6243,7 @@
       "id": "BAZAAR_ITEM_椒盐鸭头",
       "name": "椒盐鸭头",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -6253,7 +6253,7 @@
       "id": "BAZAAR_ITEM_咸煎饼",
       "name": "咸煎饼",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 16,
         "category": "未分类"
@@ -6263,7 +6263,7 @@
       "id": "BAZAAR_ITEM_手撕盐焗鸡",
       "name": "手撕盐焗鸡",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -6273,7 +6273,7 @@
       "id": "BAZAAR_ITEM_青麻小龙虾色拉",
       "name": "青麻小龙虾色拉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 32,
         "category": "未分类"
@@ -6283,7 +6283,7 @@
       "id": "BAZAAR_ITEM_鲜虾藜麦甜橙沙拉",
       "name": "鲜虾藜麦甜橙沙拉",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 35,
         "category": "未分类"
@@ -6293,7 +6293,7 @@
       "id": "BAZAAR_ITEM_核桃面包",
       "name": "核桃面包",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 28,
         "category": "未分类"
@@ -6303,7 +6303,7 @@
       "id": "BAZAAR_ITEM_莓莓蛋糕杯",
       "name": "莓莓蛋糕杯",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 25,
         "category": "未分类"
@@ -6313,7 +6313,7 @@
       "id": "BAZAAR_ITEM_芒果迷你毛巾卷",
       "name": "芒果迷你毛巾卷",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 35,
         "category": "未分类"
@@ -6323,7 +6323,7 @@
       "id": "BAZAAR_ITEM_青团",
       "name": "青团",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 26,
         "category": "未分类"
@@ -6333,7 +6333,7 @@
       "id": "BAZAAR_ITEM_白玉方糕",
       "name": "白玉方糕",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 30,
         "category": "未分类"
@@ -6343,7 +6343,7 @@
       "id": "BAZAAR_ITEM_核桃酥",
       "name": "核桃酥",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 16,
         "category": "未分类"
@@ -6353,7 +6353,7 @@
       "id": "BAZAAR_ITEM_春果子",
       "name": "春果子",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 16,
         "category": "未分类"
@@ -6363,7 +6363,7 @@
       "id": "BAZAAR_ITEM_卤水拼",
       "name": "卤水拼",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 38,
         "category": "未分类"
@@ -6373,7 +6373,7 @@
       "id": "BAZAAR_ITEM_其中美食商业机收入1741元____支付宝微信收入4126元",
       "name": "其中美食商业机收入：1741元    支付宝微信收入：4126元",
       "type": "bazaar_menu_item",
-      "hotel": "苏州希尔顿酒店",
+      "hotel": "苏州[HOTEL_NAME]",
       "properties": {
         "price": 0,
         "category": "未分类"
@@ -8451,7 +8451,7 @@
       "date": "2026-05-08",
       "properties": {
         "report_label": "5.8_DRR",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-05-08",
         "filter_from": "2026-05-01",
         "filter_to": "2026-05-31",
@@ -9081,7 +9081,7 @@
       "date": "2026-05-04",
       "properties": {
         "report_label": "5.4_DRR",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-05-04",
         "filter_from": "2026-05-01",
         "filter_to": "2026-05-31",
@@ -9841,7 +9841,7 @@
       "date": "2026-02-28",
       "properties": {
         "report_label": "2.28_pred",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-02-28",
         "filter_from": "2026-02-01",
         "filter_to": "2026-02-28",
@@ -9899,7 +9899,7 @@
       "date": "2026-04-02",
       "properties": {
         "report_label": "4.2_pred",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-04-02",
         "filter_from": "2026-04-01",
         "filter_to": "2026-04-30",
@@ -10685,7 +10685,7 @@
       "date": "2026-04-29",
       "properties": {
         "report_label": "_1_pred_Apr29",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-04-29",
         "filter_from": "2026-04-01",
         "filter_to": "2026-04-30",
@@ -10769,7 +10769,7 @@
       "date": "2026-03-31",
       "properties": {
         "report_label": "_1_pred_Mar31",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-03-31",
         "filter_from": "2026-03-01",
         "filter_to": "2026-03-31",
@@ -10827,7 +10827,7 @@
       "date": "2026-05-02",
       "properties": {
         "report_label": "_2_pred_May02",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-05-02",
         "filter_from": "2026-05-01",
         "filter_to": "2026-05-31",
@@ -11639,7 +11639,7 @@
       "date": "2026-05-03",
       "properties": {
         "report_label": "_3_pred_May03",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-05-03",
         "filter_from": "2026-05-01",
         "filter_to": "2026-05-31",
@@ -12425,7 +12425,7 @@
       "date": "2026-04-30",
       "properties": {
         "report_label": "_4_pred_Apr30",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-04-30",
         "filter_from": "2026-04-01",
         "filter_to": "2026-04-30",
@@ -12483,7 +12483,7 @@
       "date": "2026-01-31",
       "properties": {
         "report_label": "_4_pred_Jan31",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-01-31",
         "filter_from": "2026-01-01",
         "filter_to": "2026-01-31",
@@ -12541,7 +12541,7 @@
       "date": "2026-04-03",
       "properties": {
         "report_label": "4.3_pred",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-04-03",
         "filter_from": "2026-04-01",
         "filter_to": "2026-04-30",
@@ -13301,7 +13301,7 @@
       "date": "2026-05-06",
       "properties": {
         "report_label": "5.6_arch",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-05-06",
         "filter_from": "2026-05-01",
         "filter_to": "2026-05-31",
@@ -14009,7 +14009,7 @@
       "date": "2026-05-07",
       "properties": {
         "report_label": "5.7_arch",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-05-07",
         "filter_from": "2026-05-01",
         "filter_to": "2026-05-31",
@@ -14799,7 +14799,7 @@
         "total_cost": 752702.67,
         "total_cost_pct": 103.25,
         "OPEN_revenue": 728982.33,
-        "OPEN_cost": 448779.17000000004,
+        "OPEN_cost": 448779.170****0004,
         "OPEN_cost_pct": 61.56,
         "BQT_revenue": 625220.77,
         "BQT_cost": 175118.59,
@@ -15215,7 +15215,7 @@
         "month": "2026-04",
         "status": "已填",
         "food_revenue": 728982.33,
-        "food_cost": 448779.17000000004,
+        "food_cost": 448779.170****0004,
         "food_cost_pct": 61.56
       }
     },
@@ -15288,7 +15288,7 @@
       "properties": {
         "description": "只存财务指标和分析结果，产品数据引用FB站",
         "sub_modules": "营业点损益 / Menu Engineering / 采购监控 / 时令促销 / 促销ROI / 库存效率",
-        "linked_to": "FB站 (C:\\Users\\Duke Wang\\.openclaw\\workspace\\knowledge_center\\fb_graph.json)",
+        "linked_to": "fb_graph.json)",
         "data_rule": "FB站管产品图谱，FIN站管财务分析"
       }
     },
@@ -15622,7 +15622,7 @@
       "date": "2026-05-10",
       "properties": {
         "report_label": "5.7_HF",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "header_date": "2026-05-10",
         "filter_from": "2026-05-01",
         "filter_to": "2026-05-31",
@@ -16301,7 +16301,7 @@
       "date": "2026-05-10",
       "properties": {
         "report_label": "BEO_SZVTV",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "report_date": "2026-05-10",
         "filter_from": "2026-05-10",
         "filter_to": "2026-06-30",
@@ -16313,13 +16313,13 @@
     },
     {
       "id": "BEO_2020260510_The_Weddin",
-      "name": "[BEO] 2026-05-10 张辰炜先生和李梦婷小姐的婚宴 The Wedding of Mr. Zhang and Ms. Li 11",
+      "name": "[BEO] 2026-05-10 [某先生][某小姐]的婚宴 The Wedding of Mr. Zhang and Ms. Li 11",
       "type": "beo_event",
       "date": "2026-05-10",
       "properties": {
         "date": "2026-05-10",
         "event_date": "2026-05-10",
-        "chinese_name": "张辰炜先生和李梦婷小姐的婚宴",
+        "chinese_name": "[某先生][某小姐]的婚宴",
         "english_name": "The Wedding of Mr. Zhang and Ms. Li 11",
         "start_time": "11:30:00",
         "end_time": "14:00:00",
@@ -16653,13 +16653,13 @@
     },
     {
       "id": "BEO_2020260516_Dinner",
-      "name": "[BEO] 2026-05-16 陈逸凡先生和李妍小姐的婚宴 宴会厅 可卖 卖之前跟 确认下 Dinner",
+      "name": "[BEO] 2026-05-16 [某先生][某小姐]的婚宴 宴会厅 可卖 卖之前跟 确认下 Dinner",
       "type": "beo_event",
       "date": "2026-05-16",
       "properties": {
         "date": "2026-05-16",
         "event_date": "2026-05-16",
-        "chinese_name": "陈逸凡先生和李妍小姐的婚宴",
+        "chinese_name": "[某先生][某小姐]的婚宴",
         "english_name": "The Wedding of Mr. Chen and Ms. Li",
         "start_time": "8:00:00",
         "end_time": "21:00:00",
@@ -16671,7 +16671,7 @@
         "catering_manager": "Elaine He",
         "contact": "陈逸凡",
         "contact_phone": "+86 131 6014 5805",
-        "email": "515694478@qq.com",
+        "email": "5***8@qq.com",
         "guests": 160,
         "tables": 16,
         "price_per_table": 7728,
@@ -16820,13 +16820,13 @@
     },
     {
       "id": "BEO_2020260524_The_Weddin",
-      "name": "[BEO] 2026-05-24 徐晟先生和金洋小姐的婚宴 The Wedding of Mr. Xu and Ms. Jin 8",
+      "name": "[BEO] 2026-05-24 [某先生][某小姐]的婚宴 The Wedding of Mr. Xu and Ms. Jin 8",
       "type": "beo_event",
       "date": "2026-05-24",
       "properties": {
         "date": "2026-05-24",
         "event_date": "2026-05-24",
-        "chinese_name": "徐晟先生和金洋小姐的婚宴",
+        "chinese_name": "[某先生][某小姐]的婚宴",
         "english_name": "The Wedding of Mr. Xu and Ms. Jin 8",
         "start_time": "8:00:00",
         "end_time": "21:00:00",
@@ -16896,13 +16896,13 @@
     },
     {
       "id": "BEO_2020260530_Dinner",
-      "name": "[BEO] 2026-05-30 史品懿先生和冯铄涵小姐的婚宴 宴会厅 可卖 卖之前跟 确认下 Dinner",
+      "name": "[BEO] 2026-05-30 [某先生][某小姐]的婚宴 宴会厅 可卖 卖之前跟 确认下 Dinner",
       "type": "beo_event",
       "date": "2026-05-30",
       "properties": {
         "date": "2026-05-30",
         "event_date": "2026-05-30",
-        "chinese_name": "史品懿先生和冯铄涵小姐的婚宴 宴会厅 可卖 卖之前跟 确认下",
+        "chinese_name": "[某先生][某小姐]的婚宴 宴会厅 可卖 卖之前跟 确认下",
         "english_name": "Dinner",
         "start_time": "8:00:00",
         "end_time": "21:00:00",
@@ -16953,13 +16953,13 @@
     },
     {
       "id": "BEO_2020260605_The_Weddin",
-      "name": "[BEO] 2026-06-05 余意先生的婚宴 The Wedding of Mr. Yu 8",
+      "name": "[BEO] 2026-06-05 [某先生]的婚宴 The Wedding of Mr. Yu 8",
       "type": "beo_event",
       "date": "2026-06-05",
       "properties": {
         "date": "2026-06-05",
         "event_date": "2026-06-05",
-        "chinese_name": "余意先生的婚宴",
+        "chinese_name": "[某先生]的婚宴",
         "english_name": "The Wedding of Mr. Yu 8",
         "start_time": "8:00:00",
         "end_time": "21:00:00",
@@ -17010,13 +17010,13 @@
     },
     {
       "id": "BEO_2020260613_The_Weddin",
-      "name": "[BEO] 2026-06-13 王浩先生和史雪晨小姐的婚宴 The Wedding of Mr. Wang and Ms. Shi 8",
+      "name": "[BEO] 2026-06-13 [某先生][某小姐]的婚宴 The Wedding of Mr. Wang and Ms. Shi 8",
       "type": "beo_event",
       "date": "2026-06-13",
       "properties": {
         "date": "2026-06-13",
         "event_date": "2026-06-13",
-        "chinese_name": "王浩先生和史雪晨小姐的婚宴",
+        "chinese_name": "[某先生][某小姐]的婚宴",
         "english_name": "The Wedding of Mr. Wang and Ms. Shi 8",
         "start_time": "8:00:00",
         "end_time": "21:00:00",
@@ -17067,13 +17067,13 @@
     },
     {
       "id": "BEO_2020260614_The_Weddin",
-      "name": "[BEO] 2026-06-14 鲍承祖先生和姜文静小姐的婚宴 宴会厅 报价之前问下园园 The Wedding of 7",
+      "name": "[BEO] 2026-06-14 [某先生][某小姐]的婚宴 宴会厅 报价之前问下园园 The Wedding of 7",
       "type": "beo_event",
       "date": "2026-06-14",
       "properties": {
         "date": "2026-06-14",
         "event_date": "2026-06-14",
-        "chinese_name": "鲍承祖先生和姜文静小姐的婚宴 宴会厅 报价之前问下园园",
+        "chinese_name": "[某先生][某小姐]的婚宴 宴会厅 报价之前问下园园",
         "english_name": "The Wedding of 7",
         "start_time": "7:00:00",
         "end_time": "14:00:00",
@@ -17602,12 +17602,12 @@
     },
     {
       "id": "BEO_TRACK_20260605_The_Weddin",
-      "name": "[BEO跟踪] 2026-06-05 余意先生婚宴",
+      "name": "[BEO跟踪] 2026-06-05 [某先生]婚宴",
       "type": "beo_tracked_event",
       "date": "2026-06-05",
       "properties": {
         "date": "2026-06-05",
-        "chinese_name": "余意先生婚宴",
+        "chinese_name": "[某先生]婚宴",
         "english_name": "The Wedding of Mr. Yu",
         "room": "Grand Ballroom",
         "guests": "250",
@@ -17845,7 +17845,7 @@
     },
     {
       "id": "HILTON_SUZHOU",
-      "name": "苏州希尔顿酒店 (Hilton Suzhou)",
+      "name": "苏州[HOTEL_NAME] ([HOTEL_CITY_BRAND])",
       "type": "hotel"
     },
     {
@@ -19254,7 +19254,7 @@
         "财务报表粉饰的27种手段识别"
       ],
       "application_to_hotel": {
-        "strategic_analysis": "苏州希尔顿在苏州市场的竞争定位（国际品牌vs本土酒店）",
+        "strategic_analysis": "[HOTEL_CITY]在苏州市场的竞争定位（国际品牌vs本土酒店）",
         "financial_ratios": "GOP率/ADR/Occ/RevPAR的杜邦分解",
         "cash_flow": "酒店经营现金流vs Capex投资的匹配分析",
         "profit_manipulation": "收入确认时点/成本跨期/F&B损耗率的异常波动识别"
@@ -19323,7 +19323,7 @@
         ]
       },
       "application_to_hotel": {
-        "economic_position": "苏州希尔顿在苏州酒店市场的经济利润位置？位于曲线的哪一段？",
+        "economic_position": "[HOTEL_CITY]在苏州酒店市场的经济利润位置？位于曲线的哪一段？",
         "curve_jump_options": [
           "提升ADR进入高端市场区间",
           "通过F&B创新创造第二增长曲线",
@@ -19691,7 +19691,7 @@
     },
     {
       "id": "BEO_5062587b",
-      "name": "[BEO] 陈逸凡先生和李妍小姐的婚宴",
+      "name": "[BEO] [某先生][某小姐]的婚宴",
       "type": "beo_event",
       "properties": {
         "date": "2026-05-16",
@@ -19782,7 +19782,7 @@
     },
     {
       "id": "BEO_14838288",
-      "name": "[BEO] 叶珊珊小姐的答谢宴",
+      "name": "[BEO] [某小姐]的答谢宴",
       "type": "beo_event",
       "properties": {
         "date": "2026-05-24",
@@ -19795,7 +19795,7 @@
     },
     {
       "id": "BEO_a5907c20",
-      "name": "[BEO] 徐晟先生和金洋小姐的婚宴",
+      "name": "[BEO] [某先生][某小姐]的婚宴",
       "type": "beo_event",
       "properties": {
         "date": "2026-05-24",
@@ -19847,7 +19847,7 @@
     },
     {
       "id": "BEO_d5668342",
-      "name": "[BEO] 史品懿先生和冯铄涵小姐的婚宴",
+      "name": "[BEO] [某先生][某小姐]的婚宴",
       "type": "beo_event",
       "properties": {
         "date": "2026-05-30",
@@ -20016,7 +20016,7 @@
     },
     {
       "id": "BEO_7bfffefe",
-      "name": "[BEO] 王浩先生和史雪晨小姐的婚宴",
+      "name": "[BEO] [某先生][某小姐]的婚宴",
       "type": "beo_event",
       "properties": {
         "date": "2026-06-13",
@@ -20146,7 +20146,7 @@
     },
     {
       "id": "BEO_9a436c4e",
-      "name": "[BEO] 余意先生的婚宴",
+      "name": "[BEO] [某先生]的婚宴",
       "type": "beo_event",
       "properties": {
         "date": "2026-06-06",
@@ -20185,7 +20185,7 @@
     },
     {
       "id": "BEO_abc2bee1",
-      "name": "[BEO] 鲍承祖先生和姜文静小姐的婚宴",
+      "name": "[BEO] [某先生][某小姐]的婚宴",
       "type": "beo_event",
       "properties": {
         "date": "2026-06-13",
@@ -20612,7 +20612,7 @@
       "properties": {
         "period": "2026 Q1",
         "source": "Q1_竞对分析_希尔顿vs洲际",
-        "hotel_1": "Hilton Suzhou",
+        "hotel_1": "[HOTEL_CITY_BRAND]",
         "hotel_2": "Intercontinental Suzhou",
         "hilton_occ": 85.7,
         "intercontinental_occ": 63,
@@ -20972,7 +20972,7 @@
       "type": "beverage_item",
       "properties": {
         "name_cn": "希尔顿醇香",
-        "name_en": "Hilton Delights",
+        "name_en": "[HOTEL_BRAND] Delights",
         "category": "鸡尾酒 (Cocktails)",
         "price": 58,
         "unit": "杯",
@@ -22182,7 +22182,7 @@
         "month_hint": "02-03",
         "file_name": "History_and_Forecast_2---12124074-12b6-432c-95cc-5c43fc5ae1d3.pdf",
         "file_size_kb": 452,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\archived\\预测报表\\History_and_Forecast_2---12124074-12b6-432c-95cc-5c43fc5ae1d3.pdf",
+        "file_path": "[LOCAL_FILE]/3.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22200,7 +22200,7 @@
         "month_hint": "02-03",
         "file_name": "History_and_Forecast2.28---8b402e3b-5664-43d5-ac92-b7713001c0ec.pdf",
         "file_size_kb": 451,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\archived\\预测报表\\History_and_Forecast2.28---8b402e3b-5664-43d5-ac92-b7713001c0ec.pdf",
+        "file_path": "[LOCAL_FILE]/c.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22218,7 +22218,7 @@
         "month_hint": "02-03",
         "file_name": "History_and_Forecast_3---e7354776-46ad-461d-9aba-85ec413d20a9.pdf",
         "file_size_kb": 452,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\archived\\预测报表\\History_and_Forecast_3---e7354776-46ad-461d-9aba-85ec413d20a9.pdf",
+        "file_path": "[LOCAL_FILE]/9.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22236,7 +22236,7 @@
         "month_hint": "04",
         "file_name": "History_and_Forecast_4---45404f9f-6ddb-4de5-b4c4-e394fede1d73.pdf",
         "file_size_kb": 453,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\archived\\预测报表\\History_and_Forecast_4---45404f9f-6ddb-4de5-b4c4-e394fede1d73.pdf",
+        "file_path": "[LOCAL_FILE]/3.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22254,7 +22254,7 @@
         "month_hint": "04",
         "file_name": "History_and_Forecast4.2---21f075da-233c-4e28-8263-3796c45bb025.pdf",
         "file_size_kb": 451,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\archived\\预测报表\\History_and_Forecast4.2---21f075da-233c-4e28-8263-3796c45bb025.pdf",
+        "file_path": "[LOCAL_FILE]/5.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22272,7 +22272,7 @@
         "month_hint": "04",
         "file_name": "History_and_Forecast_4.3---650206bc-045c-451d-9665-51ab569b41b6.pdf",
         "file_size_kb": 451,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\archived\\预测报表\\History_and_Forecast_4.3---650206bc-045c-451d-9665-51ab569b41b6.pdf",
+        "file_path": "[LOCAL_FILE]/6.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22290,7 +22290,7 @@
         "month_hint": "05",
         "file_name": "History_and_Forecast5.11---d2f8b1a0-f746-4bab-8c6d-21798281f2a7.pdf",
         "file_size_kb": 452,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\inbound\\History_and_Forecast5.11---d2f8b1a0-f746-4bab-8c6d-21798281f2a7.pdf",
+        "file_path": "[LOCAL_FILE]/7.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22308,7 +22308,7 @@
         "month_hint": "05",
         "file_name": "History_and_Forecast5.12---5c9ad2a2-8fe3-4e9b-8566-0896997d89c8.pdf",
         "file_size_kb": 451,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\inbound\\History_and_Forecast5.12---5c9ad2a2-8fe3-4e9b-8566-0896997d89c8.pdf",
+        "file_path": "[LOCAL_FILE]/8.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22326,7 +22326,7 @@
         "month_hint": "05",
         "file_name": "History_and_Forecast5.13---e4fc947b-134d-488d-85f0-e4e017834482.pdf",
         "file_size_kb": 453,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\inbound\\History_and_Forecast5.13---e4fc947b-134d-488d-85f0-e4e017834482.pdf",
+        "file_path": "[LOCAL_FILE]/2.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22344,7 +22344,7 @@
         "month_hint": "05",
         "file_name": "History_and_Forecast5.15---a13ad84e-3a39-40ea-b332-fb2ab0c36cd1.pdf",
         "file_size_kb": 452,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\inbound\\History_and_Forecast5.15---a13ad84e-3a39-40ea-b332-fb2ab0c36cd1.pdf",
+        "file_path": "[LOCAL_FILE]/1.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22362,7 +22362,7 @@
         "month_hint": "05",
         "file_name": "History_and_Forecast_5.4.pdf",
         "file_size_kb": 452,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\archived\\DRR_5月\\History_and_Forecast_5.4.pdf",
+        "file_path": "[LOCAL_FILE]/4.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22380,7 +22380,7 @@
         "month_hint": "05",
         "file_name": "History_and_Forecast_5.6.pdf",
         "file_size_kb": 452,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\knowledge_center\\source_files\\FIN\\History_and_Forecast_5.6.pdf",
+        "file_path": "[LOCAL_FILE]/6.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22398,7 +22398,7 @@
         "month_hint": "05",
         "file_name": "History_and_Forecast_5.8---bb4910f5-229b-40b5-b653-ab94f7f3538d.pdf",
         "file_size_kb": 453,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\archived\\DRR\\History_and_Forecast_5.8---bb4910f5-229b-40b5-b653-ab94f7f3538d.pdf",
+        "file_path": "[LOCAL_FILE]/d.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22416,7 +22416,7 @@
         "month_hint": "05",
         "file_name": "History_and_Forecast_7---c2d603a5-9cb6-4f3c-a134-e3a08bc9474b.pdf",
         "file_size_kb": 452,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\inbound\\History_and_Forecast_7---c2d603a5-9cb6-4f3c-a134-e3a08bc9474b.pdf",
+        "file_path": "[LOCAL_FILE]/b.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22434,7 +22434,7 @@
         "month_hint": "05",
         "file_name": "History_and_Forecast_8---36798ed4-595d-4493-a18b-ac4f7b979d5d.pdf",
         "file_size_kb": 453,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\inbound\\History_and_Forecast_8---36798ed4-595d-4493-a18b-ac4f7b979d5d.pdf",
+        "file_path": "[LOCAL_FILE]/d.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22452,7 +22452,7 @@
         "month_hint": "05",
         "file_name": "History_and_Forecast_9---9816e56b-7f23-48a9-a660-7b68efdc558b.pdf",
         "file_size_kb": 453,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\archived\\History_and_Forecast_9---9816e56b-7f23-48a9-a660-7b68efdc558b.pdf",
+        "file_path": "[LOCAL_FILE]/b.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22470,7 +22470,7 @@
         "month_hint": "05",
         "file_name": "History_and_Forecast_2026-05-20.pdf",
         "file_size_kb": 453,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\archived\\History_and_Forecast_2026-05-20.pdf",
+        "file_path": "[LOCAL_FILE]/0.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22488,7 +22488,7 @@
         "month_hint": "05",
         "file_name": "History_Forecast_2026.05.11.pdf",
         "file_size_kb": 452,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\archived\\DRR\\History_Forecast_2026.05.11.pdf",
+        "file_path": "[LOCAL_FILE]/1.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -22506,7 +22506,7 @@
         "month_hint": "05",
         "file_name": "History_Forecast_20260515.pdf",
         "file_size_kb": 452,
-        "file_path": "C:\\Users\\Duke Wang\\.openclaw\\media\\archived\\History_Forecast_20260515.pdf",
+        "file_path": "[LOCAL_FILE]/5.pdf",
         "source": "批量入库索引",
         "status": "indexed_only",
         "detail_status": "待解析"
@@ -23607,7 +23607,7 @@
     },
     {
       "id": "EVENT_38200",
-      "name": "余意先生的婚宴 The Wedding of Mr. Yu",
+      "name": "[某先生]的婚宴 The Wedding of Mr. Yu",
       "type": "婚宴",
       "description": "预订日期5.30-7.31, type: 婚宴",
       "properties": {
@@ -23629,7 +23629,7 @@
     },
     {
       "id": "EVENT_67467",
-      "name": "华星光电杨先生同学会晚宴 Star Optoelectronic Dinner",
+      "name": "华[某先生]同学会晚宴 Star Optoelectronic Dinner",
       "type": "晚宴",
       "description": "预订日期5.30-7.31, type: 晚宴",
       "properties": {
@@ -23651,7 +23651,7 @@
     },
     {
       "id": "EVENT_79459",
-      "name": "史品懿先生和冯铄涵小姐的婚宴 The Wedding of Mr. Shi and Ms. Feng",
+      "name": "[某先生][某小姐]的婚宴 The Wedding of Mr. Shi and Ms. Feng",
       "type": "婚宴",
       "description": "预订日期5.30-7.31, type: 婚宴",
       "properties": {
@@ -23794,7 +23794,7 @@
     },
     {
       "id": "EVENT_90860",
-      "name": "王浩先生和史雪晨小姐的婚宴 The Wedding of Mr. Wang and Ms. Shi",
+      "name": "[某先生][某小姐]的婚宴 The Wedding of Mr. Wang and Ms. Shi",
       "type": "婚宴",
       "description": "预订日期5.30-7.31, type: 婚宴",
       "properties": {
@@ -23893,7 +23893,7 @@
     },
     {
       "id": "EVENT_38517",
-      "name": "鲍承祖先生和姜文静小姐的婚宴 宴会厅1报价之前问下园园；The Wedding of",
+      "name": "[某先生][某小姐]的婚宴 宴会厅1报价之前问下园园；The Wedding of",
       "type": "婚宴",
       "description": "预订日期5.30-7.31, type: 婚宴",
       "properties": {
@@ -24014,7 +24014,7 @@
     },
     {
       "id": "EVENT_60453",
-      "name": "余意先生的婚宴 The Wedding of Mr. Yu",
+      "name": "[某先生]的婚宴 The Wedding of Mr. Yu",
       "type": "婚宴",
       "description": "预订日期5.30-7.31, type: 婚宴",
       "properties": {
@@ -24036,7 +24036,7 @@
     },
     {
       "id": "EVENT_76891",
-      "name": "华星光电杨先生同学会晚宴 Star Optoelectronic Dinner",
+      "name": "华[某先生]同学会晚宴 Star Optoelectronic Dinner",
       "type": "晚宴",
       "description": "预订日期5.30-7.31, type: 晚宴",
       "properties": {
@@ -24058,7 +24058,7 @@
     },
     {
       "id": "EVENT_62257",
-      "name": "史品懿先生和冯铄涵小姐的婚宴 The Wedding of Mr. Shi and Ms. Feng",
+      "name": "[某先生][某小姐]的婚宴 The Wedding of Mr. Shi and Ms. Feng",
       "type": "婚宴",
       "description": "预订日期5.30-7.31, type: 婚宴",
       "properties": {
@@ -24201,7 +24201,7 @@
     },
     {
       "id": "EVENT_35159",
-      "name": "王浩先生和史雪晨小姐的婚宴 The Wedding of Mr. Wang and Ms. Shi",
+      "name": "[某先生][某小姐]的婚宴 The Wedding of Mr. Wang and Ms. Shi",
       "type": "婚宴",
       "description": "预订日期5.30-7.31, type: 婚宴",
       "properties": {
@@ -24300,7 +24300,7 @@
     },
     {
       "id": "EVENT_25396",
-      "name": "鲍承祖先生和姜文静小姐的婚宴 宴会厅1报价之前问下园园；The Wedding of",
+      "name": "[某先生][某小姐]的婚宴 宴会厅1报价之前问下园园；The Wedding of",
       "type": "婚宴",
       "description": "预订日期5.30-7.31, type: 婚宴",
       "properties": {
@@ -28856,13 +28856,13 @@
             "revpar": 1092.62
           },
           "HH_City_Center": {
-            "brand": "Hilton",
+            "brand": "[HOTEL_BRAND]",
             "adr": 1106.45,
             "occ": 86.1,
             "revpar": 952.64
           },
           "HH_Hongqiao": {
-            "brand": "Hilton",
+            "brand": "[HOTEL_BRAND]",
             "adr": 802.85,
             "occ": 79.6,
             "revpar": 638.97
@@ -28874,20 +28874,20 @@
             "revpar": 920.66
           },
           "HH_Nanjing": {
-            "brand": "Hilton",
+            "brand": "[HOTEL_BRAND]",
             "adr": 584.22,
             "occ": 77,
             "revpar": 449.93
           },
           "HH_Suzhou": {
-            "brand": "Hilton",
+            "brand": "[HOTEL_BRAND]",
             "adr": 649.11,
             "occ": 68.2,
             "revpar": 442.39,
-            "hotel_name": "希尔顿苏州 (Hilton Suzhou)"
+            "hotel_name": "希尔顿苏州 ([HOTEL_CITY_BRAND])"
           },
           "HH_Yinshan_Lake": {
-            "brand": "Hilton",
+            "brand": "[HOTEL_BRAND]",
             "adr": 510.25,
             "occ": 68.5,
             "revpar": 349.81
@@ -28937,12 +28937,12 @@
             "revpar": 442.39
           }
         ],
-        "brand_codes": "HH=希尔顿(Hilton), CI=康莱德(Conrad), WA=华尔道夫(Waldorf), DT=逸林(DoubleTree), PY=格芮(Canopy)"
+        "brand_codes": "HH=希尔顿([HOTEL_BRAND]), CI=康莱德(Conrad), WA=华尔道夫(Waldorf), DT=逸林(DoubleTree), PY=格芮(Canopy)"
       }
     },
     {
       "id": "COMP_SUZHOU_HILTON",
-      "name": "希尔顿苏州 (Hilton Suzhou)",
+      "name": "希尔顿苏州 ([HOTEL_CITY_BRAND])",
       "adr": 609,
       "occ": 59.7,
       "revpar": 363,
@@ -28957,7 +28957,7 @@
       "revpar": 442,
       "source": "Hilton_benchmark",
       "type": "competition_data",
-      "hotel_brand": "Hilton"
+      "hotel_brand": "[HOTEL_BRAND]"
     },
     {
       "id": "COMP_SUZHOU_AVG",
@@ -29033,7 +29033,7 @@
         "other_income_mtd": 8934.26,
         "service_charge": 20917.99,
         "service_charge_mtd": 53365.98,
-        "net_room_revenue": 230098.13000000003,
+        "net_room_revenue": 230098.130****0003,
         "net_room_revenue_mtd": 587023.41,
         "comp_rooms": 0,
         "comp_rooms_mtd": 3,
@@ -34045,7 +34045,7 @@
       "date": "2026-06-06",
       "properties": {
         "report_label": "BEO_SZVTV",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "report_date": "2026-06-06",
         "filter_from": "2026-06-06",
         "filter_to": "2026-07-30",
@@ -34171,13 +34171,13 @@
     },
     {
       "id": "BEO_2020260613_The_Wedding_of_Mr._B",
-      "name": "[BEO] 2026-06-13 鲍承祖先生和姜文静小姐的婚宴 宴会厅 报价之前问下园园 The Wedding of Mr. Bao and Ms. Jiang 7",
+      "name": "[BEO] 2026-06-13 [某先生][某小姐]的婚宴 宴会厅 报价之前问下园园 The Wedding of Mr. Bao and Ms. Jiang 7",
       "type": "beo_event",
       "date": "2026-06-13",
       "properties": {
         "date": "2026-06-13",
         "event_date": "2026-06-13",
-        "chinese_name": "鲍承祖先生和姜文静小姐的婚宴 宴会厅 报价之前问下园园",
+        "chinese_name": "[某先生][某小姐]的婚宴 宴会厅 报价之前问下园园",
         "english_name": "The Wedding of Mr. Bao and Ms. Jiang 7",
         "start_time": "7:00:00",
         "end_time": "14:00:00",
@@ -34597,7 +34597,7 @@
         "period_start": "2026-06-01",
         "period_end": "2026-06-30",
         "report_type": "HF (History & Forecast)",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "total_rooms": 6177,
         "history_rooms": 1646,
         "forecast_rooms": 4531,
@@ -36403,7 +36403,7 @@
       "name": "OPEN自助餐厅 2026-01 P&L Detail",
       "properties": {
         "month": "2026-01",
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "revenue": 1033083.18,
         "budget_rev": 776714,
         "ly_rev": 722348.48,
@@ -36428,7 +36428,7 @@
       "name": "YUXI御玺中餐厅 2026-01 P&L Detail",
       "properties": {
         "month": "2026-01",
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "revenue": 523188.4,
         "budget_rev": 753823.21,
         "ly_rev": 913969.2,
@@ -36453,7 +36453,7 @@
       "name": "BACIO意大利餐厅 2026-01 P&L Detail",
       "properties": {
         "month": "2026-01",
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "revenue": 84528.74,
         "budget_rev": 47950,
         "ly_rev": 44322.38,
@@ -36478,7 +36478,7 @@
       "name": "BQT宴会会议中心 2026-01 P&L Detail",
       "properties": {
         "month": "2026-01",
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "revenue": 2131052.09,
         "budget_rev": 2612336.9,
         "ly_rev": 2566518.52,
@@ -36503,7 +36503,7 @@
       "name": "LOBBY大堂吧 2026-01 P&L Detail",
       "properties": {
         "month": "2026-01",
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "revenue": 105731.37,
         "budget_rev": 84030,
         "ly_rev": 75965.98,
@@ -36528,7 +36528,7 @@
       "name": "BEER啤酒荟 2026-01 P&L Detail",
       "properties": {
         "month": "2026-01",
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "revenue": 14150.95,
         "budget_rev": 24000,
         "ly_rev": 30471.7,
@@ -36552,7 +36552,7 @@
       "name": "RS客房送餐 2026-01 P&L Detail",
       "properties": {
         "month": "2026-01",
-        "hotel": "苏州希尔顿酒店",
+        "hotel": "苏州[HOTEL_NAME]",
         "revenue": 30956.66,
         "budget_rev": 40550,
         "ly_rev": 39769.55
@@ -36830,7 +36830,7 @@
     {
       "id": "BQ_20260614_GrandBallroom23_1130",
       "type": "banquet_booking",
-      "name": "鲍承祖先生和姜文静小姐的婚宴 The Wedding of Mr. Bao and Ms. Jiang",
+      "name": "[某先生][某小姐]的婚宴 The Wedding of Mr. Bao and Ms. Jiang",
       "properties": {
         "event_date": "2026-06-14",
         "start_time": "11:30",
@@ -36852,7 +36852,7 @@
     {
       "id": "BQ_20260614_VIPRoom_1000",
       "type": "banquet_booking",
-      "name": "鲍承祖先生和姜文静小姐的婚宴 The Wedding of Mr. Bao and Ms. Jiang",
+      "name": "[某先生][某小姐]的婚宴 The Wedding of Mr. Bao and Ms. Jiang",
       "properties": {
         "event_date": "2026-06-14",
         "start_time": "10:00",
@@ -36874,7 +36874,7 @@
     {
       "id": "BQ_20260614_RestRoomBrideRoom_1000",
       "type": "banquet_booking",
-      "name": "鲍承祖先生和姜文静小姐的婚宴 The Wedding of Mr. Bao and Ms. Jiang",
+      "name": "[某先生][某小姐]的婚宴 The Wedding of Mr. Bao and Ms. Jiang",
       "properties": {
         "event_date": "2026-06-14",
         "start_time": "10:00",
@@ -36896,7 +36896,7 @@
     {
       "id": "BQ_20260614_GrandBallroom23_500",
       "type": "banquet_booking",
-      "name": "鲍承祖先生和姜文静小姐的婚宴 The Wedding of Mr. Bao and Ms. Jiang",
+      "name": "[某先生][某小姐]的婚宴 The Wedding of Mr. Bao and Ms. Jiang",
       "properties": {
         "event_date": "2026-06-14",
         "start_time": "5:00",
@@ -39604,7 +39604,7 @@
       "date": "2026-06-21",
       "properties": {
         "report_label": "BEO_SZVTV",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "report_date": "2026-06-21",
         "filter_from": "2026-06-21",
         "filter_to": "2026-08-30",
@@ -40606,13 +40606,13 @@
     },
     {
       "id": "BEO_20260830_1Elaine__The_Wedding",
-      "name": "[BEO] 2026-08-30 谢东旭先生和胡迪小姐的婚宴 有活动咨询宴会厅 请联系 婚宴可能 会增加桌数 1Elaine、 The Wedding of Mr. Xie and Ms. ",
+      "name": "[BEO] 2026-08-30 [某先生][某小姐]的婚宴 有活动咨询宴会厅 请联系 婚宴可能 会增加桌数 1Elaine、 The Wedding of Mr. Xie and Ms. ",
       "type": "beo_event",
       "date": "2026-08-30",
       "properties": {
         "date": "2026-08-30",
         "event_date": "2026-08-30",
-        "chinese_name": "谢东旭先生和胡迪小姐的婚宴 有活动咨询宴会厅 请联系 婚宴可能 会增加桌数",
+        "chinese_name": "[某先生][某小姐]的婚宴 有活动咨询宴会厅 请联系 婚宴可能 会增加桌数",
         "english_name": "1Elaine、 The Wedding of Mr. Xie and Ms. Hu",
         "start_time": "14:00:00",
         "end_time": "21:00:00",
@@ -69718,12 +69718,12 @@
     },
     {
       "source": "MTD_2026_05",
-      "target": "苏州希尔顿酒店",
+      "target": "苏州[HOTEL_NAME]",
       "relation": "monthly_summary_for"
     },
     {
       "source": "DAILY_2026_05_11",
-      "target": "苏州希尔顿酒店",
+      "target": "苏州[HOTEL_NAME]",
       "relation": "daily_report_for"
     },
     {
@@ -70067,187 +70067,187 @@
       "source": "day_20260501",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-01 belongs to Hilton Suzhou"
+      "label": "2026-05-01 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260502",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-02 belongs to Hilton Suzhou"
+      "label": "2026-05-02 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260503",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-03 belongs to Hilton Suzhou"
+      "label": "2026-05-03 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260504",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-04 belongs to Hilton Suzhou"
+      "label": "2026-05-04 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260505",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-05 belongs to Hilton Suzhou"
+      "label": "2026-05-05 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260506",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-06 belongs to Hilton Suzhou"
+      "label": "2026-05-06 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260507",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-07 belongs to Hilton Suzhou"
+      "label": "2026-05-07 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260508",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-08 belongs to Hilton Suzhou"
+      "label": "2026-05-08 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260509",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-09 belongs to Hilton Suzhou"
+      "label": "2026-05-09 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260510",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-10 belongs to Hilton Suzhou"
+      "label": "2026-05-10 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260511",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-11 belongs to Hilton Suzhou"
+      "label": "2026-05-11 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260512",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-12 belongs to Hilton Suzhou"
+      "label": "2026-05-12 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260513",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-13 belongs to Hilton Suzhou"
+      "label": "2026-05-13 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260514",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-14 belongs to Hilton Suzhou"
+      "label": "2026-05-14 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260515",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-15 belongs to Hilton Suzhou"
+      "label": "2026-05-15 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260516",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-16 belongs to Hilton Suzhou"
+      "label": "2026-05-16 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260517",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-17 belongs to Hilton Suzhou"
+      "label": "2026-05-17 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260518",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-18 belongs to Hilton Suzhou"
+      "label": "2026-05-18 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260519",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-19 belongs to Hilton Suzhou"
+      "label": "2026-05-19 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260520",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-20 belongs to Hilton Suzhou"
+      "label": "2026-05-20 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260521",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-21 belongs to Hilton Suzhou"
+      "label": "2026-05-21 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260522",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-22 belongs to Hilton Suzhou"
+      "label": "2026-05-22 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260523",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-23 belongs to Hilton Suzhou"
+      "label": "2026-05-23 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260524",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-24 belongs to Hilton Suzhou"
+      "label": "2026-05-24 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260525",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-25 belongs to Hilton Suzhou"
+      "label": "2026-05-25 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260526",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-26 belongs to Hilton Suzhou"
+      "label": "2026-05-26 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260527",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-27 belongs to Hilton Suzhou"
+      "label": "2026-05-27 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260528",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-28 belongs to Hilton Suzhou"
+      "label": "2026-05-28 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260529",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-29 belongs to Hilton Suzhou"
+      "label": "2026-05-29 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260530",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-30 belongs to Hilton Suzhou"
+      "label": "2026-05-30 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260531",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-31 belongs to Hilton Suzhou"
+      "label": "2026-05-31 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "id": "rel_hf_hf_report_5_16_20260517_hf_day_2026-05-01_history",
@@ -73791,9 +73791,9 @@
     {
       "id": "HOTEL_SUZHOU_HILTON",
       "type": "hotel",
-      "name": "苏州希尔顿酒店",
+      "name": "苏州[HOTEL_NAME]",
       "labels": {
-        "name": "苏州希尔顿酒店",
+        "name": "苏州[HOTEL_NAME]",
         "category": "酒店"
       }
     },
@@ -74159,8 +74159,8 @@
       "properties": {
         "positions": [
           "行政管家/副管家",
-          "主厨房副厨师长",
-          "中厨房主管"
+          "[相关厨师]长",
+          "[相关主管]"
         ],
         "period": "2026-01-02"
       }
@@ -74175,7 +74175,7 @@
       "properties": {
         "positions": [
           "行政管家/副管家",
-          "前台主管"
+          "[相关主管]"
         ],
         "period": "2026-03"
       }
@@ -74196,7 +74196,7 @@
     {
       "id": "hotel_2026_06",
       "type": "hotel",
-      "name": "Hilton Suzhou",
+      "name": "[HOTEL_CITY_BRAND]",
       "label": "希尔顿苏州 2026年6月",
       "properties": {
         "month": "2026-06",
@@ -103933,12 +103933,12 @@
     },
     {
       "source": "MTD_2026_05",
-      "target": "苏州希尔顿酒店",
+      "target": "苏州[HOTEL_NAME]",
       "relation": "monthly_summary_for"
     },
     {
       "source": "DAILY_2026_05_11",
-      "target": "苏州希尔顿酒店",
+      "target": "苏州[HOTEL_NAME]",
       "relation": "daily_report_for"
     },
     {
@@ -104282,187 +104282,187 @@
       "source": "day_20260501",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-01 belongs to Hilton Suzhou"
+      "label": "2026-05-01 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260502",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-02 belongs to Hilton Suzhou"
+      "label": "2026-05-02 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260503",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-03 belongs to Hilton Suzhou"
+      "label": "2026-05-03 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260504",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-04 belongs to Hilton Suzhou"
+      "label": "2026-05-04 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260505",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-05 belongs to Hilton Suzhou"
+      "label": "2026-05-05 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260506",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-06 belongs to Hilton Suzhou"
+      "label": "2026-05-06 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260507",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-07 belongs to Hilton Suzhou"
+      "label": "2026-05-07 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260508",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-08 belongs to Hilton Suzhou"
+      "label": "2026-05-08 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260509",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-09 belongs to Hilton Suzhou"
+      "label": "2026-05-09 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260510",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-10 belongs to Hilton Suzhou"
+      "label": "2026-05-10 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260511",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-11 belongs to Hilton Suzhou"
+      "label": "2026-05-11 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260512",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-12 belongs to Hilton Suzhou"
+      "label": "2026-05-12 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260513",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-13 belongs to Hilton Suzhou"
+      "label": "2026-05-13 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260514",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-14 belongs to Hilton Suzhou"
+      "label": "2026-05-14 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260515",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-15 belongs to Hilton Suzhou"
+      "label": "2026-05-15 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260516",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-16 belongs to Hilton Suzhou"
+      "label": "2026-05-16 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260517",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-17 belongs to Hilton Suzhou"
+      "label": "2026-05-17 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260518",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-18 belongs to Hilton Suzhou"
+      "label": "2026-05-18 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260519",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-19 belongs to Hilton Suzhou"
+      "label": "2026-05-19 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260520",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-20 belongs to Hilton Suzhou"
+      "label": "2026-05-20 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260521",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-21 belongs to Hilton Suzhou"
+      "label": "2026-05-21 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260522",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-22 belongs to Hilton Suzhou"
+      "label": "2026-05-22 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260523",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-23 belongs to Hilton Suzhou"
+      "label": "2026-05-23 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260524",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-24 belongs to Hilton Suzhou"
+      "label": "2026-05-24 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260525",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-25 belongs to Hilton Suzhou"
+      "label": "2026-05-25 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260526",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-26 belongs to Hilton Suzhou"
+      "label": "2026-05-26 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260527",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-27 belongs to Hilton Suzhou"
+      "label": "2026-05-27 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260528",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-28 belongs to Hilton Suzhou"
+      "label": "2026-05-28 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260529",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-29 belongs to Hilton Suzhou"
+      "label": "2026-05-29 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260530",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-30 belongs to Hilton Suzhou"
+      "label": "2026-05-30 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "source": "day_20260531",
       "target": "hotel_hilton_suzhou",
       "type": "belongs_to_hotel",
-      "label": "2026-05-31 belongs to Hilton Suzhou"
+      "label": "2026-05-31 belongs to [HOTEL_CITY_BRAND]"
     },
     {
       "id": "E_day_20260519_PART_OF_MTD_MAY_2026",

@@ -1,6 +1,6 @@
 import json, os
 
-base = r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center'
+base = r'[LOCAL_USER_PATH] Wang\.openclaw\workspace\knowledge_center'
 files_info = {}
 for fn in os.listdir(base):
     if fn.endswith('_graph.json'):

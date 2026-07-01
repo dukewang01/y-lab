@@ -3918,7 +3918,7 @@
     {
       "id": "BRAND_HILTON",
       "label": "希尔顿品牌标准配置",
-      "name_en": "Hilton Brand Full Spec",
+      "name_en": "[HOTEL_BRAND] Brand Full Spec",
       "category": "brand",
       "color": "#16A085",
       "type": "Standard"
@@ -4821,7 +4821,7 @@
     },
     {
       "id": "S12_FRESH_AIR",
-      "label": "中央新风处理机组竖向管井输送每层新风主管负担走廊",
+      "label": "中央新风处理机组竖向管井输送[相关主管]负担走廊",
       "name_en": "Central Fresh Air Vertical Shaft",
       "category": "system",
       "color": "#E74C3C",
@@ -6909,7 +6909,7 @@
       "id": "MAINT_RESP_30MIN",
       "label": "30分钟响应标准",
       "category": "maintenance_rule",
-      "description": "紧急维修30分钟内响应。超时须记录原因并升级到工程总监",
+      "description": "紧急维修30分钟内响应。超时须记录原因并升[相关总监]",
       "type": "Equipment"
     },
     {
@@ -7112,7 +7112,7 @@
       "id": "ENERGY_COMMISSION",
       "label": "能源管理委员会",
       "category": "energy_organization",
-      "description": "GM/工程总监/财务总监/房务总监/餐饮总监组成。每季度会议",
+      "description": "GM/[相关总监]/[相关总监]/[相关总监]/[相关总监]组成。每季度会议",
       "type": "Parameter"
     },
     {
@@ -7315,7 +7315,7 @@
       "id": "RODENT_0314_SE",
       "label": "员工餐厅地沟鼠类活动痕迹(2026-03-14)",
       "category": "pest_inspection",
-      "description": "2026年3月14日帮帮PCO巡查发现：员工餐厅地沟区域有鼠类活动痕迹（粪便/啃咬痕迹）。处理措施：投放鼠药+地沟封堵+更换粘鼠板。与前期PCO_0210大堂门缝6mm(鼠类入侵风险)关联。工程部需检查员工餐厅地沟密封状态。",
+      "description": "2026年3月14日帮帮PCO巡查发现：员工餐厅地沟区域有鼠类活动痕迹（粪便/啃咬痕迹）。处理措施：投放鼠药+地沟封堵+更换粘鼠板。与前期PCO_0210大堂门缝6mm(鼠类入侵风险)关联。工程[相关员工]餐厅地沟密封状态。",
       "type": "Equipment"
     },
     {
@@ -8261,7 +8261,7 @@
       "id": "HOTEL_OPEN_DATE",
       "name": "酒店开业日期",
       "type": "hotel_parameter",
-      "description": "苏州希尔顿酒店于2015年5月18日开业。运营至今约11年。",
+      "description": "苏州[HOTEL_NAME]于2015年5月18日开业。运营至今约11年。",
       "properties": {
         "open_date": "2015-05-18",
         "years_operating": 11
@@ -8282,13 +8282,13 @@
       "id": "FLOOR_PANORAMA",
       "name": "楼层全景图",
       "type": "mep_panorama",
-      "description": "苏州希尔顿酒店楼层全景：43F总统套房|42F行政酒廊+客房|31-41F客房(跳34F)|30F客房|29F避难层|26-28F客房(跳24F)|20-25F客房(跳14F)|10-19F客房(跳13F)|9F避难层|8F泳池健身SPA|7F预留|6F宴会+厨房群|5F全日+意餐+厨房群|4F预留|3F御玺+面馆+中厨|2F啤酒荟|1F大堂吧|B1后勤|B2更衣/办公|传媒B1外卖+市集"
+      "description": "苏州[HOTEL_NAME]楼层全景：43F总统套房|42F行政酒廊+客房|31-41F客房(跳34F)|30F客房|29F避难层|26-28F客房(跳24F)|20-25F客房(跳14F)|10-19F客房(跳13F)|9F避难层|8F泳池健身SPA|7F预留|6F宴会+厨房群|5F全日+意餐+厨房群|4F预留|3F御玺+面馆+中厨|2F啤酒荟|1F大堂吧|B1后勤|B2更衣/办公|传媒B1外卖+市集"
     },
     {
       "id": "SOP_SERVER_ROOM_LOCK",
       "label": "机房锁门管理规范",
       "type": "Standard",
-      "description": "机房日常必须上锁。钥匙仅限IT主管/总工/安保经理持有。前台和安保各存一把备用(密封箱)。随开随锁/人走门关。消防联动时门禁自动释放。详见qa_cases/SERVER_ROOM_FIX_PLAN.md",
+      "description": "机房日常必须上锁。钥匙仅限IT主管/总工/[相关经理]持有。前台和安保各存一把备用(密封箱)。随开随锁/人走门关。消防联动时门禁自动释放。详见qa_cases/SERVER_ROOM_FIX_PLAN.md",
       "category": "SOP",
       "department": "IT+工程+安保",
       "compliance": "网络安全法/等保2.0"

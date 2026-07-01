@@ -141,7 +141,7 @@
       "id": "QMOD_POOL",
       "label": "QMOD",
       "name_cn": "游泳池水质与运营标准",
-      "description": "苏州希尔顿酒店 8F 室内泳池\n\n【设计参数】\n尺寸: 20m × 10m × 1.2m (200sqm)\n区域湿度: ≤60%\n水温: 28°C (运营目标) / 国标 23-30°C\n泳池类型: 室内循环过滤\n按摩池: 0.8m水深 / 37.2-39.4°C\n\n【运营参数】GB 37488-2019\n游离余氯: 0.3-1.0 mg/L (运营目标 0.4-0.6)\n化合余氯(氯胺): ≤0.4 mg/L\npH值: 7.0-7.8 (运营目标 7.2-7.6)\n浊度: ≤1 NTU\nORP: ≥650 mV\n菌落总数: ≤200 CFU/mL\n大肠菌群: 不得检出\n尿素: ≤3.5 mg/L\n臭氧(水面以上空气): ≤0.2 mg/m³\n氰尿酸: ≤30 mg/L (室内)\n浸脚池余氯: 5-10 mg/L\n\n\n【注】臭氧浓度测量位置：水面以上20cm空气层\n\n【经营信息】\n运营时间: 06:00-22:00\n年卡: 个人¥13,000 / 游泳卡¥11,000\n单次: ¥160 (非住客)\n住客: 免费\n其他: 按摩池37.2-39.4°C / 干蒸湿蒸淋浴\n\n【设备维护】\n泳池系统: 循环过滤泵+臭氧消毒\n巡检: 每日07:00-09:00巡检\n月检: 泳池设备列入月度检查\n外委: 水质处理+检测月度报告\n2026-04: 泳池泵异响(更换轴承WO_POOL_PUMP)",
+      "description": "苏州[HOTEL_NAME] 8F 室内泳池\n\n【设计参数】\n尺寸: 20m × 10m × 1.2m (200sqm)\n区域湿度: ≤60%\n水温: 28°C (运营目标) / 国标 23-30°C\n泳池类型: 室内循环过滤\n按摩池: 0.8m水深 / 37.2-39.4°C\n\n【运营参数】GB 37488-2019\n游离余氯: 0.3-1.0 mg/L (运营目标 0.4-0.6)\n化合余氯(氯胺): ≤0.4 mg/L\npH值: 7.0-7.8 (运营目标 7.2-7.6)\n浊度: ≤1 NTU\nORP: ≥650 mV\n菌落总数: ≤200 CFU/mL\n大肠菌群: 不得检出\n尿素: ≤3.5 mg/L\n臭氧(水面以上空气): ≤0.2 mg/m³\n氰尿酸: ≤30 mg/L (室内)\n浸脚池余氯: 5-10 mg/L\n\n\n【注】臭氧浓度测量位置：水面以上20cm空气层\n\n【经营信息】\n运营时间: 06:00-22:00\n年卡: 个人¥13,000 / 游泳卡¥11,000\n单次: ¥160 (非住客)\n住客: 免费\n其他: 按摩池37.2-39.4°C / 干蒸湿蒸淋浴\n\n【设备维护】\n泳池系统: 循环过滤泵+臭氧消毒\n巡检: 每日07:00-09:00巡检\n月检: 泳池设备列入月度检查\n外委: 水质处理+检测月度报告\n2026-04: 泳池泵异响(更换轴承WO_POOL_PUMP)",
       "category": "qa_module",
       "type": "qa_module"
     },
@@ -1082,7 +1082,7 @@
       "label": "QTC",
       "name_cn": "按摩池水温37.2-39.4°C",
       "description": "按摩池/按摩浴缸水温运营范围37.2-39.4°C",
-      "standard": "Hilton Ops",
+      "standard": "[HOTEL_BRAND] Ops",
       "severity": "N",
       "category": "qa_check_item",
       "tags": "pool",
@@ -1093,7 +1093,7 @@
       "label": "QTC",
       "name_cn": "泳池区域湿度≤60%",
       "description": "8F康体层泳池区域相对湿度≤60%",
-      "standard": "Hilton Ops",
+      "standard": "[HOTEL_BRAND] Ops",
       "severity": "N",
       "category": "qa_check_item",
       "tags": "pool",
@@ -1104,7 +1104,7 @@
       "label": "QTC",
       "name_cn": "除湿送风温度32-35°C",
       "description": "池岸侧送风温度32-35°C，热泵冷量>围护负荷120%",
-      "standard": "Hilton Ops",
+      "standard": "[HOTEL_BRAND] Ops",
       "severity": "N",
       "category": "qa_check_item",
       "tags": "pool",
@@ -1115,7 +1115,7 @@
       "label": "QTC",
       "name_cn": "水下照明密度≤1灯/25m²",
       "description": "IP68防护等级，12V安全电压，密度≤1灯/25m²。防眩光池岸照明200lux",
-      "standard": "Hilton Ops",
+      "standard": "[HOTEL_BRAND] Ops",
       "severity": "N",
       "category": "qa_check_item",
       "tags": "pool",
@@ -1126,7 +1126,7 @@
       "label": "QTC",
       "name_cn": "泳池运营时间·公区06:00-22:00",
       "description": "公区06:00-22:00对外运营，客人24h刷房卡可进入",
-      "standard": "Hilton Ops",
+      "standard": "[HOTEL_BRAND] Ops",
       "severity": "N",
       "category": "qa_check_item",
       "tags": "pool",
@@ -1147,7 +1147,7 @@
       "id": "QTC_QA_01",
       "label": "QTC",
       "name_cn": "BCR评分≥80%达标",
-      "description": "QA审核（BCR）年度得分须≥80%（2024-97.0% / 2025-94.9% 苏州希尔顿达标）",
+      "description": "QA审核（BCR）年度得分须≥80%（2024-97.0% / 2025-94.9% [HOTEL_CITY]达标）",
       "standard": "QA Scoring",
       "severity": "N",
       "category": "qa_check_item",
@@ -1739,7 +1739,7 @@
     },
     {
       "id": "QBug_CLN02",
-      "label": "后场走廊员工区清洁问题",
+      "label": "[相关员工]区清洁问题",
       "name_cn": "Cleanliness - 后场走廊/员工区清洁问题",
       "description": "后场走廊/员工区清洁问题",
       "severity": "N",
@@ -2681,7 +2681,7 @@
       "id": "QTC_BS_401_04",
       "label": "QTC",
       "name_cn": "员工服务",
-      "description": "员工— 餐饮员工须专业/友好/高效",
+      "description": "员工— [相关员工]须专业/友好/高效",
       "standard": "401.04",
       "severity": "N",
       "category": "qa_check_item",
@@ -3352,7 +3352,7 @@
       "id": "QTC_BS_906",
       "label": "QTC",
       "name_cn": "员工健康证",
-      "description": "员工— 餐饮员工持有效健康证",
+      "description": "员工— [相关员工]持有效健康证",
       "standard": "906",
       "severity": "N",
       "category": "qa_check_item",
@@ -3605,7 +3605,7 @@
       "id": "QTC_FSAA_402_09",
       "label": "QTC",
       "name_cn": "员工健康管理",
-      "description": "厨房员工须每日健康检查并记录",
+      "description": "[相关员工]须每日健康检查并记录",
       "standard": "402.09",
       "severity": "N",
       "category": "qa_check_item",
@@ -3847,7 +3847,7 @@
       "id": "QTC_QA_03",
       "label": "QTC  Stay Experience Score须达标",
       "category": "qa_check_item",
-      "description": "Stay Experience Score（SES）是BCR的重要组成部分，须≥80%。苏州希尔顿2024-97%/2025-94.9%均达标。低于80%时须启动专项提升计划。",
+      "description": "Stay Experience Score（SES）是BCR的重要组成部分，须≥80%。[HOTEL_CITY]2024-97%/2025-94.9%均达标。低于80%时须启动专项提升计划。",
       "tags": "qa",
       "type": "entity"
     },
@@ -3855,7 +3855,7 @@
       "id": "QTC_QA_04",
       "label": "QTC  Improvement Planner须在BCR后30天内完成",
       "category": "qa_check_item",
-      "description": "每次BCR审计后，被扣分项须在30天内制定Improvement Planner并上传系统，明确责任人+完成期限。超过60天未闭环的IP须总经理签字确认。",
+      "description": "每次BCR审计后，被扣分项须在30天内制定Improvement Planner并上传系统，明确责任人+完成期限。超过60天未闭环的IP[相关经理]签字确认。",
       "tags": "qa",
       "type": "entity"
     },
@@ -3895,7 +3895,7 @@
       "id": "QTC_QA_09",
       "label": "QTC  宾客满意度调查月报须有分析+行动",
       "category": "qa_check_item",
-      "description": "每月宾客满意度调查（OTA点评+住客问卷+SALT）须生成分析报告，识别TOP3扣分项，制定改进措施+责任人。连续3个月同一问题未改善须总经理介入。",
+      "description": "每月宾客满意度调查（OTA点评+住客问卷+SALT）须生成分析报告，识别TOP3扣分项，制定改进措施+责任人。连续3个月同一问题未[相关经理]介入。",
       "tags": "qa",
       "type": "entity"
     },
@@ -3911,7 +3911,7 @@
       "id": "QTC_QA_11",
       "label": "QTC  Grading Criteria (4000分制) 须全员培训",
       "category": "qa_check_item",
-      "description": "4000分制BCR评分准则须对部门总监+经理+主管进行年度培训，确保每个部门都清楚自己的评分项和扣分阈值。",
+      "description": "4000分制BCR评分准则[相关总监]+经理+主管进行年度培训，确保每个部门都清楚自己的评分项和扣分阈值。",
       "tags": "qa",
       "type": "entity"
     },
@@ -4079,7 +4079,7 @@
       "id": "QTC_BCULTURE_06",
       "label": "QTC  管理层须每月参加品牌文化晨会",
       "category": "qa_check_item",
-      "description": "部门总监/经理须每月参加至少1次品牌文化主题晨会，现场分享品牌行为实践案例。缺席率须≤10%。",
+      "description": "[相关总监]/经理须每月参加至少1次品牌文化主题晨会，现场分享品牌行为实践案例。缺席率须≤10%。",
       "tags": "brandculture",
       "type": "entity"
     },
@@ -4095,15 +4095,15 @@
       "id": "QTC_BCULTURE_08",
       "label": "QTC  品牌行为负面案例须纳入培训教材",
       "category": "qa_check_item",
-      "description": "RISK投诉中反映的服务态度问题（如RCASE_7849 Duke打包咖啡/'这不是咖啡厅'）须脱敏后作为品牌行为反面教材纳入新员工培训。",
+      "description": "RISK投诉中反映的服务态度问题（如RCASE_7849 Duke打包咖啡/'这不是咖啡厅'）须脱敏后作为品牌行为反面教[相关员工]培训。",
       "tags": "brandculture",
       "type": "entity"
     },
     {
       "id": "QTC_BCULTURE_09",
-      "label": "QTC  品牌文化宣传物料须在员工区展示",
+      "label": "QTC  品牌文化宣传[相关员工]区展示",
       "category": "qa_check_item",
-      "description": "品牌文化海报/核心价值观/东道主典范标准须在员工通道/餐厅/更衣室/办公室等区域展示，每季度更新一次。",
+      "description": "品牌文化海报/核心价值观/东道主典范[相关员工]通道/餐厅/更衣室/办公室等区域展示，每季度更新一次。",
       "tags": "back_of_house,brandculture",
       "type": "entity"
     },
@@ -4127,7 +4127,7 @@
       "id": "QTC_TRAIN_05",
       "label": "QTC  CPR/First Aid持证人数须≥员工总数20%",
       "category": "qa_check_item",
-      "description": "CPR/First Aid持证员工须不少于员工总数20%。安保部/健身中心/泳池/宴会厅优先，每2年复训一次。持证名单须在各部门公示。",
+      "description": "CPR/First Aid[相关员工][相关员工]总数20%。安保部/健身中心/泳池/宴会厅优先，每2年复训一次。持证名单须在各部门公示。",
       "tags": "back_of_house,train,training",
       "type": "entity"
     },
@@ -4135,7 +4135,7 @@
       "id": "QTC_TRAIN_06",
       "label": "QTC  年度合规培训须在1月底前完成",
       "category": "qa_check_item",
-      "description": "每年1月底前须完成全员年度合规培训（含：反歧视/数据保护/反腐败/商业秘密/食品安全/信息安全）。未完成员工不得独立上岗。",
+      "description": "每年1月底前须完成全员年度合规培训（含：反歧视/数据保护/反腐败/商业秘密/食品安全/信息安全）。[相关员工]不得独立上岗。",
       "tags": "train,training",
       "type": "entity"
     },
@@ -4283,7 +4283,7 @@
       "id": "QMOD_PCO_REPEAT",
       "label": "PCO反复问题监控(3次以上标记)",
       "category": "qa_checklist",
-      "description": "PCO反复问题(≥3次标记)监控清单。①3F面馆灶台污垢蟑螂—【6次 历史最高！】7月→10月14日→10月21日→2月→4月7日→4月14日；②宴会厨房洗碗间污水—3次(7月/4月7日/4月14日)；③意大利厨房洗碗间下水—3次(2月/7月/4月)；④意大利餐厅吧台残渣—2次(4月7日/14日)；⑤饼房地漏残渣—2次(4月7日/14日)；⑥杀鱼间胶帘—2次(4月7日/14日)。触发：≥3→GM，≥5→区域总监，≥6→【地区VP级关注】",
+      "description": "PCO反复问题(≥3次标记)监控清单。①3F面馆灶台污垢蟑螂—【6次 历史最高！】7月→10月14日→10月21日→2月→4月7日→4月14日；②宴会厨房洗碗间污水—3次(7月/4月7日/4月14日)；③意大利厨房洗碗间下水—3次(2月/7月/4月)；④意大利餐厅吧台残渣—2次(4月7日/14日)；⑤饼房地漏残渣—2次(4月7日/14日)；⑥杀鱼间胶帘—2次(4月7日/14日)。触发：≥3→GM，≥5→[相关总监]，≥6→【地区VP级关注】",
       "type": "qa_module"
     },
     {
@@ -4757,7 +4757,7 @@
       "id": "REV_2026_04",
       "label": "2026年4月营收数据",
       "category": "revenue_report",
-      "description": "2026年4月（4月1日-4月28日）苏州希尔顿营收数据",
+      "description": "2026年4月（4月1日-4月28日）[HOTEL_CITY]营收数据",
       "tags": "revenue,2026,monthly",
       "type": "revenue_summary"
     },
@@ -4801,9 +4801,9 @@
       "id": "QMOD_HRR_COLLATERAL",
       "name": "HRR品牌物料标准",
       "type": "qa_module",
-      "description": "Hilton Hotels & Resorts Collateral Directory APAC Region (v2020.12) — 品牌标识物料标准，涵盖Front Desk/F&B/In-Room/Meeting&Events/Sales&Marketing/Stationery六大类",
+      "description": "[HOTEL_BRAND] Hotels & Resorts Collateral Directory APAC Region (v2020.12) — 品牌标识物料标准，涵盖Front Desk/F&B/In-Room/Meeting&Events/Sales&Marketing/Stationery六大类",
       "properties": {
-        "description": "HRR Collateral Guide APAC v2020.12 — 希尔顿酒店品牌印刷品/物料目录指南",
+        "description": "HRR Collateral Guide APAC v2020.12 — [HOTEL_NAME]品牌印刷品/物料目录指南",
         "page_count": 42,
         "last_updated": "2020年12月",
         "categories": 6,
@@ -4884,7 +4884,7 @@
       "id": "HRR_STD_GUEST_BINDER",
       "name": "Guest Services & In-Room Dining Binder标准",
       "type": "Standard",
-      "description": "客房内必须放置Guest Services Directory + In-Room Dining合并活页夹；所有物业须更新为新标识。同一活页夹可用于无特定概念的酒吧长菜单。通过Creative Drive定制（HHRorder-APAC@creativeDrive.com）"
+      "description": "客房内必须放置Guest Services Directory + In-Room Dining合并活页夹；所有物业须更新为新标识。同一活页夹可用于无特定概念的酒吧长菜单。通过Creative Drive定制（H***C@creativeDrive.com）"
     },
     {
       "id": "HRR_STD_TRI_FOLD_MENU",
@@ -4914,13 +4914,13 @@
       "id": "HRR_CONTACT_BRAND",
       "name": "亚太区品牌营销联系",
       "type": "entity",
-      "description": "Hilton_BrandAPAC@hilton.com"
+      "description": "Hilton_BrandAPAC@[hotel_brand].com"
     },
     {
       "id": "HRR_CONTACT_CREATIVE",
       "name": "Creative Drive（创意制作）",
       "type": "entity",
-      "description": "HHRorder-APAC@creativeDrive.com — 负责标牌/菜单/活页夹/展示架等定制制作"
+      "description": "H***C@creativeDrive.com — 负责标牌/菜单/活页夹/展示架等定制制作"
     },
     {
       "id": "HRR_PROC_UPDATE",
@@ -4932,7 +4932,7 @@
       "id": "HLT_BRAND_STANDARDS_CHINA_2026",
       "name": "希尔顿中国2026品牌标准(729页)",
       "type": "source_file",
-      "description": "Hilton Hotels Brand Standards China, Effective Jan 05, 2026, 729页。覆盖100品牌体验/200宾客服务/300客房/400餐饮/500康体/600会议/700建筑运营/800品牌分销/900安全安保/2500设计施工"
+      "description": "[HOTEL_BRAND] Hotels Brand Standards China, Effective Jan 05, 2026, 729页。覆盖100品牌体验/200宾客服务/300客房/400餐饮/500康体/600会议/700建筑运营/800品牌分销/900安全安保/2500设计施工"
     },
     {
       "id": "QMOD_BOSS_GRADING",
@@ -5070,13 +5070,13 @@
       "id": "QDOC_SERVICE_RECOVERY_113",
       "name": "服务补救记录(113.01)",
       "type": "qa_standard",
-      "description": "必须使用问题解决跟踪工具，保持至少6个月滚动记录。所有投诉由部门主管记录并管理方案"
+      "description": "必须使用问题解决跟踪工具，保持至少6个月滚动记录。所有投[相关主管]记录并管理方案"
     },
     {
       "id": "QDOC_DIGITAL_LOCK_MAINT",
       "name": "数字锁维护(709.02.E)",
       "type": "qa_standard",
-      "description": "维护DKTK/BMK工具包。30天内修复缺陷设备(selfservicesolution.hilton.com)。客房锁每90天·公共门锁每30天健康检查"
+      "description": "维护DKTK/BMK工具包。30天内修复缺陷设备(selfservicesolution.[hotel_brand].com)。客房锁每90天·公共门锁每30天健康检查"
     },
     {
       "id": "QDOC_KIPSU_MESSAGING",
@@ -5088,7 +5088,7 @@
       "id": "QDOC_CONNECTED_ROOM",
       "name": "Connected Room部署(709.05)",
       "type": "qa_standard",
-      "description": "唯一批准互动娱乐系统。新Build→开业前装。Conversion→UnoNet部署时装。现有→UnoNet后12个月。2024.12.31前安装有$100/间补贴。in_room_technology@hilton.com"
+      "description": "唯一批准互动娱乐系统。新Build→开业前装。Conversion→UnoNet部署时装。现有→UnoNet后12个月。2024.12.31前安装有$100/间补贴。in_room_technology@[hotel_brand].com"
     },
     {
       "id": "QDOC_LIGHTSTAY",
@@ -5110,7 +5110,7 @@
     },
     {
       "id": "QDOC_HILTON_ALERT",
-      "name": "Hilton Alert应急系统(903.03)",
+      "name": "[HOTEL_BRAND] Alert应急系统(903.03)",
       "type": "qa_standard",
       "description": "GM需确保SCT成员在Hilton Alert系统中设置并下载APP（最少3人）。Konexus驱动"
     },
@@ -5122,7 +5122,7 @@
     },
     {
       "id": "QA_2025_FULL_SCORE",
-      "name": "2025年QA全年审计评分(苏州希尔顿)",
+      "name": "2025年QA全年审计评分([HOTEL_CITY])",
       "type": "qa_score",
       "description": "2025 QA Overall: 3,796.7/4,000 (94.92%) Outstanding。Cleanliness 99.58% / Condition 89.80% / Brand Standards 94.97%。总扣分209.6分(2024年120.1分)"
     },
@@ -5242,7 +5242,7 @@
     },
     {
       "id": "QA_2024_FULL_SCORE",
-      "name": "2024年QA审计评分(苏州希尔顿)",
+      "name": "2024年QA审计评分([HOTEL_CITY])",
       "type": "qa_score",
       "description": "2024 QA Overall: 3,879.9/4,000 (96.99% Outstanding)。扣分120.1分(2025年扣209.6分, 下滑5.01pp)"
     },
@@ -5291,7 +5291,7 @@
       "id": "QA_CROSS_FIN_HH",
       "name": "QA↔FIN会员体系桥接",
       "type": "qa_cross_reference",
-      "description": "FIN_HH系列实体定义会员层级和权益(金卡/钻石/银卡)，QA检查员工是否了解这些权益并主动告知客人",
+      "description": "FIN_HH系列实体定义会员层级和权益(金卡/钻石/银卡)，QA[相关员工]是否了解这些权益并主动告知客人",
       "properties": {
         "description": "跨站标准关联",
         "GSM": "QA微笑话术标准 -> GSM服务流程",
@@ -5308,7 +5308,7 @@
       "id": "QA_SMILE_CHECK_ARRIVAL",
       "name": "抵店迎宾话术审计检查点",
       "type": "qa_check_item",
-      "description": "审计观察：员工是否直身微笑问候/是否主动开门引导/是否叫常客姓名/是否提供欢迎饮料。话术：'欢迎光临苏州希尔顿'/'X先生欢迎回来'"
+      "description": "审计观察：员工是否直身微笑问候/是否主动开门引导/是否叫常客姓名/是否提供欢迎饮料。话术：'欢迎光临[HOTEL_CITY]'/'X先生欢迎回来'"
     },
     {
       "id": "QA_SMILE_CHECK_COMPLAINT",
@@ -5380,13 +5380,13 @@
       "id": "QA_POLICY_SVC_RECOVERY_11301",
       "name": "服务补救记录要求(113.01)",
       "type": "qa_standard",
-      "description": "必须使用问题解决跟踪工具，保持6个月滚动记录。客户投诉由部门主管记录+方案管理"
+      "description": "必须使用问题解决跟踪工具，保持6个月滚动记录。客户投[相关主管]记录+方案管理"
     },
     {
       "id": "QA_POLICY_SVC_RECOVERY_CHECK",
       "name": "服务补救记录审计检查点",
       "type": "qa_check_item",
-      "description": "审计检查：是否有系统工具记录投诉。是否保持至少6个月记录。投诉是否有部门主管签字+方案记录"
+      "description": "审计检查：是否有系统工具记录投诉。是否保持至少6个月记录。投诉是[相关主管]签字+方案记录"
     },
     {
       "id": "QA_POLICY_QR_MENU_40106",
@@ -5428,19 +5428,19 @@
       "id": "QA_POLICY_CONNECTED_ROOM_70905",
       "name": "Connected Room互动娱乐系统(709.05)",
       "type": "qa_standard",
-      "description": "唯一批准互动娱乐系统。新Build开业前/Conversion UnoNet部署时/现有UnoNet后12个月内装。$100/间补贴(2024.12.31前)。邮箱in_room_technology@hilton.com"
+      "description": "唯一批准互动娱乐系统。新Build开业前/Conversion UnoNet部署时/现有UnoNet后12个月内装。$100/间补贴(2024.12.31前)。邮箱in_room_technology@[hotel_brand].com"
     },
     {
       "id": "QA_POLICY_INTERNET_71001",
       "name": "Stay Connected上网计划(710.01)",
       "type": "qa_standard",
-      "description": "必须参加Hilton Guest Internet Program。4年设备刷新周期。AT&T EOL酒店需安装UnoNet。联系Guest_Facing_Technology@hilton.com"
+      "description": "必须参加Hilton Guest Internet Program。4年设备刷新周期。AT&T EOL酒店需安装UnoNet。联系Guest_Facing_Technology@[hotel_brand].com"
     },
     {
       "id": "QA_POLICY_FIRE_LIFE_SAFETY",
       "name": "消防与生命安全综合标准",
       "type": "qa_standard",
-      "description": "涵盖：应急响应计划(903.01)·Hilton Alert应急APP(903.03)·天窗检查(905.00)·建筑法规合规(901.00)·ADA合规(902.00)"
+      "description": "涵盖：应急响应计划(903.01)·[HOTEL_BRAND] Alert应急APP(903.03)·天窗检查(905.00)·建筑法规合规(901.00)·ADA合规(902.00)"
     },
     {
       "id": "QA_HH_KNOWLEDGE_BASE",
@@ -5506,7 +5506,7 @@
       "id": "QA_HILTON_UNIVERSITY",
       "name": "希尔顿大学HU培训操作指南",
       "type": "qa_training",
-      "description": "HU培训平台登录流程：LOBBY(https://lobby.hilton.com) → 人力资源→学习→Hilton University→课程码搜索→中文版学习→Me看记录。员工培训合规从HU记录获取"
+      "description": "HU培训平台登录流程：LOBBY(https://lobby.[hotel_brand].com) → 人力资源→学习→[HOTEL_BRAND] University→课程码搜索→中文版学习→Me看记录。员工培训合规从HU记录获取"
     },
     {
       "id": "QA_HU_LOGIN_PATH",
@@ -5524,13 +5524,13 @@
       "id": "QA_HU_RECORD_QUERY",
       "name": "HU培训记录查询",
       "type": "qa_process",
-      "description": "Me标签页→My Plan→截止日期→已完成课程记录。GM通过此确认员工合规培训完成情况。QA审计时抽查此记录"
+      "description": "Me标签页→My Plan→截止日期→已完成课程记录。GM通[相关员工]合规培训完成情况。QA审计时抽查此记录"
     },
     {
       "id": "QA_HU_GM_ACK",
       "name": "GM年度培训确认流程",
       "type": "qa_process",
-      "description": "GM需完成CPL_GMAck_2025(管理店)/CPL_Franchise_GMAck_2025(加盟店)在线课程。认证全员9月30日前完成Cyber Security/Preventing Human Trafficking/CIIGE三项年度合规培训。应急+消防14天内新员工+每年复训(HU ID397324)。CPR每班≥1人(HU ID903301)"
+      "description": "GM需完成CPL_GMAck_2025(管理店)/CPL_Franchise_GMAck_2025(加盟店)在线课程。认证全员9月30日前完成Cyber Security/Preventing Human Trafficking/CIIGE三项年度合规培训。应急+消防14[相关员工]+每年复训(HU ID397324)。CPR每班≥1人(HU ID903301)"
     },
     {
       "id": "QA_HU_TRAINING_CATEGORY",
@@ -5542,7 +5542,7 @@
       "id": "QA_BREAKFAST_STANDARDS",
       "name": "HHR早餐标准指南(2019年3月)",
       "type": "qa_standard",
-      "description": "Breakfast at Hilton 34页完整标准指南。九大章节：培训与指引·营业时间·全球自助餐要求·自助餐摆台·单点菜单·自助餐标签·设计与建造·儿童定价·台面标准·公平定价"
+      "description": "Breakfast at [HOTEL_BRAND] 34页完整标准指南。九大章节：培训与指引·营业时间·全球自助餐要求·自助餐摆台·单点菜单·自助餐标签·设计与建造·儿童定价·台面标准·公平定价"
     },
     {
       "id": "QA_BF_HOURS",
@@ -5626,7 +5626,7 @@
       "id": "QA_BF6_PROGRAM",
       "name": "BF6早餐六大重点标准",
       "type": "qa_standard",
-      "description": "Hilton Breakfast 6 六大重点：咖啡·鸡蛋·羊角面包·粥·牛肉汤面·油条。集团F&B/采购联合制定，每项含标准+培训PPT+视频+质量检查表+产品规格。SALT/社交媒体追踪效果"
+      "description": "[HOTEL_BRAND] Breakfast 6 六大重点：咖啡·鸡蛋·羊角面包·粥·牛肉汤面·油条。集团F&B/采购联合制定，每项含标准+培训PPT+视频+质量检查表+产品规格。SALT/社交媒体追踪效果"
     },
     {
       "id": "QA_BF6_COFFEE",
@@ -5720,7 +5720,7 @@
     },
     {
       "id": "QA_BCR_20250713",
-      "name": "2025-07-13 BCR品牌合规报告(苏州希尔顿)",
+      "name": "2025-07-13 BCR品牌合规报告([HOTEL_CITY])",
       "type": "qa_report",
       "description": "Brand Compliance Report SZVTV，审计日2025-07-13，审计员Christopher Tan，Regular类型。QA Stay Score PIP FRCM全维度评估"
     },
@@ -5746,7 +5746,7 @@
       "id": "QA_BCR_2025_2024_COMPARE",
       "name": "BCR 2025 vs 2024年度对比",
       "type": "qa_metric",
-      "description": "BCR报告显示同比变化趋势。2025年7月苏州希尔顿整体Outstanding，对比2024年度BCR 97.0%"
+      "description": "BCR报告显示同比变化趋势。2025年7月[HOTEL_CITY]整体Outstanding，对比2024年度BCR 97.0%"
     },
     {
       "id": "QA_HHR_LEADER_TOOLKIT",
@@ -5756,7 +5756,7 @@
     },
     {
       "id": "QA_HHR_BRAND_POSITION",
-      "name": "希尔顿酒店及度假村品牌定位",
+      "name": "[HOTEL_NAME]及度假村品牌定位",
       "type": "qa_standard",
       "description": "品牌承诺:希尔顿让世界充满善意之光。东道主精神:真诚待客·全球之窗·乐观善意。品牌个性:真诚/温暖/乐观/周到/可靠"
     },
@@ -5812,7 +5812,7 @@
       "id": "QA_BRAND_STANDARDS_2026",
       "name": "希尔顿中国2026品牌标准(729页)",
       "type": "qa_master_standard",
-      "description": "Hilton Hotels Brand Standards China 2026.1.5生效。9大Section+2500设计施工+S1000-1200不适用。涵盖品牌体验·客房·F&B·康体·会议·建筑运维·品牌形象·安防·无障碍·设计建造"
+      "description": "[HOTEL_BRAND] Hotels Brand Standards China 2026.1.5生效。9大Section+2500设计施工+S1000-1200不适用。涵盖品牌体验·客房·F&B·康体·会议·建筑运维·品牌形象·安防·无障碍·设计建造"
     },
     {
       "id": "QA_BS_100",
@@ -5837,7 +5837,7 @@
       "id": "QA_BS_10200",
       "name": "标准102.00 度假村认定",
       "type": "qa_standard",
-      "description": "度假村认定标准。仅适用于被认定为Resort的物业，要求提供Resort Amenities Package。苏州希尔顿非度假村。",
+      "description": "度假村认定标准。仅适用于被认定为Resort的物业，要求提供Resort Amenities Package。[HOTEL_CITY]非度假村。",
       "severity": "N",
       "category": "Resort",
       "tags": "brand,brand_standard"
@@ -5900,7 +5900,7 @@
       "id": "QA_BS_10600",
       "name": "标准106.00 品牌好客精神",
       "type": "qa_standard",
-      "description": "品牌好客精神(东道主典范)。Hilton Hospitality DNA：温暖欢迎(Warm Welcome)、个性化服务(Personalised Service)、主动超越(Intentional Acts of Care)。全员掌握品牌服务文化。",
+      "description": "品牌好客精神(东道主典范)。[HOTEL_BRAND] Hospitality DNA：温暖欢迎(Warm Welcome)、个性化服务(Personalised Service)、主动超越(Intentional Acts of Care)。全员掌握品牌服务文化。",
       "severity": "M",
       "category": "Service",
       "tags": "brand,brand_standard"
@@ -5981,7 +5981,7 @@
       "id": "QA_BS_11300",
       "name": "标准113.00 服务补救",
       "type": "qa_standard",
-      "description": "服务补救标准。投诉须记录在系统保存至少6个月。每条投诉须部门主管签字+解决方案。GM每周review投诉趋势。",
+      "description": "服务补救标准。投诉须记录在系统保存至少6个月。每条投[相关主管]签字+解决方案。GM每周review投诉趋势。",
       "severity": "M",
       "category": "Service",
       "tags": "brand,brand_standard"
@@ -6772,8 +6772,8 @@
     {
       "id": "COLL_HILTON_HONORS_FRONT_DESK_SIGN",
       "label": "COLLATERAL_ITEM",
-      "name_cn": "Hilton Honors Front Desk Sign",
-      "name_en": "Hilton Honors Front Desk Sign",
+      "name_cn": "[HOTEL_BRAND] Honors Front Desk Sign",
+      "name_en": "[HOTEL_BRAND] Honors Front Desk Sign",
       "description": "HRR印刷品物料 — 页11, 强制",
       "category": "collateral_item",
       "type": "collateral_item",
@@ -6786,8 +6786,8 @@
     {
       "id": "COLL_HILTON_HONORS_KEY_CARD",
       "label": "COLLATERAL_ITEM",
-      "name_cn": "Hilton Honors Key Card",
-      "name_en": "Hilton Honors Key Card",
+      "name_cn": "[HOTEL_BRAND] Honors Key Card",
+      "name_en": "[HOTEL_BRAND] Honors Key Card",
       "description": "HRR印刷品物料 — 页12, 强制",
       "category": "collateral_item",
       "type": "collateral_item",
@@ -6800,8 +6800,8 @@
     {
       "id": "COLL_HILTON_HONORS_KEY_PACKET",
       "label": "COLLATERAL_ITEM",
-      "name_cn": "Hilton Honors Key Packet",
-      "name_en": "Hilton Honors Key Packet",
+      "name_cn": "[HOTEL_BRAND] Honors Key Packet",
+      "name_en": "[HOTEL_BRAND] Honors Key Packet",
       "description": "HRR印刷品物料 — 页12, 强制",
       "category": "collateral_item",
       "type": "collateral_item",
@@ -8063,7 +8063,7 @@
       "properties": {
         "description": "希尔顿荣誉客会会员等级分为：普通会员、银会籍（精英）、金会籍（精英）、钻石会籍（精英）。银会籍、金会籍和钻石会籍都是精英会籍。",
         "category": "membership_tiers",
-        "tags": "hilton,honors,silver,gold,diamond",
+        "tags": "[hotel_brand],honors,silver,gold,diamond",
         "source": "Hilton_Honors_Training_PPT",
         "migrated_from": "FIN站",
         "migration_date": "2026-05-02",
@@ -8077,7 +8077,7 @@
       "properties": {
         "description": "金会籍会员和钻石会籍会员每年入住房晚达到一定数量方可获得该会籍：金会籍需要40晚，钻石会籍需要60晚。",
         "category": "membership_requirements",
-        "tags": "hilton,honors,nights,gold,diamond",
+        "tags": "[hotel_brand],honors,nights,gold,diamond",
         "source": "Hilton_Honors_Training_PPT",
         "migrated_from": "FIN站",
         "migration_date": "2026-05-02",
@@ -8091,7 +8091,7 @@
       "properties": {
         "description": "精英会籍积分奖励倍率：银会籍1.2倍，金会籍1.8倍，钻石会籍2倍积分奖励。所有符合条件的客房费用均可获得积分。",
         "category": "points_multiplier",
-        "tags": "hilton,honors,points,silver,gold,diamond,bonus",
+        "tags": "[hotel_brand],honors,points,silver,gold,diamond,bonus",
         "source": "Hilton_Honors_Training_PPT",
         "migrated_from": "FIN站",
         "migration_date": "2026-05-02",
@@ -8105,7 +8105,7 @@
       "properties": {
         "description": "会员积分可用于兑换免费房晚、贵宾体验、精美商品以及租车服务。积分可凭任意符合条件的账单消费或客房费用赚取。",
         "category": "points_usage",
-        "tags": "hilton,honors,points,redemption",
+        "tags": "[hotel_brand],honors,points,redemption",
         "source": "Hilton_Honors_Training_PPT",
         "migrated_from": "FIN站",
         "migration_date": "2026-05-02",
@@ -8119,7 +8119,7 @@
       "properties": {
         "description": "希尔顿承诺No Blackout Dates（无不可兑换日期），会员可使用积分在任何有可用客房的情况下兑换免费房晚。积分越多，免费房晚越多。",
         "category": "redemption_policy",
-        "tags": "hilton,honors,free_night,blackout",
+        "tags": "[hotel_brand],honors,free_night,blackout",
         "source": "Hilton_Honors_Training_PPT",
         "migrated_from": "FIN站",
         "migration_date": "2026-05-02",
@@ -8133,7 +8133,7 @@
       "properties": {
         "description": "荣誉客会会员消费更高，比非会员宾客多出三倍。会员再次入住的概率比非会员宾客高出九倍。92%的会员通过成本最低的分销渠道进行预订。",
         "category": "member_value",
-        "tags": "hilton,honors,spend,loyalty",
+        "tags": "[hotel_brand],honors,spend,loyalty",
         "source": "Hilton_Honors_Training_PPT",
         "migrated_from": "FIN站",
         "migration_date": "2026-05-02",
@@ -8147,7 +8147,7 @@
       "properties": {
         "description": "注册加入希尔顿荣誉客会无需支付任何费用（注册免费），费时数秒即可完成。注册即享缤纷礼遇。",
         "category": "membership_cost",
-        "tags": "hilton,honors,free,registration",
+        "tags": "[hotel_brand],honors,free,registration",
         "source": "Hilton_Honors_Training_PPT",
         "migrated_from": "FIN站",
         "migration_date": "2026-05-02",
@@ -8159,9 +8159,9 @@
       "type": "entity",
       "name": "HH折扣价保证",
       "properties": {
-        "description": "希尔顿荣誉客会会员通过直订渠道（酒店现场、呼叫中心、Hilton.com、HH App）预订可享专属折扣优惠和折扣价保证。",
+        "description": "希尔顿荣誉客会会员通过直订渠道（酒店现场、呼叫中心、[HOTEL_BRAND].com、HH App）预订可享专属折扣优惠和折扣价保证。",
         "category": "discount_benefits",
-        "tags": "hilton,honors,discount,direct",
+        "tags": "[hotel_brand],honors,discount,direct",
         "source": "Hilton_Honors_Training_PPT",
         "migrated_from": "FIN站",
         "migration_date": "2026-05-02",
@@ -8173,9 +8173,9 @@
       "type": "entity",
       "name": "HH酒店数量及覆盖",
       "properties": {
-        "description": "希尔顿荣誉客会会员可在入住全球逾7,000家希尔顿酒店时免费乐享各种专属礼遇。",
+        "description": "希尔顿荣誉客会会员可在入住全球逾7,000家[HOTEL_NAME]时免费乐享各种专属礼遇。",
         "category": "coverage",
-        "tags": "hilton,honors,hotels,global",
+        "tags": "[hotel_brand],honors,hotels,global",
         "source": "Hilton_Honors_Training_PPT",
         "migrated_from": "FIN站",
         "migration_date": "2026-05-02",
@@ -8189,7 +8189,7 @@
       "properties": {
         "description": "团队成员可通过Go Hilton计划享受各种特权，包括自动晋升至银会籍、高折扣亲友价等。",
         "category": "employee_benefits",
-        "tags": "hilton,honors,go_hilton,team_member",
+        "tags": "[hotel_brand],honors,go_hilton,team_member",
         "source": "Hilton_Honors_Training_PPT",
         "migrated_from": "FIN站",
         "migration_date": "2026-05-02",
@@ -8214,7 +8214,7 @@
       "category": "financial_value",
       "description": "希尔顿荣誉客会积分估值：每100分≈0.4-0.6美元，实际价值取决于兑换方式。最佳兑换方式为Standard Room Reward住宿。",
       "valuation": "0.4-0.6美分/分",
-      "source": "Hilton Honors培训PPT 2026",
+      "source": "[HOTEL_BRAND] Honors培训PPT 2026",
       "type": "qa_metric",
       "properties": {
         "migrated_from": "FIN站",
@@ -8324,7 +8324,7 @@
       "category": "tag",
       "label": "HH财务专题标签",
       "type": "entity",
-      "description": "希尔顿荣誉客会(Hilton Honors)财务专题标签，集合所有HH积分估值/兑换/成本/LTV相关知识点",
+      "description": "希尔顿荣誉客会([HOTEL_BRAND] Honors)财务专题标签，集合所有HH积分估值/兑换/成本/LTV相关知识点",
       "properties": {
         "migrated_from": "FIN站",
         "migration_date": "2026-05-02",
@@ -8454,7 +8454,7 @@
       "id": "QTC_EXPOSURE_02",
       "type": "qa_check_item",
       "name": "舆情快反授权机制检查",
-      "description": "MOD/值班总监是否具备舆情事件¥2,000内免审批现场决策权。GSM是否知晓\"先停损再走流程\"原则"
+      "description": "MOD/[相关总监]是否具备舆情事件¥2,000内免审批现场决策权。GSM是否知晓\"先停损再走流程\"原则"
     },
     {
       "id": "QTC_EXPOSURE_PAPER",
@@ -8556,7 +8556,7 @@
         "source": "FSAA_NC_Report_20260422.pdf",
         "audit_date": "2026-04-22",
         "area": "",
-        "description": "水果加工间：审核时观察到员工在消毒池 进行蔬菜的清洗。",
+        "description": "水果加工间：审核[相关员工]在消毒池 进行蔬菜的清洗。",
         "deadline": "",
         "pest_type": "general_hygiene"
       }
@@ -9571,7 +9571,7 @@
         "standard": "食品处理人员需保持高个人卫生标准, 穿戴清洁工作服",
         "section": "QA_BS_400",
         "type": "standard",
-        "check": "检查员工仪表仪容"
+        "check": "[相关员工]仪表仪容"
       }
     },
     {
@@ -9738,7 +9738,7 @@
         "standard_number": "109.02",
         "change_type": "Revision",
         "current_title": "BRAND TRAINING",
-        "comment": "Updating the Global Hilton Brand Training Program name to \"New Leader Introduction to The World's Iconic Host - Open Hotels\" and updated Course ID.",
+        "comment": "Updating the Global [HOTEL_BRAND] Brand Training Program name to \"New Leader Introduction to The World's Iconic Host - Open Hotels\" and updated Course ID.",
         "locations": " Global",
         "published": "12/8/2025 12:00:00 A"
       }
@@ -9816,7 +9816,7 @@
         "standard_number": "111.04",
         "change_type": "Revision",
         "current_title": "POINTS CAP",
-        "comment": "Updates to Hilton Honors, including new tiers and benefits.",
+        "comment": "Updates to [HOTEL_BRAND] Honors, including new tiers and benefits.",
         "locations": " Global",
         "published": "12/5/2025 12:00:00 A"
       }
@@ -9842,7 +9842,7 @@
         "standard_number": "111.05.D",
         "change_type": "Revision",
         "current_title": "DIAMOND",
-        "comment": " Updates to Hilton Honors, including new tiers and benefits.",
+        "comment": " Updates to [HOTEL_BRAND] Honors, including new tiers and benefits.",
         "locations": " Global",
         "published": "12/5/2025 12:00:00 A"
       }
@@ -9933,7 +9933,7 @@
         "standard_number": "111.05.E.5",
         "change_type": "Revision",
         "current_title": "DIAMOND RESERVE UPGRADE POLICY",
-        "comment": "Updates to Hilton Honors, including new tiers and benefits.",
+        "comment": "Updates to [HOTEL_BRAND] Honors, including new tiers and benefits.",
         "locations": " Global",
         "published": "12/5/2025 12:00:00 A"
       }
@@ -9946,7 +9946,7 @@
         "standard_number": "111.05.F",
         "change_type": "Addition",
         "current_title": "THE HONORS SOCIETY",
-        "comment": "Updates to Hilton Honors, including new tiers and benefits.",
+        "comment": "Updates to [HOTEL_BRAND] Honors, including new tiers and benefits.",
         "locations": " Global",
         "published": "12/5/2025 12:00:00 A"
       }
@@ -9972,7 +9972,7 @@
         "standard_number": "111.08",
         "change_type": "Revision",
         "current_title": "BREAKFAST BENEFIT DELIVERY EXPERIENCE",
-        "comment": "Updates to Hilton Honors, including new tiers and benefits.",
+        "comment": "Updates to [HOTEL_BRAND] Honors, including new tiers and benefits.",
         "locations": " Asia Pacific",
         "published": "12/5/2025 12:00:00 A"
       }
@@ -9998,7 +9998,7 @@
         "standard_number": "204.01.E",
         "change_type": "Revision",
         "current_title": "HONORS CREDIT CARD POLICY",
-        "comment": "Updates to Hilton Honors, including new tiers and benefits.",
+        "comment": "Updates to [HOTEL_BRAND] Honors, including new tiers and benefits.",
         "locations": " Caribbean | Central America | Canada | Mexico | South America | Asia Pacific | Europe | Middle East",
         "published": "12/5/2025 12:00:00 A"
       }
@@ -10011,7 +10011,7 @@
         "standard_number": "302.02",
         "change_type": "Revision",
         "current_title": "IRON",
-        "comment": "Harmonizing Hilton's in APAC with the Doubletree's global standard for irons. Steamers will be approved by waivers.",
+        "comment": "Harmonizing [HOTEL_BRAND]'s in APAC with the Doubletree's global standard for irons. Steamers will be approved by waivers.",
         "locations": " Asia Pacific",
         "published": "12/30/2025 12:00:00 "
       }
@@ -10024,7 +10024,7 @@
         "standard_number": "302.02.B",
         "change_type": "Addition",
         "current_title": "CLOSET ORGANIZER",
-        "comment": "Harmonizing Hilton's in APAC with the Doubletree's global standard for irons. Steamers will be approved by waivers.",
+        "comment": "Harmonizing [HOTEL_BRAND]'s in APAC with the Doubletree's global standard for irons. Steamers will be approved by waivers.",
         "locations": " Asia Pacific",
         "published": "12/30/2025 12:00:00 "
       }
@@ -10037,7 +10037,7 @@
         "standard_number": "308.00",
         "change_type": "Revision",
         "current_title": "CRIBS / BABY COTS",
-        "comment": "Update to reflect Hilton's required partners for all brands in the US and Canada.",
+        "comment": "Update to reflect [HOTEL_BRAND]'s required partners for all brands in the US and Canada.",
         "locations": " Caribbean | Central America | Mexico | South America | Asia Pacific | Europe | Middle East and Afri",
         "published": "12/5/2025 12:00:00 A"
       }
@@ -10063,7 +10063,7 @@
         "standard_number": "401.01.C",
         "change_type": "Revision",
         "current_title": "DINNER SERVICE",
-        "comment": "Assorted revisions to the Hilton Hotels & Resorts and DoubleTree by Hilton F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes).   ",
+        "comment": "Assorted revisions to the [HOTEL_BRAND] Hotels & Resorts and DoubleTree by [HOTEL_BRAND] F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes).   ",
         "locations": " Global",
         "published": "12/8/2025 12:00:00 A"
       }
@@ -10076,7 +10076,7 @@
         "standard_number": "401.02.B",
         "change_type": "Revision",
         "current_title": "MENU DESIGN",
-        "comment": "Assorted revisions to the Hilton Hotels & Resorts and DoubleTree by Hilton F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full-service program refreshes). ",
+        "comment": "Assorted revisions to the [HOTEL_BRAND] Hotels & Resorts and DoubleTree by [HOTEL_BRAND] F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full-service program refreshes). ",
         "locations": " Global",
         "published": "12/8/2025 12:00:00 A"
       }
@@ -10102,7 +10102,7 @@
         "standard_number": "405.01",
         "change_type": "Revision",
         "current_title": "REQUIREMENTS",
-        "comment": "Assorted revisions to the Hilton Hotels & Resorts and DoubleTree by Hilton F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes). ",
+        "comment": "Assorted revisions to the [HOTEL_BRAND] Hotels & Resorts and DoubleTree by [HOTEL_BRAND] F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes). ",
         "locations": " Global",
         "published": "12/8/2025 12:00:00 A"
       }
@@ -10115,7 +10115,7 @@
         "standard_number": "405.05.C",
         "change_type": "Revision",
         "current_title": "WINE",
-        "comment": "Assorted revisions to the Hilton Hotels & Resorts and DoubleTree by Hilton F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes). ",
+        "comment": "Assorted revisions to the [HOTEL_BRAND] Hotels & Resorts and DoubleTree by [HOTEL_BRAND] F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes). ",
         "locations": " Global",
         "published": "12/8/2025 12:00:00 A"
       }
@@ -10123,12 +10123,12 @@
     {
       "id": "QA_CHG_420_00",
       "type": "qa_standard_change",
-      "name": "标准变更: 420.00 HILTON BREAKFAST",
+      "name": "标准变更: 420.00 [HOTEL_BRAND] BREAKFAST",
       "properties": {
         "standard_number": "420.00",
         "change_type": "Revision",
-        "current_title": "HILTON BREAKFAST",
-        "comment": "Assorted revisions to the Hilton Hotels & Resorts and DoubleTree by Hilton F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes). ",
+        "current_title": "[HOTEL_BRAND] BREAKFAST",
+        "comment": "Assorted revisions to the [HOTEL_BRAND] Hotels & Resorts and DoubleTree by [HOTEL_BRAND] F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes). ",
         "locations": " Global",
         "published": "12/8/2025 12:00:00 A"
       }
@@ -10141,7 +10141,7 @@
         "standard_number": "420.03",
         "change_type": "Addition",
         "current_title": "CHILDREN'S MENU",
-        "comment": "Assorted revisions to the Hilton Hotels & Resorts and DoubleTree by Hilton F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes). ",
+        "comment": "Assorted revisions to the [HOTEL_BRAND] Hotels & Resorts and DoubleTree by [HOTEL_BRAND] F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes). ",
         "locations": " Global",
         "published": "12/8/2025 12:00:00 A"
       }
@@ -10154,7 +10154,7 @@
         "standard_number": "420.04",
         "change_type": "Revision",
         "current_title": "A LA CARTE MENU",
-        "comment": "Assorted revisions to the Hilton Hotels & Resorts and DoubleTree by Hilton F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes).  ",
+        "comment": "Assorted revisions to the [HOTEL_BRAND] Hotels & Resorts and DoubleTree by [HOTEL_BRAND] F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes).  ",
         "locations": " Global",
         "published": "12/8/2025 12:00:00 A"
       }
@@ -10167,7 +10167,7 @@
         "standard_number": "420.05",
         "change_type": "Revision",
         "current_title": "BUFFET SETUP",
-        "comment": "Assorted revisions to the Hilton Hotels & Resorts and DoubleTree by Hilton F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes). ",
+        "comment": "Assorted revisions to the [HOTEL_BRAND] Hotels & Resorts and DoubleTree by [HOTEL_BRAND] F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes). ",
         "locations": " Global",
         "published": "12/8/2025 12:00:00 A"
       }
@@ -10180,7 +10180,7 @@
         "standard_number": "420.05.D",
         "change_type": "Revision",
         "current_title": "LABELING AND SIGNAGE",
-        "comment": "Assorted revisions to the Hilton Hotels & Resorts and DoubleTree by Hilton F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes).  ",
+        "comment": "Assorted revisions to the [HOTEL_BRAND] Hotels & Resorts and DoubleTree by [HOTEL_BRAND] F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes).  ",
         "locations": " Global",
         "published": "12/8/2025 12:00:00 A"
       }
@@ -10193,7 +10193,7 @@
         "standard_number": "420.06",
         "change_type": "Revision",
         "current_title": "BUFFET OFFERING",
-        "comment": "Assorted revisions to the Hilton Hotels & Resorts and DoubleTree by Hilton F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes).  ",
+        "comment": "Assorted revisions to the [HOTEL_BRAND] Hotels & Resorts and DoubleTree by [HOTEL_BRAND] F&B in the U.S. and Canada, specifically related to Breakfast and Bar (as part of multi-year full service program refreshes).  ",
         "locations": " Global",
         "published": "12/8/2025 12:00:00 A"
       }
@@ -10414,7 +10414,7 @@
         "standard_number": "726.06",
         "change_type": "Revision",
         "current_title": "DIAMOND PARKING",
-        "comment": "Updates to Hilton Honors, including new tiers and benefits.",
+        "comment": "Updates to [HOTEL_BRAND] Honors, including new tiers and benefits.",
         "locations": " Global",
         "published": "12/5/2025 12:00:00 A"
       }
@@ -11025,7 +11025,7 @@
         "standard_number": "2514.09.I.3.c.3",
         "change_type": "Revision",
         "current_title": "",
-        "comment": "Added \"The cameras must meet Hilton Wiring Standards (2518.03) for data.\" Change the reference of \"cameras\" to \"surveillance system/camera.\"",
+        "comment": "Added \"The cameras must meet [HOTEL_BRAND] Wiring Standards (2518.03) for data.\" Change the reference of \"cameras\" to \"surveillance system/camera.\"",
         "locations": " Global",
         "published": "1/1/2026 12:00:00 AM"
       }
@@ -11344,10 +11344,10 @@
       "name": "LightStay环保数据指标",
       "type": "qa_reference",
       "properties": {
-        "source": "Hilton LightStay Platform",
+        "source": "[HOTEL_BRAND] LightStay Platform",
         "indicators": "能源/水/废弃物/碳排放",
         "frequency": "月度",
-        "responsible": "工程部经理",
+        "responsible": "[相关经理]",
         "note": "2025年希尔顿目标:碳排放降低61%(vs 2008基准); 水资源降低50%; 废弃物降低50%"
       }
     },
@@ -11431,7 +11431,7 @@
         "condition": "No main or sub areas failed",
         "guestroom_trend": "No cleanliness or graded condition trends",
         "failed_rooms": "None (<1/3)",
-        "hotel": "Hilton Suzhou",
+        "hotel": "[HOTEL_CITY_BRAND]",
         "inncode": "SZVTV/44676",
         "gm": "Johnson Wang"
       }
@@ -11780,7 +11780,7 @@
       "kitchen_condition_pct": 84.88,
       "auditor": "Christopher Tan",
       "date": "2025-07-13",
-      "hotel": "SZVTV Hilton Suzhou",
+      "hotel": "SZVTV [HOTEL_CITY_BRAND]",
       "gm": "Johnson Wang"
     }
   },
@@ -11789,12 +11789,12 @@
     "name": "苏州希尔顿QA知识图谱",
     "desc": "基于2024-2025年BCR评分+品牌标准检查清单的全量QA知识库",
     "created": "2026-04-28",
-    "hotel": "Hilton Suzhou (SZVTV)",
+    "hotel": "[HOTEL_CITY_BRAND] (SZVTV)",
     "bcr_date": "2025-07-13",
     "bcr_score": 94.92,
     "auditor": "Christopher Tan",
     "standards_sourced": "2026 China Brand Standards Manual (153 standards indexed)",
-    "standards_covered": "GB 37488-2019 + Hilton Ops Design",
+    "standards_covered": "GB 37488-2019 + [HOTEL_BRAND] Ops Design",
     "qbugs_count": 15,
     "fsaa_items_added": 22
   },
@@ -41532,7 +41532,7 @@
       "relation": "cross_ref",
       "type": "cross_station",
       "properties": {
-        "note": "早餐防滑安全=消防安全员工通道安全"
+        "note": "早餐防滑安全=[相关员工]通道安全"
       }
     },
     {

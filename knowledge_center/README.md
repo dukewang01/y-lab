@@ -201,7 +201,7 @@
 ### 📚 品牌标准源文件入库（LIB站）
 - **DOC_HILTON_BS_CHINA_2026**：希尔顿品牌标准 2026.01生效（729页）
 - **DOC_DOUBLETREE_BS_CHINA_2025**：DoubleTree品牌标准 2025.07生效（1316页）
-- 各提取11个Section子节点，Hilton↔DoubleTree同Section交叉链接
+- 各提取11个Section子节点，[HOTEL_BRAND]↔DoubleTree同Section交叉链接
 - 建立跨站参考节点 `CROSSREF_QA_BS_20260607`（QA站与源文件的桥梁）
 - **入库原则**：源文件入LIB站保持完整，不拆散混入QA站
 - **DOC_HILTON_BS_CHANGES_2026**：品牌标准变更摘要Excel（148条变更记录，New/Revision/Removed）

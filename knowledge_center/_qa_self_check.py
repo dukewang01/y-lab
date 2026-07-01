@@ -5,7 +5,7 @@ QA图谱自检脚本 — 完整性自查 + 问题诊断 + 自动修复
 import json, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-with open(r'C:\Users\Duke Wang\.openclaw\workspace\knowledge_center\qa_graph.json', 'r', encoding='utf-8') as f:
+with open(r'[LOCAL_USER_PATH] Wang\.openclaw\workspace\knowledge_center\qa_graph.json', 'r', encoding='utf-8') as f:
     d = json.load(f)
 
 entities = d.get('entities', [])
