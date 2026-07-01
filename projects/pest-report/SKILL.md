@@ -45,7 +45,7 @@ List all PCO reports by date, with high/medium risk finding counts and completio
 ## Output Format
 
 ```
-# 苏州希尔顿 · 虫控报告全维分析
+# Hotel-A · 虫控报告全维分析
 
 ## 一、报告时间线
 | 日期 | 轮次 | 问题数 | 🔴高危 | 🟡中危 | ❌未完成 |
