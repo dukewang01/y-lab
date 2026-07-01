@@ -1,20 +1,20 @@
-# BEO Analysis (宴会活动管理)
+# [BEO_DOC] Analysis (宴会活动管理)
 
-酒店宴会活动（BEO - Banquet Event Order）管理与分析系统。合同解析、多版本追踪、营收分析。
+酒店宴会活动（[BEO_DOC] - Banquet Event Order）管理与分析系统。合同解析、多版本追踪、营收分析。
 
 ## 脚本清单 (8个)
 
 | 脚本 | 功能 |
 |:-----|:-----|
-| `_import_beo.py` | BEO通用导入器 |
-| `_import_beo7683.py` | 导入BEO#7683 |
-| `_import_beo7720.py` | 导入BEO#7720 |
-| `_import_beo7721.py` | 导入BEO#7721 |
-| `_import_beo_20260606.py` | 导入2026-06-06 BEO |
-| `_import_beo_20260621.py` | 导入2026-06-21 BEO |
-| `_import_beo_versions.py` | BEO多版本管理 |
+| `_import_beo.py` | [BEO_DOC]通用导入器 |
+| `_import_beo7683.py` | 导入[BEO_DOC]#7683 |
+| `_import_beo7720.py` | 导入[BEO_DOC]#7720 |
+| `_import_beo7721.py` | 导入[BEO_DOC]#7721 |
+| `_import_beo_20260606.py` | 导入2026-06-06 [BEO_DOC] |
+| `_import_beo_20260621.py` | 导入2026-06-21 [BEO_DOC] |
+| `_import_beo_versions.py` | [BEO_DOC]多版本管理 |
 
-## BEO数据结构
+## [BEO_DOC]数据结构
 
 | 字段 | 说明 |
 |:-----|:-----|
@@ -28,7 +28,7 @@
 
 ## 分析维度
 
-1. BEO营收趋势（月度/年度）
+1. [BEO_DOC]营收趋势（月度/年度）
 2. 各场地利用率
 3. 人均消费趋势
 4. 活动类型分布（婚宴/会议/尾牙等）
