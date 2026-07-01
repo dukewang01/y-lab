@@ -17,7 +17,7 @@ fa_items = [e for e in es if e.get('type') == 'fixed_asset_item']
 fa_depts = [e for e in es if e.get('type') == 'fixed_asset_dept']
 
 print('=' * 70)
-print('  🏨 苏州希尔顿酒店 — HOE全模块运行报告')
+print('  🏨 Hotel-A — HOE全模块运行报告')
 print(f'  FB-HOE图谱: {len(es)} 实体')
 print('=' * 70)
 
