@@ -1,0 +1,7375 @@
+{
+  "meta": {
+    "name": "希尔顿酒店图书馆",
+    "abbr": "Lib",
+    "version": "v3.6",
+    "created": "2026-04-30",
+    "description": "v3.5 + 4份行业报告(GaN半导体/低空经济合规/AI通信/SpaceX)",
+    "last_updated": "2026-06-15 20:45",
+    "last_auto_fixed": "2026-05-01 07:52"
+  },
+  "entities": [
+    {
+      "id": "LIB_CAT_MANAGEMENT",
+      "label": "管理/领导力",
+      "type": "book_category",
+      "name": "管理/领导力"
+    },
+    {
+      "id": "LIB_CAT_SERVICE",
+      "label": "服务/宾客体验",
+      "type": "book_category",
+      "name": "服务/宾客体验"
+    },
+    {
+      "id": "LIB_CAT_HOTEL_OPS",
+      "label": "酒店运营",
+      "type": "book_category",
+      "name": "酒店运营"
+    },
+    {
+      "id": "LIB_CAT_F_B",
+      "label": "餐饮/食品安全",
+      "type": "book_category",
+      "name": "餐饮/食品安全"
+    },
+    {
+      "id": "LIB_CAT_ENGINEERING",
+      "label": "机电/工程",
+      "type": "book_category",
+      "name": "机电/工程"
+    },
+    {
+      "id": "LIB_CAT_HR",
+      "label": "人力资源/培训",
+      "type": "book_category",
+      "name": "人力资源/培训"
+    },
+    {
+      "id": "LIB_CAT_PSYCHOLOGY",
+      "label": "心理学/沟通",
+      "type": "book_category",
+      "name": "心理学/沟通"
+    },
+    {
+      "id": "LIB_CAT_BIOGRAPHY",
+      "label": "传记/商业史",
+      "type": "book_category",
+      "name": "传记/商业史"
+    },
+    {
+      "id": "LIB_CAT_FINANCE",
+      "label": "财务/收益管理",
+      "type": "book_category",
+      "name": "财务/收益管理"
+    },
+    {
+      "id": "LIB_CAT_SELF_IMPROVE",
+      "label": "自我提升/思维",
+      "type": "book_category",
+      "name": "自我提升/思维"
+    },
+    {
+      "id": "LIB_AUTHOR_HESKETT",
+      "label": "James Heskett",
+      "type": "author",
+      "name": "James Heskett"
+    },
+    {
+      "id": "LIB_AUTHOR_SASSER",
+      "label": "W. Earl Sasser",
+      "type": "author",
+      "name": "W. Earl Sasser"
+    },
+    {
+      "id": "LIB_AUTHOR_SCHLESINGER",
+      "label": "Leonard A. Schlesinger",
+      "type": "author",
+      "name": "Leonard A. Schlesinger"
+    },
+    {
+      "id": "LIB_AUTHOR_KOTLER",
+      "label": "Philip Kotler",
+      "type": "author",
+      "name": "Philip Kotler"
+    },
+    {
+      "id": "LIB_AUTHOR_BOWEN",
+      "label": "John Bowen",
+      "type": "author",
+      "name": "John Bowen"
+    },
+    {
+      "id": "LIB_AUTHOR_MAKENS",
+      "label": "James Makens",
+      "type": "author",
+      "name": "James Makens"
+    },
+    {
+      "id": "LIB_AUTHOR_COVEY",
+      "label": "Stephen R. Covey",
+      "type": "author",
+      "name": "Stephen R. Covey"
+    },
+    {
+      "id": "LIB_AUTHOR_COLLINS",
+      "label": "Jim Collins",
+      "type": "author",
+      "name": "Jim Collins"
+    },
+    {
+      "id": "LIB_AUTHOR_SINECK",
+      "label": "Simon Sinek",
+      "type": "author",
+      "name": "Simon Sinek"
+    },
+    {
+      "id": "LIB_AUTHOR_KAHNEMAN",
+      "label": "Daniel Kahneman",
+      "type": "author",
+      "name": "Daniel Kahneman"
+    },
+    {
+      "id": "LIB_AUTHOR_GOLEMAN",
+      "label": "Daniel Goleman",
+      "type": "author",
+      "name": "Daniel Goleman"
+    },
+    {
+      "id": "LIB_AUTHOR_PATTERSON",
+      "label": "Kerry Patterson",
+      "type": "author",
+      "name": "Kerry Patterson"
+    },
+    {
+      "id": "LIB_AUTHOR_GRENNY",
+      "label": "Joseph Grenny",
+      "type": "author",
+      "name": "Joseph Grenny"
+    },
+    {
+      "id": "LIB_AUTHOR_MCMILLAN",
+      "label": "Ron McMillan",
+      "type": "author",
+      "name": "Ron McMillan"
+    },
+    {
+      "id": "LIB_AUTHOR_SWITZLER",
+      "label": "Al Switzler",
+      "type": "author",
+      "name": "Al Switzler"
+    },
+    {
+      "id": "LIB_AUTHOR_ISHIKAWA",
+      "label": "Kaoru Ishikawa",
+      "type": "author",
+      "name": "Kaoru Ishikawa"
+    },
+    {
+      "id": "LIB_AUTHOR_DEMING",
+      "label": "W. Edwards Deming",
+      "type": "author",
+      "name": "W. Edwards Deming"
+    },
+    {
+      "id": "LIB_AUTHOR_HEATH",
+      "label": "Chip & Dan Heath",
+      "type": "author",
+      "name": "Chip & Dan Heath"
+    },
+    {
+      "id": "LIB_AUTHOR_DUHIGG",
+      "label": "Charles Duhigg",
+      "type": "author",
+      "name": "Charles Duhigg"
+    },
+    {
+      "id": "LIB_AUTHOR_BROWN",
+      "label": "Brené Brown",
+      "type": "author",
+      "name": "Brené Brown"
+    },
+    {
+      "id": "LIB_AUTHOR_SENGE",
+      "label": "Peter Senge",
+      "type": "author",
+      "name": "Peter Senge"
+    },
+    {
+      "id": "LIB_AUTHOR_HARVARD",
+      "label": "Harvard Business Review",
+      "type": "author",
+      "name": "Harvard Business Review"
+    },
+    {
+      "id": "LIB_AUTHOR_LENCIONI",
+      "label": "Patrick Lencioni",
+      "type": "author",
+      "name": "Patrick Lencioni"
+    },
+    {
+      "id": "LIB_AUTHOR_MAXWELL",
+      "label": "John C. Maxwell",
+      "type": "author",
+      "name": "John C. Maxwell"
+    },
+    {
+      "id": "LIB_STAT_READING",
+      "label": "在读",
+      "type": "reading_status",
+      "name": "在读"
+    },
+    {
+      "id": "LIB_STAT_READ",
+      "label": "已读",
+      "type": "reading_status",
+      "name": "已读"
+    },
+    {
+      "id": "LIB_STAT_WISHLIST",
+      "label": "想读",
+      "type": "reading_status",
+      "name": "想读"
+    },
+    {
+      "id": "LIB_0001",
+      "title": "《服务利润链》",
+      "author_names": "Heskett, Sasser, Schlesinger",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.5,
+      "notes": "服务利润链模型：员工满意→客户满意→利润增长。酒店运营核心逻辑，每个GSM/OM都应该理解。",
+      "subtitle": "Service Profit Chain",
+      "reason": "酒店管理经典，服务利润链直接影响收益保护策略",
+      "tags": [
+        "管理",
+        "服务",
+        "利润链",
+        "员工",
+        "客户"
+      ],
+      "label": "LIB_0001",
+      "type": "book",
+      "name": "《服务利润链》"
+    },
+    {
+      "id": "LIB_0002",
+      "title": "《酒店与旅游营销》",
+      "author_names": "Kotler, Bowen, Makens",
+      "category": "酒店运营",
+      "status": "已读",
+      "rating": 4.0,
+      "notes": "酒店营销全流程：市场细分→定位→品牌→渠道→收益管理。实操性强。",
+      "subtitle": "Hotel and Tourism Marketing",
+      "reason": "希尔顿市场营销实操参考",
+      "tags": [
+        "营销",
+        "收益管理",
+        "品牌",
+        "渠道"
+      ],
+      "label": "LIB_0002",
+      "type": "book",
+      "name": "《酒店与旅游营销》"
+    },
+    {
+      "id": "LIB_0003",
+      "title": "《高效能人士的七个习惯》",
+      "author_names": "Covey",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 5.0,
+      "notes": "积极主动/以终为始/要事第一/双赢思维/知彼解己/统合综效/不断更新。管理者和领导者的必修课。",
+      "subtitle": "",
+      "reason": "领导力基础，适合管理培训",
+      "tags": [
+        "领导力",
+        "习惯",
+        "效能",
+        "管理"
+      ],
+      "label": "LIB_0003",
+      "type": "book",
+      "name": "《高效能人士的七个习惯》"
+    },
+    {
+      "id": "LIB_0004",
+      "title": "《从优秀到卓越》",
+      "author_names": "Collins",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.5,
+      "notes": "第5级经理人→先人后事→直面残酷现实→刺猬概念→训练有素的文化→飞轮效应。酒店管理团队建设的绝佳参考。",
+      "subtitle": "",
+      "reason": "管理团队建设框架",
+      "tags": [
+        "卓越",
+        "领导力",
+        "团队",
+        "管理"
+      ],
+      "label": "LIB_0004",
+      "type": "book",
+      "name": "《从优秀到卓越》"
+    },
+    {
+      "id": "LIB_0005",
+      "title": "《从为什么开始》",
+      "author_names": "Sinek",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.0,
+      "notes": "黄金圆环：Why→How→What。服务团队要先知道'为什么'做好服务。",
+      "subtitle": "Start with Why",
+      "reason": "服务文化植入的底层逻辑",
+      "tags": [
+        "领导力",
+        "动机",
+        "文化",
+        "Why"
+      ],
+      "label": "LIB_0005",
+      "type": "book",
+      "name": "《从为什么开始》"
+    },
+    {
+      "id": "LIB_0006",
+      "title": "《思考，快与慢》",
+      "author_names": "Kahneman",
+      "category": "心理学/沟通",
+      "status": "已读",
+      "rating": 4.5,
+      "notes": "系统1（直觉）/系统2（理性）。理解客人投诉时的情绪决策机制，以及自己面试/审批时的认知偏误。",
+      "subtitle": "",
+      "reason": "理解客人投诉行为和内部决策偏误",
+      "tags": [
+        "认知",
+        "判断",
+        "决策",
+        "偏误"
+      ],
+      "label": "LIB_0006",
+      "type": "book",
+      "name": "《思考，快与慢》"
+    },
+    {
+      "id": "LIB_0007",
+      "title": "《情商》",
+      "author_names": "Goleman",
+      "category": "心理学/沟通",
+      "status": "已读",
+      "rating": 4.0,
+      "notes": "自我意识→自我管理→同理心→社交技能。GSM处理客人投诉时的核心能力。",
+      "subtitle": "",
+      "reason": "GSM培训核心教材，处理投诉的心理学基础",
+      "tags": [
+        "情商",
+        "沟通",
+        "同理心",
+        "管理"
+      ],
+      "label": "LIB_0007",
+      "type": "book",
+      "name": "《情商》"
+    },
+    {
+      "id": "LIB_0008",
+      "title": "《关键对话》",
+      "author_names": "Patterson, Grenny, McMillan, Switzler",
+      "category": "心理学/沟通",
+      "status": "已读",
+      "rating": 4.5,
+      "notes": "高风险/观点对立/情绪激烈的对话技巧。酒店工作中客人投诉/员工冲突/跨部门协调的实战工具。",
+      "subtitle": "",
+      "reason": "GSM/OM最实用的沟通实战手册",
+      "tags": [
+        "沟通",
+        "对话",
+        "冲突",
+        "技巧"
+      ],
+      "label": "LIB_0008",
+      "type": "book",
+      "name": "《关键对话》"
+    },
+    {
+      "id": "LIB_0009",
+      "title": "《戴明论质量管理》",
+      "author_names": "Deming",
+      "category": "酒店运营",
+      "status": "想读",
+      "rating": 0,
+      "notes": "PDCA循环/14条管理原则。与FSAA的HACCP/QTC检查闭环高度契合。",
+      "subtitle": "",
+      "reason": "FSAA食品安全审计的理论基础",
+      "tags": [
+        "质量",
+        "PDCA",
+        "管理",
+        "持续改进"
+      ],
+      "label": "LIB_0009",
+      "type": "book",
+      "name": "《戴明论质量管理》"
+    },
+    {
+      "id": "LIB_0010",
+      "title": "《从现场开始》",
+      "author_names": "Ishikawa",
+      "category": "酒店运营",
+      "status": "想读",
+      "rating": 0,
+      "notes": "现场改善/石川图（鱼骨图）/QC七工具。酒店日常巡检和问题溯源的核心方法。",
+      "subtitle": "Genba Kaizen (现场改善)",
+      "reason": "问题溯源和QTC检查的理论工具",
+      "tags": [
+        "改善",
+        "鱼骨图",
+        "QC",
+        "现场"
+      ],
+      "label": "LIB_0010",
+      "type": "book",
+      "name": "《从现场开始》"
+    },
+    {
+      "id": "LIB_0011",
+      "title": "《让创意更有黏性》",
+      "author_names": "Heath",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 4.0,
+      "notes": "SUCCESs原则：简单/意外/具体/可信/情感/故事。培训材料编写和案例分析的好框架。",
+      "subtitle": "Made to Stick",
+      "reason": "培训材料编写的实操参考",
+      "tags": [
+        "创意",
+        "传播",
+        "培训",
+        "沟通"
+      ],
+      "label": "LIB_0011",
+      "type": "book",
+      "name": "《让创意更有黏性》"
+    },
+    {
+      "id": "LIB_0012",
+      "title": "《习惯的力量》",
+      "author_names": "Duhigg",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 4.0,
+      "notes": "暗示→惯常行为→奖赏→信念。理解员工操作习惯的形成和改变，设计更好的SOP落地方式。",
+      "subtitle": "",
+      "reason": "SOP落地的行为学基础",
+      "tags": [
+        "习惯",
+        "行为",
+        "改变",
+        "SOP"
+      ],
+      "label": "LIB_0012",
+      "type": "book",
+      "name": "《习惯的力量》"
+    },
+    {
+      "id": "LIB_0013",
+      "title": "《脆弱的力量》",
+      "author_names": "Brown",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.0,
+      "notes": "敢于示弱→建立信任→创新文化。管理者承认'我不知道'比掩饰更强大。",
+      "subtitle": "Daring Greatly",
+      "reason": "团队信任建立的心理学基础",
+      "tags": [
+        "勇气",
+        "信任",
+        "脆弱",
+        "领导力"
+      ],
+      "label": "LIB_0013",
+      "type": "book",
+      "name": "《脆弱的力量》"
+    },
+    {
+      "id": "LIB_0014",
+      "title": "《第五项修炼》",
+      "author_names": "Senge",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "notes": "系统思考/共同愿景/心智模式/团队学习/自我超越。把酒店运营理解为复杂系统。",
+      "subtitle": "",
+      "reason": "酒店运营系统思维的理论支撑",
+      "tags": [
+        "系统思考",
+        "学习型组织",
+        "领导力"
+      ],
+      "label": "LIB_0014",
+      "type": "book",
+      "name": "《第五项修炼》"
+    },
+    {
+      "id": "LIB_0015",
+      "title": "《HBR's 10 Must Reads on Strategic Marketing》",
+      "author_names": "Harvard Business Review",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "notes": "HBR营销精华合集：品牌战略/客户体验/市场定位。",
+      "subtitle": "",
+      "reason": "营销战略参考",
+      "tags": [
+        "战略",
+        "营销",
+        "品牌",
+        "HBR"
+      ],
+      "label": "LIB_0015",
+      "type": "book",
+      "name": "《HBR's 10 Must Reads on Strategic Marketing》"
+    },
+    {
+      "id": "LIB_0016",
+      "title": "《优势》",
+      "author_names": "Lencioni",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "notes": "组织健康四原则：建立凝聚力团队→创建清晰→沟通清晰→强化清晰。",
+      "subtitle": "The Advantage: Why Organizational Health Trumps Everything",
+      "reason": "团队建设和组织文化",
+      "tags": [
+        "组织健康",
+        "团队",
+        "领导力"
+      ],
+      "label": "LIB_0016",
+      "type": "book",
+      "name": "《优势》"
+    },
+    {
+      "id": "LIB_0017",
+      "title": "《领导力21法则》",
+      "author_names": "Maxwell",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 3.5,
+      "notes": "盖子法则/影响力法则/过程法则/导航法则...实操性强，适合一线管理者的入门读物。",
+      "subtitle": "",
+      "reason": "酒店管理层培训参考读物",
+      "tags": [
+        "领导力",
+        "法则",
+        "管理",
+        "入门"
+      ],
+      "label": "LIB_0017",
+      "type": "book",
+      "name": "《领导力21法则》"
+    },
+    {
+      "id": "LIB_0018",
+      "title": "《质量免费》",
+      "author_names": "Philip B. Crosby",
+      "category": "酒店运营",
+      "status": "想读",
+      "rating": 0,
+      "notes": "零缺陷/预防优于检验/质量成本。与酒店QTC检查和BCR审计逻辑高度一致。",
+      "subtitle": "Quality is Free",
+      "reason": "QTC/Brand标准的质量理论基础",
+      "tags": [
+        "质量",
+        "零缺陷",
+        "预防"
+      ],
+      "label": "LIB_0018",
+      "type": "book",
+      "name": "《质量免费》"
+    },
+    {
+      "id": "LIB_0019",
+      "title": "《无条件增长》",
+      "author_names": "James Allen",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "notes": "酒店收益管理策略：需求预测/定价策略/渠道管理/客房分配。收益管理部参考书。",
+      "subtitle": "Unconditional Growth",
+      "reason": "酒店收益管理实操参考",
+      "tags": [
+        "收益",
+        "定价",
+        "增长",
+        "酒店"
+      ],
+      "label": "LIB_0019",
+      "type": "book",
+      "name": "《无条件增长》"
+    },
+    {
+      "id": "LIB_0020",
+      "title": "《影响力》",
+      "author_names": "Robert Cialdini",
+      "category": "心理学/沟通",
+      "status": "已读",
+      "rating": 5.0,
+      "notes": "互惠/承诺一致/社会认同/喜好/权威/稀缺。客人消费决策和投诉应对的心理机制。",
+      "subtitle": "",
+      "reason": "客户服务和谈判的心理学核心",
+      "tags": [
+        "影响",
+        "说服",
+        "心理",
+        "营销"
+      ],
+      "label": "LIB_0020",
+      "type": "book",
+      "name": "《影响力》"
+    },
+    {
+      "id": "LIB_0021",
+      "title": "《100个思维模型》",
+      "subtitle": "100 Thought Models - Everything Is Model",
+      "author_names": "未知（编著）",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 4.5,
+      "notes": "100个思维模型工具书，涵盖决策/推理/沟通/管理/心理学等多领域。已提炼10个模型入库。",
+      "tags": [
+        "思维",
+        "模型",
+        "决策",
+        "推理",
+        "工具书",
+        "model"
+      ],
+      "extracted_models": [
+        "LIB_MDL_FIRST_PRINCIPLES",
+        "LIB_MDL_INVERSION",
+        "LIB_MDL_SYSTEMS_THINKING",
+        "LIB_MDL_SECOND_ORDER",
+        "LIB_MDL_PROBABILISTIC",
+        "LIB_MDL_OCCAMS_RAZOR",
+        "LIB_MDL_OPPORTUNITY_COST",
+        "LIB_MDL_MARGINAL",
+        "LIB_MDL_FEEDBACK",
+        "LIB_MDL_ANALOGY"
+      ],
+      "source_file": "workspace/book2_full.txt",
+      "total_models": 100,
+      "extracted_count": 10,
+      "label": "LIB_0021",
+      "type": "book",
+      "name": "《100个思维模型》"
+    },
+    {
+      "id": "LIB_MDL_FIRST_PRINCIPLES",
+      "title": "第一性原理思维",
+      "src_model": "first_principles",
+      "description": "从最基本的真理或事实出发进行推理，而不是通过类比或经验",
+      "application_scenarios": [
+        "创新产品设计",
+        "解决复杂问题",
+        "突破传统思维限制"
+      ],
+      "tags": [
+        "思维模型",
+        "model",
+        "创新产品设计",
+        "解决复杂问题"
+      ],
+      "label": "LIB_MDL_FIRST_PRINCIPLES",
+      "type": "lib_entity",
+      "name": "第一性原理思维"
+    },
+    {
+      "id": "LIB_MDL_INVERSION",
+      "title": "逆向思维",
+      "src_model": "inversion",
+      "description": "从想要避免的结果出发，反向推导应该做什么",
+      "application_scenarios": [
+        "风险管理",
+        "错误预防",
+        "目标达成保障"
+      ],
+      "tags": [
+        "思维模型",
+        "model",
+        "风险管理",
+        "错误预防"
+      ],
+      "label": "LIB_MDL_INVERSION",
+      "type": "lib_entity",
+      "name": "逆向思维"
+    },
+    {
+      "id": "LIB_MDL_SYSTEMS_THINKING",
+      "title": "系统思维",
+      "src_model": "systems_thinking",
+      "description": "将问题看作系统的一部分，理解元素间的相互关系和整体行为",
+      "application_scenarios": [
+        "复杂系统设计",
+        "组织管理",
+        "生态问题分析"
+      ],
+      "tags": [
+        "思维模型",
+        "model",
+        "复杂系统设计",
+        "组织管理"
+      ],
+      "label": "LIB_MDL_SYSTEMS_THINKING",
+      "type": "lib_entity",
+      "name": "系统思维"
+    },
+    {
+      "id": "LIB_MDL_SECOND_ORDER",
+      "title": "二阶思维",
+      "src_model": "second_order",
+      "description": "考虑决策的后续影响和再后续影响",
+      "application_scenarios": [
+        "战略决策",
+        "政策制定",
+        "长期规划"
+      ],
+      "tags": [
+        "思维模型",
+        "model",
+        "战略决策",
+        "政策制定"
+      ],
+      "label": "LIB_MDL_SECOND_ORDER",
+      "type": "lib_entity",
+      "name": "二阶思维"
+    },
+    {
+      "id": "LIB_MDL_PROBABILISTIC",
+      "title": "概率思维",
+      "src_model": "probabilistic",
+      "description": "用概率而不是确定性来思考问题，考虑各种可能性及其概率",
+      "application_scenarios": [
+        "投资决策",
+        "风险评估",
+        "不确定性管理"
+      ],
+      "tags": [
+        "思维模型",
+        "model",
+        "投资决策",
+        "风险评估"
+      ],
+      "label": "LIB_MDL_PROBABILISTIC",
+      "type": "lib_entity",
+      "name": "概率思维"
+    },
+    {
+      "id": "LIB_MDL_OCCAMS_RAZOR",
+      "title": "奥卡姆剃刀",
+      "src_model": "occams_razor",
+      "description": "在竞争性假设中，选择假设最少的那个",
+      "application_scenarios": [
+        "问题诊断",
+        "理论选择",
+        "方案评估"
+      ],
+      "tags": [
+        "思维模型",
+        "model",
+        "问题诊断",
+        "理论选择"
+      ],
+      "label": "LIB_MDL_OCCAMS_RAZOR",
+      "type": "lib_entity",
+      "name": "奥卡姆剃刀"
+    },
+    {
+      "id": "LIB_MDL_OPPORTUNITY_COST",
+      "title": "机会成本思维",
+      "src_model": "opportunity_cost",
+      "description": "考虑选择某个选项时放弃的其他选项的价值",
+      "application_scenarios": [
+        "资源分配",
+        "时间管理",
+        "投资决策"
+      ],
+      "tags": [
+        "思维模型",
+        "model",
+        "资源分配",
+        "时间管理"
+      ],
+      "label": "LIB_MDL_OPPORTUNITY_COST",
+      "type": "lib_entity",
+      "name": "机会成本思维"
+    },
+    {
+      "id": "LIB_MDL_MARGINAL",
+      "title": "边际思维",
+      "src_model": "marginal",
+      "description": "考虑下一个单位的投入或产出的影响",
+      "application_scenarios": [
+        "生产优化",
+        "定价策略",
+        "资源分配"
+      ],
+      "tags": [
+        "思维模型",
+        "model",
+        "生产优化",
+        "定价策略"
+      ],
+      "label": "LIB_MDL_MARGINAL",
+      "type": "lib_entity",
+      "name": "边际思维"
+    },
+    {
+      "id": "LIB_MDL_FEEDBACK",
+      "title": "反馈思维",
+      "src_model": "feedback",
+      "description": "理解系统的反馈循环，包括正反馈和负反馈",
+      "application_scenarios": [
+        "系统设计",
+        "行为改变",
+        "组织发展"
+      ],
+      "tags": [
+        "思维模型",
+        "model",
+        "系统设计",
+        "行为改变"
+      ],
+      "label": "LIB_MDL_FEEDBACK",
+      "type": "lib_entity",
+      "name": "反馈思维"
+    },
+    {
+      "id": "LIB_MDL_ANALOGY",
+      "title": "类比思维",
+      "src_model": "analogy",
+      "description": "通过类比不同领域的问题，找到解决方案",
+      "application_scenarios": [
+        "创新解决方案",
+        "跨领域学习",
+        "问题重构"
+      ],
+      "tags": [
+        "思维模型",
+        "model",
+        "创新解决方案",
+        "跨领域学习"
+      ],
+      "label": "LIB_MDL_ANALOGY",
+      "type": "lib_entity",
+      "name": "类比思维"
+    },
+    {
+      "id": "LIB_0022",
+      "title": "《MBA管理工具100+》",
+      "subtitle": "管理工具速查手册（MBA智库版）",
+      "author_names": "MBA智库 编著",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.0,
+      "notes": "7大篇章/100个管理工具：战略组织→营销服务→人力资源→质量生产→财务管理→项目物流→决策思维。已提取总结文件。",
+      "tags": [
+        "管理",
+        "工具",
+        "MBA",
+        "战略",
+        "营销",
+        "人力",
+        "质量"
+      ],
+      "source_file": "workspace/book1_*.txt",
+      "extracted_tools": 100,
+      "label": "LIB_0022",
+      "type": "book",
+      "name": "《MBA管理工具100+》"
+    },
+    {
+      "id": "LIB_0023",
+      "title": "《反脆弱》",
+      "subtitle": "Antifragile: Things That Gain from Disorder",
+      "author_names": "Nassim Nicholas Taleb",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "notes": "塔勒布经典：从不确定性中获益。反脆弱≠坚韧，反脆弱需要一定的混乱和压力才能成长。",
+      "tags": [
+        "反脆弱",
+        "不确定性",
+        "风险",
+        "塔勒布",
+        "系统"
+      ],
+      "source_file": "workspace/反脆弱.txt",
+      "label": "LIB_0023",
+      "type": "book",
+      "name": "《反脆弱》"
+    },
+    {
+      "id": "LIB_0024",
+      "title": "《自控力》",
+      "subtitle": "The Willpower Instinct",
+      "author_names": "Kelly McGonigal",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "notes": "斯坦福大学最受欢迎心理学课程。自控力像肌肉一样可以锻炼。意志力/注意力/压力管理。",
+      "tags": [
+        "自控",
+        "意志力",
+        "习惯",
+        "心理学",
+        "斯坦福"
+      ],
+      "source_file": "workspace/自控力.txt",
+      "label": "LIB_0024",
+      "type": "book",
+      "name": "《自控力》"
+    },
+    {
+      "id": "LIB_0025",
+      "title": "《一本书看透IPO》",
+      "subtitle": "A股IPO全流程深度剖析",
+      "author_names": "沈春晖",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "notes": "A股IPO全流程：上市条件/财务审核/法律合规/发行定价。适合了解资本市场规则。",
+      "tags": [
+        "IPO",
+        "上市",
+        "财务",
+        "资本",
+        "A股"
+      ],
+      "source_file": "workspace/一本书看透IPO.txt",
+      "label": "LIB_0025",
+      "type": "book",
+      "name": "《一本书看透IPO》"
+    },
+    {
+      "id": "LIB_0026",
+      "title": "《罗辑思维》系列5册",
+      "author_names": "罗振宇",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "notes": "五册套装：认知篇/历史篇/商业篇/人物篇/人文篇。跨领域知识快餐，适合碎片时间。",
+      "tags": [
+        "认知",
+        "历史",
+        "商业",
+        "人文",
+        "知识",
+        "罗振宇"
+      ],
+      "source_file": "workspace/罗辑思维5册.txt",
+      "label": "LIB_0026",
+      "type": "book",
+      "name": "《罗辑思维》系列5册"
+    },
+    {
+      "id": "LIB_0027",
+      "title": "《数字化转型：从战略到执行》",
+      "subtitle": "华为出品",
+      "author_names": "华为",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "notes": "华为数字化转型方法论：6个角度（个人-家庭-企业-城市-行业-国家）/4个层次。企业数字化转型的战略框架。",
+      "tags": [
+        "数字化",
+        "转型",
+        "华为",
+        "战略",
+        "执行"
+      ],
+      "source_file": "workspace/huawei_dt_full.txt",
+      "label": "LIB_0027",
+      "type": "book",
+      "name": "《数字化转型：从战略到执行》"
+    },
+    {
+      "id": "LIB_0028",
+      "title": "《华为2035：AI时代的趋势与战略》",
+      "subtitle": "HW 2035",
+      "author_names": "华为",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "notes": "AI时代的华为2035趋势报告：AI技术迅猛发展对产业/社会/治理的影响与战略应对。",
+      "tags": [
+        "AI",
+        "2035",
+        "华为",
+        "趋势",
+        "战略"
+      ],
+      "source_file": "workspace/hw2035_full.txt",
+      "label": "LIB_0028",
+      "type": "book",
+      "name": "《华为2035：AI时代的趋势与战略》"
+    },
+    {
+      "id": "LIB_0029",
+      "title": "《斯坦福创业内训》",
+      "subtitle": "How to Start a Startup (CS183B, Y Combinator)",
+      "author_names": "YC / Sam Altman 等",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.5,
+      "notes": "斯坦福CS183B/21讲/Y Combinator创业方法论。核心：做人们想要的东西, 与用户交谈, 保持精益, 快速迭代, 专注增长。已有分析总结。",
+      "tags": [
+        "创业",
+        "YC",
+        "斯坦福",
+        "Startup",
+        "精益",
+        "增长"
+      ],
+      "source_file": "workspace/stanford_startup_summary.txt",
+      "label": "LIB_0029",
+      "type": "book",
+      "name": "《斯坦福创业内训》"
+    },
+    {
+      "id": "LIB_0030",
+      "title": "《运动改造大脑》",
+      "author_names": "John J. Ratey",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "脑科学",
+        "运动",
+        "健康",
+        "神经"
+      ],
+      "notes": "运动对大脑的积极影响：提升注意力、记忆力、情绪。有笔记。",
+      "source_file": "workspace/笔记_运动改造大脑.md",
+      "label": "LIB_0030",
+      "type": "book",
+      "name": "《运动改造大脑》"
+    },
+    {
+      "id": "LIB_0031",
+      "title": "《他人的力量》",
+      "author_names": "Henry Cloud",
+      "category": "心理学/沟通",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "人际关系",
+        "心理",
+        "成长"
+      ],
+      "notes": "人际关系中的四种力量：隔离, 连接, 赋能, 支持。有笔记。",
+      "source_file": "workspace/笔记_他人的力量.md",
+      "label": "LIB_0031",
+      "type": "book",
+      "name": "《他人的力量》"
+    },
+    {
+      "id": "LIB_0032",
+      "title": "《原则》",
+      "author_names": "Ray Dalio",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.5,
+      "tags": [
+        "原则",
+        "决策",
+        "达利欧",
+        "系统"
+      ],
+      "notes": "桥水基金创始人瑞达利欧的生活和工作原则：激进的事实, 透明度, 可信度加权决策。有笔记。",
+      "subtitle": "Principles",
+      "source_file": "workspace/笔记_原则.md",
+      "label": "LIB_0032",
+      "type": "book",
+      "name": "《原则》"
+    },
+    {
+      "id": "LIB_0033",
+      "title": "《顶级思维法7册合集》",
+      "author_names": "多作者",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "思维",
+        "方法",
+        "合集",
+        "7册"
+      ],
+      "notes": "7本思维方法合集：表达, 影响, 领导, 合作, 筛选, 理解, 行动。完整思维技能链。有笔记。(PDF源文件已收到：完整版1404页)",
+      "source_file": "media/inbound/人人都可以学的顶级思维法_套装7册.pdf",
+      "label": "LIB_0033",
+      "type": "book",
+      "name": "《顶级思维法7册合集》"
+    },
+    {
+      "id": "LIB_0034",
+      "title": "《穷查理宝典》",
+      "author_names": "Peter Kaufman / 查理芒格",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 5.0,
+      "tags": [
+        "芒格",
+        "价值投资",
+        "思维模型",
+        "误判心理学"
+      ],
+      "notes": "芒格毕生智慧集大成：多元思维模型, 人类误判心理学, 检查清单。36万字/954页。有笔记。Duke推荐书。",
+      "subtitle": "查理芒格智慧箴言录",
+      "source_file": "workspace/笔记_穷查理宝典.md",
+      "label": "LIB_0034",
+      "type": "book",
+      "name": "《穷查理宝典》"
+    },
+    {
+      "id": "LIB_0035",
+      "title": "《芒格投资思想》",
+      "author_names": "查理芒格",
+      "category": "财务/收益管理",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "投资",
+        "芒格",
+        "价值",
+        "思想"
+      ],
+      "notes": "芒格核心投资思想和格栅理论。有笔记。",
+      "source_file": "workspace/笔记_芒格投资思想.md",
+      "label": "LIB_0035",
+      "type": "book",
+      "name": "《芒格投资思想》"
+    },
+    {
+      "id": "LIB_0036",
+      "title": "《世界管理学圣经18册》",
+      "author_names": "多作者",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "合集",
+        "18册",
+        "管理学圣经"
+      ],
+      "notes": "18本管理学经典合集。有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0036",
+      "type": "book",
+      "name": "《世界管理学圣经18册》"
+    },
+    {
+      "id": "LIB_0037",
+      "title": "《思维认知书系10册》",
+      "author_names": "多作者",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "认知",
+        "合集",
+        "10册"
+      ],
+      "notes": "10本思维认知类书籍合集。有笔记摘要。",
+      "source_file": "workspace/笔记_思维认知书系10册.md",
+      "label": "LIB_0037",
+      "type": "book",
+      "name": "《思维认知书系10册》"
+    },
+    {
+      "id": "LIB_0038",
+      "title": "《诺贝尔经济学奖合集13册》",
+      "author_names": "多作者",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "合集",
+        "13册"
+      ],
+      "notes": "13本诺贝尔经济学奖得主著作合集。有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0038",
+      "type": "book",
+      "name": "《诺贝尔经济学奖合集13册》"
+    },
+    {
+      "id": "LIB_0039",
+      "title": "《中国社会学经典文库13册》",
+      "author_names": "多作者",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "合集",
+        "13册"
+      ],
+      "notes": "13本中国社会学经典著作合集。有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0039",
+      "type": "book",
+      "name": "《中国社会学经典文库13册》"
+    },
+    {
+      "id": "LIB_0040",
+      "title": "《商业入门经典4册》",
+      "author_names": "多作者",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "商业",
+        "入门",
+        "合集",
+        "4册"
+      ],
+      "notes": "4本商业入门经典合集。有笔记摘要。",
+      "source_file": "workspace/笔记_商业入门经典4册.md",
+      "label": "LIB_0040",
+      "type": "book",
+      "name": "《商业入门经典4册》"
+    },
+    {
+      "id": "LIB_0041",
+      "title": "《富兰克林传》",
+      "author_names": "沃尔特艾萨克森",
+      "category": "传记/商业史",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "传记",
+        "富兰克林",
+        "艾萨克森",
+        "Duke推荐"
+      ],
+      "notes": "本杰明富兰克林传记，艾萨克森作品。13项美德, 自我完善。Duke推荐书。",
+      "label": "LIB_0041",
+      "type": "book",
+      "name": "《富兰克林传》"
+    },
+    {
+      "id": "LIB_0042",
+      "title": "《枪炮、病菌与钢铁》",
+      "author_names": "Jared Diamond",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "人类",
+        "文明",
+        "地理",
+        "演化",
+        "Duke推荐"
+      ],
+      "notes": "人类社会发展的终极解释：地理决定论。不同大陆文明的差异根源。Duke推荐书。",
+      "label": "LIB_0042",
+      "type": "book",
+      "name": "《枪炮、病菌与钢铁》"
+    },
+    {
+      "id": "LIB_0043",
+      "title": "《系统之美》",
+      "author_names": "Donella Meadows",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "系统",
+        "思维",
+        "反馈",
+        "杠杆",
+        "Duke推荐"
+      ],
+      "notes": "系统思考入门经典：存量, 流量, 反馈, 杠杆点。系统思维理论框架。Duke推荐书。",
+      "label": "LIB_0043",
+      "type": "book",
+      "name": "《系统之美》"
+    },
+    {
+      "id": "LIB_0044",
+      "title": "《断舍离》",
+      "author_names": "山下英子",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "整理",
+        "极简",
+        "生活",
+        "心灵",
+        "Duke推荐"
+      ],
+      "notes": "断=断绝不需要的, 舍=舍弃多余的, 离=脱离执念。Duke推荐书。",
+      "label": "LIB_0044",
+      "type": "book",
+      "name": "《断舍离》"
+    },
+    {
+      "id": "LIB_0045",
+      "title": "《金翼：一个中国家族的史记》",
+      "author_names": "林耀华",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0045",
+      "type": "book",
+      "name": "《金翼：一个中国家族的史记》"
+    },
+    {
+      "id": "LIB_0046",
+      "title": "《社会变革与婚姻家庭变动》",
+      "author_names": "王跃生",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0046",
+      "type": "book",
+      "name": "《社会变革与婚姻家庭变动》"
+    },
+    {
+      "id": "LIB_0047",
+      "title": "《乡村治理的社会基础》",
+      "author_names": "贺雪峰",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0047",
+      "type": "book",
+      "name": "《乡村治理的社会基础》"
+    },
+    {
+      "id": "LIB_0048",
+      "title": "《中国农村村民自治》",
+      "author_names": "徐勇",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0048",
+      "type": "book",
+      "name": "《中国农村村民自治》"
+    },
+    {
+      "id": "LIB_0049",
+      "title": "《小镇喧嚣》",
+      "author_names": "吴毅",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0049",
+      "type": "book",
+      "name": "《小镇喧嚣》"
+    },
+    {
+      "id": "LIB_0050",
+      "title": "《陆学艺文萃》",
+      "author_names": "陆学艺",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0050",
+      "type": "book",
+      "name": "《陆学艺文萃》"
+    },
+    {
+      "id": "LIB_0051",
+      "title": "《中国的单位组织》",
+      "author_names": "李路路、李汉林",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0051",
+      "type": "book",
+      "name": "《中国的单位组织》"
+    },
+    {
+      "id": "LIB_0052",
+      "title": "《当代中国社会分层》",
+      "author_names": "李强",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0052",
+      "type": "book",
+      "name": "《当代中国社会分层》"
+    },
+    {
+      "id": "LIB_0053",
+      "title": "《组织社会学与决策分析》",
+      "author_names": "李友梅",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0053",
+      "type": "book",
+      "name": "《组织社会学与决策分析》"
+    },
+    {
+      "id": "LIB_0054",
+      "title": "《美好社会与美美与共》",
+      "author_names": "费孝通",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0054",
+      "type": "book",
+      "name": "《美好社会与美美与共》"
+    },
+    {
+      "id": "LIB_0055",
+      "title": "《中国人行动的逻辑》",
+      "author_names": "翟学伟",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0055",
+      "type": "book",
+      "name": "《中国人行动的逻辑》"
+    },
+    {
+      "id": "LIB_0056",
+      "title": "《跨越边界的社区》",
+      "author_names": "项飙",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0056",
+      "type": "book",
+      "name": "《跨越边界的社区》"
+    },
+    {
+      "id": "LIB_0057",
+      "title": "《银翅》",
+      "author_names": "庄孔韶",
+      "category": "心理学/沟通",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "社会学",
+        "中国",
+        "经典"
+      ],
+      "notes": "来自《中国社会学经典文库13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_中国社会学经典文库13册.md",
+      "label": "LIB_0057",
+      "type": "book",
+      "name": "《银翅》"
+    },
+    {
+      "id": "LIB_0058",
+      "title": "《错误\"的行为》",
+      "author_names": "理查德·泰勒",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "经典"
+      ],
+      "notes": "来自《诺贝尔经济学奖合集13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0058",
+      "type": "book",
+      "name": "《错误\"的行为》"
+    },
+    {
+      "id": "LIB_0059",
+      "title": "《大繁荣》",
+      "author_names": "埃德蒙·费尔普斯",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "经典"
+      ],
+      "notes": "来自《诺贝尔经济学奖合集13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0059",
+      "type": "book",
+      "name": "《大繁荣》"
+    },
+    {
+      "id": "LIB_0060",
+      "title": "《动物精神》",
+      "author_names": "乔治·阿克洛夫、罗伯特·席勒",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "经典"
+      ],
+      "notes": "来自《诺贝尔经济学奖合集13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0060",
+      "type": "book",
+      "name": "《动物精神》"
+    },
+    {
+      "id": "LIB_0061",
+      "title": "《好的经济学》",
+      "author_names": "阿比吉特·班纳吉、埃丝特·迪弗洛",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "经典"
+      ],
+      "notes": "来自《诺贝尔经济学奖合集13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0061",
+      "type": "book",
+      "name": "《好的经济学》"
+    },
+    {
+      "id": "LIB_0062",
+      "title": "《价格的发现》",
+      "author_names": "保罗·米格罗姆",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "经典"
+      ],
+      "notes": "来自《诺贝尔经济学奖合集13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0062",
+      "type": "book",
+      "name": "《价格的发现》"
+    },
+    {
+      "id": "LIB_0063",
+      "title": "《美国怎么了》",
+      "author_names": "安格斯·迪顿",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "经典"
+      ],
+      "notes": "来自《诺贝尔经济学奖合集13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0063",
+      "type": "book",
+      "name": "《美国怎么了》"
+    },
+    {
+      "id": "LIB_0064",
+      "title": "《贫穷的本质》",
+      "author_names": "阿比吉特·班纳吉、埃丝特·迪弗洛",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "经典"
+      ],
+      "notes": "来自《诺贝尔经济学奖合集13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0064",
+      "type": "book",
+      "name": "《贫穷的本质》"
+    },
+    {
+      "id": "LIB_0065",
+      "title": "《逃离不平等》",
+      "author_names": "安格斯·迪顿",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "经典"
+      ],
+      "notes": "来自《诺贝尔经济学奖合集13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0065",
+      "type": "book",
+      "name": "《逃离不平等》"
+    },
+    {
+      "id": "LIB_0066",
+      "title": "《新金融秩序》",
+      "author_names": "罗伯特·席勒",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "经典"
+      ],
+      "notes": "来自《诺贝尔经济学奖合集13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0066",
+      "type": "book",
+      "name": "《新金融秩序》"
+    },
+    {
+      "id": "LIB_0067",
+      "title": "《叙事经济学》",
+      "author_names": "罗伯特·希勒",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "经典"
+      ],
+      "notes": "来自《诺贝尔经济学奖合集13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0067",
+      "type": "book",
+      "name": "《叙事经济学》"
+    },
+    {
+      "id": "LIB_0068",
+      "title": "《赢家的诅咒》",
+      "author_names": "理查德·塞勒",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "经典"
+      ],
+      "notes": "来自《诺贝尔经济学奖合集13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0068",
+      "type": "book",
+      "name": "《赢家的诅咒》"
+    },
+    {
+      "id": "LIB_0069",
+      "title": "《助推》",
+      "author_names": "理查德·塞勒、卡斯·桑斯坦",
+      "category": "财务/收益管理",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "诺贝尔",
+        "经济学",
+        "经典"
+      ],
+      "notes": "来自《诺贝尔经济学奖合集13册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_诺贝尔经济学奖合集13册.md",
+      "label": "LIB_0069",
+      "type": "book",
+      "name": "《助推》"
+    },
+    {
+      "id": "LIB_0104",
+      "title": "《噪声》",
+      "author_names": "丹尼尔·卡尼曼、奥利维耶·西博尼、卡斯·R.桑斯坦",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "认知",
+        "经典"
+      ],
+      "notes": "来自《思维认知书系10册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_思维认知书系10册.md",
+      "label": "LIB_0104",
+      "type": "book",
+      "name": "《噪声》"
+    },
+    {
+      "id": "LIB_0105",
+      "title": "《以大制胜》",
+      "author_names": "斯科特·亚当斯",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "认知",
+        "经典"
+      ],
+      "notes": "来自《思维认知书系10册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_思维认知书系10册.md",
+      "label": "LIB_0105",
+      "type": "book",
+      "name": "《以大制胜》"
+    },
+    {
+      "id": "LIB_0106",
+      "title": "《助推2.0》",
+      "author_names": "卡斯·R.桑斯坦",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "认知",
+        "经典"
+      ],
+      "notes": "来自《思维认知书系10册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_思维认知书系10册.md",
+      "label": "LIB_0106",
+      "type": "book",
+      "name": "《助推2.0》"
+    },
+    {
+      "id": "LIB_0107",
+      "title": "《表象与本质》",
+      "author_names": "侯世达、桑德尔",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "认知",
+        "经典"
+      ],
+      "notes": "来自《思维认知书系10册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_思维认知书系10册.md",
+      "label": "LIB_0107",
+      "type": "book",
+      "name": "《表象与本质》"
+    },
+    {
+      "id": "LIB_0108",
+      "title": "《模型思维》",
+      "author_names": "斯科特·佩奇",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "认知",
+        "经典"
+      ],
+      "notes": "来自《思维认知书系10册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_思维认知书系10册.md",
+      "label": "LIB_0108",
+      "type": "book",
+      "name": "《模型思维》"
+    },
+    {
+      "id": "LIB_0109",
+      "title": "《无限的游戏》",
+      "author_names": "西蒙·斯涅克",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "认知",
+        "经典"
+      ],
+      "notes": "来自《思维认知书系10册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_思维认知书系10册.md",
+      "label": "LIB_0109",
+      "type": "book",
+      "name": "《无限的游戏》"
+    },
+    {
+      "id": "LIB_0110",
+      "title": "《人人都该懂的批判性思维》",
+      "author_names": "",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "认知",
+        "经典"
+      ],
+      "notes": "来自《思维认知书系10册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_思维认知书系10册.md",
+      "label": "LIB_0110",
+      "type": "book",
+      "name": "《人人都该懂的批判性思维》"
+    },
+    {
+      "id": "LIB_0111",
+      "title": "《多样性红利》",
+      "author_names": "斯科特·佩奇",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "认知",
+        "经典"
+      ],
+      "notes": "来自《思维认知书系10册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_思维认知书系10册.md",
+      "label": "LIB_0111",
+      "type": "book",
+      "name": "《多样性红利》"
+    },
+    {
+      "id": "LIB_0112",
+      "title": "《游戏改变人生》",
+      "author_names": "简·麦戈尼格尔",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "认知",
+        "经典"
+      ],
+      "notes": "来自《思维认知书系10册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_思维认知书系10册.md",
+      "label": "LIB_0112",
+      "type": "book",
+      "name": "《游戏改变人生》"
+    },
+    {
+      "id": "LIB_0113",
+      "title": "《故事力思维》",
+      "author_names": "安东尼·塔斯加尔",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "方法"
+      ],
+      "notes": "来自《顶级思维法7册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_顶级思维法7册.md",
+      "label": "LIB_0113",
+      "type": "book",
+      "name": "《故事力思维》"
+    },
+    {
+      "id": "LIB_0114",
+      "title": "《NLP思维》",
+      "author_names": "杰里米·拉萨路",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "方法"
+      ],
+      "notes": "来自《顶级思维法7册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_顶级思维法7册.md",
+      "label": "LIB_0114",
+      "type": "book",
+      "name": "《NLP思维》"
+    },
+    {
+      "id": "LIB_0115",
+      "title": "《合作式思维》",
+      "author_names": "大卫·萨维奇",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "方法"
+      ],
+      "notes": "来自《顶级思维法7册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_顶级思维法7册.md",
+      "label": "LIB_0115",
+      "type": "book",
+      "name": "《合作式思维》"
+    },
+    {
+      "id": "LIB_0116",
+      "title": "《领导力思维》",
+      "author_names": "珍妮弗·加维·伯格 & 基斯·约翰斯顿",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "方法"
+      ],
+      "notes": "来自《顶级思维法7册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_顶级思维法7册.md",
+      "label": "LIB_0116",
+      "type": "book",
+      "name": "《领导力思维》"
+    },
+    {
+      "id": "LIB_0117",
+      "title": "《创业思维》",
+      "author_names": "马田隆明（日）",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "思维",
+        "方法"
+      ],
+      "notes": "来自《顶级思维法7册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_顶级思维法7册.md",
+      "label": "LIB_0117",
+      "type": "book",
+      "name": "《创业思维》"
+    },
+    {
+      "id": "LIB_0118",
+      "title": "《认识管理》",
+      "author_names": "彼得·德鲁克",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "商业",
+        "入门",
+        "经典"
+      ],
+      "notes": "来自《商业入门经典4册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_商业入门经典4册.md",
+      "label": "LIB_0118",
+      "type": "book",
+      "name": "《认识管理》"
+    },
+    {
+      "id": "LIB_0119",
+      "title": "《认识经济》",
+      "author_names": "卡尔兰 & 默多克",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "商业",
+        "入门",
+        "经典"
+      ],
+      "notes": "来自《商业入门经典4册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_商业入门经典4册.md",
+      "label": "LIB_0119",
+      "type": "book",
+      "name": "《认识经济》"
+    },
+    {
+      "id": "LIB_0120",
+      "title": "《认识顾客》",
+      "author_names": "马瑟斯博 & 霍金斯",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "商业",
+        "入门",
+        "经典"
+      ],
+      "notes": "来自《商业入门经典4册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_商业入门经典4册.md",
+      "label": "LIB_0120",
+      "type": "book",
+      "name": "《认识顾客》"
+    },
+    {
+      "id": "LIB_0121",
+      "title": "《认识投资》",
+      "author_names": "博迪、凯恩 & 马库斯",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "商业",
+        "入门",
+        "经典"
+      ],
+      "notes": "来自《商业入门经典4册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_商业入门经典4册.md",
+      "label": "LIB_0121",
+      "type": "book",
+      "name": "《认识投资》"
+    },
+    {
+      "id": "LIB_0122",
+      "title": "《定位》",
+      "author_names": "里斯、特劳特",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0122",
+      "type": "book",
+      "name": "《定位》"
+    },
+    {
+      "id": "LIB_0123",
+      "title": "《22条商规》",
+      "author_names": "里斯、特劳特",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0123",
+      "type": "book",
+      "name": "《22条商规》"
+    },
+    {
+      "id": "LIB_0124",
+      "title": "《商战》",
+      "author_names": "里斯、特劳特",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0124",
+      "type": "book",
+      "name": "《商战》"
+    },
+    {
+      "id": "LIB_0125",
+      "title": "《卓有成效的管理者》",
+      "author_names": "彼得·德鲁克",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0125",
+      "type": "book",
+      "name": "《卓有成效的管理者》"
+    },
+    {
+      "id": "LIB_0126",
+      "title": "《管理的实践》",
+      "author_names": "彼得·德鲁克",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0126",
+      "type": "book",
+      "name": "《管理的实践》"
+    },
+    {
+      "id": "LIB_0127",
+      "title": "《德鲁克管理思想精要》",
+      "author_names": "彼得·德鲁克",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0127",
+      "type": "book",
+      "name": "《德鲁克管理思想精要》"
+    },
+    {
+      "id": "LIB_0128",
+      "title": "《逆势增长》",
+      "author_names": "科特勒兄弟",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0128",
+      "type": "book",
+      "name": "《逆势增长》"
+    },
+    {
+      "id": "LIB_0129",
+      "title": "《营销的未来》",
+      "author_names": "菲利普·科特勒",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0129",
+      "type": "book",
+      "name": "《营销的未来》"
+    },
+    {
+      "id": "LIB_0130",
+      "title": "《营销十宗罪》",
+      "author_names": "菲利普·科特勒",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0130",
+      "type": "book",
+      "name": "《营销十宗罪》"
+    },
+    {
+      "id": "LIB_0131",
+      "title": "《干法》",
+      "author_names": "稻盛和夫",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0131",
+      "type": "book",
+      "name": "《干法》"
+    },
+    {
+      "id": "LIB_0132",
+      "title": "《调动员工积极性的七个关键》",
+      "author_names": "稻盛和夫",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0132",
+      "type": "book",
+      "name": "《调动员工积极性的七个关键》"
+    },
+    {
+      "id": "LIB_0133",
+      "title": "《敬天爱人》",
+      "author_names": "稻盛和夫",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0133",
+      "type": "book",
+      "name": "《敬天爱人》"
+    },
+    {
+      "id": "LIB_0134",
+      "title": "《CEO说》",
+      "author_names": "拉姆·查兰",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0134",
+      "type": "book",
+      "name": "《CEO说》"
+    },
+    {
+      "id": "LIB_0135",
+      "title": "《领导梯队》",
+      "author_names": "拉姆·查兰",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0135",
+      "type": "book",
+      "name": "《领导梯队》"
+    },
+    {
+      "id": "LIB_0136",
+      "title": "《贝佐斯的数字帝国》",
+      "author_names": "拉姆·查兰、杨懿梅",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0136",
+      "type": "book",
+      "name": "《贝佐斯的数字帝国》"
+    },
+    {
+      "id": "LIB_0137",
+      "title": "《激活组织》",
+      "author_names": "陈春花",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0137",
+      "type": "book",
+      "name": "《激活组织》"
+    },
+    {
+      "id": "LIB_0138",
+      "title": "《激活个体》",
+      "author_names": "陈春花",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0138",
+      "type": "book",
+      "name": "《激活个体》"
+    },
+    {
+      "id": "LIB_0139",
+      "title": "《协同》",
+      "author_names": "陈春花、朱丽",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "管理",
+        "经典"
+      ],
+      "notes": "来自《世界管理学圣经18册》合集，有笔记摘要。",
+      "source_file": "workspace/笔记_世界管理学圣经18册.md",
+      "label": "LIB_0139",
+      "type": "book",
+      "name": "《协同》"
+    },
+    {
+      "id": "LIB_0140",
+      "title": "《金字塔原理》",
+      "author_names": "芭芭拉·明托",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.5,
+      "tags": [
+        "麦肯锡",
+        "逻辑",
+        "写作",
+        "思考",
+        "金字塔"
+      ],
+      "notes": "麦肯锡40年经典。核心四原则：结论先行, 以上统下, 归类分组, 逻辑递进。所有商业文档的黄金标准。已扫读。 (PDF文件已收到：23MB，原始文件名：金字塔原理_麦肯锡40年经典培训教材.pdf)",
+      "subtitle": "麦肯锡40年经典培训教材",
+      "source_file": "media/inbound/金字塔原理_麦肯锡40年经典培训教材.pdf",
+      "label": "LIB_0140",
+      "type": "book",
+      "name": "《金字塔原理》"
+    },
+    {
+      "id": "LIB_0141",
+      "title": "《从1到N：企业数字化生存指南》",
+      "author_names": "尤尔根·梅菲特、沙莎",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "麦肯锡",
+        "数字化",
+        "转型",
+        "实战"
+      ],
+      "notes": "麦肯锡数字化转型实战方法论。与Ya系统方向高度一致。已扫读。 (PDF源文件已收到：258页，作者尤尔根·梅菲特/沙莎，上海交大出版社2018年)",
+      "subtitle": "麦肯锡数字化转型实战方法论",
+      "source_file": "media/inbound/从1到N_企业数字化生存指南_麦肯锡.pdf",
+      "label": "LIB_0141",
+      "type": "book",
+      "name": "《从1到N：企业数字化生存指南》"
+    },
+    {
+      "id": "LIB_0142",
+      "title": "《麦肯锡战略思考力》",
+      "author_names": "麦肯锡",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "麦肯锡",
+        "战略",
+        "思考",
+        "打破常规"
+      ],
+      "notes": "麦肯锡战略思维方法论。核心：打破常规思维。已扫读。10MB PDF。 (PDF源文件已收到：179页)",
+      "source_file": "media/inbound/麦肯锡战略思考力.pdf",
+      "label": "LIB_0142",
+      "type": "book",
+      "name": "《麦肯锡战略思考力》"
+    },
+    {
+      "id": "LIB_0143",
+      "title": "《麦肯锡教我的思考武器》",
+      "author_names": "安宅和人（日）",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "麦肯锡",
+        "思考",
+        "方法论",
+        "议题",
+        "假说"
+      ],
+      "notes": "核心：议题思考, 假说思考, 验证思考。有两个版本（11MB+17MB）。已扫读。 (PDF源文件已收到：182页，安宅和人著。5章：议题思考→假说思考(分解/图解)→成果思考(实际分析)→信息思考(传达))",
+      "source_file": "media/inbound/麦肯锡教我的思考武器_安宅和人.pdf",
+      "label": "LIB_0143",
+      "type": "book",
+      "name": "《麦肯锡教我的思考武器》"
+    },
+    {
+      "id": "LIB_0144",
+      "title": "《麦肯锡思考工具》",
+      "author_names": "麦肯锡",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 3.5,
+      "tags": [
+        "麦肯锡",
+        "工具",
+        "框架",
+        "MECE"
+      ],
+      "notes": "麦肯锡思考框架和工具集。含MECE/金字塔/逻辑树/假说思考/议题树等经典框架。19MB PDF。 (PDF源文件已收到：273页。三类型框架：分解要素/把握流程/对比。第一章MECE/PREP/SCAMPER/SWOT等)",
+      "subtitle": "独家首发",
+      "source_file": "media/inbound/麦肯锡思考工具.pdf",
+      "label": "LIB_0144",
+      "type": "book",
+      "name": "《麦肯锡思考工具》"
+    },
+    {
+      "id": "LIB_0145",
+      "title": "《麦肯锡思考力系列》",
+      "author_names": "麦肯锡",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "麦肯锡",
+        "思考力",
+        "逻辑",
+        "图解",
+        "解决问题"
+      ],
+      "notes": "共681页。含：逻辑思考力(整体观/MECE/逻辑树/假说思考) + 图解思考力 + 问题解决力。20MB PDF。 (PDF源文件已收到：681页，西村克己著)",
+      "subtitle": "套装3册",
+      "source_file": "media/inbound/麦肯锡思考力系列_套装3册.pdf",
+      "label": "LIB_0145",
+      "type": "book",
+      "name": "《麦肯锡思考力系列》"
+    },
+    {
+      "id": "LIB_0146",
+      "title": "《突破现实的困境》",
+      "author_names": "麦肯锡3位合伙人",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "麦肯锡",
+        "战略",
+        "突破",
+        "曲棍球杆效应",
+        "大战略"
+      ],
+      "notes": "麦肯锡3位合伙人5年研究成果。核心概念：曲棍球杆效应, 人性面偏见, 外部视角, 重大举措, 业绩驱动力。23MB PDF。 (PDF源文件已收到：267页，克里斯·布拉德利/贺睦廷/斯文·斯密特)",
+      "subtitle": "趋势、禀赋与企业家的大战略",
+      "source_file": "media/inbound/突破现实的困境_麦肯锡.pdf",
+      "label": "LIB_0146",
+      "type": "book",
+      "name": "《突破现实的困境》"
+    },
+    {
+      "id": "LIB_0147",
+      "title": "《麦肯锡印尼生产率报告》",
+      "author_names": "McKinsey & Company",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 3.0,
+      "tags": [
+        "麦肯锡",
+        "印尼",
+        "生产率",
+        "英文"
+      ],
+      "notes": "麦肯锡关于印度尼西亚生产率的英文研究报告。11MB PDF。(PDF源文件已收到：MGI报告30页,2025年4月)",
+      "subtitle": "英文版",
+      "source_file": "media/inbound/麦肯锡_进取的群岛_印尼生产率_英文报告.pdf",
+      "label": "LIB_0147",
+      "type": "book",
+      "name": "《麦肯锡印尼生产率报告》"
+    },
+    {
+      "id": "LIB_0148",
+      "title": "《从形似到神似：敏捷转型成功之道》",
+      "subtitle": "金融机构敏捷转型白皮书",
+      "author_names": "曲向军、容觉生、韩峰、徐海超、胡艺蓉、郑伟鹏（麦肯锡）",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "麦肯锡",
+        "敏捷",
+        "转型",
+        "OKR",
+        "QBR",
+        "金融机构",
+        "白皮书"
+      ],
+      "notes": "麦肯锡2023年4月金融机构敏捷转型白皮书。六大关键成功要素：1)转型目标对齐 2)敏捷领导力 3)OKR/QBR动态规划 4)绩效考核重塑 5)关键人才培养 6)变革管理机制。典型转型旅程18-24个月。PDF源文件可用。",
+      "source_file": "media/inbound/从形似到神似_敏捷转型成功之道_麦肯锡2023.pdf",
+      "label": "LIB_0148",
+      "type": "book",
+      "name": "《从形似到神似：敏捷转型成功之道》"
+    },
+    {
+      "id": "LIB_0149",
+      "title": "《麦肯锡结构化战略思维》",
+      "subtitle": "如何想清楚、说明白、做到位",
+      "author_names": "周国元",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "麦肯锡",
+        "结构化",
+        "战略思维",
+        "MECE",
+        "假说"
+      ],
+      "notes": "中欧经管图书，2021年1月出版。230页。四大原则：数字说话、洞见优于表象、MECE原则、假设为前提。核心概念：维度（切名词→切问题→多维度飞跃）。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡结构化战略思维.pdf",
+      "label": "LIB_0149",
+      "type": "book",
+      "name": "《麦肯锡结构化战略思维》"
+    },
+    {
+      "id": "LIB_0150",
+      "title": "《麦肯锡公众表达课》",
+      "subtitle": "准确发现痛点，才能有效说服",
+      "author_names": "高杉尚孝（日）",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "麦肯锡",
+        "表达",
+        "演示",
+        "说服",
+        "沟通"
+      ],
+      "notes": "日本麦肯锡高杉尚孝著，137页。核心：1)演示是调动对方的工具 2)三种问题类型(恢复型/追求型/预防型)各有方法 3)样式设计 4)演讲技巧 5)临场心态。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡公众表达课_高杉尚孝.pdf",
+      "label": "LIB_0150",
+      "type": "book",
+      "name": "《麦肯锡公众表达课》"
+    },
+    {
+      "id": "LIB_0151",
+      "title": "《麦肯锡决断力》",
+      "subtitle": "停止纠结，速断速决速动",
+      "author_names": "佃·秀昭（日）",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 3.5,
+      "tags": [
+        "麦肯锡",
+        "决断力",
+        "行动",
+        "思维方式"
+      ],
+      "notes": "日本麦肯锡人士佃秀昭著，151页。核心：从麦肯锡员工到喜剧演员的转型经历。主题：速断·速决·速动。为好奇心、勇气、行动的思维方式。三个专题+结语。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡决断力.pdf",
+      "label": "LIB_0151",
+      "type": "book",
+      "name": "《麦肯锡决断力》"
+    },
+    {
+      "id": "LIB_0152",
+      "title": "《麦肯锡精英高效阅读法》",
+      "author_names": "赤羽雄二（日）",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 3.5,
+      "tags": [
+        "麦肯锡",
+        "阅读",
+        "方法",
+        "效率",
+        "自我提升"
+      ],
+      "notes": "赤羽雄二著，138页。4章：为什么忙也要读书→为什么忙够读书→集中读书法→知识转化为能力。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡精英高效阅读法.pdf",
+      "label": "LIB_0152",
+      "type": "book",
+      "name": "《麦肯锡精英高效阅读法》"
+    },
+    {
+      "id": "LIB_0153",
+      "title": "《麦肯锡&波士顿解决问题方法和创造价值技巧》",
+      "subtitle": "超越咨询的问题解决与价值创造全技法",
+      "author_names": "名和高司（日）",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.5,
+      "tags": [
+        "麦肯锡",
+        "波士顿",
+        "问题解决",
+        "价值创造",
+        "假设思考",
+        "MECE",
+        "逻辑树"
+      ],
+      "notes": "名和高司著，342页/220千字，浙江人民出版社2020年5月。三部分15章。第一部分8章：咨询基本方法(问题解决/设定课题/构建假设/影响力/建构力/MECE+逻辑树/分析/战略故事)。第二部分：大前研一瞬移大脑/IQ+EQ+JQ/系统性思考/非线性思考。第三部分：超咨询(想成为咨询顾问/想超越咨询/想解决社会课题)。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡波士顿解决问题方法和创造价值技巧.pdf",
+      "label": "LIB_0153",
+      "type": "book",
+      "name": "《麦肯锡&波士顿解决问题方法和创造价值技巧》"
+    },
+    {
+      "id": "LIB_0154",
+      "title": "《麦肯锡经典沟通法》",
+      "subtitle": "提升个人竞争力的68个高情商策略",
+      "author_names": "顾嘉",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "沟通",
+        "情商",
+        "职场"
+      ],
+      "notes": "原名麦肯锡结构化高效沟通：如何有逻辑地表达、演讲与写作。作者疑为周国元(同LIB_0149结构化战略思维作者群)。191页。核心：想清楚→说明白→做到位。逻辑表达/演讲/写作三位一体。PDF源文件已收到。",
+      "source_file": "media/inbound/麦肯锡结构化高效沟通.pdf",
+      "label": "LIB_0154",
+      "type": "book",
+      "name": "《麦肯锡经典沟通法》"
+    },
+    {
+      "id": "LIB_0155",
+      "title": "《麦肯锡教我的写作武器》",
+      "subtitle": "从逻辑思考到文案写作",
+      "author_names": "高杉尚孝（日）",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "麦肯锡",
+        "写作",
+        "逻辑",
+        "文案",
+        "高杉尚孝"
+      ],
+      "notes": "高杉尚孝著，239页。基础篇3章：信息分类(记述/评价/规范)→流畅表达(主语/连接词/具体性)→思考可视化。实践篇4章：问题解决能力→有说服力的故事→金字塔转报告/简报→说服技巧(逻辑+心理)。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡教我的写作武器_高杉尚孝.pdf",
+      "label": "LIB_0155",
+      "type": "book",
+      "name": "《麦肯锡教我的写作武器》"
+    },
+    {
+      "id": "LIB_0156",
+      "title": "《麦肯锡教我的谈判武器》",
+      "subtitle": "从逻辑思考到谈判技巧",
+      "author_names": "高杉尚孝（日）",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "麦肯锡",
+        "谈判",
+        "逻辑",
+        "高杉尚孝"
+      ],
+      "notes": "高杉尚孝著，155页。10章：谈判定义→逻辑思维力→清晰表达的3个变量→谈判力源泉(BATNA)→分析对方需求→保持平常心→无德战术应对→目标让步投资→问答方法→后勤差距。高杉尚孝麦肯锡三部曲：写作武器+谈判武器+公众表达课。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡教我的谈判武器_高杉尚孝.pdf",
+      "label": "LIB_0156",
+      "type": "book",
+      "name": "《麦肯锡教我的谈判武器》"
+    },
+    {
+      "id": "LIB_0157",
+      "title": "《麦肯锡情绪管理课》",
+      "subtitle": "学会正向思考，告别职场焦虑",
+      "author_names": "高杉尚孝（日）",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "情绪管理",
+        "心理韧性",
+        "高杉尚孝"
+      ],
+      "notes": "高杉尚孝著，144页。核心：心理韧性(MT)。基于ABC理论（A触发事件→B思维方式→C情绪行动）。总论心理韧性本质→理论篇(定位错误思维/克服必须型)→实践篇(应用场景ABC→不良情绪→无益行动→预防耗竭)。高杉尚孝四部曲收官：写作+谈判+公众表达+情绪管理。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡情绪管理课_高杉尚孝.pdf",
+      "label": "LIB_0157",
+      "type": "book",
+      "name": "《麦肯锡情绪管理课》"
+    },
+    {
+      "id": "LIB_0158",
+      "title": "《麦肯锡方法》",
+      "subtitle": "麦肯锡学院丛书｜麦肯锡思考问题/解决问题/推介方案的方法",
+      "author_names": "艾森·拉塞尔（美）",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.5,
+      "tags": [
+        "麦肯锡",
+        "方法论",
+        "问题解决",
+        "MECE",
+        "二八法则",
+        "电梯法则"
+      ],
+      "notes": "艾森·拉塞尔著，193页，机械工业出版社2009年。五部分21章。第一部分：思考问题方法(事实/MECE/初始假设/二八/关键驱动/电梯法则)。第二部分：解决问题方法(客户拓展/团队/层级/研究/访谈/头脑风暴)。第三部分：推介方案(演示/图表/沟通/客户合作)。第四部分：生存之道(导师/出差/招聘/生活)。第五部分：校友忠告。麦肯锡学院丛书。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡方法_艾森拉塞尔.pdf",
+      "label": "LIB_0158",
+      "type": "book",
+      "name": "《麦肯锡方法》"
+    },
+    {
+      "id": "LIB_0159",
+      "title": "《麦肯锡极简工作法》",
+      "author_names": "刘易斯",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "工作法",
+        "效率"
+      ],
+      "notes": "刘易斯编著，198页/7.8万字，天津科技出版社2017年。9章：正确分析问题→收集信息高效沟通→逻辑思维→推介方案→团队合作→服务客户→解决问题→个人能力→防范危机。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡极简工作法_刘易斯.pdf",
+      "label": "LIB_0159",
+      "type": "book",
+      "name": "《麦肯锡极简工作法》"
+    },
+    {
+      "id": "LIB_0160",
+      "title": "《融合生态 拥抱智能：2030中国智能制造及自动化行业展望》",
+      "subtitle": "麦肯锡白皮书",
+      "author_names": "麦肯锡",
+      "category": "管理/领导力",
+      "status": "已读",
+      "rating": 4.0,
+      "tags": [
+        "麦肯锡",
+        "白皮书",
+        "智能制造",
+        "自动化",
+        "2030",
+        "工业4.0"
+      ],
+      "notes": "麦肯锡2025年6月行业白皮书，17页。核心：1)中国自动化行业2030年前跨越式增长(2500亿人民币市场) 2)三大趋势：平台化/敏捷化/智能化 3)四点建议：战略先行→分段投资→拥抱AI+开放生态→练团队。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡_2030中国智能制造及自动化行业展望.pdf",
+      "label": "LIB_0160",
+      "type": "book",
+      "name": "《融合生态 拥抱智能：2030中国智能制造及自动化行业展望》"
+    },
+    {
+      "id": "LIB_0161",
+      "title": "《利用空置空间，开发混合的多功能空间》",
+      "subtitle": "疫情对房地产市场的深远影响｜MGI报告",
+      "author_names": "Jan Mischke, Ryan Luby, Brian Vickery, 华强森等（麦肯锡全球研究院）",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "MGI",
+        "房地产",
+        "空置空间",
+        "混合空间",
+        "疫情",
+        "报告",
+        "酒店空间",
+        "资产规划"
+      ],
+      "notes": "MGI 2023年9月报告，88页。麦肯锡全球研究院出品。疫情后办公楼空置率上升，空间向混合多功能方向转型。与酒店业资产空间规划有直接关联。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡_空置空间与多功能空间_房地产白皮书.pdf",
+      "label": "LIB_0161",
+      "type": "book",
+      "name": "《利用空置空间，开发混合的多功能空间》"
+    },
+    {
+      "id": "LIB_0162",
+      "title": "《The State of Fashion: Beauty》",
+      "subtitle": "解决不断变化的增长难题（第2卷）",
+      "author_names": "McKinsey & Company",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "fashion",
+        "beauty",
+        "报告",
+        "英文"
+      ],
+      "notes": "麦肯锡2025年6月时尚美妆行业报告，英文，83页。美丽2025系列第2卷。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡_美丽2025_解决增长难题_英文报告.pdf",
+      "label": "LIB_0162",
+      "type": "book",
+      "name": "《The State of Fashion: Beauty》"
+    },
+    {
+      "id": "LIB_0163",
+      "title": "《麦肯锡商务技巧》",
+      "subtitle": "管理者创造佳绩的40个习惯",
+      "author_names": "赤羽雄二（日）",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "管理",
+        "领导力",
+        "习惯",
+        "赤羽雄二"
+      ],
+      "notes": "赤羽雄二著，182页，北京时代华文书局2017年。4章40个习惯：明确传达工作流程→积极策动员工→让员工成长→提升自我。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡商务技巧_赤羽雄二.pdf",
+      "label": "LIB_0163",
+      "type": "book",
+      "name": "《麦肯锡商务技巧》"
+    },
+    {
+      "id": "LIB_0164",
+      "title": "《Technology Trends Outlook 2024》",
+      "subtitle": "麦肯锡全球科技趋势展望",
+      "author_names": "McKinsey & Company",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "科技趋势",
+        "AI",
+        "报告",
+        "英文"
+      ],
+      "notes": "麦肯锡2024年7月科技趋势报告，英文，99页。涵盖生成式AI、应用AI、机器学习工业化、云计算、量子计算等主题。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡_全球科技趋势展望_英文报告.pdf",
+      "label": "LIB_0164",
+      "type": "book",
+      "name": "《Technology Trends Outlook 2024》"
+    },
+    {
+      "id": "LIB_0165",
+      "title": "《麦肯锡数字化转型方法论及客户案例》",
+      "subtitle": "帮助客户通过数字化转型实现营收、利润双突破",
+      "author_names": "麦肯锡（工业物联网中心）",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "数字化转型",
+        "物联网",
+        "案例"
+      ],
+      "notes": "麦肯锡工业物联网中心2019年出品，40页。剖析企业数字化转型卡在试点阶段的根本原因，提供方法论及客户案例。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡数字化转型方法论及客户案例.pdf",
+      "label": "LIB_0165",
+      "type": "book",
+      "name": "《麦肯锡数字化转型方法论及客户案例》"
+    },
+    {
+      "id": "LIB_0166",
+      "title": "《Managing in the Era of Gen AI》",
+      "subtitle": "麦肯锡播客访谈：中层管理者在生成式AI时代的命运",
+      "author_names": "Bryan Hancock, Emily Field",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "AI",
+        "管理",
+        "中层管理者",
+        "访谈",
+        "英文"
+      ],
+      "notes": "麦肯锡Talks Talent播客访谈文字稿，6页。基于《Power to the Middle》一书。核心讨论：生成式AI对中层管理者的影响、中层管理者何以重要、如何为管理者创造空间。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡_AI时代的管理_英文访谈.pdf",
+      "label": "LIB_0166",
+      "type": "book",
+      "name": "《Managing in the Era of Gen AI》"
+    },
+    {
+      "id": "LIB_0167",
+      "title": "《The CMO Comeback》",
+      "subtitle": "Aligning the C-suite to Drive Customer-centric Growth",
+      "author_names": "Aurelia Bettati,Jeff Jacobs,Kelsey Robinson,Robert Tas (McKinsey)",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "CMO",
+        "营销",
+        "增长",
+        "英文"
+      ],
+      "notes": "麦肯锡2025.6增长营销销售实践报告,11页。CMO回归中心+CEO/CFO对齐+客户驱动增长。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡_CMO的回归_英文报告.pdf",
+      "label": "LIB_0167",
+      "type": "book",
+      "name": "《The CMO Comeback》"
+    },
+    {
+      "id": "LIB_0168",
+      "title": "《Fueling Growth Through Moments of Customer Delight》",
+      "subtitle": "客户愉悦时刻驱动增长",
+      "author_names": "McKinsey Growth/Marketing/Sales Practice",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "客户体验",
+        "增长",
+        "报告",
+        "英文",
+        "酒店"
+      ],
+      "notes": "麦肯锡2024.8增长营销销售实践报告,8页。核心：Delight=Joy+Surprise,客户愉悦瞬间驱动NPS/Retention/Revenue。调查25000名客户跨旅游/保险/银行。Ritz-Carlton案例。与酒店运营QA站直接关联。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡_客户愉悦时刻驱动增长_英文报告.pdf",
+      "label": "LIB_0168",
+      "type": "book",
+      "name": "《Fueling Growth Through Moments of Customer Delight》"
+    },
+    {
+      "id": "LIB_0169",
+      "title": "《胜利的法则》",
+      "subtitle": "从孙子兵法到麦肯锡的商业战争智慧",
+      "author_names": "铃木博毅（日）",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "战略",
+        "孙子兵法",
+        "领导力",
+        "管理",
+        "竞争"
+      ],
+      "notes": "铃木博毅著,226页,后浪出版。8章:领导力战略/军事战略/效率化/执行力/目标达成/竞争战略/框架战略/管理战略。从孙子兵法到麦肯锡横跨3000年战略思维。PDF源文件可用。",
+      "source_file": "media/inbound/胜利的法则_从孙子兵法到麦肯锡_铃木博毅.pdf",
+      "label": "LIB_0169",
+      "type": "book",
+      "name": "《胜利的法则》"
+    },
+    {
+      "id": "LIB_0170",
+      "title": "《Banking on Interest Rates》",
+      "subtitle": "A Playbook for the New Era of Volatility",
+      "author_names": "Andreas Bohn,Sebastian Schneider (McKinsey Risk & Resilience)",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "银行",
+        "利率",
+        "风险管理",
+        "英文"
+      ],
+      "notes": "麦肯锡2024.6风险与韧性实践报告,10页。五层杠杆:监控→风险计量→压力测试→资金→对冲。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡_银行利率波动性新时代策略_英文报告.pdf",
+      "label": "LIB_0170",
+      "type": "book",
+      "name": "《Banking on Interest Rates》"
+    },
+    {
+      "id": "LIB_0171",
+      "title": "《内外兼修，奏响消费金融新乐章》",
+      "subtitle": "中国金融业转型与创新系列白皮书",
+      "author_names": "麦肯锡",
+      "category": "管理/领导力",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "麦肯锡",
+        "白皮书",
+        "消费金融",
+        "金融科技",
+        "中国"
+      ],
+      "notes": "麦肯锡2022.5中国消费金融白皮书,66页。三重升级+三大主题九大策略:精耕细作/做宽赛道/修炼内功。PDF源文件可用。",
+      "source_file": "media/inbound/麦肯锡_消费金融白皮书_2022.pdf",
+      "label": "LIB_0171",
+      "type": "book",
+      "name": "《内外兼修，奏响消费金融新乐章》"
+    },
+    {
+      "id": "LIB_0172",
+      "title": "《投资的本质》",
+      "subtitle": "段永平讲述投资的底层逻辑",
+      "author_names": "孙力科",
+      "category": "财经/投资",
+      "status": "已读",
+      "rating": 0,
+      "tags": [
+        "价值投资",
+        "段永平",
+        "巴菲特",
+        "投资",
+        "中国"
+      ],
+      "notes": "孙力科著,207页。段永平价值投资理念解读：小霸王/步步高创始人,中国版巴菲特。核心：大道至简、知易行难、长期持有、理性思维。与中国特色价值投资体系直接关联。PDF源文件可用。",
+      "source_file": "media/inbound/投资的本质_段永平_孙力科.pdf",
+      "label": "LIB_0172",
+      "type": "book",
+      "name": "《投资的本质》"
+    },
+    {
+      "id": "LIB_0173",
+      "title": "《黑匣子思维》",
+      "subtitle": "",
+      "author_names": "马修·萨伊德（英）",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 0,
+      "tags": [
+        "思维方式",
+        "失败学",
+        "认知科学",
+        "航空",
+        "医疗",
+        "创新"
+      ],
+      "notes": "马修·萨伊德(Matthew Syed)著,281页,民主与建设出版社·后浪,2024.6新版。核心：从航空业黑匣子（记录失败+复盘机制）对比医疗业对失败的态度。失败是进步的引擎。PDF源文件可用。",
+      "source_file": "media/inbound/黑匣子思维_马修萨伊德.pdf",
+      "label": "LIB_0173",
+      "type": "book",
+      "name": "《黑匣子思维》"
+    },
+    {
+      "id": "LIB_0174",
+      "title": "《复利思维》",
+      "subtitle": "",
+      "author_names": "王智远",
+      "category": "自我提升/思维",
+      "status": "已读",
+      "rating": 0,
+      "tags": [
+        "思维方式",
+        "复利",
+        "成长",
+        "习惯",
+        "个人发展"
+      ],
+      "notes": "王智远著,212页,中国水利水电出版社2021.6。核心：复利不仅是投资概念，更是一种思维模式。六大板块：生活/成长/工作/商业/思维/时间。元气森林唐彬森推荐。PDF源文件可用。",
+      "source_file": "media/inbound/复利思维_王智远.pdf",
+      "label": "LIB_0174",
+      "type": "book",
+      "name": "《复利思维》"
+    },
+    {
+      "id": "LIB_0175",
+      "title": "《人工智能时代与人类未来》",
+      "subtitle": "基辛格百岁沉淀之作",
+      "author_names": "亨利·基辛格、埃里克·施密特、丹尼尔·胡滕洛赫尔",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "AI",
+        "人工智能",
+        "基辛格",
+        "施密特",
+        "社会秩序",
+        "未来学",
+        "哲学"
+      ],
+      "notes": "基辛格百岁沉淀之作,166页,中信出版。核心：AI如何重塑人类社会秩序/安全/身份/未来。7章:我们的处境→技术演变→图灵到未来→全球网络平台→安全与世界秩序→AI与人类身份→AI与人类未来。PDF源文件可用。",
+      "source_file": "media/inbound/人工智能时代与人类未来_基辛格.pdf",
+      "label": "LIB_0175",
+      "type": "book",
+      "name": "《人工智能时代与人类未来》"
+    },
+    {
+      "id": "LIB_0176",
+      "title": "《印钞者》",
+      "subtitle": "中央银行如何制造与救赎金融危机",
+      "author_names": "徐瑾",
+      "category": "财经/投资",
+      "status": "已读",
+      "rating": 0,
+      "tags": [
+        "中央银行",
+        "金融危机",
+        "货币",
+        "央行",
+        "经济史",
+        "徐瑾"
+      ],
+      "notes": "徐瑾著,282页,中信出版社。三百年中央银行史：18世纪英法争霸→19世纪金融革命→20世纪大萧条→2008危机。PDF源文件可用。",
+      "source_file": "media/inbound/印钞者_中央银行_徐瑾.pdf",
+      "label": "LIB_0176",
+      "type": "book",
+      "name": "《印钞者》"
+    },
+    {
+      "id": "LIB_0177",
+      "title": "《唤醒老虎》",
+      "subtitle": "启动自我疗愈本能",
+      "author_names": "彼得·莱文",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "心理创伤",
+        "躯体体验疗法",
+        "自我疗愈",
+        "心理学",
+        "健康"
+      ],
+      "notes": "彼得·莱文(Peter Levine)著,171页。躯体体验疗法创始人代表作。核心：心理创伤不是疾病而是身体失调，通过身体感受释放冻结的创伤能量。PDF源文件可用。",
+      "source_file": "media/inbound/唤醒老虎_启动自我疗愈本能.pdf",
+      "label": "LIB_0177",
+      "type": "book",
+      "name": "《唤醒老虎》"
+    },
+    {
+      "id": "LIB_0178",
+      "title": "《金钱心理学》",
+      "subtitle": "财富、人性和幸福的永恒真相",
+      "author_names": "摩根·豪泽尔（美）",
+      "category": "财经/投资",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "投资心理学",
+        "金钱",
+        "行为金融",
+        "财富",
+        "人性"
+      ],
+      "notes": "摩根·豪泽尔(Morgan Housel)著,198页,后浪出版2023.7。全球畅销书。核心：理财与智商无关而和行为习惯有关。19个关于金钱的故事。PDF源文件可用。",
+      "source_file": "media/inbound/金钱心理学_摩根豪泽尔.pdf",
+      "label": "LIB_0178",
+      "type": "book",
+      "name": "《金钱心理学》"
+    },
+    {
+      "id": "LIB_0179",
+      "title": "《原始思维》",
+      "subtitle": "La Pensee Sauvage",
+      "author_names": "列维-斯特劳斯",
+      "category": "自我提升/思维",
+      "status": "想读",
+      "rating": 0,
+      "tags": [
+        "人类学",
+        "思维",
+        "结构主义",
+        "列维斯特劳斯",
+        "哲学",
+        "文化"
+      ],
+      "notes": "列维-斯特劳斯(Claude Levi-Strauss)著,511页,经典结构主义人类学著作。野性思维vs文明思维。扫描版PDF。PDF源文件可用。",
+      "source_file": "media/inbound/原始思维.pdf",
+      "label": "LIB_0179",
+      "type": "book",
+      "name": "《原始思维》"
+    },
+    {
+      "id": "DOC_HILTON_BS_CHINA_2026",
+      "type": "reference_doc",
+      "name": "Hilton Hotels Brand Standards China 2026",
+      "name_cn": "希尔顿酒店集团品牌标准-中国 2026年版",
+      "properties": {
+        "effective_date": "2026-01-05",
+        "total_pages": 729,
+        "file": "media/inbound/Hilton_BS_China_2026.pdf",
+        "file_size_bytes": 25904308,
+        "alt_version": "Hilton_BS_China_2026_v2.pdf (7.3MB, same content)",
+        "brand": "希尔顿 (Hilton)",
+        "region": "中国",
+        "language": "中英双语",
+        "source": "希尔顿集团官方品牌标准文档",
+        "import_date": "2026-06-07",
+        "description": "希尔顿酒店集团品牌标准2026年版中国区全本，涵盖100-2500全Section标准"
+      }
+    },
+    {
+      "id": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "type": "reference_doc",
+      "name": "DoubleTree Hotels Brand Standards China 2025",
+      "name_cn": "双树酒店品牌标准-中国 2025年版",
+      "properties": {
+        "effective_date": "2025-07-17",
+        "total_pages": 1316,
+        "file": "media/inbound/英文2025.pdf",
+        "file_size_bytes": 13621673,
+        "brand": "双树 (DoubleTree)",
+        "region": "中国",
+        "language": "中英双语",
+        "source": "希尔顿集团官方品牌标准文档",
+        "import_date": "2026-06-07",
+        "description": "DoubleTree品牌标准2025年版中国区全本，涵盖100-2500全Section标准"
+      }
+    },
+    {
+      "id": "HILTON_SEC_100",
+      "type": "reference_extract",
+      "name": "Hilton SEC_100: THE BRAND EXPERIENCE",
+      "name_cn": "希尔顿 SEC_100: 品牌体验",
+      "properties": {
+        "brand": "Hilton",
+        "section": "SEC_100",
+        "effective_date": "2026-01-05",
+        "doc_ref": "DOC_HILTON_BS_CHINA_2026"
+      }
+    },
+    {
+      "id": "HILTON_SEC_200",
+      "type": "reference_extract",
+      "name": "Hilton SEC_200: GUEST SERVICES",
+      "name_cn": "希尔顿 SEC_200: 宾客服务",
+      "properties": {
+        "brand": "Hilton",
+        "section": "SEC_200",
+        "effective_date": "2026-01-05",
+        "doc_ref": "DOC_HILTON_BS_CHINA_2026"
+      }
+    },
+    {
+      "id": "HILTON_SEC_300",
+      "type": "reference_extract",
+      "name": "Hilton SEC_300: GUEST ROOM AND BATHROOM",
+      "name_cn": "希尔顿 SEC_300: 客房和浴室",
+      "properties": {
+        "brand": "Hilton",
+        "section": "SEC_300",
+        "effective_date": "2026-01-05",
+        "doc_ref": "DOC_HILTON_BS_CHINA_2026"
+      }
+    },
+    {
+      "id": "HILTON_SEC_400",
+      "type": "reference_extract",
+      "name": "Hilton SEC_400: FOOD AND BEVERAGE",
+      "name_cn": "希尔顿 SEC_400: 食品和饮料",
+      "properties": {
+        "brand": "Hilton",
+        "section": "SEC_400",
+        "effective_date": "2026-01-05",
+        "doc_ref": "DOC_HILTON_BS_CHINA_2026"
+      }
+    },
+    {
+      "id": "HILTON_SEC_500",
+      "type": "reference_extract",
+      "name": "Hilton SEC_500: WELLNESS, RECREATION AND ENTERTAINMENT",
+      "name_cn": "希尔顿 SEC_500: 健康、娱乐和休闲",
+      "properties": {
+        "brand": "Hilton",
+        "section": "SEC_500",
+        "effective_date": "2026-01-05",
+        "doc_ref": "DOC_HILTON_BS_CHINA_2026"
+      }
+    },
+    {
+      "id": "HILTON_SEC_600",
+      "type": "reference_extract",
+      "name": "Hilton SEC_600: MEETINGS AND EVENTS",
+      "name_cn": "希尔顿 SEC_600: 会议和活动",
+      "properties": {
+        "brand": "Hilton",
+        "section": "SEC_600",
+        "effective_date": "2026-01-05",
+        "doc_ref": "DOC_HILTON_BS_CHINA_2026"
+      }
+    },
+    {
+      "id": "HILTON_SEC_700",
+      "type": "reference_extract",
+      "name": "Hilton SEC_700: BUILDING OPERATIONS AND INFRASTRUCTURE",
+      "name_cn": "希尔顿 SEC_700: 建筑运营和基础设施",
+      "properties": {
+        "brand": "Hilton",
+        "section": "SEC_700",
+        "effective_date": "2026-01-05",
+        "doc_ref": "DOC_HILTON_BS_CHINA_2026"
+      }
+    },
+    {
+      "id": "HILTON_SEC_800",
+      "type": "reference_extract",
+      "name": "Hilton SEC_800: IDENTITY, SALES AND DISTRIBUTION",
+      "name_cn": "希尔顿 SEC_800: 身份、销售和分销",
+      "properties": {
+        "brand": "Hilton",
+        "section": "SEC_800",
+        "effective_date": "2026-01-05",
+        "doc_ref": "DOC_HILTON_BS_CHINA_2026"
+      }
+    },
+    {
+      "id": "HILTON_SEC_900",
+      "type": "reference_extract",
+      "name": "Hilton SEC_900: ACCESSIBILITY, SAFETY AND SECURITY",
+      "name_cn": "希尔顿 SEC_900: 可及性、安全性和安保",
+      "properties": {
+        "brand": "Hilton",
+        "section": "SEC_900",
+        "effective_date": "2026-01-05",
+        "doc_ref": "DOC_HILTON_BS_CHINA_2026"
+      }
+    },
+    {
+      "id": "HILTON_SEC_1200",
+      "type": "reference_extract",
+      "name": "Hilton SEC_1200: ALL-INCLUSIVE FOOD AND BEVERAGE",
+      "name_cn": "希尔顿 SEC_1200: 全包式餐饮服务",
+      "properties": {
+        "brand": "Hilton",
+        "section": "SEC_1200",
+        "effective_date": "2026-01-05",
+        "doc_ref": "DOC_HILTON_BS_CHINA_2026"
+      }
+    },
+    {
+      "id": "HILTON_SEC_2500",
+      "type": "reference_extract",
+      "name": "Hilton SEC_2500: DESIGN, CONSTRUCTION & RENOVATION",
+      "name_cn": "希尔顿 SEC_2500: 设计、施工和翻新",
+      "properties": {
+        "brand": "Hilton",
+        "section": "SEC_2500",
+        "effective_date": "2026-01-05",
+        "doc_ref": "DOC_HILTON_BS_CHINA_2026"
+      }
+    },
+    {
+      "id": "DT_SEC_100",
+      "type": "reference_extract",
+      "name": "DoubleTree SEC_100: THE BRAND EXPERIENCE",
+      "name_cn": "双树 SEC_100: 品牌体验",
+      "properties": {
+        "brand": "DoubleTree",
+        "section": "SEC_100",
+        "effective_date": "2025-07-17",
+        "doc_ref": "DOC_DOUBLETREE_BS_CHINA_2025"
+      }
+    },
+    {
+      "id": "DT_SEC_200",
+      "type": "reference_extract",
+      "name": "DoubleTree SEC_200: GUEST SERVICES",
+      "name_cn": "双树 SEC_200: 宾客服务",
+      "properties": {
+        "brand": "DoubleTree",
+        "section": "SEC_200",
+        "effective_date": "2025-07-17",
+        "doc_ref": "DOC_DOUBLETREE_BS_CHINA_2025"
+      }
+    },
+    {
+      "id": "DT_SEC_300",
+      "type": "reference_extract",
+      "name": "DoubleTree SEC_300: GUEST ROOM AND BATHROOM",
+      "name_cn": "双树 SEC_300: 客房和浴室",
+      "properties": {
+        "brand": "DoubleTree",
+        "section": "SEC_300",
+        "effective_date": "2025-07-17",
+        "doc_ref": "DOC_DOUBLETREE_BS_CHINA_2025"
+      }
+    },
+    {
+      "id": "DT_SEC_400",
+      "type": "reference_extract",
+      "name": "DoubleTree SEC_400: FOOD AND BEVERAGE",
+      "name_cn": "双树 SEC_400: 食品和饮料",
+      "properties": {
+        "brand": "DoubleTree",
+        "section": "SEC_400",
+        "effective_date": "2025-07-17",
+        "doc_ref": "DOC_DOUBLETREE_BS_CHINA_2025"
+      }
+    },
+    {
+      "id": "DT_SEC_500",
+      "type": "reference_extract",
+      "name": "DoubleTree SEC_500: WELLNESS, RECREATION AND ENTERTAINMENT",
+      "name_cn": "双树 SEC_500: 健康、娱乐和休闲",
+      "properties": {
+        "brand": "DoubleTree",
+        "section": "SEC_500",
+        "effective_date": "2025-07-17",
+        "doc_ref": "DOC_DOUBLETREE_BS_CHINA_2025"
+      }
+    },
+    {
+      "id": "DT_SEC_600",
+      "type": "reference_extract",
+      "name": "DoubleTree SEC_600: MEETINGS AND EVENTS",
+      "name_cn": "双树 SEC_600: 会议和活动",
+      "properties": {
+        "brand": "DoubleTree",
+        "section": "SEC_600",
+        "effective_date": "2025-07-17",
+        "doc_ref": "DOC_DOUBLETREE_BS_CHINA_2025"
+      }
+    },
+    {
+      "id": "DT_SEC_700",
+      "type": "reference_extract",
+      "name": "DoubleTree SEC_700: BUILDING OPERATIONS AND INFRASTRUCTURE",
+      "name_cn": "双树 SEC_700: 建筑运营和基础设施",
+      "properties": {
+        "brand": "DoubleTree",
+        "section": "SEC_700",
+        "effective_date": "2025-07-17",
+        "doc_ref": "DOC_DOUBLETREE_BS_CHINA_2025"
+      }
+    },
+    {
+      "id": "DT_SEC_800",
+      "type": "reference_extract",
+      "name": "DoubleTree SEC_800: IDENTITY, SALES AND DISTRIBUTION",
+      "name_cn": "双树 SEC_800: 身份、销售和分销",
+      "properties": {
+        "brand": "DoubleTree",
+        "section": "SEC_800",
+        "effective_date": "2025-07-17",
+        "doc_ref": "DOC_DOUBLETREE_BS_CHINA_2025"
+      }
+    },
+    {
+      "id": "DT_SEC_900",
+      "type": "reference_extract",
+      "name": "DoubleTree SEC_900: ACCESSIBILITY, SAFETY AND SECURITY",
+      "name_cn": "双树 SEC_900: 可及性、安全性和安保",
+      "properties": {
+        "brand": "DoubleTree",
+        "section": "SEC_900",
+        "effective_date": "2025-07-17",
+        "doc_ref": "DOC_DOUBLETREE_BS_CHINA_2025"
+      }
+    },
+    {
+      "id": "DT_SEC_1200",
+      "type": "reference_extract",
+      "name": "DoubleTree SEC_1200: ALL-INCLUSIVE FOOD AND BEVERAGE",
+      "name_cn": "双树 SEC_1200: 全包式餐饮服务",
+      "properties": {
+        "brand": "DoubleTree",
+        "section": "SEC_1200",
+        "effective_date": "2025-07-17",
+        "doc_ref": "DOC_DOUBLETREE_BS_CHINA_2025"
+      }
+    },
+    {
+      "id": "DT_SEC_2500",
+      "type": "reference_extract",
+      "name": "DoubleTree SEC_2500: DESIGN, CONSTRUCTION & RENOVATION",
+      "name_cn": "双树 SEC_2500: 设计、施工和翻新",
+      "properties": {
+        "brand": "DoubleTree",
+        "section": "SEC_2500",
+        "effective_date": "2025-07-17",
+        "doc_ref": "DOC_DOUBLETREE_BS_CHINA_2025"
+      }
+    },
+    {
+      "id": "CROSSREF_QA_BS_20260607",
+      "type": "knowledge_summary",
+      "name": "品牌标准源文件参考-2026.06",
+      "name_cn": "品牌标准源文件参考-2026.06",
+      "properties": {
+        "description": "Hilton BS(2026)和DoubleTree BS(2025)源文件已入库LIB站，可作为QA站品牌标准核对参考",
+        "qa_station_ref": "knowledge_center/qa_graph.json",
+        "note": "QA站现有标准为已提取版本，LIB站源文件为官方全本。需要对齐时以LIB站源文件为基准"
+      }
+    },
+    {
+      "id": "DOC_HILTON_BS_CHANGES_2026",
+      "type": "reference_doc",
+      "name": "Summary of Changes - Hilton Hotels 2026",
+      "name_cn": "希尔顿品牌标准变更摘要2026版",
+      "properties": {
+        "effective_date": "2026-01-05",
+        "total_entries": 148,
+        "file": "media/inbound/Summary_of_Changes_Hilton_2026.xlsx",
+        "file_size_bytes": 60888,
+        "brand": "希尔顿 (Hilton)",
+        "region": "中国 / 全球",
+        "language": "英文",
+        "source": "希尔顿集团官方品牌标准变更摘要",
+        "import_date": "2026-06-07",
+        "description": "Hilton品牌标准2026版相对于上一版本的148项变更对照表（含New/Revision/Removed三种类型）"
+      }
+    },
+    {
+      "id": "DOC_HILTON_QA_CHECKLIST_2026",
+      "type": "reference_doc",
+      "name": "Hilton QA Documentation Checklist 2026",
+      "name_cn": "希尔顿QA检查清单2026版",
+      "properties": {
+        "revision_date": "2026-02-01",
+        "total_pages": 6,
+        "file": "media/inbound/Hilton_QA_Checklist.pdf",
+        "file_size_bytes": 448978,
+        "brand": "希尔顿 (Hilton)",
+        "region": "全球",
+        "language": "英文",
+        "source": "希尔顿集团官方QA审计检查清单",
+        "import_date": "2026-06-07",
+        "description": "QA审计用官方检查清单，含2026年评分阈值、消防/PM/Deep Clean要求、培训要求、翻新周期、Connected Room等标准检查项"
+      }
+    },
+    {
+      "id": "LIB_CAT_AI_INDUSTRY",
+      "label": "AI/产业链",
+      "type": "book_category"
+    },
+    {
+      "id": "LIB_CAT_INVESTMENT",
+      "label": "投资/资本市场",
+      "type": "book_category"
+    },
+    {
+      "id": "LIB_CAT_POLICY",
+      "label": "政策/城市发展",
+      "type": "book_category"
+    },
+    {
+      "id": "LIB_CAT_TECH_ENG",
+      "label": "技术工程/基础设施",
+      "type": "book_category"
+    },
+    {
+      "id": "LIB_CAT_GREEN_ENERGY",
+      "label": "绿色能源/碳中和",
+      "type": "book_category"
+    },
+    {
+      "id": "LIB_CAT_EMBODIED_AI",
+      "label": "具身智能/机器人",
+      "type": "book_category"
+    },
+    {
+      "id": "LIB_CAT_COGNITION",
+      "label": "认知/方法论",
+      "type": "book_category"
+    },
+    {
+      "id": "LIB_AUTHOR_CAICT",
+      "label": "中国信通院",
+      "type": "author"
+    },
+    {
+      "id": "LIB_AUTHOR_ROCKWELL",
+      "label": "罗克韦尔自动化",
+      "type": "author"
+    },
+    {
+      "id": "LIB_AUTHOR_GUOSEN",
+      "label": "国信证券",
+      "type": "author"
+    },
+    {
+      "id": "LIB_AUTHOR_PACIFIC",
+      "label": "太平洋证券",
+      "type": "author"
+    },
+    {
+      "id": "LIB_AUTHOR_GUOJIN",
+      "label": "国金证券",
+      "type": "author"
+    },
+    {
+      "id": "LIB_AUTHOR_ALIYUN",
+      "label": "阿里云",
+      "type": "author"
+    },
+    {
+      "id": "LIB_AUTHOR_ZTE",
+      "label": "中兴通讯",
+      "type": "author"
+    },
+    {
+      "id": "LIB_AUTHOR_LENOVO",
+      "label": "联想",
+      "type": "author"
+    },
+    {
+      "id": "LIB_AUTHOR_ENDATA",
+      "label": "艺恩数据",
+      "type": "author"
+    },
+    {
+      "id": "LIB_AUTHOR_SPECIAL",
+      "label": "专知智库",
+      "type": "author"
+    },
+    {
+      "id": "LIB_S001",
+      "title": "生产性服务赋能制造业高质量发展路径和对策研究报告(2026年)",
+      "author_names": "中国信通院",
+      "category": "AI/产业链",
+      "status": "已读",
+      "rating": 4.5,
+      "notes": "核心论点：制造业向高端化转型必须把生产性服务从配套辅助升级为价值创造主体。2025年生产性服务业增加值42.1万亿，占GDP30%。五大赋能路径：科技创新、产业链安全、节能降碳、数智转型、开放合作。对比美国知识产权出口1891亿美元vs中国129亿美元，高端服务差距触目惊心。",
+      "tags": [
+        "信通院",
+        "制造业",
+        "生产性服务",
+        "数字化转型"
+      ],
+      "reason": "制造业AI转型的政策框架基础",
+      "type": "book"
+    },
+    {
+      "id": "LIB_S002",
+      "title": "城市数字新场景内涵、实践与开发方法研究报告(2026年)",
+      "author_names": "中国信通院",
+      "category": "政策/城市发展",
+      "status": "已读",
+      "rating": 4.5,
+      "notes": "核心论点：城市成为技术创新的试验场和首发地。全国100+城市发布场景政策。惠民38%+善治31%为首要方向。七有能力要素：有组织/底座/要素/生态/机制/激励/安全。三维识别标准+五阶设计方法+四类推进模式+三元协同运营。",
+      "tags": [
+        "信通院",
+        "城市场景",
+        "智慧城市",
+        "数字化转型"
+      ],
+      "reason": "了解城市数字场景政策方向和运作机制",
+      "type": "book"
+    },
+    {
+      "id": "LIB_S003",
+      "title": "Agent生产落地基石：可观测透视+评估飞轮的一体化建设实践",
+      "author_names": "阿里云",
+      "category": "技术工程/基础设施",
+      "status": "已读",
+      "rating": 5.0,
+      "notes": "三大痛点：断言失效(确定性工具箱失灵)、观测盲区(传统可观测无法覆盖)、质量漂移(传统质量手段失效)。三件套：LoongSuite(可观测)+Benchmark(评估)+AgentLoop(闭环)。VibeOps(仿真-观测-评估)调优范式。从Trace到Trajectory的标准化MDP格式。UModel世界模型统一日志/指标/链路/事件/拓扑。",
+      "tags": [
+        "Agent",
+        "可观测性",
+        "评估飞轮",
+        "阿里云",
+        "MCP"
+      ],
+      "reason": "Agent生产落地工程化的核心方法论",
+      "type": "book"
+    },
+    {
+      "id": "LIB_S004",
+      "title": "中兴通讯绿色发展规划白皮书(十五五)",
+      "author_names": "中兴通讯",
+      "category": "绿色能源/碳中和",
+      "status": "已读",
+      "rating": 4.5,
+      "notes": "十四五成绩：碳排放降46%/单位产值能耗降17%/售出产品能效提升38.9%/240款产品碳足迹评估/CDP连续三年A级/国内首家SBTi双重审验。十五五目标：PUE1.15以下/绿电20%+/赋能减排5000万吨。数绿融合方法论+SMART双碳治理模型+FAMU碳税核算模型+碳硅一体数字员工(Co-Claw)。",
+      "tags": [
+        "中兴",
+        "绿色",
+        "碳中和",
+        "数绿融合",
+        "ESG"
+      ],
+      "reason": "ICT企业数绿融合战略的标杆案例",
+      "type": "book"
+    },
+    {
+      "id": "LIB_S005",
+      "title": "问题经济：OPC一人公司的核心引擎(2026)",
+      "author_names": "专知智库",
+      "category": "认知/方法论",
+      "status": "已读",
+      "rating": 3.5,
+      "notes": "核心命题：AI时代答案成本趋零，提问能力成为最稀缺资产。QVI=(P*L)/D量化问题商业潜力。提问链四阶：痛点发现→方向筛选→方案生成→专利保护。定义性问题vs平庸问题的分水岭。提问者五级Q-L1到L5。意义登记/专利池/DaaS订阅。",
+      "tags": [
+        "问题经济",
+        "OPC",
+        "提问能力",
+        "QVI",
+        "方法论"
+      ],
+      "reason": "AI时代个人核心竞争力方法论的参考框架",
+      "type": "book"
+    },
+    {
+      "id": "LIB_S006",
+      "title": "被低估的CPU与爆发的Agent时代：全球服务器CPU市场规模测算",
+      "author_names": "国信证券",
+      "category": "投资/资本市场",
+      "status": "已读",
+      "rating": 4.5,
+      "notes": "核心判断：Agent时代CPU价值重估。2030年全球服务器CPU市场突破2000亿美元(312亿→2070亿，CAGR46%)。CPU:GPU配比从1:8→1:1，每GPU核心数从8-12→80-120。格局：Intel39%/AMD21%/ARM27%。柜内+柜外双重拉动。Intel/AMD/ARM/高通四家弹性对比。",
+      "tags": [
+        "CPU",
+        "Agent",
+        "服务器",
+        "投资",
+        "国信证券"
+      ],
+      "reason": "Agent时代CPU产业链投资的核心框架",
+      "type": "book"
+    },
+    {
+      "id": "LIB_S007",
+      "title": "AI驱动全球电力重构，重视产业链长期机遇",
+      "author_names": "太平洋证券",
+      "category": "投资/资本市场",
+      "status": "已读",
+      "rating": 4.5,
+      "notes": "核心判断：AI真实瓶颈不在算力在电。美国用电峰值增长预测从24GW到166GW(3年7倍)。美国电网建于1950-70年代。输电审批7-10年vs数据中心建设18-36月。全球算力外溢至中东/东南亚/北欧/非洲。脱网自建需天然气+SOFC+核电+储能。变压器交期128-210周，中国企业出海窗口期。",
+      "tags": [
+        "AI",
+        "电力",
+        "能源",
+        "电网",
+        "全球算力"
+      ],
+      "reason": "AI驱动能源基建投资的底层逻辑",
+      "type": "book"
+    },
+    {
+      "id": "LIB_S008",
+      "title": "2026全球具身数据市场白皮书",
+      "author_names": "艺恩数据",
+      "category": "具身智能/机器人",
+      "status": "已读",
+      "rating": 4.5,
+      "notes": "核心判断：具身vs文本数据差距约20000倍。数据金字塔：真机遥操→便携采集→仿真合成→视频蒸馏。价值链毛利逐级递增35%→40%→55%→68%，数据层价值大于硬件层。光轮智能全球首个具身数据独角兽。中美双轨：美国闭源飞轮vs中国开放专业分工。",
+      "tags": [
+        "具身智能",
+        "机器人",
+        "数据",
+        "光轮智能",
+        "艺恩"
+      ],
+      "reason": "AI从数字走向物理世界的最后一关",
+      "type": "book"
+    },
+    {
+      "id": "LIB_S009",
+      "title": "联想算力基础设施白皮书——制造行业解决方案",
+      "author_names": "联想",
+      "category": "技术工程/基础设施",
+      "status": "已读",
+      "rating": 4.0,
+      "notes": "Data Fabric核心战略：让数据自由流动。覆盖制造全流程PLM/CAE/EDA/MES/CIM/AI质检。产品矩阵：AIPod→DSS-G→DXN→ONTAP→StorageGRID。三大子行业：汽车/芯片/泛制造。核心竞争逻辑：存储是制造业数字化的物理基座。",
+      "tags": [
+        "联想",
+        "算力",
+        "存储",
+        "智能制造",
+        "DataFabric"
+      ],
+      "reason": "制造业数字化算力基础设施的完整产品方案",
+      "type": "book"
+    },
+    {
+      "id": "LIB_S010",
+      "title": "AIDC系列深度(四)：SST开启AIDC供电硅进铜退新周期",
+      "author_names": "国金证券",
+      "category": "技术工程/基础设施",
+      "status": "已读",
+      "rating": 5.0,
+      "notes": "核心判断：SST用SiC替代铜线铁芯，频率从50Hz到20kHz+，体积缩小数十分之一。产业化节奏：HVDC先行→光储充验证(中期)→SST终局(长期)。竞争壁垒：客户规格定义权+中压系统能力+高频电力电子产品化能力。产业链：整机(阳光电源/麦格米特/四方/金盘)→高频磁性(可立克/京泉华)→SiC(天岳先进)→电容(江海)→断路器(良信)。",
+      "tags": [
+        "SST",
+        "固态变压器",
+        "SiC",
+        "AIDC",
+        "供电架构"
+      ],
+      "reason": "AI数据中心供电架构变革的深度技术分析",
+      "type": "book"
+    },
+    {
+      "id": "LIB_S011",
+      "title": "2026年智能制造现状报告(第11版)",
+      "author_names": "罗克韦尔自动化",
+      "category": "AI/产业链",
+      "status": "已读",
+      "rating": 4.0,
+      "notes": "1560位决策者全球调研(17国)。90%企业认为数字化转型是竞争力要求。43%采集数据得到有效利用。34%运营已由AI增强(预计2030年54%)。五大能力：AI自动化、运营智能、网络安全、劳动力再定义、竞争差异化。仅18%仍处试点，59%已大规模应用。",
+      "tags": [
+        "智能制造",
+        "罗克韦尔",
+        "数字化转型",
+        "AI",
+        "调研"
+      ],
+      "reason": "全球制造业智能化现状的一手数据验证",
+      "type": "book"
+    },
+    {
+      "id": "LIB_S012",
+      "title": "互联网行业2026年6月投资策略：模型厂商商业模式逐渐闭环",
+      "author_names": "国信证券",
+      "category": "投资/资本市场",
+      "status": "已读",
+      "rating": 3.5,
+      "notes": "核心判断：AI投资叙事已从需求侧转向供给侧能力验证。Agent驱动Token爆发式增长，模型厂商商业模式开始闭环，收入增长远高于训练成本提升，毛利率不断提升。自研芯片产能释放对云厂利润率至关重要。持续推荐阿里巴巴和百度集团。",
+      "tags": [
+        "互联网",
+        "AI投资",
+        "云厂商",
+        "模型",
+        "自研芯片"
+      ],
+      "reason": "AI投资当前阶段的策略性判断",
+      "type": "book"
+    },
+    {
+      "id": "TEMPLATE_SEASONAL_BULK_STRATEGY",
+      "type": "template",
+      "name": "大宗时令品销售策略模板（以粽子为例）",
+      "properties": {
+        "适用范围": "年货/粽子/月饼/中秋礼盒等时令品",
+        "创建日期": "2026-06-13",
+        "数据来源": "苏州希尔顿酒店2026年粽子销售",
+        "成本": "69.17元/盒（不含税）",
+        "市场标价": "258元/盒",
+        "员工底价": "120元/盒",
+        "包装优化目标": "成本率降低50%（30元→15元）",
+        "供应商原则": "苏州本地优先",
+        "核心框架": "三维漏斗+双轴驱动(时间轴×竞争轴)",
+        "追踪维度": "7个（总量/价格/部门/时间/竞争/审批/成本转移）",
+        "调控杠杆": "7个（底价/组合/时间/渠道/激励/库存/成本转移）",
+        "文件位置": "templates/TEMPLATE_SEASONAL_BULK_STRATEGY.md",
+        "关联FIN节点": "ZONGZI_2026, FB_PROMO_ZONGZI"
+      },
+      "created": "2026-06-13"
+    },
+    {
+      "id": "LIB_CAT_AI_TECH",
+      "type": "book_category",
+      "name": "AI/科技行业",
+      "description": "AI/科技行业类参考资料"
+    },
+    {
+      "id": "LIB_CAT_SPACE",
+      "type": "book_category",
+      "name": "航天/商业太空",
+      "description": "航天/商业太空类参考资料"
+    },
+    {
+      "id": "LIB_CAT_SEMICONDUCTOR",
+      "type": "book_category",
+      "name": "半导体/芯片",
+      "description": "半导体/芯片类参考资料"
+    },
+    {
+      "id": "LIB_CAT_LEGAL",
+      "type": "book_category",
+      "name": "法律/合规",
+      "description": "法律/合规类参考资料"
+    },
+    {
+      "id": "REPORT_GAN_POWER_20260608",
+      "type": "reference_doc",
+      "title": "GaN功率半导体行业报告：应用场景加速拓展，数据中心与汽车电子贡献增量",
+      "source": "国元证券",
+      "date": "2026-06-08",
+      "author": "彭琦, 李聪",
+      "pages": 35,
+      "summary": "GaN功率器件兼具高频、高功率优势，市场从2025年5.5亿美元提升至2030年41.5亿美元（CAGR 50%）。数据中心有望成为最大增量（2030年占比37.3%），汽车电子OBC/DC-DC是明确落地场景。AI服务器出货增长+800V HVDC架构演进推动GaN在DC-DC/IBC环节渗透。服务器GaN市场空间2024年3亿→2028年12.7亿美元。竞争格局CR5=79%，8英寸为主扩产主线，12英寸中长期降本潜力20%以上。",
+      "keywords": [
+        "GaN",
+        "氮化镓",
+        "功率半导体",
+        "数据中心",
+        "OBC",
+        "AI服务器",
+        "800V HVDC",
+        "半导体",
+        "第三代半导体"
+      ],
+      "rating": 4,
+      "added": "2026-06-15",
+      "category": "半导体/芯片"
+    },
+    {
+      "id": "REPORT_LOW_ALT_LEGAL_2026",
+      "type": "reference_doc",
+      "title": "低空经济法律与合规指南2026",
+      "source": "中伦律师事务所",
+      "date": "2026",
+      "author": "于治国, 马东晓, 李瑞, 张国勋, 斯响俊",
+      "pages": 101,
+      "summary": "低空经济合规全景指南。四大模块：生产制造环节合规（知识产权、SEP标准必要专利、开源飞控、适航准入TC/PC/AC）、产业竞争合规（特许经营权、公平竞争审查_平阴县9.24亿案例已中止）、进出口管制（中国商务部清单 vs 美国EAR长臂管辖、FCC受限清单、实体清单130+家航企）、运营合规（空域分类A-G-W七类、新民用航空法2026.7.1生效、亿航智能获首批载人无人机OC）。低空经济已成中美技术制度竞争新焦点。",
+      "keywords": [
+        "低空经济",
+        "eVTOL",
+        "无人机",
+        "适航审定",
+        "出口管制",
+        "EAR",
+        "实体清单",
+        "空域管理",
+        "合规",
+        "亿航智能"
+      ],
+      "rating": 5,
+      "added": "2026-06-15",
+      "category": "法律/合规"
+    },
+    {
+      "id": "REPORT_TELECOM_AGENT_20260510",
+      "type": "reference_doc",
+      "title": "通信行业2026年中期策略：Agent驱动的通信新时代",
+      "source": "兴业证券",
+      "date": "2026-05-10",
+      "author": "章林, 代小笛, 仇新宇, 许梓豪, 陈光毅, 王灵境",
+      "pages": 24,
+      "summary": "Agent应用全面爆发（如OpenClaw）驱动Tokens消耗指数级增长，算力基建高景气持续。四主线：海外算力（CSP资本开支高增、CPO/NPO商用拐点、光互联多点开花）、液冷（千亿市场、从服务器向I/O侧渗透、CPC方案加速）、国产算力（缺芯缓解，AIDC估值底部）、运营商（红利价值）。重点推荐：中际旭创/新易盛/天孚通信/中瓷电子/英维克/华测导航/中国移动。",
+      "keywords": [
+        "AI Agent",
+        "算力基建",
+        "CPO",
+        "NPO",
+        "液冷",
+        "光模块",
+        "国产算力",
+        "运营商",
+        "中际旭创",
+        "英维克"
+      ],
+      "rating": 4,
+      "added": "2026-06-15",
+      "category": "AI/科技行业"
+    },
+    {
+      "id": "REPORT_SPACEX_INTRO_202512",
+      "type": "reference_doc",
+      "title": "SpaceX项目简介（机密级）",
+      "source": "保密",
+      "date": "2025-12",
+      "author": "内部资料",
+      "pages": 30,
+      "summary": "SpaceX项目全面介绍。估值8000亿美元（全球最高独角兽）。三大核心：Falcon 9/Heavy（可回收火箭垄断）+ Starship（全复用/载荷150吨/猛禽3代成本$25万）+ Starlink（~9400颗在轨卫星/全球最大低轨星座）。马斯克生态闭环：SpaceX-Starlink-X-xAI(Grok/Colossus)-Tesla-Optimus。火星愿景：2026年底Optimus上火星探路，建百万人口自给自足城市，利用火星资源原位制燃料。",
+      "keywords": [
+        "SpaceX",
+        "马斯克",
+        "Starlink",
+        "Starship",
+        "Falcon 9",
+        "火星殖民",
+        "低轨星座",
+        "可回收火箭",
+        "商业航天",
+        "卫星互联网"
+      ],
+      "rating": 5,
+      "added": "2026-06-15",
+      "category": "航天/商业太空"
+    }
+  ],
+  "relations": [
+    {
+      "source_id": "LIB_0001",
+      "target_id": "LIB_AUTHOR_HESKETT",
+      "relation": "has_author",
+      "id": "LIB_REL_0001",
+      "type": "has_author",
+      "source": "LIB_0001",
+      "target": "LIB_AUTHOR_HESKETT"
+    },
+    {
+      "source_id": "LIB_0001",
+      "target_id": "LIB_AUTHOR_SASSER",
+      "relation": "has_author",
+      "id": "LIB_REL_0002",
+      "type": "has_author",
+      "source": "LIB_0001",
+      "target": "LIB_AUTHOR_SASSER"
+    },
+    {
+      "source_id": "LIB_0001",
+      "target_id": "LIB_AUTHOR_SCHLESINGER",
+      "relation": "has_author",
+      "id": "LIB_REL_0003",
+      "type": "has_author",
+      "source": "LIB_0001",
+      "target": "LIB_AUTHOR_SCHLESINGER"
+    },
+    {
+      "source_id": "LIB_0001",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0004",
+      "type": "in_category",
+      "source": "LIB_0001",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0001",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0005",
+      "type": "has_status",
+      "source": "LIB_0001",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0002",
+      "target_id": "LIB_AUTHOR_KOTLER",
+      "relation": "has_author",
+      "id": "LIB_REL_0006",
+      "type": "has_author",
+      "source": "LIB_0002",
+      "target": "LIB_AUTHOR_KOTLER"
+    },
+    {
+      "source_id": "LIB_0002",
+      "target_id": "LIB_AUTHOR_BOWEN",
+      "relation": "has_author",
+      "id": "LIB_REL_0007",
+      "type": "has_author",
+      "source": "LIB_0002",
+      "target": "LIB_AUTHOR_BOWEN"
+    },
+    {
+      "source_id": "LIB_0002",
+      "target_id": "LIB_AUTHOR_MAKENS",
+      "relation": "has_author",
+      "id": "LIB_REL_0008",
+      "type": "has_author",
+      "source": "LIB_0002",
+      "target": "LIB_AUTHOR_MAKENS"
+    },
+    {
+      "source_id": "LIB_0002",
+      "target_id": "LIB_CAT_HOTEL_OPS",
+      "relation": "in_category",
+      "id": "LIB_REL_0009",
+      "type": "in_category",
+      "source": "LIB_0002",
+      "target": "LIB_CAT_HOTEL_OPS"
+    },
+    {
+      "source_id": "LIB_0002",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0010",
+      "type": "has_status",
+      "source": "LIB_0002",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0003",
+      "target_id": "LIB_AUTHOR_COVEY",
+      "relation": "has_author",
+      "id": "LIB_REL_0011",
+      "type": "has_author",
+      "source": "LIB_0003",
+      "target": "LIB_AUTHOR_COVEY"
+    },
+    {
+      "source_id": "LIB_0003",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0012",
+      "type": "in_category",
+      "source": "LIB_0003",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0003",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0013",
+      "type": "has_status",
+      "source": "LIB_0003",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0004",
+      "target_id": "LIB_AUTHOR_COLLINS",
+      "relation": "has_author",
+      "id": "LIB_REL_0014",
+      "type": "has_author",
+      "source": "LIB_0004",
+      "target": "LIB_AUTHOR_COLLINS"
+    },
+    {
+      "source_id": "LIB_0004",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0015",
+      "type": "in_category",
+      "source": "LIB_0004",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0004",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0016",
+      "type": "has_status",
+      "source": "LIB_0004",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0005",
+      "target_id": "LIB_AUTHOR_SINECK",
+      "relation": "has_author",
+      "id": "LIB_REL_0017",
+      "type": "has_author",
+      "source": "LIB_0005",
+      "target": "LIB_AUTHOR_SINECK"
+    },
+    {
+      "source_id": "LIB_0005",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0018",
+      "type": "in_category",
+      "source": "LIB_0005",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0005",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0019",
+      "type": "has_status",
+      "source": "LIB_0005",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0006",
+      "target_id": "LIB_AUTHOR_KAHNEMAN",
+      "relation": "has_author",
+      "id": "LIB_REL_0020",
+      "type": "has_author",
+      "source": "LIB_0006",
+      "target": "LIB_AUTHOR_KAHNEMAN"
+    },
+    {
+      "source_id": "LIB_0006",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0021",
+      "type": "in_category",
+      "source": "LIB_0006",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0006",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0022",
+      "type": "has_status",
+      "source": "LIB_0006",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0007",
+      "target_id": "LIB_AUTHOR_GOLEMAN",
+      "relation": "has_author",
+      "id": "LIB_REL_0023",
+      "type": "has_author",
+      "source": "LIB_0007",
+      "target": "LIB_AUTHOR_GOLEMAN"
+    },
+    {
+      "source_id": "LIB_0007",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0024",
+      "type": "in_category",
+      "source": "LIB_0007",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0007",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0025",
+      "type": "has_status",
+      "source": "LIB_0007",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0008",
+      "target_id": "LIB_AUTHOR_PATTERSON",
+      "relation": "has_author",
+      "id": "LIB_REL_0026",
+      "type": "has_author",
+      "source": "LIB_0008",
+      "target": "LIB_AUTHOR_PATTERSON"
+    },
+    {
+      "source_id": "LIB_0008",
+      "target_id": "LIB_AUTHOR_GRENNY",
+      "relation": "has_author",
+      "id": "LIB_REL_0027",
+      "type": "has_author",
+      "source": "LIB_0008",
+      "target": "LIB_AUTHOR_GRENNY"
+    },
+    {
+      "source_id": "LIB_0008",
+      "target_id": "LIB_AUTHOR_MCMILLAN",
+      "relation": "has_author",
+      "id": "LIB_REL_0028",
+      "type": "has_author",
+      "source": "LIB_0008",
+      "target": "LIB_AUTHOR_MCMILLAN"
+    },
+    {
+      "source_id": "LIB_0008",
+      "target_id": "LIB_AUTHOR_SWITZLER",
+      "relation": "has_author",
+      "id": "LIB_REL_0029",
+      "type": "has_author",
+      "source": "LIB_0008",
+      "target": "LIB_AUTHOR_SWITZLER"
+    },
+    {
+      "source_id": "LIB_0008",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0030",
+      "type": "in_category",
+      "source": "LIB_0008",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0008",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0031",
+      "type": "has_status",
+      "source": "LIB_0008",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0009",
+      "target_id": "LIB_AUTHOR_DEMING",
+      "relation": "has_author",
+      "id": "LIB_REL_0032",
+      "type": "has_author",
+      "source": "LIB_0009",
+      "target": "LIB_AUTHOR_DEMING"
+    },
+    {
+      "source_id": "LIB_0009",
+      "target_id": "LIB_CAT_HOTEL_OPS",
+      "relation": "in_category",
+      "id": "LIB_REL_0033",
+      "type": "in_category",
+      "source": "LIB_0009",
+      "target": "LIB_CAT_HOTEL_OPS"
+    },
+    {
+      "source_id": "LIB_0009",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0034",
+      "type": "has_status",
+      "source": "LIB_0009",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0010",
+      "target_id": "LIB_AUTHOR_ISHIKAWA",
+      "relation": "has_author",
+      "id": "LIB_REL_0035",
+      "type": "has_author",
+      "source": "LIB_0010",
+      "target": "LIB_AUTHOR_ISHIKAWA"
+    },
+    {
+      "source_id": "LIB_0010",
+      "target_id": "LIB_CAT_HOTEL_OPS",
+      "relation": "in_category",
+      "id": "LIB_REL_0036",
+      "type": "in_category",
+      "source": "LIB_0010",
+      "target": "LIB_CAT_HOTEL_OPS"
+    },
+    {
+      "source_id": "LIB_0010",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0037",
+      "type": "has_status",
+      "source": "LIB_0010",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0011",
+      "target_id": "LIB_AUTHOR_HEATH",
+      "relation": "has_author",
+      "id": "LIB_REL_0038",
+      "type": "has_author",
+      "source": "LIB_0011",
+      "target": "LIB_AUTHOR_HEATH"
+    },
+    {
+      "source_id": "LIB_0011",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0039",
+      "type": "in_category",
+      "source": "LIB_0011",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0011",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0040",
+      "type": "has_status",
+      "source": "LIB_0011",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0012",
+      "target_id": "LIB_AUTHOR_DUHIGG",
+      "relation": "has_author",
+      "id": "LIB_REL_0041",
+      "type": "has_author",
+      "source": "LIB_0012",
+      "target": "LIB_AUTHOR_DUHIGG"
+    },
+    {
+      "source_id": "LIB_0012",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0042",
+      "type": "in_category",
+      "source": "LIB_0012",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0012",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0043",
+      "type": "has_status",
+      "source": "LIB_0012",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0013",
+      "target_id": "LIB_AUTHOR_BROWN",
+      "relation": "has_author",
+      "id": "LIB_REL_0044",
+      "type": "has_author",
+      "source": "LIB_0013",
+      "target": "LIB_AUTHOR_BROWN"
+    },
+    {
+      "source_id": "LIB_0013",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0045",
+      "type": "in_category",
+      "source": "LIB_0013",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0013",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0046",
+      "type": "has_status",
+      "source": "LIB_0013",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0014",
+      "target_id": "LIB_AUTHOR_SENGE",
+      "relation": "has_author",
+      "id": "LIB_REL_0047",
+      "type": "has_author",
+      "source": "LIB_0014",
+      "target": "LIB_AUTHOR_SENGE"
+    },
+    {
+      "source_id": "LIB_0014",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0048",
+      "type": "in_category",
+      "source": "LIB_0014",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0014",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0049",
+      "type": "has_status",
+      "source": "LIB_0014",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0015",
+      "target_id": "LIB_AUTHOR_HARVARD",
+      "relation": "has_author",
+      "id": "LIB_REL_0050",
+      "type": "has_author",
+      "source": "LIB_0015",
+      "target": "LIB_AUTHOR_HARVARD"
+    },
+    {
+      "source_id": "LIB_0015",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0051",
+      "type": "in_category",
+      "source": "LIB_0015",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0015",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0052",
+      "type": "has_status",
+      "source": "LIB_0015",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0016",
+      "target_id": "LIB_AUTHOR_LENCIONI",
+      "relation": "has_author",
+      "id": "LIB_REL_0053",
+      "type": "has_author",
+      "source": "LIB_0016",
+      "target": "LIB_AUTHOR_LENCIONI"
+    },
+    {
+      "source_id": "LIB_0016",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0054",
+      "type": "in_category",
+      "source": "LIB_0016",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0016",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0055",
+      "type": "has_status",
+      "source": "LIB_0016",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0017",
+      "target_id": "LIB_AUTHOR_MAXWELL",
+      "relation": "has_author",
+      "id": "LIB_REL_0056",
+      "type": "has_author",
+      "source": "LIB_0017",
+      "target": "LIB_AUTHOR_MAXWELL"
+    },
+    {
+      "source_id": "LIB_0017",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0057",
+      "type": "in_category",
+      "source": "LIB_0017",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0017",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0058",
+      "type": "has_status",
+      "source": "LIB_0017",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0018",
+      "target_id": "LIB_CAT_HOTEL_OPS",
+      "relation": "in_category",
+      "id": "LIB_REL_0059",
+      "type": "in_category",
+      "source": "LIB_0018",
+      "target": "LIB_CAT_HOTEL_OPS"
+    },
+    {
+      "source_id": "LIB_0018",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0060",
+      "type": "has_status",
+      "source": "LIB_0018",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0019",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0061",
+      "type": "in_category",
+      "source": "LIB_0019",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0019",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0062",
+      "type": "has_status",
+      "source": "LIB_0019",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0020",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0063",
+      "type": "in_category",
+      "source": "LIB_0020",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0020",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0064",
+      "type": "has_status",
+      "source": "LIB_0020",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0021",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0065",
+      "type": "in_category",
+      "source": "LIB_0021",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0021",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0066",
+      "type": "has_status",
+      "source": "LIB_0021",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_MDL_FIRST_PRINCIPLES",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0067",
+      "type": "in_category",
+      "source": "LIB_MDL_FIRST_PRINCIPLES",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_MDL_INVERSION",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0068",
+      "type": "in_category",
+      "source": "LIB_MDL_INVERSION",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_MDL_SYSTEMS_THINKING",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0069",
+      "type": "in_category",
+      "source": "LIB_MDL_SYSTEMS_THINKING",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_MDL_SECOND_ORDER",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0070",
+      "type": "in_category",
+      "source": "LIB_MDL_SECOND_ORDER",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_MDL_PROBABILISTIC",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0071",
+      "type": "in_category",
+      "source": "LIB_MDL_PROBABILISTIC",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_MDL_OCCAMS_RAZOR",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0072",
+      "type": "in_category",
+      "source": "LIB_MDL_OCCAMS_RAZOR",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_MDL_OPPORTUNITY_COST",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0073",
+      "type": "in_category",
+      "source": "LIB_MDL_OPPORTUNITY_COST",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_MDL_MARGINAL",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0074",
+      "type": "in_category",
+      "source": "LIB_MDL_MARGINAL",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_MDL_FEEDBACK",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0075",
+      "type": "in_category",
+      "source": "LIB_MDL_FEEDBACK",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_MDL_ANALOGY",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0076",
+      "type": "in_category",
+      "source": "LIB_MDL_ANALOGY",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0021",
+      "target_id": "LIB_MDL_FIRST_PRINCIPLES",
+      "relation": "has_extracted",
+      "id": "LIB_REL_0077",
+      "type": "has_extracted",
+      "source": "LIB_0021",
+      "target": "LIB_MDL_FIRST_PRINCIPLES"
+    },
+    {
+      "source_id": "LIB_0021",
+      "target_id": "LIB_MDL_INVERSION",
+      "relation": "has_extracted",
+      "id": "LIB_REL_0078",
+      "type": "has_extracted",
+      "source": "LIB_0021",
+      "target": "LIB_MDL_INVERSION"
+    },
+    {
+      "source_id": "LIB_0021",
+      "target_id": "LIB_MDL_SYSTEMS_THINKING",
+      "relation": "has_extracted",
+      "id": "LIB_REL_0079",
+      "type": "has_extracted",
+      "source": "LIB_0021",
+      "target": "LIB_MDL_SYSTEMS_THINKING"
+    },
+    {
+      "source_id": "LIB_0021",
+      "target_id": "LIB_MDL_SECOND_ORDER",
+      "relation": "has_extracted",
+      "id": "LIB_REL_0080",
+      "type": "has_extracted",
+      "source": "LIB_0021",
+      "target": "LIB_MDL_SECOND_ORDER"
+    },
+    {
+      "source_id": "LIB_0021",
+      "target_id": "LIB_MDL_PROBABILISTIC",
+      "relation": "has_extracted",
+      "id": "LIB_REL_0081",
+      "type": "has_extracted",
+      "source": "LIB_0021",
+      "target": "LIB_MDL_PROBABILISTIC"
+    },
+    {
+      "source_id": "LIB_0021",
+      "target_id": "LIB_MDL_OCCAMS_RAZOR",
+      "relation": "has_extracted",
+      "id": "LIB_REL_0082",
+      "type": "has_extracted",
+      "source": "LIB_0021",
+      "target": "LIB_MDL_OCCAMS_RAZOR"
+    },
+    {
+      "source_id": "LIB_0021",
+      "target_id": "LIB_MDL_OPPORTUNITY_COST",
+      "relation": "has_extracted",
+      "id": "LIB_REL_0083",
+      "type": "has_extracted",
+      "source": "LIB_0021",
+      "target": "LIB_MDL_OPPORTUNITY_COST"
+    },
+    {
+      "source_id": "LIB_0021",
+      "target_id": "LIB_MDL_MARGINAL",
+      "relation": "has_extracted",
+      "id": "LIB_REL_0084",
+      "type": "has_extracted",
+      "source": "LIB_0021",
+      "target": "LIB_MDL_MARGINAL"
+    },
+    {
+      "source_id": "LIB_0021",
+      "target_id": "LIB_MDL_FEEDBACK",
+      "relation": "has_extracted",
+      "id": "LIB_REL_0085",
+      "type": "has_extracted",
+      "source": "LIB_0021",
+      "target": "LIB_MDL_FEEDBACK"
+    },
+    {
+      "source_id": "LIB_0021",
+      "target_id": "LIB_MDL_ANALOGY",
+      "relation": "has_extracted",
+      "id": "LIB_REL_0086",
+      "type": "has_extracted",
+      "source": "LIB_0021",
+      "target": "LIB_MDL_ANALOGY"
+    },
+    {
+      "source_id": "LIB_0022",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0087",
+      "type": "in_category",
+      "source": "LIB_0022",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0022",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0088",
+      "type": "has_status",
+      "source": "LIB_0022",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0023",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0089",
+      "type": "in_category",
+      "source": "LIB_0023",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0023",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0090",
+      "type": "has_status",
+      "source": "LIB_0023",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0024",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0091",
+      "type": "in_category",
+      "source": "LIB_0024",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0024",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0092",
+      "type": "has_status",
+      "source": "LIB_0024",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0025",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0093",
+      "type": "in_category",
+      "source": "LIB_0025",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0025",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0094",
+      "type": "has_status",
+      "source": "LIB_0025",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0026",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0095",
+      "type": "in_category",
+      "source": "LIB_0026",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0026",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0096",
+      "type": "has_status",
+      "source": "LIB_0026",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0027",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0097",
+      "type": "in_category",
+      "source": "LIB_0027",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0027",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0098",
+      "type": "has_status",
+      "source": "LIB_0027",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0028",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0099",
+      "type": "in_category",
+      "source": "LIB_0028",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0028",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0100",
+      "type": "has_status",
+      "source": "LIB_0028",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0029",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0101",
+      "type": "in_category",
+      "source": "LIB_0029",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0029",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0102",
+      "type": "has_status",
+      "source": "LIB_0029",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0030",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0103",
+      "type": "in_category",
+      "source": "LIB_0030",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0030",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0104",
+      "type": "has_status",
+      "source": "LIB_0030",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0031",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0105",
+      "type": "in_category",
+      "source": "LIB_0031",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0031",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0106",
+      "type": "has_status",
+      "source": "LIB_0031",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0032",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0107",
+      "type": "in_category",
+      "source": "LIB_0032",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0032",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0108",
+      "type": "has_status",
+      "source": "LIB_0032",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0033",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0109",
+      "type": "in_category",
+      "source": "LIB_0033",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0033",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0110",
+      "type": "has_status",
+      "source": "LIB_0033",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0034",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0111",
+      "type": "in_category",
+      "source": "LIB_0034",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0034",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0112",
+      "type": "has_status",
+      "source": "LIB_0034",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0035",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0113",
+      "type": "in_category",
+      "source": "LIB_0035",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0035",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0114",
+      "type": "has_status",
+      "source": "LIB_0035",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0036",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0115",
+      "type": "in_category",
+      "source": "LIB_0036",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0036",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0116",
+      "type": "has_status",
+      "source": "LIB_0036",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0037",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0117",
+      "type": "in_category",
+      "source": "LIB_0037",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0037",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0118",
+      "type": "has_status",
+      "source": "LIB_0037",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0038",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0119",
+      "type": "in_category",
+      "source": "LIB_0038",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0038",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0120",
+      "type": "has_status",
+      "source": "LIB_0038",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0039",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0121",
+      "type": "in_category",
+      "source": "LIB_0039",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0039",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0122",
+      "type": "has_status",
+      "source": "LIB_0039",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0040",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0123",
+      "type": "in_category",
+      "source": "LIB_0040",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0040",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0124",
+      "type": "has_status",
+      "source": "LIB_0040",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0041",
+      "target_id": "LIB_CAT_BIOGRAPHY",
+      "relation": "in_category",
+      "id": "LIB_REL_0125",
+      "type": "in_category",
+      "source": "LIB_0041",
+      "target": "LIB_CAT_BIOGRAPHY"
+    },
+    {
+      "source_id": "LIB_0041",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0126",
+      "type": "has_status",
+      "source": "LIB_0041",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0042",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0127",
+      "type": "in_category",
+      "source": "LIB_0042",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0042",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0128",
+      "type": "has_status",
+      "source": "LIB_0042",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0043",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0129",
+      "type": "in_category",
+      "source": "LIB_0043",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0043",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0130",
+      "type": "has_status",
+      "source": "LIB_0043",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0044",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0131",
+      "type": "in_category",
+      "source": "LIB_0044",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0044",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0132",
+      "type": "has_status",
+      "source": "LIB_0044",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0045",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0133",
+      "type": "in_category",
+      "source": "LIB_0045",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0045",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0134",
+      "type": "has_status",
+      "source": "LIB_0045",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0046",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0135",
+      "type": "in_category",
+      "source": "LIB_0046",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0046",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0136",
+      "type": "has_status",
+      "source": "LIB_0046",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0047",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0137",
+      "type": "in_category",
+      "source": "LIB_0047",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0047",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0138",
+      "type": "has_status",
+      "source": "LIB_0047",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0048",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0139",
+      "type": "in_category",
+      "source": "LIB_0048",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0048",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0140",
+      "type": "has_status",
+      "source": "LIB_0048",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0049",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0141",
+      "type": "in_category",
+      "source": "LIB_0049",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0049",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0142",
+      "type": "has_status",
+      "source": "LIB_0049",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0050",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0143",
+      "type": "in_category",
+      "source": "LIB_0050",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0050",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0144",
+      "type": "has_status",
+      "source": "LIB_0050",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0051",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0145",
+      "type": "in_category",
+      "source": "LIB_0051",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0051",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0146",
+      "type": "has_status",
+      "source": "LIB_0051",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0052",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0147",
+      "type": "in_category",
+      "source": "LIB_0052",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0052",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0148",
+      "type": "has_status",
+      "source": "LIB_0052",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0053",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0149",
+      "type": "in_category",
+      "source": "LIB_0053",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0053",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0150",
+      "type": "has_status",
+      "source": "LIB_0053",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0054",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0151",
+      "type": "in_category",
+      "source": "LIB_0054",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0054",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0152",
+      "type": "has_status",
+      "source": "LIB_0054",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0055",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0153",
+      "type": "in_category",
+      "source": "LIB_0055",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0055",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0154",
+      "type": "has_status",
+      "source": "LIB_0055",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0056",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0155",
+      "type": "in_category",
+      "source": "LIB_0056",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0056",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0156",
+      "type": "has_status",
+      "source": "LIB_0056",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0057",
+      "target_id": "LIB_CAT_PSYCHOLOGY",
+      "relation": "in_category",
+      "id": "LIB_REL_0157",
+      "type": "in_category",
+      "source": "LIB_0057",
+      "target": "LIB_CAT_PSYCHOLOGY"
+    },
+    {
+      "source_id": "LIB_0057",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0158",
+      "type": "has_status",
+      "source": "LIB_0057",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0058",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0159",
+      "type": "in_category",
+      "source": "LIB_0058",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0058",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0160",
+      "type": "has_status",
+      "source": "LIB_0058",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0059",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0161",
+      "type": "in_category",
+      "source": "LIB_0059",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0059",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0162",
+      "type": "has_status",
+      "source": "LIB_0059",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0060",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0163",
+      "type": "in_category",
+      "source": "LIB_0060",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0060",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0164",
+      "type": "has_status",
+      "source": "LIB_0060",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0061",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0165",
+      "type": "in_category",
+      "source": "LIB_0061",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0061",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0166",
+      "type": "has_status",
+      "source": "LIB_0061",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0062",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0167",
+      "type": "in_category",
+      "source": "LIB_0062",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0062",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0168",
+      "type": "has_status",
+      "source": "LIB_0062",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0063",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0169",
+      "type": "in_category",
+      "source": "LIB_0063",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0063",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0170",
+      "type": "has_status",
+      "source": "LIB_0063",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0064",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0171",
+      "type": "in_category",
+      "source": "LIB_0064",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0064",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0172",
+      "type": "has_status",
+      "source": "LIB_0064",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0065",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0173",
+      "type": "in_category",
+      "source": "LIB_0065",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0065",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0174",
+      "type": "has_status",
+      "source": "LIB_0065",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0066",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0175",
+      "type": "in_category",
+      "source": "LIB_0066",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0066",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0176",
+      "type": "has_status",
+      "source": "LIB_0066",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0067",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0177",
+      "type": "in_category",
+      "source": "LIB_0067",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0067",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0178",
+      "type": "has_status",
+      "source": "LIB_0067",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0068",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0179",
+      "type": "in_category",
+      "source": "LIB_0068",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0068",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0180",
+      "type": "has_status",
+      "source": "LIB_0068",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0069",
+      "target_id": "LIB_CAT_FINANCE",
+      "relation": "in_category",
+      "id": "LIB_REL_0181",
+      "type": "in_category",
+      "source": "LIB_0069",
+      "target": "LIB_CAT_FINANCE"
+    },
+    {
+      "source_id": "LIB_0069",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0182",
+      "type": "has_status",
+      "source": "LIB_0069",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0104",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0183",
+      "type": "in_category",
+      "source": "LIB_0104",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0104",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0184",
+      "type": "has_status",
+      "source": "LIB_0104",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0105",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0185",
+      "type": "in_category",
+      "source": "LIB_0105",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0105",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0186",
+      "type": "has_status",
+      "source": "LIB_0105",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0106",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0187",
+      "type": "in_category",
+      "source": "LIB_0106",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0106",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0188",
+      "type": "has_status",
+      "source": "LIB_0106",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0107",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0189",
+      "type": "in_category",
+      "source": "LIB_0107",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0107",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0190",
+      "type": "has_status",
+      "source": "LIB_0107",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0108",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0191",
+      "type": "in_category",
+      "source": "LIB_0108",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0108",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0192",
+      "type": "has_status",
+      "source": "LIB_0108",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0109",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0193",
+      "type": "in_category",
+      "source": "LIB_0109",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0109",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0194",
+      "type": "has_status",
+      "source": "LIB_0109",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0110",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0195",
+      "type": "in_category",
+      "source": "LIB_0110",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0110",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0196",
+      "type": "has_status",
+      "source": "LIB_0110",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0111",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0197",
+      "type": "in_category",
+      "source": "LIB_0111",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0111",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0198",
+      "type": "has_status",
+      "source": "LIB_0111",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0112",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0199",
+      "type": "in_category",
+      "source": "LIB_0112",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0112",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0200",
+      "type": "has_status",
+      "source": "LIB_0112",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0113",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0201",
+      "type": "in_category",
+      "source": "LIB_0113",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0113",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0202",
+      "type": "has_status",
+      "source": "LIB_0113",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0114",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0203",
+      "type": "in_category",
+      "source": "LIB_0114",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0114",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0204",
+      "type": "has_status",
+      "source": "LIB_0114",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0115",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0205",
+      "type": "in_category",
+      "source": "LIB_0115",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0115",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0206",
+      "type": "has_status",
+      "source": "LIB_0115",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0116",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0207",
+      "type": "in_category",
+      "source": "LIB_0116",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0116",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0208",
+      "type": "has_status",
+      "source": "LIB_0116",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0117",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0209",
+      "type": "in_category",
+      "source": "LIB_0117",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0117",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0210",
+      "type": "has_status",
+      "source": "LIB_0117",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0118",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0211",
+      "type": "in_category",
+      "source": "LIB_0118",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0118",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0212",
+      "type": "has_status",
+      "source": "LIB_0118",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0119",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0213",
+      "type": "in_category",
+      "source": "LIB_0119",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0119",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0214",
+      "type": "has_status",
+      "source": "LIB_0119",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0120",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0215",
+      "type": "in_category",
+      "source": "LIB_0120",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0120",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0216",
+      "type": "has_status",
+      "source": "LIB_0120",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0121",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0217",
+      "type": "in_category",
+      "source": "LIB_0121",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0121",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0218",
+      "type": "has_status",
+      "source": "LIB_0121",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0122",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0219",
+      "type": "in_category",
+      "source": "LIB_0122",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0122",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0220",
+      "type": "has_status",
+      "source": "LIB_0122",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0123",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0221",
+      "type": "in_category",
+      "source": "LIB_0123",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0123",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0222",
+      "type": "has_status",
+      "source": "LIB_0123",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0124",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0223",
+      "type": "in_category",
+      "source": "LIB_0124",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0124",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0224",
+      "type": "has_status",
+      "source": "LIB_0124",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0125",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0225",
+      "type": "in_category",
+      "source": "LIB_0125",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0125",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0226",
+      "type": "has_status",
+      "source": "LIB_0125",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0126",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0227",
+      "type": "in_category",
+      "source": "LIB_0126",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0126",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0228",
+      "type": "has_status",
+      "source": "LIB_0126",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0127",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0229",
+      "type": "in_category",
+      "source": "LIB_0127",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0127",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0230",
+      "type": "has_status",
+      "source": "LIB_0127",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0128",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0231",
+      "type": "in_category",
+      "source": "LIB_0128",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0128",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0232",
+      "type": "has_status",
+      "source": "LIB_0128",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0129",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0233",
+      "type": "in_category",
+      "source": "LIB_0129",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0129",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0234",
+      "type": "has_status",
+      "source": "LIB_0129",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0130",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0235",
+      "type": "in_category",
+      "source": "LIB_0130",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0130",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0236",
+      "type": "has_status",
+      "source": "LIB_0130",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0131",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0237",
+      "type": "in_category",
+      "source": "LIB_0131",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0131",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0238",
+      "type": "has_status",
+      "source": "LIB_0131",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0132",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0239",
+      "type": "in_category",
+      "source": "LIB_0132",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0132",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0240",
+      "type": "has_status",
+      "source": "LIB_0132",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0133",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0241",
+      "type": "in_category",
+      "source": "LIB_0133",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0133",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0242",
+      "type": "has_status",
+      "source": "LIB_0133",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0134",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0243",
+      "type": "in_category",
+      "source": "LIB_0134",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0134",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0244",
+      "type": "has_status",
+      "source": "LIB_0134",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0135",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0245",
+      "type": "in_category",
+      "source": "LIB_0135",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0135",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0246",
+      "type": "has_status",
+      "source": "LIB_0135",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0136",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0247",
+      "type": "in_category",
+      "source": "LIB_0136",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0136",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0248",
+      "type": "has_status",
+      "source": "LIB_0136",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0137",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0249",
+      "type": "in_category",
+      "source": "LIB_0137",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0137",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0250",
+      "type": "has_status",
+      "source": "LIB_0137",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0138",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0251",
+      "type": "in_category",
+      "source": "LIB_0138",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0138",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0252",
+      "type": "has_status",
+      "source": "LIB_0138",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0139",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0253",
+      "type": "in_category",
+      "source": "LIB_0139",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0139",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0254",
+      "type": "has_status",
+      "source": "LIB_0139",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0140",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0255",
+      "type": "in_category",
+      "source": "LIB_0140",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0140",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0256",
+      "type": "has_status",
+      "source": "LIB_0140",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0141",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0257",
+      "type": "in_category",
+      "source": "LIB_0141",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0141",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0258",
+      "type": "has_status",
+      "source": "LIB_0141",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0142",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0259",
+      "type": "in_category",
+      "source": "LIB_0142",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0142",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0260",
+      "type": "has_status",
+      "source": "LIB_0142",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0143",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0261",
+      "type": "in_category",
+      "source": "LIB_0143",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0143",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0262",
+      "type": "has_status",
+      "source": "LIB_0143",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0144",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0263",
+      "type": "in_category",
+      "source": "LIB_0144",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0144",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0264",
+      "type": "has_status",
+      "source": "LIB_0144",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0145",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0265",
+      "type": "in_category",
+      "source": "LIB_0145",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0145",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0266",
+      "type": "has_status",
+      "source": "LIB_0145",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0146",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0267",
+      "type": "in_category",
+      "source": "LIB_0146",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0146",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0268",
+      "type": "has_status",
+      "source": "LIB_0146",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0147",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0269",
+      "type": "in_category",
+      "source": "LIB_0147",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0147",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0270",
+      "type": "has_status",
+      "source": "LIB_0147",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0148",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0271",
+      "type": "in_category",
+      "source": "LIB_0148",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0148",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0272",
+      "type": "has_status",
+      "source": "LIB_0148",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0149",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0273",
+      "type": "in_category",
+      "source": "LIB_0149",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0149",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0274",
+      "type": "has_status",
+      "source": "LIB_0149",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0150",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0275",
+      "type": "in_category",
+      "source": "LIB_0150",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0150",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0276",
+      "type": "has_status",
+      "source": "LIB_0150",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0151",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0277",
+      "type": "in_category",
+      "source": "LIB_0151",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0151",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0278",
+      "type": "has_status",
+      "source": "LIB_0151",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0152",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0279",
+      "type": "in_category",
+      "source": "LIB_0152",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0152",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0280",
+      "type": "has_status",
+      "source": "LIB_0152",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0153",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0281",
+      "type": "in_category",
+      "source": "LIB_0153",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0153",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0282",
+      "type": "has_status",
+      "source": "LIB_0153",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0154",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0283",
+      "type": "in_category",
+      "source": "LIB_0154",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0154",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0284",
+      "type": "has_status",
+      "source": "LIB_0154",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0155",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0285",
+      "type": "in_category",
+      "source": "LIB_0155",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0155",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0286",
+      "type": "has_status",
+      "source": "LIB_0155",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0156",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0287",
+      "type": "in_category",
+      "source": "LIB_0156",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0156",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0288",
+      "type": "has_status",
+      "source": "LIB_0156",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0157",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0289",
+      "type": "in_category",
+      "source": "LIB_0157",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0157",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0290",
+      "type": "has_status",
+      "source": "LIB_0157",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0158",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0291",
+      "type": "in_category",
+      "source": "LIB_0158",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0158",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0292",
+      "type": "has_status",
+      "source": "LIB_0158",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0159",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0293",
+      "type": "in_category",
+      "source": "LIB_0159",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0159",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0294",
+      "type": "has_status",
+      "source": "LIB_0159",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0160",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0295",
+      "type": "in_category",
+      "source": "LIB_0160",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0160",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0296",
+      "type": "has_status",
+      "source": "LIB_0160",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0161",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0297",
+      "type": "in_category",
+      "source": "LIB_0161",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0161",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0298",
+      "type": "has_status",
+      "source": "LIB_0161",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0162",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0299",
+      "type": "in_category",
+      "source": "LIB_0162",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0162",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0300",
+      "type": "has_status",
+      "source": "LIB_0162",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0163",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0301",
+      "type": "in_category",
+      "source": "LIB_0163",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0163",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0302",
+      "type": "has_status",
+      "source": "LIB_0163",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0164",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0303",
+      "type": "in_category",
+      "source": "LIB_0164",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0164",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0304",
+      "type": "has_status",
+      "source": "LIB_0164",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0165",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0305",
+      "type": "in_category",
+      "source": "LIB_0165",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0165",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0306",
+      "type": "has_status",
+      "source": "LIB_0165",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0166",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0307",
+      "type": "in_category",
+      "source": "LIB_0166",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0166",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0308",
+      "type": "has_status",
+      "source": "LIB_0166",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0167",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0309",
+      "type": "in_category",
+      "source": "LIB_0167",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0167",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0310",
+      "type": "has_status",
+      "source": "LIB_0167",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0168",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0311",
+      "type": "in_category",
+      "source": "LIB_0168",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0168",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0312",
+      "type": "has_status",
+      "source": "LIB_0168",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0169",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0313",
+      "type": "in_category",
+      "source": "LIB_0169",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0169",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0314",
+      "type": "has_status",
+      "source": "LIB_0169",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0170",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0315",
+      "type": "in_category",
+      "source": "LIB_0170",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0170",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0316",
+      "type": "has_status",
+      "source": "LIB_0170",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0171",
+      "target_id": "LIB_CAT_MANAGEMENT",
+      "relation": "in_category",
+      "id": "LIB_REL_0317",
+      "type": "in_category",
+      "source": "LIB_0171",
+      "target": "LIB_CAT_MANAGEMENT"
+    },
+    {
+      "source_id": "LIB_0171",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0318",
+      "type": "has_status",
+      "source": "LIB_0171",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0172",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0324",
+      "type": "has_status",
+      "source": "LIB_0172",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0173",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0325",
+      "type": "in_category",
+      "source": "LIB_0173",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0173",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0326",
+      "type": "has_status",
+      "source": "LIB_0173",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0174",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0327",
+      "type": "in_category",
+      "source": "LIB_0174",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0174",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0328",
+      "type": "has_status",
+      "source": "LIB_0174",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0175",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0329",
+      "type": "in_category",
+      "source": "LIB_0175",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0175",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0330",
+      "type": "has_status",
+      "source": "LIB_0175",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0176",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status",
+      "id": "LIB_REL_0331",
+      "type": "has_status",
+      "source": "LIB_0176",
+      "target": "LIB_STAT_READ"
+    },
+    {
+      "source_id": "LIB_0177",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0332",
+      "type": "in_category",
+      "source": "LIB_0177",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0177",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0333",
+      "type": "has_status",
+      "source": "LIB_0177",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0178",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0334",
+      "type": "has_status",
+      "source": "LIB_0178",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source_id": "LIB_0179",
+      "target_id": "LIB_CAT_SELF_IMPROVE",
+      "relation": "in_category",
+      "id": "LIB_REL_0335",
+      "type": "in_category",
+      "source": "LIB_0179",
+      "target": "LIB_CAT_SELF_IMPROVE"
+    },
+    {
+      "source_id": "LIB_0179",
+      "target_id": "LIB_STAT_WISHLIST",
+      "relation": "has_status",
+      "id": "LIB_REL_0336",
+      "type": "has_status",
+      "source": "LIB_0179",
+      "target": "LIB_STAT_WISHLIST"
+    },
+    {
+      "source": "HILTON_SEC_100",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "HILTON_SEC_200",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "HILTON_SEC_300",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "HILTON_SEC_400",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "HILTON_SEC_500",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "HILTON_SEC_600",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "HILTON_SEC_700",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "HILTON_SEC_800",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "HILTON_SEC_900",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "HILTON_SEC_1200",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "HILTON_SEC_2500",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "DT_SEC_100",
+      "target": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "DT_SEC_200",
+      "target": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "DT_SEC_300",
+      "target": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "DT_SEC_400",
+      "target": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "DT_SEC_500",
+      "target": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "DT_SEC_600",
+      "target": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "DT_SEC_700",
+      "target": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "DT_SEC_800",
+      "target": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "DT_SEC_900",
+      "target": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "DT_SEC_1200",
+      "target": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "DT_SEC_2500",
+      "target": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "relation": "PART_OF_DOCUMENT"
+    },
+    {
+      "source": "CROSSREF_QA_BS_20260607",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "CROSSREF_QA_BS_20260607",
+      "target": "DOC_DOUBLETREE_BS_CHINA_2025",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "DOC_HILTON_BS_CHANGES_2026",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "CROSSREF_QA_BS_20260607",
+      "target": "DOC_HILTON_BS_CHANGES_2026",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "DOC_HILTON_QA_CHECKLIST_2026",
+      "target": "DOC_HILTON_BS_CHINA_2026",
+      "relation": "REFERENCES"
+    },
+    {
+      "source": "CROSSREF_QA_BS_20260607",
+      "target": "DOC_HILTON_QA_CHECKLIST_2026",
+      "relation": "REFERENCES"
+    },
+    {
+      "source_id": "LIB_S001",
+      "target_id": "LIB_AUTHOR_CAICT",
+      "relation": "has_author"
+    },
+    {
+      "source_id": "LIB_S001",
+      "target_id": "LIB_CAT_AI_INDUSTRY",
+      "relation": "in_category"
+    },
+    {
+      "source_id": "LIB_S001",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status"
+    },
+    {
+      "source_id": "LIB_S002",
+      "target_id": "LIB_AUTHOR_CAICT",
+      "relation": "has_author"
+    },
+    {
+      "source_id": "LIB_S002",
+      "target_id": "LIB_CAT_POLICY",
+      "relation": "in_category"
+    },
+    {
+      "source_id": "LIB_S002",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status"
+    },
+    {
+      "source_id": "LIB_S003",
+      "target_id": "LIB_AUTHOR_ALIYUN",
+      "relation": "has_author"
+    },
+    {
+      "source_id": "LIB_S003",
+      "target_id": "LIB_CAT_TECH_ENG",
+      "relation": "in_category"
+    },
+    {
+      "source_id": "LIB_S003",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status"
+    },
+    {
+      "source_id": "LIB_S004",
+      "target_id": "LIB_AUTHOR_ZTE",
+      "relation": "has_author"
+    },
+    {
+      "source_id": "LIB_S004",
+      "target_id": "LIB_CAT_GREEN_ENERGY",
+      "relation": "in_category"
+    },
+    {
+      "source_id": "LIB_S004",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status"
+    },
+    {
+      "source_id": "LIB_S005",
+      "target_id": "LIB_AUTHOR_SPECIAL",
+      "relation": "has_author"
+    },
+    {
+      "source_id": "LIB_S005",
+      "target_id": "LIB_CAT_COGNITION",
+      "relation": "in_category"
+    },
+    {
+      "source_id": "LIB_S005",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status"
+    },
+    {
+      "source_id": "LIB_S006",
+      "target_id": "LIB_AUTHOR_GUOSEN",
+      "relation": "has_author"
+    },
+    {
+      "source_id": "LIB_S006",
+      "target_id": "LIB_CAT_INVESTMENT",
+      "relation": "in_category"
+    },
+    {
+      "source_id": "LIB_S006",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status"
+    },
+    {
+      "source_id": "LIB_S007",
+      "target_id": "LIB_AUTHOR_PACIFIC",
+      "relation": "has_author"
+    },
+    {
+      "source_id": "LIB_S007",
+      "target_id": "LIB_CAT_INVESTMENT",
+      "relation": "in_category"
+    },
+    {
+      "source_id": "LIB_S007",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status"
+    },
+    {
+      "source_id": "LIB_S008",
+      "target_id": "LIB_AUTHOR_ENDATA",
+      "relation": "has_author"
+    },
+    {
+      "source_id": "LIB_S008",
+      "target_id": "LIB_CAT_EMBODIED_AI",
+      "relation": "in_category"
+    },
+    {
+      "source_id": "LIB_S008",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status"
+    },
+    {
+      "source_id": "LIB_S009",
+      "target_id": "LIB_AUTHOR_LENOVO",
+      "relation": "has_author"
+    },
+    {
+      "source_id": "LIB_S009",
+      "target_id": "LIB_CAT_TECH_ENG",
+      "relation": "in_category"
+    },
+    {
+      "source_id": "LIB_S009",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status"
+    },
+    {
+      "source_id": "LIB_S010",
+      "target_id": "LIB_AUTHOR_GUOJIN",
+      "relation": "has_author"
+    },
+    {
+      "source_id": "LIB_S010",
+      "target_id": "LIB_CAT_TECH_ENG",
+      "relation": "in_category"
+    },
+    {
+      "source_id": "LIB_S010",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status"
+    },
+    {
+      "source_id": "LIB_S011",
+      "target_id": "LIB_AUTHOR_ROCKWELL",
+      "relation": "has_author"
+    },
+    {
+      "source_id": "LIB_S011",
+      "target_id": "LIB_CAT_AI_INDUSTRY",
+      "relation": "in_category"
+    },
+    {
+      "source_id": "LIB_S011",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status"
+    },
+    {
+      "source_id": "LIB_S012",
+      "target_id": "LIB_AUTHOR_GUOSEN",
+      "relation": "has_author"
+    },
+    {
+      "source_id": "LIB_S012",
+      "target_id": "LIB_CAT_INVESTMENT",
+      "relation": "in_category"
+    },
+    {
+      "source_id": "LIB_S012",
+      "target_id": "LIB_STAT_READ",
+      "relation": "has_status"
+    },
+    {
+      "source": "REPORT_GAN_POWER_20260608",
+      "target": "LIB_CAT_SEMICONDUCTOR",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "source": "REPORT_LOW_ALT_LEGAL_2026",
+      "target": "LIB_CAT_LEGAL",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "source": "REPORT_TELECOM_AGENT_20260510",
+      "target": "LIB_CAT_AI_TECH",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "source": "REPORT_SPACEX_INTRO_202512",
+      "target": "LIB_CAT_SPACE",
+      "type": "BELONGS_TO",
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "LIB_REL_0001",
+      "source_id": "HILTON_SUZHOU",
+      "target_id": "TEMPLATE_SEASONAL_BULK_STRATEGY",
+      "relation": "HAS_STRATEGY",
+      "type": "HAS_STRATEGY",
+      "source": "HILTON_SUZHOU",
+      "target": "TEMPLATE_SEASONAL_BULK_STRATEGY"
+    }
+  ],
+  "stats": {
+    "entities": 249,
+    "relationships": 1
+  }
+}
